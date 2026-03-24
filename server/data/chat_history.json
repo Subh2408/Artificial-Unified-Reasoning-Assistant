@@ -1,0 +1,22 @@
+{
+  "sit3_underwriting": [
+    {
+      "role": "user",
+      "content": "Should we be suspending any lines of business?"
+    },
+    {
+      "role": "assistant",
+      "content": "# Lines Suspension Review — Ukraine/Russia Situation\n**Date: 10 March 2026 | Classification: Internal Underwriting**\n\n---\n\n## Immediate Suspension Recommended\n\n**Marine War (Black Sea/Azov)**\nAlready restricted post-2022. Confirm no residual capacity has crept back in through endorsements. Review cargo declarations carefully.\n\n**Aviation War — Ukrainian/Russian airspace**\nHard stop. Any policy touching overflight rights in conflict corridors needs immediate review.\n\n**Political Risk — New origination in Ukraine**\nPause new placements. Existing book needs stress-testing against ceasefire failure scenario.\n\n---\n\n## Watch List — Heightened Scrutiny, Not Full Suspension\n\n**Trade Credit — CIS counterparties**\nSanctions exposure remains complex. Secondary sanctions risk from US policy volatility under current administration.\n\n**Energy Liability — Black Sea infrastructure**\nPipeline and terminal cover needs careful aggregation review. Nord Stream precedent remains live litigation.\n\n**Cargo — Reconstruction supply chains**\nTempting business but premature. Wait for EBRD/World Bank framework before writing.\n\n---\n\n## Do Not Suspend\n\n**European property** — No material uplift in risk profile.\n**Standard marine** — Rerouted trade lanes performing normally.\n\n---\n\n## Immediate Actions\n\n- Pull aggregate exposure report across all war-linked lines **this week**\n- Check reinsurance treaty language for ceasefire/reconstruction transition clauses — gaps likely exist\n- Brief the slip leaders at Lloyd's before month-end\n\n**Bottom line:** Targeted suspension, not broad retreat. We want to be positioned for reconstruction, not absent from the market entirely."
+    }
+  ],
+  "sit_gen_4_underwriting": [
+    {
+      "role": "user",
+      "content": "Should we be suspending any lines of business?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Short answer: No suspension, but immediate portfolio triage is warranted.**\n\nBlanket suspension would be a disproportionate response at this stage and commercially damaging in a market where we have hard-won relationships. However, \"business as usual\" is equally inappropriate.\n\n**Immediate actions I'd recommend:**\n\n**Referral triggers effective now:**\n- Any Gulf-based cyber risk with >40% revenue dependency on internet connectivity\n- Technology sector, financial services, and upstream/midstream energy operators\n- Risks with significant Iranian counterparty exposure or cross-border data flows\n\n**Lines requiring closest scrutiny:**\n- Standalone cyber (particularly SME tech and fintech in UAE, KSA, Qatar)\n- Marine cargo with digital tracking dependencies\n- Energy operational technology risks where cyber and physical perils intersect\n\n**What we can continue writing with conditions:**\nMost risks remain insurable with tightened terms. Ensure war and state-actor exclusion language is watertight - if we're using pre-2023 Lloyd's cyber war exclusion wording, that needs updating immediately. CL380 alone isn't sufficient for this threat landscape.\n\n**My concern:**\nOur accumulation modelling for a regional internet disruption scenario is almost certainly inadequate. Before we write another significant Gulf cyber risk, I want to see a realistic MPL estimate across the current book. That's the number that should be driving our appetite decision.\n\n**Bottom line:** Triage and condition, don't suspend. But get the accumulation picture on my desk within 48 hours."
+    }
+  ]
+}

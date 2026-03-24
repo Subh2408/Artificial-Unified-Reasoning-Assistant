@@ -1,0 +1,465 @@
+[
+  {
+    "id": "sit_gen_1",
+    "title": "Middle East Conflict Escalation and War Risk Exposure",
+    "subtitle": "Iran tensions, Gulf reinsurance facilities, and prolonged MENA conflict create compounding war risk and cyber threat exposure for regional insurers.",
+    "summary": "Escalating US-Iran tensions, combined with prolonged Middle East conflict, are stretching reinsurer loss exposures despite war exclusions. Chubb's $20B Gulf reinsurance facility expansion to include liability cover signals market recognition of tail risk, while Iran's potential cyber capabilities introduce a correlated infrastructure threat. Lloyd's-regulated insurers with Gulf and MENA exposures face urgent portfolio review requirements.",
+    "severity": "CRITICAL",
+    "isLive": true,
+    "category": [
+      "War Risk",
+      "Marine",
+      "Reinsurance",
+      "Cyber",
+      "Political Violence"
+    ],
+    "geography": "MENA / Arabian Gulf",
+    "confidence": 87,
+    "signalIds": [
+      "live_s137",
+      "live_s144",
+      "live_s148",
+      "live_s128"
+    ],
+    "sources": [
+      "INSURANCE JOURNAL",
+      "REINSURANCE NEWS",
+      "AAJ.TV"
+    ],
+    "updated": "2026-03-23T15:52:58.857Z",
+    "regJurisdictions": [
+      "QAT",
+      "UAE",
+      "KSA",
+      "IRN"
+    ],
+    "scores": {
+      "risk_compliance": 9,
+      "claims": 8,
+      "underwriting": 10,
+      "reinsurance": 10,
+      "investments": 7
+    },
+    "interpretations": {
+      "risk_compliance": {
+        "headline": "War exclusion adequacy under immediate regulatory scrutiny",
+        "detail": "Prolonged MENA conflict is testing the boundaries of standard war exclusions, with regulators likely to demand clearer policy language. Qatar-domiciled insurers must audit compliance with QFMA and Lloyd's war risk guidance on Gulf exposures.",
+        "affectedLines": [
+          "War Risk",
+          "Marine",
+          "Political Violence",
+          "Cyber"
+        ],
+        "actions": [
+          "Audit all Gulf and MENA policies for war exclusion language adequacy against current conflict scenarios",
+          "Engage QFMA and Lloyd's compliance teams to confirm sanctions exposure under current Iran escalation",
+          "Review cyber policy wordings for state-sponsored attack exclusions given Iran infrastructure threat signals"
+        ]
+      },
+      "claims": {
+        "headline": "Potential surge in marine and liability claims from Gulf incident scenarios",
+        "detail": "Chubb's facility expansion to include liability cover reflects anticipated claims complexity in Gulf shipping lanes. Any kinetic escalation near the Strait of Hormuz would trigger simultaneous marine hull, cargo, and liability claims.",
+        "affectedLines": [
+          "Marine Hull",
+          "Marine Cargo",
+          "Liability",
+          "War Risk"
+        ],
+        "actions": [
+          "Establish a dedicated MENA war risk claims triage protocol with pre-identified adjusters",
+          "Review cedant loss notifications from Gulf marine book for early escalation indicators",
+          "Stress-test claims reserves against a Strait of Hormuz disruption scenario of 30-90 days"
+        ]
+      },
+      "underwriting": {
+        "headline": "Gulf war risk and cyber aggregation requires immediate portfolio reassessment",
+        "detail": "The combination of kinetic war risk and Iran's potential cyber offensive capability creates a correlated aggregation exposure not fully priced into current Gulf book rates. Underwriters must reassess both marine and cyber accumulations.",
+        "affectedLines": [
+          "Marine",
+          "War Risk",
+          "Cyber",
+          "Energy"
+        ],
+        "actions": [
+          "Run Gulf and MENA aggregation analysis across marine, energy, and war risk books immediately",
+          "Apply additional rate loading or capacity restrictions on new Gulf marine and energy submissions",
+          "Exclude or sub-limit cyber cover on Gulf commercial property and energy risks pending threat reassessment"
+        ]
+      },
+      "reinsurance": {
+        "headline": "Chubb Gulf facility signals hardening reinsurance terms for MENA war risk",
+        "detail": "The $20B Gulf reinsurance facility's expansion into liability signals that reinsurers are actively repositioning on MENA exposure, which may tighten available capacity for Qatari cedants at renewal. Retrocession costs are likely to rise.",
+        "affectedLines": [
+          "War Risk Reinsurance",
+          "Marine Reinsurance",
+          "Liability Reinsurance"
+        ],
+        "actions": [
+          "Engage reinsurance brokers immediately to secure or lock in Gulf war risk treaty capacity ahead of potential market withdrawal",
+          "Model retrocession costs under a scenario where MENA war risk capacity contracts by 20-30%",
+          "Review panel reinsurer financial strength ratings for MENA war risk concentration risk"
+        ]
+      },
+      "investments": {
+        "headline": "Berkshire-Tokio Marine deal signals capital repositioning away from MENA volatility",
+        "detail": "Large strategic investments flowing toward Asia-Pacific reinsurance stability may reflect institutional capital rotating away from MENA uncertainty. Gulf sovereign and corporate bond holdings warrant volatility stress testing.",
+        "affectedLines": [
+          "Investment Portfolio",
+          "Reinsurance Capital"
+        ],
+        "actions": [
+          "Stress-test Gulf sovereign bond and equity holdings against an Iran escalation shock scenario",
+          "Review investment policy statement for MENA concentration limits and sanctions-adjacent issuer exposure",
+          "Monitor oil price and Gulf equity market indicators as leading signals for MENA loss environment deterioration"
+        ]
+      }
+    }
+  },
+  {
+    "id": "sit_gen_2",
+    "title": "US Catastrophe Accumulation: Floods, Fires and Heat",
+    "subtitle": "Concurrent US natural catastrophe events across Hawaii, Nebraska, and the Southwest signal elevated Q1 2026 CAT loss accumulation and reinsurance program stress.",
+    "summary": "Three simultaneous catastrophe events — Hawaii's worst flooding in 20 years, Nebraska wildfires threatening the cattle herd expansion program, and a Southwest heat wave driving extreme fire risk — are producing a compounding CAT loss scenario in early 2026. For Lloyd's-regulated insurers with US property, agricultural, and specialty CAT exposure, the Q1 loss burden may challenge reinsurance retention thresholds. USAA's ResRe cat bond adjustments following SCS model updates further signal market-wide re-pricing of US secondary peril aggregation.",
+    "severity": "ACTIVE",
+    "isLive": true,
+    "category": [
+      "Property CAT",
+      "Agricultural Risk",
+      "Flood",
+      "Wildfire",
+      "Cat Bonds"
+    ],
+    "geography": "United States",
+    "confidence": 91,
+    "signalIds": [
+      "live_s151",
+      "live_s152",
+      "live_s154",
+      "live_s140",
+      "live_s132"
+    ],
+    "sources": [
+      "ARTEMIS",
+      "INSURANCE JOURNAL"
+    ],
+    "updated": "2026-03-23T15:52:58.857Z",
+    "regJurisdictions": [
+      "USA"
+    ],
+    "scores": {
+      "risk_compliance": 6,
+      "claims": 10,
+      "underwriting": 9,
+      "reinsurance": 10,
+      "investments": 7
+    },
+    "interpretations": {
+      "risk_compliance": {
+        "headline": "Secondary peril aggregation reporting obligations may be triggered",
+        "detail": "Concurrent multi-state CAT events may breach Lloyd's syndicate aggregate reporting thresholds, requiring timely notification to managing agents. Agricultural risk exposures in Nebraska require USDA-linked compliance checks.",
+        "affectedLines": [
+          "Property CAT",
+          "Agricultural",
+          "Flood"
+        ],
+        "actions": [
+          "Confirm whether concurrent Q1 2026 CAT events breach Lloyd's aggregate reporting thresholds requiring syndicate notification",
+          "Review agricultural book for USDA federal crop insurance compliance obligations post-Nebraska wildfire",
+          "Assess flood policy compliance with NFIP coordination requirements for Hawaii residential exposures"
+        ]
+      },
+      "claims": {
+        "headline": "Immediate multi-state CAT claims activation required across property and agricultural lines",
+        "detail": "Hawaii flooding, Nebraska wildfires, and Southwest heat-driven fire events are all generating simultaneous first-party claims. Agricultural loss quantification for Nebraska grazing land damage will require specialist adjusters with livestock expertise.",
+        "affectedLines": [
+          "Property",
+          "Agricultural",
+          "Flood",
+          "Wildfire"
+        ],
+        "actions": [
+          "Deploy catastrophe adjusters to Hawaii and Nebraska immediately and place Southwest field teams on standby",
+          "Activate agricultural loss specialists for Nebraska cattle grazing land damage assessment and BI quantification",
+          "Establish a centralised CAT event dashboard to track aggregate incurred losses across all three concurrent events in real time"
+        ]
+      },
+      "underwriting": {
+        "headline": "US secondary peril pricing and SCS model assumptions require urgent recalibration",
+        "detail": "USAA's ResRe cat bond restructuring following SCS model updates signals that industry secondary peril models are materially underestimating flood, fire, and convective storm frequency correlation. Underwriters should pause new US CAT property quotations pending model review.",
+        "affectedLines": [
+          "Property CAT",
+          "Agricultural",
+          "Flood",
+          "Wildfire"
+        ],
+        "actions": [
+          "Suspend binding of new US CAT property risks in Hawaii, Nebraska, and Southwest states pending loss development review",
+          "Engage catastrophe modelling vendors to assess updated SCS and secondary peril assumptions used in current US pricing",
+          "Review agricultural book for grazing land wildfire exclusion adequacy given Nebraska event scope"
+        ]
+      },
+      "reinsurance": {
+        "headline": "Q1 2026 CAT accumulation may stress annual reinsurance retention and cat bond structures",
+        "detail": "Three concurrent US CAT events in Q1 create aggregation risk that could erode annual deductibles before peak Atlantic hurricane season. USAA's cat bond adjustments signal broader ILS market re-pricing pressure.",
+        "affectedLines": [
+          "Property CAT Reinsurance",
+          "Agricultural Reinsurance",
+          "ILS"
+        ],
+        "actions": [
+          "Calculate current Q1 2026 net retained loss position across US property and agricultural treaties to assess proximity to reinstatement triggers",
+          "Engage cat bond trustees and ILS counterparties to monitor ResRe and equivalent structures for potential attachment risk",
+          "Model mid-year treaty renewal pricing impact assuming Q1 2026 losses are confirmed as above-average industry event"
+        ]
+      },
+      "investments": {
+        "headline": "ILS investment returns and catastrophe bond valuations under mark-to-market pressure",
+        "detail": "Coca-Cola pension fund's $266M ILS growth reflects strong prior-year returns, but concurrent Q1 CAT events may compress 2026 ILS performance and trigger spread widening. Cat bond secondary market valuations warrant monitoring.",
+        "affectedLines": [
+          "ILS",
+          "Cat Bonds",
+          "Alternative Risk Transfer"
+        ],
+        "actions": [
+          "Mark-to-market ILS and cat bond investment holdings against Q1 2026 US CAT loss development",
+          "Review ILS fund manager reports for ResRe-linked exposure and assess portfolio concentration in US secondary peril tranches",
+          "Model scenario where Q1 2026 CAT losses reduce ILS dividend yields and assess impact on investment income targets"
+        ]
+      }
+    }
+  },
+  {
+    "id": "sit_gen_3",
+    "title": "Reinsurance Market Consolidation and Capacity Shift",
+    "subtitle": "Multiple M&A completions, leadership appointments, and geographic expansions signal accelerating reinsurance market consolidation with implications for capacity pricing and cedant relationships.",
+    "summary": "The simultaneous completion of Starr-IQUW, Berkshire-Tokio Marine investment, and Everest's Canadian divestiture to Wawanesa — alongside multiple senior leadership appointments at PartnerRe, Gallagher Re, and Berkley Marine — indicate a market in active structural consolidation. For Qatari and Gulf cedants, this concentration of reinsurance capacity among fewer, larger players poses renewal negotiation risk and potential coverage gap exposure. NormanMax's Latin America expansion with parametric products signals broader market appetite for diversification away from saturated North American and European books.",
+    "severity": "ELEVATED",
+    "isLive": true,
+    "category": [
+      "Reinsurance",
+      "M&A",
+      "Marine",
+      "Specialty",
+      "Parametric"
+    ],
+    "geography": "Global",
+    "confidence": 82,
+    "signalIds": [
+      "live_s158",
+      "live_s141",
+      "live_s146",
+      "live_s128",
+      "live_s133",
+      "live_s147",
+      "live_s145",
+      "live_s149",
+      "live_s131",
+      "live_s9",
+      "live_s26"
+    ],
+    "sources": [
+      "REINSURANCE NEWS",
+      "INSURANCE JOURNAL",
+      "ARTEMIS"
+    ],
+    "updated": "2026-03-23T15:52:58.857Z",
+    "regJurisdictions": [
+      "GBR",
+      "USA",
+      "CAN",
+      "JPN"
+    ],
+    "scores": {
+      "risk_compliance": 5,
+      "claims": 4,
+      "underwriting": 7,
+      "reinsurance": 10,
+      "investments": 8
+    },
+    "interpretations": {
+      "risk_compliance": {
+        "headline": "M&A-driven panel reinsurer counterparty risk requires reassessment",
+        "detail": "Consolidation events involving IQUW, Tokio Marine, and Everest Canada may alter authorized reinsurer status and panel approval for Lloyd's syndicates. Cedants must verify that post-acquisition entities retain requisite regulatory authorizations.",
+        "affectedLines": [
+          "Reinsurance",
+          "Marine",
+          "Specialty"
+        ],
+        "actions": [
+          "Audit reinsurance panel to confirm all M&A-affected counterparties retain Lloyd's and QFMA authorization post-transaction",
+          "Review treaty and facultative agreements with Starr-IQUW and Everest entities for change-of-control clauses",
+          "Update counterparty due diligence files for Berkshire-Tokio Marine combined entity ratings and jurisdictional authorizations"
+        ]
+      },
+      "claims": {
+        "headline": "Leadership transitions at key reinsurers may slow facultative claims responsiveness",
+        "detail": "Multiple simultaneous senior appointments across PartnerRe, Gallagher Re APAC, and Berkley Marine create transition risk in claims advocacy and facultative recoveries. Open claims with affected entities should be proactively managed.",
+        "affectedLines": [
+          "Reinsurance Recoveries",
+          "Marine",
+          "Casualty FAC"
+        ],
+        "actions": [
+          "Identify all open facultative and treaty claims with Starr-IQUW, PartnerRe, and Berkley Marine and assign dedicated follow-up contacts",
+          "Request confirmation of claims authority delegation from newly appointed leaders at affected reinsurers",
+          "Accelerate settlement of any near-agreed claims before organizational transition periods cause processing delays"
+        ]
+      },
+      "underwriting": {
+        "headline": "Consolidated reinsurer panels may reduce capacity optionality and increase pricing leverage",
+        "detail": "Fewer independent reinsurers post-consolidation means reduced competitive tension at renewal, particularly for specialty and marine lines. Underwriters should model pricing scenarios assuming 10-15% reinsurance cost inflation.",
+        "affectedLines": [
+          "Marine",
+          "Specialty",
+          "Property CAT",
+          "Casualty"
+        ],
+        "actions": [
+          "Model gross-to-net underwriting margin impact assuming reinsurance cost increase of 10-15% at mid-year renewal",
+          "Identify specialty and marine lines most exposed to Starr-IQUW combined entity pricing leverage at next renewal",
+          "Assess parametric reinsurance alternatives via NormanMax and similar market entrants as pricing hedge for volatile CAT lines"
+        ]
+      },
+      "reinsurance": {
+        "headline": "Consolidation accelerating: panel diversification and treaty terms require proactive management",
+        "detail": "Starr-IQUW completion and Berkshire-Tokio Marine investment materially alter the competitive landscape for specialty and marine reinsurance capacity. Cedants dependent on either entity for significant treaty capacity face concentration risk.",
+        "affectedLines": [
+          "Treaty Reinsurance",
+          "Marine Reinsurance",
+          "Specialty Reinsurance"
+        ],
+        "actions": [
+          "Review reinsurance panel concentration and ensure no single consolidated entity exceeds 25% of any single treaty line",
+          "Initiate early renewal discussions with alternative capacity providers including parametric markets and ILS funds",
+          "Negotiate change-of-control protections and capacity commitment clauses in upcoming treaty renewals with consolidating entities"
+        ]
+      },
+      "investments": {
+        "headline": "Berkshire-Tokio Marine and ILS growth signal strategic capital deployment toward reinsurance sector",
+        "detail": "Berkshire Hathaway's $1.8B Tokio Marine investment and Coca-Cola pension fund's $266M ILS position indicate institutional capital viewing reinsurance as an attractive 2026 allocation. This may increase available capacity medium-term but compress yields.",
+        "affectedLines": [
+          "Reinsurance Capital",
+          "ILS",
+          "Alternative Risk Transfer"
+        ],
+        "actions": [
+          "Assess whether increased institutional capital inflows into reinsurance will compress treaty pricing by mid-2026 renewals",
+          "Evaluate direct ILS co-investment opportunities as a capital-efficient complement to traditional reinsurance purchasing",
+          "Monitor Berkshire-Tokio Marine integration for signals of capacity expansion or withdrawal in Gulf and MENA markets"
+        ]
+      }
+    }
+  },
+  {
+    "id": "sit_gen_4",
+    "title": "Corporate Liability and D&O Claims Environment Deteriorates",
+    "subtitle": "High-profile D&O verdicts, institutional litigation, and employment practices settlements signal a hardening liability claims environment with direct implications for specialty liability underwriters.",
+    "summary": "The Musk-Twitter D&O fraud verdict, Harvard DOJ antisemitism lawsuit, Planned Parenthood DEI settlement, and the LaGuardia aviation collision collectively illustrate a markedly deteriorating corporate and institutional liability landscape in the US. For Lloyd's-regulated specialty insurers, these signals point to increased D&O, employment practices liability, aviation liability, and institutional liability claims frequency and severity. The P&C industry's $20B reserve redundancy finding provides a temporary buffer but may mask inadequate trend recognition in long-tail liability lines.",
+    "severity": "ELEVATED",
+    "isLive": true,
+    "category": [
+      "D&O",
+      "Employment Practices Liability",
+      "Aviation Liability",
+      "Institutional Liability",
+      "P&C Reserves"
+    ],
+    "geography": "United States / Global",
+    "confidence": 78,
+    "signalIds": [
+      "live_s143",
+      "live_s139",
+      "live_s135",
+      "live_s142",
+      "live_s156",
+      "live_s155"
+    ],
+    "sources": [
+      "INSURANCE JOURNAL"
+    ],
+    "updated": "2026-03-23T15:52:58.857Z",
+    "regJurisdictions": [
+      "USA",
+      "GBR"
+    ],
+    "scores": {
+      "risk_compliance": 7,
+      "claims": 9,
+      "underwriting": 8,
+      "reinsurance": 6,
+      "investments": 5
+    },
+    "interpretations": {
+      "risk_compliance": {
+        "headline": "D&O fraud verdicts and institutional liability signals require policy wording review",
+        "detail": "The Musk-Twitter verdict and Harvard DOJ suit establish precedent for broad fraud and institutional liability interpretations that may challenge exclusion clauses in current D&O and management liability wordings. Lloyd's minimum terms compliance for D&O must be verified against these emerging judicial standards.",
+        "affectedLines": [
+          "D&O",
+          "Management Liability",
+          "Employment Practices Liability"
+        ],
+        "actions": [
+          "Review D&O policy fraud exclusion language against Musk-Twitter verdict findings for potential coverage gaps",
+          "Assess EPL policies for DEI-related investigation coverage clarity following Planned Parenthood settlement precedent",
+          "Verify Lloyd's minimum terms compliance for US institutional liability and D&O wordings against 2026 litigation trends"
+        ]
+      },
+      "claims": {
+        "headline": "Aviation collision and D&O verdict create immediate high-severity claims exposures",
+        "detail": "The LaGuardia jet-fire truck collision with fatalities generates complex multi-party aviation liability claims, while the Musk-Twitter verdict signals large D&O reserve requirements. Both require specialist claims handling with coverage position determination.",
+        "affectedLines": [
+          "Aviation Liability",
+          "D&O",
+          "Employment Practices Liability"
+        ],
+        "actions": [
+          "Activate aviation specialist claims team for LaGuardia collision and confirm any facultative or treaty exposure to New York aviation risks",
+          "Reserve adequacy review for all open D&O claims in light of Musk-Twitter corporate fraud verdict quantum",
+          "Triage EPL claims portfolio for DEI-related investigations following Planned Parenthood settlement as a potential frequency signal"
+        ]
+      },
+      "underwriting": {
+        "headline": "Liability lines repricing urgently needed as claims frequency and severity signals accumulate",
+        "detail": "The combination of a major D&O fraud verdict, aviation fatality event, institutional DOJ litigation, and EPL settlement in a single reporting period indicates the US liability environment is materially more adverse than current pricing reflects. The $20B P&C reserve redundancy may mask inadequate long-tail liability trend recognition.",
+        "affectedLines": [
+          "D&O",
+          "Aviation Liability",
+          "EPL",
+          "Institutional Liability"
+        ],
+        "actions": [
+          "Initiate immediate repricing review for US D&O and management liability book against updated loss trend data from 2025-2026 verdicts",
+          "Apply tighter capacity limits and higher retentions on US institutional liability risks including universities and nonprofits",
+          "Reassess aviation liability appetite for US airport ground operations risks following LaGuardia collision scenario"
+        ]
+      },
+      "reinsurance": {
+        "headline": "Long-tail liability reserve redundancy masks potential adverse development in specialty lines",
+        "detail": "Assured Research's $20B P&C reserve redundancy finding may encourage complacency on long-tail liability reserving, but the 2026 claims environment signals adverse development risk in D&O and EPL. Reinsurance treaty terms for these lines should be reviewed.",
+        "affectedLines": [
+          "D&O Reinsurance",
+          "Liability Reinsurance",
+          "Aviation Reinsurance"
+        ],
+        "actions": [
+          "Test liability treaty IBNR assumptions against 2026 D&O and aviation claims environment to identify potential adverse development",
+          "Review aviation liability reinsurance treaty scope to confirm LaGuardia-type ground collision scenarios are adequately covered",
+          "Engage reinsurance brokers on D&O excess of loss market appetite given Musk-Twitter verdict as anchor loss data point"
+        ]
+      },
+      "investments": {
+        "headline": "Reserve redundancy provides short-term investment income opportunity but masks long-tail risk",
+        "detail": "The $20B industry reserve redundancy represents investable float that may support near-term investment income, but if liability trends accelerate, reserve releases could reverse and reduce investable assets. Liability-driven investment strategy should be stress-tested.",
+        "affectedLines": [
+          "Investment Portfolio",
+          "Reserve Management"
+        ],
+        "actions": [
+          "Stress-test investment portfolio liquidity against a scenario where D&O and EPL reserves require strengthening by 15-20%",
+          "Avoid over-reliance on reserve release income in 2026 investment return targets given deteriorating liability signals",
+          "Monitor industry reserve development reports quarterly for early warning of long-tail liability adverse trend emergence"
+        ]
+      }
+    }
+  }
+]

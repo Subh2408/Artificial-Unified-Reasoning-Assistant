@@ -1,0 +1,90 @@
+{
+  "reg1": {
+    "claimsImplication": "Claims received through digital insurer platforms must comply with the same settlement timelines as traditional insurers. Digital documentation (photos, e-signatures) is now explicitly recognised as valid. Review whether your claims intake systems accept digitally-submitted evidence.",
+    "complianceImplication": "Any digital distribution channel — app, web portal, chatbot — now requires QCB Digital Insurer licence or operates as a digital window under your existing licence. Board approval required for digital window designation. QCB approval of digital policy wordings is mandatory before launch.",
+    "underwritingImplication": "All digital policy wordings require QCB approval before launch; review and submit current digital products immediately. Digital windows under your existing licence require Board designation and formal QCB notification.",
+    "reinsuranceImplication": "No material implication for this department.",
+    "investmentsImplication": "No material implication for this department.",
+    "generatedAt": "2026-03-23T16:12:35.329Z"
+  },
+  "reg2": {
+    "claimsImplication": "Claims processing likely qualifies as an important business service under CTRL. Firms must demonstrate claims operations can remain within impact tolerances during severe disruption. Document claims system resilience testing outcomes.",
+    "complianceImplication": "QFC-authorised insurers must have completed important business service identification and impact tolerance setting by 1 October 2025. If not completed, the firm is already in breach. Conduct gap assessment immediately and submit remediation plan to QFCRA. Controlled Functions holders are personally accountable.",
+    "underwritingImplication": "Underwriting must be assessed as a potential important business service requiring defined impact tolerances. Document system resilience testing to demonstrate continuity during severe operational disruption.",
+    "reinsuranceImplication": "No material implication for this department.",
+    "investmentsImplication": "No material implication for this department.",
+    "generatedAt": "2026-03-23T16:12:39.125Z"
+  },
+  "reg3": {
+    "claimsImplication": "Climate-related claims (flood, storm, property) must now be reported as climate-related financial disclosures under IFRS S2. Quantify and disclose the financial impact of climate-related claims in annual sustainability reports.",
+    "complianceImplication": "QFC-authorised insurers must publish first sustainability reports under IFRS S1/S2 for the 2025 financial year. Confirm whether your existing sustainability reporting qualifies as \"highly aligned\" with IFRS S1/S2 or whether a separate QFC-format report is required. Annual MLRO Report deadline: 28 February 2026.",
+    "underwritingImplication": "Underwriters must tag climate-related risks (flood, storm, property) to enable IFRS S2 financial impact disclosures. Pricing models should capture climate exposure data sufficient for annual sustainability reporting.",
+    "reinsuranceImplication": "Reinsurance structures covering climate-related perils must be documented to support IFRS S2 risk transfer disclosures. Confirm reinsurer climate data feeds align with QFC branch-level reporting requirements.",
+    "investmentsImplication": "Investment portfolios must be assessed for climate-related financial risks under IFRS S1/S2 disclosure obligations. Report physical and transition risk exposures in the 2025 annual sustainability report.",
+    "generatedAt": "2026-03-23T16:12:45.292Z"
+  },
+  "reg4": {
+    "claimsImplication": "Claims handlers must be included in AML/CFT training records. Large claims payments above threshold must be screened for suspicious transaction indicators. Ensure claims team is included in the MLRO's assessment of high-risk customer interactions.",
+    "complianceImplication": "Annual MLRO Report for 2024/25 must be submitted by 28 February 2026. The MLRO must assess all AML/CFT controls including those applied in claims and underwriting. The report goes to the Board, not directly to QFCRA. Non-submission is a breach of QFCRA rules.",
+    "underwritingImplication": "Underwriters must ensure customer risk assessments are documented for MLRO review by February 2026. High-risk policy applications require enhanced due diligence records supporting AML/CFT compliance.",
+    "reinsuranceImplication": "No material implication for this department.",
+    "investmentsImplication": "No material implication for this department.",
+    "generatedAt": "2026-03-23T16:12:50.045Z"
+  },
+  "reg5": {
+    "claimsImplication": "Arabic is the default policy language — discrepancies resolved in favour of Arabic text for all UAE-governed claims. Ensure claims handlers are aware English translations are not authoritative if Arabic text differs. Claims payments must go directly from insurer to policyholder.",
+    "complianceImplication": "All UAE non-financial free zone operations (DMCC, JAFZA etc.) must have CBUAE NOC in place — DMCC deadline was 31 December 2025. Check status immediately. Penalties for unlicensed activity: up to AED 500 million. Transition deadline: 16 September 2026.",
+    "underwritingImplication": "Review all UAE policy wordings to ensure Arabic text is authoritative and consistent with intended coverage terms. Confirm CBUAE NOC status for any UAE free zone operations before binding new risks.",
+    "reinsuranceImplication": "No material implication for this department.",
+    "investmentsImplication": "No material implication for this department.",
+    "generatedAt": "2026-03-23T16:12:55.200Z"
+  },
+  "reg6": {
+    "claimsImplication": "Direct implication: claim payments must now be paid directly by the insurer to the policyholder. If your claims process routes payments through a broker, this is non-compliant in UAE. Review all UAE claims payment workflows immediately.",
+    "complianceImplication": "All UAE broker relationships must be reviewed for compliance with the new Regulation. Brokers under pre-2025 frameworks are in breach. CBUAE has signalled tougher enforcement — sanctions include withdrawing broker authorisation.",
+    "underwritingImplication": "Review all UAE broker distribution agreements to ensure claim payments route directly to policyholders. Non-compliant broker arrangements must be remediated immediately to avoid CBUAE sanctions.",
+    "reinsuranceImplication": "No material implication for this department.",
+    "investmentsImplication": "No material implication for this department.",
+    "generatedAt": "2026-03-23T16:12:59.424Z"
+  },
+  "reg8": {
+    "claimsImplication": "Claims recoveries on Saudi risks may now involve local Saudi reinsurers as lead or follow reinsurers. Ensure claims reinsurance recovery processes account for local Saudi reinsurer participation.",
+    "complianceImplication": "If your company writes KSA risks or operates a KSA branch, 30% of all reinsurance treaties must have been offered to local Saudi reinsurance market from 1 January 2025. Document the offer even if local market declines. SAMA audit risk is elevated.",
+    "underwritingImplication": "KSA-bound risks must reflect 30% local reinsurance retention in pricing and capacity planning. Underwriters should flag Saudi risks for compliance review at inception.",
+    "reinsuranceImplication": "All KSA treaty placements must evidence a documented 30% offer to local Saudi reinsurers from 1 January 2025. Audit treaty slips and broker orders immediately for retroactive compliance gaps.",
+    "investmentsImplication": "No material implication for this department.",
+    "generatedAt": "2026-03-23T16:13:14.056Z"
+  },
+  "reg9": {
+    "claimsImplication": "All Qatar-jurisdiction claims must be handled under QCB-regulated framework. Policy wordings for Qatar risks must have been QCB-approved. If a claim arises on a non-approved wording, coverage may be disputed.",
+    "complianceImplication": "Quarterly prudential returns and annual compliance declarations must be submitted to QCB Insurance Supervision Department. All active policies covering Qatar risks must be on QCB-approved wordings.",
+    "underwritingImplication": "All Qatar-risk policies must use QCB-approved wordings; non-compliant wordings risk coverage disputes at claims stage. Underwriters must immediately audit active Qatar policies for wording compliance.",
+    "reinsuranceImplication": "Article 95 prohibits placing Qatar-located asset risks with non-admitted reinsurers abroad. All reinsurance structures for Qatar risks must route through QCB-regulated entities only.",
+    "investmentsImplication": "No material implication for this department.",
+    "generatedAt": "2026-03-23T16:13:19.497Z"
+  },
+  "reg10": {
+    "claimsImplication": "Under IFRS 17, the liability for incurred claims (LIC) is separately measured and disclosed. Claims teams must provide more granular data on claims development to actuarial/finance teams.",
+    "complianceImplication": "QFC-authorised insurers must be filing IFRS 17 compliant accounts. If still using IFRS 4 transitional provisions, you are likely in breach. Confirm with finance whether IFRS 17 implementation is complete for 2024 annual accounts.",
+    "underwritingImplication": "Underwriters must supply granular contract data to support CSM and risk adjustment calculations under IFRS 17. Pricing assumptions now directly affect balance sheet liability measurement, requiring closer actuarial collaboration.",
+    "reinsuranceImplication": "Reinsurance contracts held must be measured separately under IFRS 17, affecting how recoveries offset gross liabilities. Review treaty structures to ensure reinsurance accounting aligns with updated QFCRA reporting requirements.",
+    "investmentsImplication": "No material implication for this department.",
+    "generatedAt": "2026-03-23T16:13:28.763Z"
+  },
+  "reg7": {
+    "claimsImplication": "Any UAE policyholder dispute must go to Sanadak before litigation.",
+    "complianceImplication": "Confirm UAE internal complaints procedures comply with Sanadak referral requirements.",
+    "underwritingImplication": "No material implication for this department.",
+    "reinsuranceImplication": "No material implication for this department.",
+    "investmentsImplication": "No material implication for this department.",
+    "generatedAt": "2026-03-23T16:13:41.057Z"
+  },
+  "live_reg1": {
+    "claimsImplication": "No direct claims impact anticipated; however, enhanced AML scrutiny in Ghana may affect settlement of claims involving Ghanaian counterparties or beneficiaries.",
+    "complianceImplication": "Monitor FATF assessment outcomes and any resulting recommendations for AML/CFT controls. Ensure correspondent banking relationships and third-party due diligence procedures align with emerging international standards.",
+    "underwritingImplication": "Review any risks with Ghanaian counterparty exposure for enhanced due diligence requirements. Flag policies involving Ghanaian-linked entities pending FATF assessment outcomes.",
+    "reinsuranceImplication": "Assess reinsurance panel for Ghanaian-domiciled reinsurers or intermediaries requiring updated AML compliance checks. Correspondent relationships may face additional scrutiny under emerging FATF recommendations.",
+    "investmentsImplication": "No material implication for this department.",
+    "generatedAt": "2026-03-23T16:35:03.559Z"
+  }
+}

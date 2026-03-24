@@ -1,0 +1,55 @@
+{
+  "underwriting": {
+    "last_updated": "2026-03-23",
+    "updated_by": "Head of Underwriting",
+    "limits": [
+      { "id": "uw_gulf_war_aggregate", "label": "Gulf War Risk Aggregate Limit", "lines": ["War Risk", "Marine Hull"], "value": 275000000, "unit": "QAR", "alert_at_pct": 70, "breach_at_pct": 90 },
+      { "id": "uw_marine_hull_gross", "label": "Marine Hull Portfolio Gross Value", "lines": ["Marine Hull"], "value": 520000000, "unit": "QAR", "alert_at_pct": 75, "breach_at_pct": 90 },
+      { "id": "uw_energy_gross", "label": "Energy Portfolio Gross Value", "lines": ["Energy"], "value": 380000000, "unit": "QAR", "alert_at_pct": 70, "breach_at_pct": 85 },
+      { "id": "uw_single_risk_retention", "label": "Maximum Single Risk Retention", "lines": ["All Lines"], "value": 18000000, "unit": "QAR", "alert_at_pct": 80, "breach_at_pct": 100 },
+      { "id": "uw_cyber_aggregate", "label": "Cyber Portfolio Aggregate", "lines": ["Cyber"], "value": 95000000, "unit": "QAR", "alert_at_pct": 65, "breach_at_pct": 85 }
+    ]
+  },
+  "claims": {
+    "last_updated": "2026-03-23",
+    "updated_by": "Head of Claims",
+    "limits": [
+      { "id": "cl_reserve_buffer", "label": "Open Reserve Buffer", "lines": ["All Lines"], "value": 85000000, "unit": "QAR", "alert_at_pct": 70, "breach_at_pct": 90 },
+      { "id": "cl_single_loss_max", "label": "Maximum Single Loss Reserve", "lines": ["All Lines"], "value": 45000000, "unit": "QAR", "alert_at_pct": 75, "breach_at_pct": 100 },
+      { "id": "cl_ga_exposure", "label": "General Average Exposure Threshold", "lines": ["Marine Hull", "Marine Cargo"], "value": 22000000, "unit": "QAR", "alert_at_pct": 70, "breach_at_pct": 90 },
+      { "id": "cl_war_risk_claims", "label": "War Risk Claims Aggregate", "lines": ["War Risk"], "value": 55000000, "unit": "QAR", "alert_at_pct": 65, "breach_at_pct": 85 }
+    ]
+  },
+  "reinsurance": {
+    "last_updated": "2026-03-23",
+    "updated_by": "Head of Reinsurance",
+    "limits": [
+      { "id": "rei_cat_treaty_aggregate", "label": "Cat Treaty Aggregate Limit", "lines": ["All Lines"], "value": 950000000, "unit": "QAR", "alert_at_pct": 65, "breach_at_pct": 85 },
+      { "id": "rei_per_occurrence_retention", "label": "Per-Occurrence Net Retention", "lines": ["All Lines"], "value": 110000000, "unit": "QAR", "alert_at_pct": 75, "breach_at_pct": 95 },
+      { "id": "rei_war_risk_sublimit", "label": "War Risk Treaty Sub-Limit", "lines": ["War Risk", "Marine Hull"], "value": 180000000, "unit": "QAR", "alert_at_pct": 70, "breach_at_pct": 90 },
+      { "id": "rei_marine_accumulation", "label": "Marine Accumulation Cap", "lines": ["Marine Hull", "Marine Cargo", "Energy"], "value": 420000000, "unit": "QAR", "alert_at_pct": 70, "breach_at_pct": 88 },
+      { "id": "rei_retrocession_ceiling", "label": "Retrocession Cover Ceiling", "lines": ["All Lines"], "value": 650000000, "unit": "QAR", "alert_at_pct": 80, "breach_at_pct": 95 }
+    ]
+  },
+  "investments": {
+    "last_updated": "2026-03-23",
+    "updated_by": "Head of Investments",
+    "limits": [
+      { "id": "inv_gulf_sovereign", "label": "Gulf Sovereign Bond Exposure", "lines": ["Fixed Income"], "value": 320000000, "unit": "QAR", "alert_at_pct": 80, "breach_at_pct": 95 },
+      { "id": "inv_single_sovereign_concentration", "label": "Single Sovereign Concentration Limit", "lines": ["Fixed Income"], "value": 120000000, "unit": "QAR", "alert_at_pct": 75, "breach_at_pct": 90 },
+      { "id": "inv_shipping_equity", "label": "Shipping Equity Exposure", "lines": ["Equities"], "value": 45000000, "unit": "QAR", "alert_at_pct": 70, "breach_at_pct": 90 },
+      { "id": "inv_energy_equity", "label": "Energy Equity Exposure", "lines": ["Equities"], "value": 85000000, "unit": "QAR", "alert_at_pct": 70, "breach_at_pct": 88 },
+      { "id": "inv_duration_limit", "label": "Portfolio Duration Limit (years)", "lines": ["Fixed Income"], "value": 6, "unit": "years", "alert_at_pct": 85, "breach_at_pct": 100 },
+      { "id": "inv_ils_exposure", "label": "ILS / Cat Bond Exposure", "lines": ["Alternatives"], "value": 55000000, "unit": "QAR", "alert_at_pct": 70, "breach_at_pct": 90 }
+    ]
+  },
+  "risk_compliance": {
+    "last_updated": "2026-03-23",
+    "updated_by": "Chief Risk Officer",
+    "limits": [
+      { "id": "rc_solvency_ratio", "label": "QCB Minimum Solvency Ratio", "lines": ["All Lines"], "value": 150, "unit": "percent", "current_value": 187, "alert_at_pct": 85, "breach_at_pct": 100, "note": "Alert when current ratio approaches minimum" },
+      { "id": "rc_sanctions_exposure", "label": "Sanctioned Entity Exposure", "lines": ["All Lines"], "value": 0, "unit": "QAR", "alert_at_pct": 0, "breach_at_pct": 0, "note": "Zero tolerance — any exposure is a breach" },
+      { "id": "rc_concentration_single_cedant", "label": "Single Cedant Concentration Limit", "lines": ["Reinsurance"], "value": 95000000, "unit": "QAR", "alert_at_pct": 75, "breach_at_pct": 90 }
+    ]
+  }
+}

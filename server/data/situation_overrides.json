@@ -1,0 +1,374 @@
+{
+  "sit1": {
+    "id": "sit1",
+    "severity": "ACTIVE",
+    "isLive": true,
+    "title": "Strait of Hormuz Closure",
+    "subtitle": "US/Israeli strikes trigger IRGC closure — P&I clubs cancel war risk coverage",
+    "summary": "Iran's formal Strait of Hormuz closure has escalated from administrative restriction to active military threat. Transit volumes have collapsed to 77 vessels (from 150 stranded), three tankers are confirmed damaged, and US intelligence reports imminent Iranian naval mine deployment. The closure is now both actuarial and kinetic, creating cascade claims exposure across marine hull, cargo, and energy lines with potential for catastrophic loss accumulation.",
+    "category": [
+      "Marine Hull",
+      "Marine Cargo",
+      "Energy",
+      "War Risk"
+    ],
+    "geography": "Arabian Gulf / Iran",
+    "confidence": 92,
+    "signalIds": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ],
+    "sources": [
+      "P&I BULLETIN",
+      "GDELT",
+      "GDACS",
+      "GULF NEWS",
+      "OFAC"
+    ],
+    "updated": "2026-03-16T20:36:44.104Z",
+    "regJurisdictions": [
+      "QAT",
+      "UAE"
+    ],
+    "scores": {
+      "risk_compliance": 10,
+      "claims": 10,
+      "underwriting": 10,
+      "reinsurance": 10,
+      "investments": 9
+    },
+    "interpretations": {
+      "risk_compliance": {
+        "headline": "Mine deployment threat elevates sanctions and war risk compliance to critical status",
+        "detail": "US intelligence assessment of potential Iranian mine-laying operations transforms the compliance landscape. Mine threat creates dual exposure: vessels operating under cover face OFAC sanctions risk if supporting Iranian interdiction operations; vessels refusing transit face breach-of-charter liability. The Skylight attack incident demonstrates active hostile targeting of commercial shipping. All cover decisions now require hostile act classification and sanctions screening. DFC backstop facility covers only US-flagged vessels, leaving significant coverage gap for international fleet.",
+        "affectedLines": [
+          "Marine Hull",
+          "Marine Cargo",
+          "Energy",
+          "War Risk"
+        ],
+        "actions": [
+          "Classify all pending Gulf claims under hostile act vs. mine/weather — determines coverage triggers",
+          "Issue portfolio-wide OFAC sanctions screening protocol for all Hormuz transits post-8 March",
+          "File urgent incident report with QCB noting mine threat elevation and casualty accumulation",
+          "Establish hostile act underwriting committee to approve any new Gulf hull/cargo business"
+        ]
+      },
+      "claims": {
+        "headline": "Three confirmed vessel casualties plus imminent mine-induced claims create major reserve acceleration",
+        "detail": "MV Nova Spirit total loss now joined by three additional tanker damage claims (Skylight plus two unnamed vessels). Mine threat creates anticipatory claims for vessels forced to divert (additional voyage costs, demurrage). War risk cancellation notices remain active but Skylight attack occurred post-notice (timing analysis required). General Average declarations likely across all three damage events. Crew injury claims from Skylight attack require immediate P&I coordination. Reserve adequacy for accumulated marine hull/cargo losses now requires catastrophic scenario modeling.",
+        "affectedLines": [
+          "Marine Hull",
+          "War Risk",
+          "Marine Cargo",
+          "Energy",
+          "Liability"
+        ],
+        "actions": [
+          "Establish combined reserve for four confirmed vessel casualties — model $450M+ aggregate exposure",
+          "Triage Skylight attack claims for crew injury/assault classifications — separate P&I exposure",
+          "Map all three tanker damage incidents against war risk notice cut-off timestamps (48-hour window 4-6 March)",
+          "Appoint mine-damage specialists — mine claims require distinct technical expertise vs. collision/fire",
+          "Issue claims counsel directive: all Gulf cargo claims must include mine threat force majeure analysis"
+        ]
+      },
+      "underwriting": {
+        "headline": "Mine deployment threat renders Gulf underwriting suspension permanent — expect 6-12 month market closure",
+        "detail": "US intelligence mine deployment assessment means war risk market for Hormuz transits is effectively closed indefinitely. The three tanker casualties confirm hull/cargo loss patterns are active and recurring. Any underwriting decision now requires mine-risk modeling that lacks historical data. Transit volume collapse to 77 vessels (from normal 1,000+) means portfolio concentration in remaining transits is extreme. DFC backstop covers only US flag, leaving European P&I clubs and international underwriters with uninsurable exposure.",
+        "affectedLines": [
+          "Marine Hull",
+          "Marine Cargo",
+          "Energy",
+          "War Risk"
+        ],
+        "actions": [
+          "Extend Gulf war risk quotation hold indefinitely — no new business until mine threat clarified",
+          "Issue mandatory portfolio review for all active Gulf hull/cargo policies — assess cancellation trigger points",
+          "Calculate concentration risk: model PML for 77-vessel transit corridor vs. 400+ normal daily volume",
+          "Prepare client communications for anticipated non-renewal on Gulf transits — establish renewal decline process"
+        ]
+      },
+      "reinsurance": {
+        "headline": "Mine deployment threat converts marine accumulation event into potential catastrophic loss scenario",
+        "detail": "The accumulation event declaration (4 March) is now compounded by mine threat that could trigger mass casualty cascades. A single mine-laying operation affecting 20-30 vessels in confined Hormuz waters could exceed annual marine treaty limits. The 77-vessel transit corridor concentration means any mine strike affects high-density shipping cluster. Retrocession market will demand immediate notice under treaty accumulation provisions. Cat bond market pricing on marine events will spike on this signal.",
+        "affectedLines": [
+          "Marine Hull",
+          "Marine Cargo",
+          "Energy",
+          "Marine Reinsurance"
+        ],
+        "actions": [
+          "Issue accumulation notice ADDENDUM to reinsurers — escalate from administrative closure to mine threat event (March 16)",
+          "Model cascading mine strike scenario: 15-30 vessel simultaneous incidents — estimate $2-5B gross exposure",
+          "Request reinsurer guidance on mine-triggered force majeure impact to treaty liability limits",
+          "Monitor retrocession market pricing — expect 3-5x premium multipliers on marine cat coverage"
+        ]
+      },
+      "investments": {
+        "headline": "Mine threat creates tail-risk energy market shock — Gulf sovereigns face secondary credit deterioration",
+        "detail": "Mine deployment threat shifts Hormuz closure from supply disruption to supply destruction risk. Energy prices spiked on scarcity premium, but mine risk introduces demand destruction upside (if closure becomes permanent, global refining adjusts to alternate supply). Gulf sovereign credit (Qatar LNG export revenues, UAE oil dependency) faces multi-month closure scenario. Shipping equity valuations now price in extended war risk premium with no clear resolution timeline. Reinsurance-linked securities face major loss tail given accumulation event escalation.",
+        "affectedLines": [
+          "Fixed Income",
+          "Equities",
+          "Alternatives",
+          "Real Assets"
+        ],
+        "actions": [
+          "Reduce Gulf sovereign bond positions — extend duration risk to 12-month+ closure scenario",
+          "Liquidate shipping equity exposure systematically — war risk premium unsustainable without market reopening timeline",
+          "Increase hedge ratios on energy commodity exposure — mine threat creates volatility tail risk",
+          "De-risk reinsurance-linked securities portfolio — marine cat concentration too high given accumulation event"
+        ]
+      }
+    }
+  },
+  "sit5": {
+    "id": "sit5",
+    "severity": "ELEVATED",
+    "isLive": true,
+    "title": "Iran-Linked Cyber Escalation",
+    "subtitle": "APT operations coordinated with kinetic Hormuz campaign — SCADA/energy targets",
+    "summary": "Iranian APT activity persists despite US domain seizures, with escalating cyberattacks against US defense, power, and water infrastructure creating acute critical infrastructure accumulation risk. Encyclopedia Britannica's OpenAI lawsuit crystallizes AI platform IP infringement liability as actionable insurance risk. FCC wireless router import ban introduces new product liability and supply chain cyber exposure across technology insurers.",
+    "category": [
+      "Cyber",
+      "Energy",
+      "Marine"
+    ],
+    "geography": "Gulf Region / Global",
+    "confidence": 92,
+    "signalIds": [
+      "s15",
+      "s16"
+    ],
+    "sources": [
+      "CISA"
+    ],
+    "updated": "2026-03-24T13:30:43.747Z",
+    "regJurisdictions": [
+      "QAT"
+    ],
+    "scores": {
+      "risk_compliance": 8,
+      "claims": 8,
+      "underwriting": 7,
+      "reinsurance": 7,
+      "investments": 6
+    },
+    "interpretations": {
+      "risk_compliance": {
+        "headline": "Iranian APT persistence despite domain seizures confirms sustained North American critical infrastructure threat; FCC import ban creates new product liability and supply chain cyber compliance obligations",
+        "detail": "Domain seizure restoration demonstrates Iranian APT operational resilience and intent to maintain critical infrastructure targeting capability. FCC wireless router import ban establishes new federal security compliance standard creating downstream product liability exposure for technology vendors, ISPs, and infrastructure operators. QCB reporting obligations expand to include supply chain cyber risk and import restriction compliance for all critical infrastructure and technology policyholders. Encyclopedia Britannica precedent reinforced by additional IP infringement litigation wave.",
+        "affectedLines": [
+          "Cyber",
+          "Energy",
+          "Utilities",
+          "Defense Contractor",
+          "Errors & Omissions",
+          "Technology",
+          "Product Liability",
+          "Supply Chain"
+        ],
+        "actions": [
+          "Issue regulatory alert to all technology, telecom, and critical infrastructure policyholders on FCC import ban compliance and product liability implications",
+          "Expand cyber threat notification protocols to capture domain seizure evasion patterns and persistent Iranian APT infrastructure indicators",
+          "Conduct emergency compliance audit on wireless router and networking equipment supply chain exposure across technology and telecom client base",
+          "Coordinate with FCC and CISA on product liability classification and insurance coverage requirements for restricted-import networking equipment",
+          "Update cyber liability policy language to explicitly address supply chain cyber risk and import restriction compliance failures"
+        ]
+      },
+      "claims": {
+        "headline": "Iranian APT domain restoration signals imminent critical infrastructure cyber incidents; FCC import ban creates product liability claims risk for technology equipment vendors",
+        "detail": "Iranian APT website restoration indicates operational continuity and active targeting capability against US power, water, and defense infrastructure, creating acute claims frequency risk in North American critical infrastructure portfolio. FCC import ban creates secondary claims exposure for product liability claims arising from cyber vulnerabilities in restricted wireless router equipment sold prior to ban implementation. Encyclopedia Britannica litigation establishes precedent for additional AI platform IP infringement claims submissions across technology and software lines.",
+        "affectedLines": [
+          "Cyber",
+          "Energy",
+          "Utilities",
+          "Defense Contractor",
+          "Product Liability",
+          "Technology",
+          "Errors & Omissions",
+          "Software"
+        ],
+        "actions": [
+          "Activate critical infrastructure cyber response unit with enhanced monitoring for Iranian APT indicators and domain seizure evasion patterns",
+          "Pre-position product liability adjusters for wireless router and networking equipment manufacturer claims arising from FCC import ban",
+          "Develop product liability claims triage protocol for FCC-restricted equipment cyber vulnerability claims and supply chain failure allegations",
+          "Establish cross-functional claims-compliance team to assess coverage applicability for import ban violations and product recall obligations",
+          "Create claims coding flags for supply chain cyber risk and restricted equipment liability across product liability and cyber lines"
+        ]
+      },
+      "underwriting": {
+        "headline": "Iranian APT persistence and FCC import restrictions require comprehensive risk reassessment; technology and critical infrastructure underwriting controls require immediate enhancement",
+        "detail": "Iranian APT domain restoration demonstrates sustained targeting capability despite US government intervention, confirming elevated acute risk for North American critical infrastructure clients. FCC wireless router import ban creates new underwriting risk classification for technology vendors, telecommunications providers, and infrastructure operators with supply chain dependencies on restricted equipment. Mandatory underwriting controls required for supply chain cyber risk, equipment import compliance, and product liability exposure. Existing cyber policies lack adequate supply chain and import compliance underwriting frameworks.",
+        "affectedLines": [
+          "Cyber",
+          "Energy",
+          "Utilities",
+          "Defense Contractor",
+          "Technology",
+          "Telecommunications",
+          "Product Liability",
+          "Supply Chain"
+        ],
+        "actions": [
+          "Conduct emergency underwriting reassessment of all US critical infrastructure cyber exposures incorporating persistent Iranian APT threat indicators",
+          "Implement mandatory supply chain cyber risk questionnaire addressing wireless router imports, equipment sourcing, and FCC compliance status",
+          "Suspend new cyber and product liability coverage for technology vendors and telecom providers with restricted equipment dependencies pending FCC compliance audit",
+          "Revise technology and telecommunications underwriting guidelines to explicitly address import restrictions, supply chain cyber vulnerabilities, and product liability carveouts",
+          "Create tiered underwriting approach for critical infrastructure clients based on wireless equipment sourcing audit and FCC compliance certification"
+        ]
+      },
+      "reinsurance": {
+        "headline": "Iranian APT persistence escalates critical infrastructure accumulation risk; FCC import ban creates cross-treaty product liability and cyber coordination complexity",
+        "detail": "Iranian APT domain restoration confirms sustained North American critical infrastructure targeting capability, establishing heightened accumulation scenario risk across cyber reinsurance programs. FCC import ban creates secondary accumulation concern as product liability claims for restricted wireless equipment will interact with cyber liability coverage across multiple treaties, generating coverage coordination failures and trigger uncertainty. Tennessee captive market expansion indicates alternative risk transfer migration that may reduce traditional reinsurance premium base for critical infrastructure exposures.",
+        "affectedLines": [
+          "Cyber Reinsurance",
+          "Product Liability Reinsurance",
+          "Technology Reinsurance",
+          "E&O Reinsurance"
+        ],
+        "actions": [
+          "Issue urgent reinsurer notification of Iranian APT persistence and domain seizure evasion capability with updated accumulation modeling",
+          "Request reinsurer guidance on coverage coordination for product liability and cyber claims arising from FCC-restricted equipment vulnerabilities",
+          "Conduct cross-treaty modeling for supply chain cyber risk and equipment import violation claims spanning product liability and cyber programs",
+          "Develop coverage trigger and priority protocol with reinsurers for FCC import ban-related product liability and cyber liability claims",
+          "Monitor Tennessee captive market expansion and alternative risk transfer trends; model premium leakage impact on reinsurance program adequacy"
+        ]
+      },
+      "investments": {
+        "headline": "Iranian APT persistence and FCC import restrictions create systemic technology sector tail risk; critical infrastructure and telecom valuations face downside from import compliance costs and cyber vulnerability exposure",
+        "detail": "Iranian APT domain restoration signals sustained kinetic-cyber coordination threat to North American critical infrastructure with higher confidence in attack probability, materializing previously modeled tail risks for energy and utilities equities. FCC import restrictions create earnings headwinds for wireless equipment manufacturers, semiconductor suppliers, and telecommunications infrastructure providers facing supply chain compliance costs and product liability exposure. Technology sector valuations have not fully incorporated combined impact of AI IP litigation wave and FCC-driven supply chain reconfiguration costs.",
+        "affectedLines": [
+          "Equities",
+          "Alternatives",
+          "Technology",
+          "Telecommunications",
+          "Semiconductors",
+          "Energy",
+          "Utilities",
+          "Defense"
+        ],
+        "actions": [
+          "Reduce long positions in wireless router and networking equipment manufacturers exposed to FCC import restrictions and product recall risk",
+          "Reassess telecommunications and broadband infrastructure equity valuations for supply chain disruption costs and product liability tail risk",
+          "Conduct immediate downside scenario modeling for energy and utilities equities incorporating elevated Iranian APT attack probability",
+          "Monitor technology sector earnings guidance for FCC import compliance cost impact and product liability reserve requirements",
+          "Model combined tail risk scenario for technology equities assuming simultaneous AI IP litigation acceleration and FCC supply chain disruption"
+        ]
+      }
+    }
+  },
+  "sit3": {
+    "id": "sit3",
+    "severity": "ELEVATED",
+    "isLive": true,
+    "title": "Russia-Ukraine Ceasefire Negotiations",
+    "subtitle": "Dual-track risk: ongoing conflict disruption vs $500bn+ reconstruction opportunity",
+    "summary": "Russia-Ukraine ceasefire negotiations continue on dual tracks (Paris Declaration, Abu Dhabi framework) amid ongoing kinetic operations, while a new geopolitical risk emerges: EU escalation exposure in Middle East conflicts threatens to stretch insurance capacity across war, political violence, and regional liability lines simultaneously. The dual conflict scenario—Ukraine reconstruction opportunity plus Middle East liability expansion—creates competing capital demands and concentration risk for EU-domiciled insurers.",
+    "category": [
+      "Property",
+      "Energy",
+      "Political Risk"
+    ],
+    "geography": "Ukraine / Russia / Europe",
+    "confidence": 72,
+    "signalIds": [
+      "s9",
+      "s10",
+      "s11"
+    ],
+    "sources": [
+      "GDELT",
+      "GDACS"
+    ],
+    "updated": "2026-03-23T11:27:53.635Z",
+    "regJurisdictions": [],
+    "scores": {
+      "risk_compliance": 7,
+      "claims": 6,
+      "underwriting": 8,
+      "reinsurance": 7,
+      "investments": 9
+    },
+    "interpretations": {
+      "risk_compliance": {
+        "headline": "OFAC/Iran sanctions complexity multiplies: Ukraine ceasefire compliance + Middle East conflict exposure",
+        "detail": "Existing OFAC sanctions on Russia remain active, but Middle East conflict escalation introduces parallel Iran, Syria, and proxy entity sanctions obligations. EU insurers face dual-track compliance burden: Ukraine sanctions screening AND Middle East conflict underwriting sanctions review. Paris Declaration signatories may face additional exposure if reconstruction financing involves sanctioned intermediaries.",
+        "affectedLines": [
+          "Political Risk",
+          "Property",
+          "Liability"
+        ],
+        "actions": [
+          "Expand OFAC/OFSI screening protocols to cover Middle East conflict parties and proxies",
+          "Map compliance obligations for dual geopolitical exposure (Ukraine + Middle East)",
+          "Establish escalation protocol for underwriting decisions involving EU exposure to Middle East liability"
+        ]
+      },
+      "claims": {
+        "headline": "Claims pipeline bifurcation: Ukraine war damage + Middle East conflict liability create valuation and reserve pressure",
+        "detail": "Ukraine property claims remain unresolved due to competing valuation standards (IUMI vs Lloyd's). Middle East conflict escalation adds new liability claims exposure across EU-domiciled operations, third-party contractors, and regional assets. Dual claims inflation (reconstruction + conflict liability) will pressure reserve adequacy and claims handling capacity.",
+        "affectedLines": [
+          "Property",
+          "Energy",
+          "Liability",
+          "Political Risk"
+        ],
+        "actions": [
+          "Segregate reserves: establish separate reserve tracks for Ukraine property vs. Middle East liability exposure",
+          "Conduct stress test on claims handling capacity under dual conflict scenario",
+          "Establish regional claims liaison team for Middle East conflict notifications"
+        ]
+      },
+      "underwriting": {
+        "headline": "Reconstruction opportunity now faces capacity crowding: Middle East escalation diverts capital from Ukraine",
+        "detail": "The $500bn+ Ukraine reconstruction opportunity remains real, but Middle East conflict escalation creates competing capital demands for war, political violence, and liability covers. EU underwriters must balance Ukraine reconstruction capacity build-out against Middle East conflict exposure appetite. Post-ceasefire market will be fragmented rather than unified in capital deployment.",
+        "affectedLines": [
+          "Property",
+          "Engineering",
+          "Political Risk",
+          "Credit",
+          "Liability"
+        ],
+        "actions": [
+          "Prioritize Ukraine reconstruction capacity with explicit Middle East conflict carve-outs on war exclusions",
+          "Model underwriting returns under dual-conflict scenario (Ukraine reconstruction + Middle East liability drag)",
+          "Establish written policy: maximum Middle East conflict liability exposure as % of total premium growth"
+        ]
+      },
+      "reinsurance": {
+        "headline": "Cat modelling scope expands: Ukraine reconstruction PML + Middle East conflict peril overlap creates accumulation risk",
+        "detail": "Ukraine reconstruction requires specialized cat modelling at $500bn+ scale. Middle East conflict escalation overlays a second peril set (liability, political violence, energy) that may share geographic and counterparty exposures with European cedants. Retrocessionaires face accumulation complexity: correlated conflict exposure across two regions simultaneously.",
+        "affectedLines": [
+          "Property Reinsurance",
+          "Engineering",
+          "Liability Reinsurance",
+          "Political Risk Reinsurance"
+        ],
+        "actions": [
+          "Expand cat modelling scope to include Middle East conflict liability accumulation alongside Ukraine property PML",
+          "Model correlated exposure: shared EU counterparty/asset exposure in Ukraine + Middle East simultaneously",
+          "Assess retrocession strategy: reduce Middle East conflict appetite to preserve capacity for Ukraine reconstruction"
+        ]
+      },
+      "investments": {
+        "headline": "Ceasefire upside tempered by Middle East downside: European credit re-rating scenario now faces tail risk",
+        "detail": "Ukraine ceasefire remains a significant positive catalyst for European credit (construction, infrastructure, energy equities; Central/Eastern European sovereigns). Middle East conflict escalation introduces countervailing tail risk: energy price volatility, supply chain disruption, and reduced investor appetite for risk assets. Net investment impact is bifurcated: selective Ukraine reconstruction exposure offset by reduced broad European equity allocation.",
+        "affectedLines": [
+          "Fixed Income",
+          "Equities",
+          "Infrastructure",
+          "Energy"
+        ],
+        "actions": [
+          "Rebalance thematic allocation: Ukraine reconstruction equities remain attractive but hedge with energy commodity puts",
+          "Reduce broad European equity allocation; tighten focus on Poland/Baltics ceasefire beneficiaries with Middle East isolation",
+          "Establish tail hedge: short European energy equities, long USD safe havens, as offset to Ukraine upside exposure"
+        ]
+      }
+    }
+  }
+}

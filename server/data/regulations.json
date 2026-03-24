@@ -1,0 +1,21 @@
+[
+  {
+    "id": "live_reg1",
+    "jurisdiction": "International",
+    "jurisdictionCode": "INT",
+    "regulator": "FATF",
+    "regulatorFull": "Financial Action Task Force",
+    "publishedDate": "2026-02-25",
+    "effectiveDate": "2026-02-25",
+    "changeType": "GUIDANCE",
+    "linesAffected": [
+      "All Lines"
+    ],
+    "urgency": "MONITOR",
+    "title": "Ghana anti - money laundering framework examined by international inspectors",
+    "summary": "FATF international inspectors are examining Ghana's anti-money laundering framework. While Ghana is not a direct operating jurisdiction for the named insurer, this assessment may influence AML/CFT standards applied across international operations and correspondent relationships with Ghanaian financial institutions.",
+    "claimsImplication": "No direct claims impact anticipated; however, enhanced AML scrutiny in Ghana may affect settlement of claims involving Ghanaian counterparties or beneficiaries.",
+    "complianceImplication": "Monitor FATF assessment outcomes and any resulting recommendations for AML/CFT controls. Ensure correspondent banking relationships and third-party due diligence procedures align with emerging international standards.",
+    "sourceRef": "https://theheraldghana.com/ghanas-anti-money-laundering-framework-examined-by-international-inspectors/"
+  }
+]
