@@ -23,7 +23,7 @@ export default function HeroCard({ sit, selected, dept, actionRegs, onClick, thr
             </span>
           )}
           {thresholdAlert === 'breach' && <span style={{ fontFamily: 'IBM Plex Mono', fontSize: 9, background: 'var(--urgent)', color: '#fff', padding: '2px 5px', borderRadius: 2 }}>BREACH</span>}
-          {thresholdAlert === 'alert' && <span style={{ fontFamily: 'IBM Plex Mono', fontSize: 9, background: '#FFFBEB', color: '#D97706', border: '1px solid #FDE68A', padding: '2px 5px', borderRadius: 2 }}>THRESHOLD</span>}
+          {thresholdAlert === 'alert' && <span style={{ fontFamily: 'IBM Plex Mono', fontSize: 9, background: 'var(--caution-bg)', color: 'var(--caution)', border: '1px solid var(--caution-border)', padding: '2px 5px', borderRadius: 2 }}>THRESHOLD</span>}
           <span className="ts-label">{timeAgo(sit.updated)}</span>
         </div>
         <div className="hero-title">{sit.title}</div>

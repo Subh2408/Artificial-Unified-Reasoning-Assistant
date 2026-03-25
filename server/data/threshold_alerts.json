@@ -173,5 +173,46 @@
       }
     ],
     "evaluatedAt": "2026-03-25T17:37:18.336Z"
+  },
+  "sit_gen_1_claims": {
+    "alerts": [
+      {
+        "id": "cl_reserve_buffer",
+        "impact_level": "caution",
+        "confidence": 72,
+        "reasoning": "Simultaneous multi-line claims across war risk, marine hull, cargo, and energy BI lines will draw heavily on open reserve buffers, with long-tail BI claims compounding near-term reserve pressure across the entire portfolio.",
+        "action": "Treasury and reserving teams should immediately stress-test the open reserve buffer against a multi-year BI development scenario and consider pre-emptive reserve strengthening before Q1 close.",
+        "label": "Open Reserve Buffer",
+        "estimated_pct": 65
+      },
+      {
+        "id": "cl_single_loss_max",
+        "impact_level": "alert",
+        "confidence": 78,
+        "reasoning": "Iranian interdiction of a large LNG carrier or VLCC with simultaneous hull loss, cargo seizure, and crew detention could constitute a single catastrophic loss event that approaches or tests the maximum single loss reserve ceiling given Gulf energy asset valuations.",
+        "action": "Underwriting must immediately identify the largest single-vessel or single-asset exposures within the Gulf book and confirm facultative reinsurance reinstatement capacity is available and activated.",
+        "label": "Maximum Single Loss Reserve",
+        "estimated_pct": 85
+      },
+      {
+        "id": "cl_ga_exposure",
+        "impact_level": "alert",
+        "confidence": 80,
+        "reasoning": "Active interdiction operations, vessel detentions, and potential sacrifices to avoid seizure in the Hormuz corridor are near-textbook triggers for General Average declarations across multiple vessels simultaneously, and Qatar's Gulf marine book will have concentrated exposure to these trade routes.",
+        "action": "Marine claims team should issue a standing GA monitoring instruction, engage appointed GA adjusters on retainer immediately, and audit current GA security exposures across all active Hormuz-transiting risks.",
+        "label": "General Average Exposure Threshold",
+        "estimated_pct": 85
+      },
+      {
+        "id": "cl_war_risk_claims",
+        "impact_level": "breach",
+        "confidence": 85,
+        "reasoning": "Active military exchanges, Iranian cargo seizures, vessel detentions, and hull damage from interdiction activity represent precisely the scenario for which war risk aggregates are stress-tested, and a CRITICAL-rated Gulf-wide escalation of this nature is highly likely to exhaust and exceed the war risk claims aggregate.",
+        "action": "War risk underwriting must immediately invoke portfolio-level loss limitation protocols, notify reinsurers of a potential clash loss event, and suspend new war risk cover for Gulf-region vessels pending a full accumulation reassessment.",
+        "label": "War Risk Claims Aggregate",
+        "estimated_pct": 100
+      }
+    ],
+    "evaluatedAt": "2026-03-25T17:54:51.215Z"
   }
 }

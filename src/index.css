@@ -28,8 +28,6 @@ body{font-family:'DM Sans',sans-serif;background:var(--shell);color:var(--ink);h
 .gate-tile-dot{width:6px;height:6px;border-radius:50%;flex-shrink:0}
 .gate-tile-name{font-size:15px;font-weight:500;color:#fff;font-family:'DM Sans',sans-serif}
 .gate-tile-desc{font-family:'IBM Plex Mono',monospace;font-size:10px;color:rgba(255,255,255,.4);line-height:1.4}
-.gate-tile-caps{display:flex;flex-direction:column;gap:4px;margin-top:auto}
-.gate-tile-cap{font-family:'IBM Plex Mono',monospace;font-size:9px;color:rgba(255,255,255,.3);letter-spacing:.02em}
 .gate-tile.coming-soon{opacity:.5;border-style:dashed;cursor:default;justify-content:center;align-items:center}
 .gate-tile.coming-soon:hover{background:#111111;border-color:rgba(255,255,255,.1)}
 @media(max-width:700px){.gate-grid{grid-template-columns:repeat(2,1fr);max-width:420px}}

@@ -108,7 +108,7 @@ async function runAll() {
 
 // ── Cron registration ─────────────────────────────────────────────────────────
 
-// Every 30 minutes — signal sources (GDACS, Artemis, Insurance Journal, GDELT, OFAC, FRED)
+// Every 30 minutes — signal sources (GDACS, Artemis, Insurance Journal, OFAC, FRED)
 cron.schedule('*/30 * * * *', () => {
   console.log('[scheduler] signal cron fired')
   runSignalSources().catch(err => console.error('[scheduler] signal cron error:', err.message))

@@ -5,7 +5,6 @@ import { SitCard, SignalCard, RegCard } from './Cards'
 import ComplianceActionDash from '../regulatory/ComplianceActionDash'
 import RegQueryAssistant from '../regulatory/RegQueryAssistant'
 import Markdown from '../Markdown'
-import AuraMap from '../map/AuraMap'
 import { getThresholdAlerts } from '../../api/client'
 
 export default function Feed({
@@ -159,18 +158,7 @@ export default function Feed({
         <RegQueryAssistant regulations={regulations} />
       )}
 
-      {view === 'map' && (
-        <div style={{ height: 'calc(100vh - 140px)' }}>
-          <AuraMap
-            situations={situations}
-            signals={signals}
-            onSelectSituation={(s) => onSelect('situation', s)}
-            onSelectSignal={(s) => onSelect('signal', s)}
-          />
-        </div>
-      )}
-
-      {view !== 'map' && <div className="feed-list">
+      <div className="feed-list">
         {dept === 'risk_compliance' && view === 'regulations' && (
           <ComplianceActionDash regulations={regulations} onSelectReg={(r) => onSelect('regulation', r)} />
         )}
@@ -190,7 +178,7 @@ export default function Feed({
             {filtered.map((r) => <RegCard key={r.id} reg={r} selected={selectedId === r.id} onClick={() => onSelect('regulation', r)} />)}
           </>
         )}
-      </div>}
+      </div>
     </div>
   )
 }

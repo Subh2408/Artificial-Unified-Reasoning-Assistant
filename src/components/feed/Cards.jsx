@@ -15,7 +15,7 @@ export function SitCard({ sit, selected, dept, actionRegs, onClick, thresholdAle
           <span className="sev-label" style={{ color: SEV_COLORS[sit.severity] }}>{sit.severity}</span>
           {hasActionReg && <span className="reg-badge-action">⚖ REG</span>}
           {thresholdAlert === 'breach' && <span style={{ fontFamily: 'IBM Plex Mono', fontSize: 8, background: 'var(--urgent)', color: '#fff', padding: '1px 4px', borderRadius: 2 }}>BREACH</span>}
-          {thresholdAlert === 'alert' && <span style={{ fontFamily: 'IBM Plex Mono', fontSize: 8, background: '#FFFBEB', color: '#D97706', border: '1px solid #FDE68A', padding: '1px 4px', borderRadius: 2 }}>THRESHOLD</span>}
+          {thresholdAlert === 'alert' && <span style={{ fontFamily: 'IBM Plex Mono', fontSize: 8, background: 'var(--caution-bg)', color: 'var(--caution)', border: '1px solid var(--caution-border)', padding: '1px 4px', borderRadius: 2 }}>THRESHOLD</span>}
           <span className="ts-label">{timeAgo(sit.updated)}</span>
         </div>
         <div className="card-title">{sit.title}</div>
