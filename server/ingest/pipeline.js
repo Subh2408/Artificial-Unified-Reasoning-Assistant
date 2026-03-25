@@ -35,6 +35,18 @@ function matchSituation(signal) {
   return null
 }
 
+function scoreSignal(title, description) {
+  const text = ((title || '') + ' ' + (description || '')).toLowerCase()
+  let score = 0
+  const geo = ['qatar','uae','saudi','gulf','gcc','hormuz','red sea','iran','dubai','doha','riyadh','oman','kuwait','bahrain','arabian','mena','middle east']
+  const ins = ['insurance','reinsurance','marine','hull','cargo','war risk','p&i','lloyd','underwr','takaful','claim','policy','premium','syndicate','treaty']
+  const risk = ['sanction','ofac','breach','alert','cancel','suspend','closure','attack','cyber','explosion','strike','escalat','conflict','famine','disaster']
+  geo.forEach(t  => { if (text.includes(t)) score += 2 })
+  ins.forEach(t  => { if (text.includes(t)) score += 3 })
+  risk.forEach(t => { if (text.includes(t)) score += 2 })
+  return score
+}
+
 function appendLog(type, rawCount, newCount) {
   const log = readArray('ingest_log')
   log.unshift({ timestamp: new Date().toISOString(), type, rawCount, newCount })
@@ -105,11 +117,20 @@ async function ingestSignals(rawItems) {
     return new Set()
   }
 
-  const newItems = rawItems.filter((item) => !hashes.has(contentHash(item)))
+  const dedupedItems = rawItems.filter((item) => !hashes.has(contentHash(item)))
+  // Score and filter by relevance (discard score < 4)
+  const newItems = dedupedItems.filter((item) => {
+    const score = scoreSignal(item.title, item.snippet || item.description || '')
+    item.relevanceScore = score
+    return score >= 4
+  })
+  const discarded = dedupedItems.length - newItems.length
+  if (discarded) console.log(`[ingest] filtered ${discarded} low-relevance signals (score < 4)`)
+
   if (!newItems.length) {
     writeArray('signals', existing)
     appendLog('signals', rawItems.length, 0)
-    console.log(`[ingest] signals: ${rawItems.length} raw, all already seen`)
+    console.log(`[ingest] signals: ${rawItems.length} raw, all already seen or filtered`)
     return new Set()
   }
 
@@ -134,6 +155,7 @@ async function ingestSignals(rawItems) {
       title:       item.title || '',
       description: item.description || item.snippet || item.title || '',
       tags:        Array.isArray(item.tags) ? item.tags : [],
+      relevanceScore: item.relevanceScore || 0,
       geography:   item.geography || item.rawGeography || 'Global',
     }
   })

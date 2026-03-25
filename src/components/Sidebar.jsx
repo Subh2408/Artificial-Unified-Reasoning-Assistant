@@ -23,13 +23,20 @@ export default function Sidebar({
         <button className="switch-dept-btn" onClick={onSwitchDept}>Switch ↗</button>
       </div>
 
-      {deptInfo && (
+      {dept === 'executive' ? (
+        <div className="active-dept-badge">
+          <div>
+            <div className="adb-label">EXECUTIVE OVERVIEW</div>
+            <div className="adb-desc">Company-wide · Read only</div>
+          </div>
+        </div>
+      ) : deptInfo && (
         <div className="active-dept-badge">
           <div className="adb-dot" style={{ background: deptInfo.dotColor }} />
           <div>
             <div className="adb-label" style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
               {deptInfo.label}
-              {alertCount > 0 && <span style={{ fontFamily: 'IBM Plex Mono', fontSize: 9, background: '#FFFBEB', color: '#D97706', border: '1px solid #FDE68A', padding: '1px 6px', borderRadius: 10 }}>{alertCount}</span>}
+              {alertCount > 0 && <span style={{ fontFamily: 'IBM Plex Mono', fontSize: 9, background: 'var(--caution-bg)', color: 'var(--caution)', border: '1px solid var(--caution-border)', padding: '1px 6px', borderRadius: 10 }}>{alertCount}</span>}
             </div>
             <div className="adb-desc">{deptInfo.desc}</div>
           </div>
@@ -67,7 +74,7 @@ export default function Sidebar({
             onClick={() => { setRegJurFilter(j.code); setFeedView('regulations') }}
           >
             <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-              <div className="reg-watch-dot" style={{ background: '#C8001E' }} />
+              <div className="reg-watch-dot" style={{ background: 'var(--urgent)' }} />
               <span style={{ fontSize: 11, color: 'var(--ink-3)' }}>{j.label}</span>
             </div>
             <span className="reg-watch-count">{j.count}</span>

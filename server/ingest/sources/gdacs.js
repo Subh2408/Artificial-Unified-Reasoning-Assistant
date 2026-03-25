@@ -27,6 +27,7 @@ function extractGeography(title, description) {
 
 async function fetchGdacs() {
   const parser = new Parser({
+    headers: { 'User-Agent': 'AURA/1.0' },
     customFields: {
       item: ['gdacs:alertlevel', 'gdacs:eventtype', 'gdacs:country', 'gdacs:severity'],
     },

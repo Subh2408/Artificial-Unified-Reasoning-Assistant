@@ -5,9 +5,7 @@
 const Parser = require('rss-parser')
 
 const FEEDS = [
-  { url: 'https://home.treasury.gov/rss.xml',                                    source: 'US TREASURY' },
-  { url: 'https://www.un.org/securitycouncil/content/resolutions/feed',           source: 'UN SECURITY COUNCIL' },
-  { url: 'https://eur-lex.europa.eu/rss/rss_euoj.xml?locale=en',                 source: 'EU OFFICIAL JOURNAL' },
+  { url: 'https://home.treasury.gov/rss.xml', source: 'US TREASURY' },
 ]
 
 // Keywords indicating sanctions/compliance relevance

@@ -9,7 +9,6 @@ const Parser = require('rss-parser')
 const FEEDS = [
   { url: 'https://www.insurancejournal.com/feed/', source: 'INSURANCE JOURNAL' },
   { url: 'https://www.reinsurancene.ws/feed/',     source: 'REINSURANCE NEWS' },
-  { url: 'https://theinsurer.com/feed/',           source: 'THE INSURER' },
 ]
 
 // Keywords that indicate MENA / marine / international relevance

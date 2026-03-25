@@ -1,5 +1,107 @@
 [
   {
+    "id": "live_reg4",
+    "jurisdiction": "International",
+    "jurisdictionCode": "INT",
+    "regulator": "UNSC",
+    "regulatorFull": "UN Security Council",
+    "publishedDate": "2026-03-14",
+    "effectiveDate": "2026-03-14",
+    "changeType": "GUIDANCE",
+    "linesAffected": [
+      "Marine",
+      "Reinsurance",
+      "All Lines"
+    ],
+    "urgency": "MONITOR",
+    "title": " [ Analysis ] How much will new UN sanctions affect North Korea coal exports to China ? ",
+    "summary": "UNSC analysis examines potential impact of new sanctions on North Korea coal exports to China. Insurers must monitor sanctions compliance implications for trade credit, cargo, and energy-related exposures in Asia-Pacific regions.",
+    "claimsImplication": "Claims involving North Korean coal shipments or Chinese energy sector exposure may face coverage disputes due to sanctions violations or embargo enforcement actions.",
+    "complianceImplication": "Insurers must review underwriting guidelines and sanctions screening procedures for transactions involving North Korea, China trade routes, and energy commodities to ensure OFAC/UNSC compliance.",
+    "sourceRef": "https://english.hani.co.kr/arti/english_edition/e_national/772806.html"
+  },
+  {
+    "id": "live_reg5",
+    "jurisdiction": "International",
+    "jurisdictionCode": "INT",
+    "regulator": "UNSC",
+    "regulatorFull": "UN Security Council",
+    "publishedDate": "2026-03-13",
+    "effectiveDate": "2026-03-13",
+    "changeType": "GUIDANCE",
+    "linesAffected": [
+      "Political Risk",
+      "Marine",
+      "Energy",
+      "All Lines"
+    ],
+    "urgency": "MONITOR",
+    "title": "Breakdown of diplomacy further complicates Iran nuclear issue , Pakistan warns Security Council - World",
+    "summary": "Pakistan warns UNSC of escalating diplomatic breakdown regarding Iran nuclear negotiations. Insurers operating in Middle East must closely monitor political risk, sanctions developments, and potential impact on Iranian market access and coverage obligations.",
+    "claimsImplication": "Political risk and trade-related claims in Iran and Pakistan may increase complexity regarding coverage applicability under sanctions carve-outs or force majeure provisions.",
+    "complianceImplication": "Continuous monitoring of Iran sanctions regime developments required; compliance teams must update underwriting restrictions and ensure coverage documents reflect current UNSC resolution status.",
+    "sourceRef": "https://www.dawn.com/news/1981621/breakdown-of-diplomacy-further-complicates-iran-nuclear-issue-pakistan-warns-security-council"
+  },
+  {
+    "id": "live_reg6",
+    "jurisdiction": "International",
+    "jurisdictionCode": "INT",
+    "regulator": "UNSC",
+    "regulatorFull": "UN Security Council",
+    "publishedDate": "2026-03-04",
+    "effectiveDate": "2026-03-04",
+    "changeType": "GUIDANCE",
+    "linesAffected": [
+      "All Lines"
+    ],
+    "urgency": "MONITOR",
+    "title": "Russia , China object to U . S . UNSC Presidency Programme of Work over Iran",
+    "summary": "Russia and China object to U.S. UNSC Presidency Programme concerning Iran issues, signaling geopolitical friction. Insurers must heighten monitoring of Iran sanctions regime stability and potential policy reversals affecting regional exposures.",
+    "claimsImplication": "Claims involving Iran, Russian, or Chinese parties face uncertainty regarding sanctions applicability; coverage determinations may require legal analysis of evolving geopolitical positions.",
+    "complianceImplication": "Enhanced due diligence required for sanctioned jurisdictions; legal and compliance teams must track UNSC voting patterns and diplomatic developments affecting sanctions enforcement certainty.",
+    "sourceRef": "https://www.thehindu.com/news/international/russia-china-object-to-us-unsc-presidencys-programme-of-work-over-iran/article70702184.ece"
+  },
+  {
+    "id": "live_reg2",
+    "jurisdiction": "International",
+    "jurisdictionCode": "INT",
+    "regulator": "OFAC",
+    "regulatorFull": "US Treasury / OFAC",
+    "publishedDate": "2026-02-24",
+    "effectiveDate": "2026-02-24",
+    "changeType": "NEW",
+    "linesAffected": [
+      "All Lines"
+    ],
+    "urgency": "ACTION",
+    "title": "U . S . Announces Tariff Framework Targeting Countries That Acquire Goods Or Services From Iran",
+    "summary": "OFAC announces new tariff framework targeting countries acquiring Iranian goods or services. Insurers must review coverage for clients with supply chain exposure to affected jurisdictions and implement enhanced due diligence on Iran-related transactions to ensure sanctions compliance.",
+    "claimsImplication": "Claims involving supply chain disruptions or trade-related losses in affected countries may face coverage disputes if insured parties fail sanctions screening requirements.",
+    "complianceImplication": "Insurers must update sanctions screening protocols, audit client exposure to Iranian transaction networks, and document OFAC compliance procedures immediately.",
+    "sourceRef": "https://www.mondaq.com:443/unitedstates/export-controls-trade-investment-sanctions/1748520/us-announces-tariff-framework-targeting-countries-that-acquire-goods-or-services-from-iran"
+  },
+  {
+    "id": "live_reg3",
+    "jurisdiction": "International",
+    "jurisdictionCode": "INT",
+    "regulator": "OFAC",
+    "regulatorFull": "US Treasury / OFAC",
+    "publishedDate": "2026-03-20",
+    "effectiveDate": "2026-03-20",
+    "changeType": "GUIDANCE",
+    "linesAffected": [
+      "Professional Indemnity",
+      "Management Liability",
+      "Crime"
+    ],
+    "urgency": "MONITOR",
+    "title": "Sea Change Or Same As It Ever Was ? The Crypto Landscape At The ABA White Collar Crime Institute",
+    "summary": "OFAC provides regulatory guidance on cryptocurrency landscape and compliance expectations within white collar crime context. Insurers should evaluate exposure to crypto-related financial crime risks and clarify policy language regarding digital asset coverage and sanctions obligations.",
+    "claimsImplication": "Claims arising from cryptocurrency transactions may face coverage interpretation challenges if policy exclusions for sanctions violations or financial crime are ambiguous.",
+    "complianceImplication": "Review underwriting criteria for crypto clients, assess AML/KYC procedures for digital asset transactions, and align policy exclusions with OFAC guidance on virtual assets.",
+    "sourceRef": "https://www.mondaq.com:443/unitedstates/crime/1760666/sea-change-or-same-as-it-ever-was-the-crypto-landscape-at-the-aba-white-collar-crime-institute"
+  },
+  {
     "id": "live_reg1",
     "jurisdiction": "International",
     "jurisdictionCode": "INT",

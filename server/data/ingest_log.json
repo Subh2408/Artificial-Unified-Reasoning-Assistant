@@ -1,5 +1,149 @@
 [
   {
+    "timestamp": "2026-03-25T17:42:56.488Z",
+    "type": "signals",
+    "rawCount": 35,
+    "newCount": 0
+  },
+  {
+    "timestamp": "2026-03-25T17:36:11.788Z",
+    "type": "signals",
+    "rawCount": 35,
+    "newCount": 0
+  },
+  {
+    "timestamp": "2026-03-25T17:01:22.442Z",
+    "type": "signals",
+    "rawCount": 35,
+    "newCount": 2
+  },
+  {
+    "timestamp": "2026-03-25T15:49:09.739Z",
+    "type": "signals",
+    "rawCount": 35,
+    "newCount": 0
+  },
+  {
+    "timestamp": "2026-03-25T15:42:53.176Z",
+    "type": "regulations",
+    "rawCount": 3,
+    "newCount": 0
+  },
+  {
+    "timestamp": "2026-03-25T15:41:30.000Z",
+    "type": "signals",
+    "rawCount": 53,
+    "newCount": 12
+  },
+  {
+    "timestamp": "2026-03-24T18:00:30.049Z",
+    "type": "signals",
+    "rawCount": 35,
+    "newCount": 0
+  },
+  {
+    "timestamp": "2026-03-24T17:30:19.437Z",
+    "type": "signals",
+    "rawCount": 44,
+    "newCount": 0
+  },
+  {
+    "timestamp": "2026-03-24T17:00:35.933Z",
+    "type": "signals",
+    "rawCount": 44,
+    "newCount": 0
+  },
+  {
+    "timestamp": "2026-03-24T16:30:22.512Z",
+    "type": "signals",
+    "rawCount": 35,
+    "newCount": 1
+  },
+  {
+    "timestamp": "2026-03-24T16:09:17.520Z",
+    "type": "regulations",
+    "rawCount": 2,
+    "newCount": 0
+  },
+  {
+    "timestamp": "2026-03-24T16:07:10.356Z",
+    "type": "signals",
+    "rawCount": 35,
+    "newCount": 1
+  },
+  {
+    "timestamp": "2026-03-24T16:00:31.176Z",
+    "type": "signals",
+    "rawCount": 44,
+    "newCount": 0
+  },
+  {
+    "timestamp": "2026-03-24T15:56:14.285Z",
+    "type": "regulations",
+    "rawCount": 2,
+    "newCount": 0
+  },
+  {
+    "timestamp": "2026-03-24T15:55:26.553Z",
+    "type": "signals",
+    "rawCount": 44,
+    "newCount": 1
+  },
+  {
+    "timestamp": "2026-03-24T15:48:20.898Z",
+    "type": "regulations",
+    "rawCount": 5,
+    "newCount": 3
+  },
+  {
+    "timestamp": "2026-03-24T15:48:15.676Z",
+    "type": "regulations",
+    "rawCount": 4,
+    "newCount": 3
+  },
+  {
+    "timestamp": "2026-03-24T15:47:01.653Z",
+    "type": "signals",
+    "rawCount": 35,
+    "newCount": 0
+  },
+  {
+    "timestamp": "2026-03-24T15:46:59.624Z",
+    "type": "signals",
+    "rawCount": 35,
+    "newCount": 0
+  },
+  {
+    "timestamp": "2026-03-24T15:43:16.850Z",
+    "type": "signals",
+    "rawCount": 45,
+    "newCount": 2
+  },
+  {
+    "timestamp": "2026-03-24T15:30:17.014Z",
+    "type": "signals",
+    "rawCount": 35,
+    "newCount": 0
+  },
+  {
+    "timestamp": "2026-03-24T15:07:30.375Z",
+    "type": "regulations",
+    "rawCount": 2,
+    "newCount": 2
+  },
+  {
+    "timestamp": "2026-03-24T15:06:34.668Z",
+    "type": "signals",
+    "rawCount": 44,
+    "newCount": 2
+  },
+  {
+    "timestamp": "2026-03-24T15:00:35.940Z",
+    "type": "signals",
+    "rawCount": 35,
+    "newCount": 7
+  },
+  {
     "timestamp": "2026-03-24T14:30:25.421Z",
     "type": "signals",
     "rawCount": 35,
@@ -154,101 +298,5 @@
     "type": "signals",
     "rawCount": 45,
     "newCount": 11
-  },
-  {
-    "timestamp": "2026-03-23T11:00:23.832Z",
-    "type": "signals",
-    "rawCount": 35,
-    "newCount": 5
-  },
-  {
-    "timestamp": "2026-03-23T09:30:16.558Z",
-    "type": "signals",
-    "rawCount": 35,
-    "newCount": 1
-  },
-  {
-    "timestamp": "2026-03-23T09:20:28.765Z",
-    "type": "signals",
-    "rawCount": 35,
-    "newCount": 35
-  },
-  {
-    "timestamp": "2026-03-17T08:00:12.117Z",
-    "type": "signals",
-    "rawCount": 46,
-    "newCount": 0
-  },
-  {
-    "timestamp": "2026-03-17T07:53:14.553Z",
-    "type": "signals",
-    "rawCount": 47,
-    "newCount": 5
-  },
-  {
-    "timestamp": "2026-03-17T06:00:28.310Z",
-    "type": "signals",
-    "rawCount": 46,
-    "newCount": 1
-  },
-  {
-    "timestamp": "2026-03-17T05:30:20.578Z",
-    "type": "signals",
-    "rawCount": 35,
-    "newCount": 10
-  },
-  {
-    "timestamp": "2026-03-17T05:30:14.649Z",
-    "type": "signals",
-    "rawCount": 58,
-    "newCount": 11
-  },
-  {
-    "timestamp": "2026-03-16T21:00:22.340Z",
-    "type": "signals",
-    "rawCount": 47,
-    "newCount": 0
-  },
-  {
-    "timestamp": "2026-03-16T20:37:56.752Z",
-    "type": "signals",
-    "rawCount": 35,
-    "newCount": 0
-  },
-  {
-    "timestamp": "2026-03-16T20:30:09.868Z",
-    "type": "signals",
-    "rawCount": 45,
-    "newCount": 0
-  },
-  {
-    "timestamp": "2026-03-16T20:00:22.960Z",
-    "type": "signals",
-    "rawCount": 45,
-    "newCount": 0
-  },
-  {
-    "timestamp": "2026-03-16T19:39:07.070Z",
-    "type": "signals",
-    "rawCount": 45,
-    "newCount": 0
-  },
-  {
-    "timestamp": "2026-03-16T19:30:11.713Z",
-    "type": "signals",
-    "rawCount": 35,
-    "newCount": 0
-  },
-  {
-    "timestamp": "2026-03-16T19:27:01.746Z",
-    "type": "signals",
-    "rawCount": 58,
-    "newCount": 12
-  },
-  {
-    "timestamp": "2026-03-16T19:23:20.997Z",
-    "type": "signals",
-    "rawCount": 46,
-    "newCount": 46
   }
 ]

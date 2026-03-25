@@ -67,7 +67,7 @@ Format as a formal notification letter to lead reinsurers. Include: event refere
           {notifLoading?<><div className="ai-loading" style={{transform:'scale(.7)'}}><span/><span/><span/></div>Drafting notification…</>:<><span>◆</span>Draft Reinsurer Notification</>}
         </button>
         {notifOutput&&<div>
-          <div style={{fontFamily:'IBM Plex Mono',fontSize:9,color:'#92400E',textTransform:'uppercase',letterSpacing:'.06em',margin:'8px 0 4px'}}>Notification Draft</div>
+          <div style={{fontFamily:'IBM Plex Mono',fontSize:9,color:'var(--ink-2)',textTransform:'uppercase',letterSpacing:'.06em',margin:'8px 0 4px'}}>Notification Draft</div>
           <div className="rei-output"><Markdown>{notifOutput}</Markdown></div>
           <button onClick={()=>{setNotifOutput(null);lsSet(`${cacheKey}_notif`,null)}} style={{fontFamily:'IBM Plex Mono',fontSize:9,color:'var(--ink-4)',background:'none',border:'none',cursor:'pointer',marginTop:4,opacity:.7}}>↺ Regenerate</button>
         </div>}

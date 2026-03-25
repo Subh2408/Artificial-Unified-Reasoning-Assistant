@@ -1,9 +1,9 @@
 export const DEPTS = [
-  { key: 'risk_compliance', label: 'Risk & Compliance', desc: 'Sanctions · Regulatory · Geopolitical exposure', dotColor: '#0057B7' },
-  { key: 'claims',          label: 'Claims',            desc: 'Marine · War Risk · Energy · Cyber',          dotColor: '#C8001E' },
-  { key: 'underwriting',    label: 'Underwriting',      desc: 'Marine · Energy · Specialty lines',           dotColor: '#065F46' },
-  { key: 'reinsurance',     label: 'Reinsurance',       desc: 'Treaty · Catastrophe · Accumulation',         dotColor: '#92400E' },
-  { key: 'investments',     label: 'Investments',       desc: 'Fixed income · Equities · Alternatives',      dotColor: '#6D28D9' },
+  { key: 'risk_compliance', label: 'Risk & Compliance', desc: 'Sanctions, regulatory and geopolitical monitoring', dotColor: '#1E3A5F', capabilities: ['Sanctions screening alerts', 'Regulatory change tracker', 'Compliance action briefs'] },
+  { key: 'claims',          label: 'Claims',            desc: 'Loss reserving and coverage analysis across all lines', dotColor: '#B22222', capabilities: ['Loss reserve AI assistant', 'Coverage trigger checklists', 'Claims-specific situation briefs'] },
+  { key: 'underwriting',    label: 'Underwriting',      desc: 'Appetite signals, rate guidance and exclusion drafting', dotColor: '#6B7280', capabilities: ['Appetite signal monitor', 'Rate impact modelling', 'Exclusion clause drafter'] },
+  { key: 'reinsurance',     label: 'Reinsurance',       desc: 'Treaty capacity, cat modelling and accumulation', dotColor: '#B87900', capabilities: ['Cat event declaration tool', 'Reinsurer notification drafter', 'PML accumulation alerts'] },
+  { key: 'investments',     label: 'Investments',       desc: 'Portfolio stress testing and opportunity scanning', dotColor: '#6B7280', capabilities: ['Portfolio stress scenarios', 'Macro indicator feed', 'Opportunity scanner'] },
 ]
 
 export const DEPT_SUGGESTIONS = {

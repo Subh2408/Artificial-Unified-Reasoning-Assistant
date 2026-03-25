@@ -20,11 +20,10 @@ const { fetchFred }           = require('./sources/fred')
 
 async function runSignalSources() {
   try {
-    const [gdacs, artemis, insurance, gdelt, ofac, fred] = await Promise.allSettled([
+    const [gdacs, artemis, insurance, ofac, fred] = await Promise.allSettled([
       fetchGdacs(),
       fetchArtemis(),
       fetchInsuranceFeeds(),
-      fetchGdelt(),
       fetchOfac(),
       fetchFred(),
     ])
@@ -33,7 +32,6 @@ async function runSignalSources() {
       ...(gdacs.status     === 'fulfilled' ? gdacs.value     : []),
       ...(artemis.status   === 'fulfilled' ? artemis.value   : []),
       ...(insurance.status === 'fulfilled' ? insurance.value : []),
-      ...(gdelt.status     === 'fulfilled' ? gdelt.value     : []),
       ...(ofac.status      === 'fulfilled' ? ofac.value      : []),
       ...(fred.status      === 'fulfilled' ? fred.value      : []),
     ]
@@ -122,6 +120,17 @@ cron.schedule('0 */6 * * *', () => {
   runRegulatorySources().catch(err => console.error('[scheduler] regulation cron error:', err.message))
 })
 
+// Every 6 hours — GDELT (rate-limited, avoid 429s)
+cron.schedule('30 */6 * * *', async () => {
+  console.log('[scheduler] GDELT cron fired')
+  try {
+    const items = await fetchGdelt()
+    if (items.length) await ingestSignals(items)
+  } catch (err) {
+    console.error('[scheduler] GDELT cron error:', err.message)
+  }
+})
+
 // Run once on startup (after a short delay to let the server start)
 setTimeout(async () => {
   try {
@@ -132,6 +141,6 @@ setTimeout(async () => {
   }
 }, 5000)
 
-console.log('[scheduler] cron jobs registered (signals: */30min, regulations: */6h)')
+console.log('[scheduler] cron jobs registered (signals: */30min, regulations: */6h, GDELT: */6h)')
 
 module.exports = { runAll }

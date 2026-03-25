@@ -6,6 +6,7 @@ import DeptImpactAnalysis from '../regulatory/DeptImpactAnalysis'
 import { fmtDate } from '../../utils/format'
 import { getRegImplications, generateRegImplications } from '../../api/client'
 import { DEPTS } from '../../constants/depts'
+import CollapsibleSection from '../CollapsibleSection'
 
 const NO_MATERIAL = 'No material implication for this department based on the current regulatory scope.'
 
@@ -87,8 +88,8 @@ export default function RegulationDetail({ reg, dept }) {
       </div>
 
       {/* ── Department Implications ── */}
-      <div className="dept-impl-section">
-        <div className="dept-impl-label">DEPARTMENT IMPLICATIONS</div>
+      <CollapsibleSection label="Department Implications" storageKey="aura_col_reg_impl">
+      <div className="dept-impl-section" style={{ marginBottom: 0 }}>
 
         {implError && (
           <div style={{ background: 'var(--urgent-bg)', border: '1px solid var(--urgent-border)', borderRadius: 5, padding: '8px 12px', marginBottom: 10, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
@@ -149,9 +150,18 @@ export default function RegulationDetail({ reg, dept }) {
           })}
         </div>
       </div>
+      </CollapsibleSection>
 
-      {isAmendment && <VersionComparison reg={reg} />}
-      {isRCDept && <DeptImpactAnalysis reg={reg} />}
+      {isAmendment && (
+        <CollapsibleSection label="Version Comparison" storageKey="aura_col_reg_vc">
+          <VersionComparison reg={reg} />
+        </CollapsibleSection>
+      )}
+      {isRCDept && (
+        <CollapsibleSection label="Department Impact Analysis" storageKey="aura_col_reg_dia">
+          <DeptImpactAnalysis reg={reg} />
+        </CollapsibleSection>
+      )}
 
       <AiPanel sitId={reg.id} dept={dept} isReg={true} regData={reg} />
 

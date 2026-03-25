@@ -113,6 +113,15 @@ export async function evaluateThresholds(situation, deptKey) {
   return data.alerts || []
 }
 
+// ── Situation evolution history ────────────────────────────────────────────────
+
+export async function getSituationHistory(situationId) {
+  const res = await fetch(`${BASE}/situation-history/${encodeURIComponent(situationId)}`)
+  if (res.status === 404) return null
+  if (!res.ok) return null
+  return res.json()
+}
+
 // ── Regulation department implications ────────────────────────────────────────
 
 export async function getRegImplications(regId) {

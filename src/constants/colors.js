@@ -1,13 +1,13 @@
 export const SEV_COLORS = {
-  ACTIVE:   '#0057B7',
-  CRITICAL: '#C8001E',
-  ELEVATED: '#111318',
+  CRITICAL: '#B22222',
+  ACTIVE:   '#B22222',
+  ELEVATED: '#B87900',
   WATCH:    '#9CA3AF',
 }
 
 export const SRC_DOT = {
-  OFFICIAL:   '#1D4ED8',
-  MARKET:     '#92400E',
-  NEWS:       '#374151',
-  REGULATORY: '#065F46',
+  OFFICIAL:   '#1E3A5F',
+  MARKET:     '#B87900',
+  NEWS:       '#9CA3AF',
+  REGULATORY: '#1E3A5F',
 }

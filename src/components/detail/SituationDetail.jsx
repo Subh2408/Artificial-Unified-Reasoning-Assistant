@@ -1,10 +1,12 @@
 import { DEPTS } from '../../constants/depts'
+import CollapsibleSection from '../CollapsibleSection'
 import { SEV_COLORS, SRC_DOT } from '../../constants/colors'
 import { fmtDT } from '../../utils/format'
 import AiPanel from '../AiPanel'
 import Timeline from '../Timeline'
 import RegActionBanner from './RegActionBanner'
 import ThresholdStatus from './ThresholdStatus'
+import SituationHistory from './SituationHistory'
 import ClaimsPanel from '../dept/ClaimsPanel'
 import UnderwritingPanel from '../dept/UnderwritingPanel'
 import InvestmentsPanel from '../dept/InvestmentsPanel'
@@ -19,7 +21,8 @@ export default function SituationDetail({ sit, dept, signals, regulations, saved
     setSynthesizing(true)
     try { await onSynthesize(sit) } finally { setSynthesizing(false) }
   }
-  const interp = sit.interpretations[dept] || null
+  const isExec = dept === 'executive'
+  const interp = isExec ? null : (sit.interpretations?.[dept] || null)
   const sitSignals = signals.filter((s) => sit.signalIds.includes(s.id))
   const actionRegs = regulations.filter((r) => r.urgency === 'ACTION' && sit.regJurisdictions?.includes(r.jurisdictionCode))
   const isSaved = saved.some((s) => s.situationId === sit.id && s.deptKey === dept)
@@ -55,33 +58,34 @@ export default function SituationDetail({ sit, dept, signals, regulations, saved
       </div>
 
       {interp && (
-        <div className="brief-section">
-          {deptInfo && <div className="brief-dept-label">{deptInfo.label} Brief</div>}
-          <div className="brief-headline">{interp.headline}</div>
-          <div className="brief-detail">{interp.detail}</div>
-          {interp.affectedLines && (
-            <div className="brief-lines">
-              <div className="brief-lines-label">Affected Lines</div>
-              <div className="brief-lines-tags">
-                {interp.affectedLines.map((l) => <span key={l} className="tag">{l}</span>)}
-              </div>
-            </div>
-          )}
-          {interp.actions && (
-            <div className="brief-actions">
-              <div className="brief-actions-label">Actions</div>
-              {interp.actions.map((a, i) => (
-                <div key={i} className={`brief-action-item ${i < 2 ? 'urgent' : ''}`}>
-                  {i < 2 && <span className="urgent-tag">URGENT</span>}
-                  {a}
+        <CollapsibleSection label={`${deptInfo?.label || ''} Brief`} storageKey="aura_col_brief">
+          <div className="brief-section" style={{ marginBottom: 0 }}>
+            <div className="brief-headline">{interp.headline}</div>
+            <div className="brief-detail">{interp.detail}</div>
+            {interp.affectedLines && (
+              <div className="brief-lines">
+                <div className="brief-lines-label">Affected Lines</div>
+                <div className="brief-lines-tags">
+                  {interp.affectedLines.map((l) => <span key={l} className="tag">{l}</span>)}
                 </div>
-              ))}
-            </div>
-          )}
-        </div>
+              </div>
+            )}
+            {interp.actions && (
+              <div className="brief-actions">
+                <div className="brief-actions-label">Actions</div>
+                {interp.actions.map((a, i) => (
+                  <div key={i} className={`brief-action-item ${i < 2 ? 'urgent' : ''}`}>
+                    {i < 2 && <span className="urgent-tag">URGENT</span>}
+                    {a}
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        </CollapsibleSection>
       )}
 
-      {!interp && (
+      {!interp && !isExec && (
         <div className="brief-section">
           <div className="brief-detail" style={{ fontStyle: 'italic', color: 'var(--ink-4)' }}>
             Select a department from the sidebar to see a tailored brief for this situation.
@@ -89,20 +93,35 @@ export default function SituationDetail({ sit, dept, signals, regulations, saved
         </div>
       )}
 
-      {['claims','underwriting','reinsurance','investments','risk_compliance'].includes(dept) && (
+      {isExec && (
+        <div className="brief-section">
+          <div className="brief-detail">{sit.summary}</div>
+        </div>
+      )}
+
+      <SituationHistory situationId={sit.id} />
+
+      {!isExec && ['claims','underwriting','reinsurance','investments','risk_compliance'].includes(dept) && (
         <ThresholdStatus situationId={sit.id} deptKey={dept} situation={sit} />
       )}
 
-      <AiPanel sitId={sit.id} dept={dept} situation={sit} />
+      {!isExec && <AiPanel sitId={sit.id} dept={dept} situation={sit} />}
 
-      {dept === 'claims'       && <ClaimsPanel sit={sit} />}
-      {dept === 'underwriting' && <UnderwritingPanel sit={sit} />}
-      {dept === 'investments'  && <InvestmentsPanel sit={sit} />}
-      {dept === 'reinsurance'  && <ReinsurancePanel sit={sit} />}
+      {['claims','underwriting','reinsurance','investments'].includes(dept) && (
+        <CollapsibleSection label="Department Tools" storageKey="aura_col_dept_tools">
+          {dept === 'claims'       && <ClaimsPanel sit={sit} />}
+          {dept === 'underwriting' && <UnderwritingPanel sit={sit} />}
+          {dept === 'investments'  && <InvestmentsPanel sit={sit} />}
+          {dept === 'reinsurance'  && <ReinsurancePanel sit={sit} />}
+        </CollapsibleSection>
+      )}
 
-      <Timeline signals={sitSignals} />
+      <CollapsibleSection label="Signal Timeline" storageKey="aura_col_timeline" defaultOpen={false}>
+        <Timeline signals={sitSignals} />
+      </CollapsibleSection>
 
-      <div className="signal-list">
+      <CollapsibleSection label={`Signals (${sitSignals.length})`} storageKey="aura_col_signals" defaultOpen={false}>
+      <div className="signal-list" style={{ marginBottom: 0 }}>
         <div className="signal-list-label">Signals ({sitSignals.length})</div>
         {sitSignals.map((sig) => (
           <div key={sig.id} className="signal-row">
@@ -119,6 +138,7 @@ export default function SituationDetail({ sit, dept, signals, regulations, saved
           </div>
         ))}
       </div>
+      </CollapsibleSection>
     </>
   )
 }

@@ -1,10 +1,11 @@
-import { useState, useMemo, useEffect, useCallback } from 'react'
+import { useState, useMemo, useEffect } from 'react'
 import { DEPTS } from '../../constants/depts'
 import HeroCard from './HeroCard'
 import { SitCard, SignalCard, RegCard } from './Cards'
 import ComplianceActionDash from '../regulatory/ComplianceActionDash'
 import RegQueryAssistant from '../regulatory/RegQueryAssistant'
 import Markdown from '../Markdown'
+import AuraMap from '../map/AuraMap'
 import { getThresholdAlerts } from '../../api/client'
 
 export default function Feed({
@@ -22,7 +23,7 @@ export default function Feed({
 
   // Load cached threshold alerts for top situations (async, non-blocking)
   useEffect(() => {
-    const topSits = [...situations].sort((a, b) => b.scores[dept] - a.scores[dept]).slice(0, 6)
+    const topSits = [...situations].sort((a, b) => (b.scores?.[dept] || 0) - (a.scores?.[dept] || 0)).slice(0, 6)
     const map = {}
     Promise.all(topSits.map(async (s) => {
       try {
@@ -38,9 +39,17 @@ export default function Feed({
     })).then(() => setThresholdMap(map))
   }, [dept, situations])
 
+  const isExec = dept === 'executive'
   const ranked = useMemo(
-    () => [...situations].sort((a, b) => b.scores[dept] - a.scores[dept]),
-    [dept, situations]
+    () => [...situations].sort((a, b) => {
+      if (isExec) {
+        const maxA = Math.max(...Object.values(a.scores || {}))
+        const maxB = Math.max(...Object.values(b.scores || {}))
+        return maxB - maxA
+      }
+      return (b.scores?.[dept] || 0) - (a.scores?.[dept] || 0)
+    }),
+    [dept, situations, isExec]
   )
 
   const actionRegsFor = (sit) =>
@@ -49,7 +58,7 @@ export default function Feed({
   const filtered = useMemo(() => {
     const q = search.toLowerCase()
     if (view === 'situations')
-      return ranked.filter((s) => !q || s.title.toLowerCase().includes(q) || s.subtitle.toLowerCase().includes(q))
+      return ranked.filter((s) => !q || s.title.toLowerCase().includes(q) || (s.subtitle || '').toLowerCase().includes(q))
     if (view === 'signals')
       return signals.filter((s) => !q || s.title.toLowerCase().includes(q) || s.source.toLowerCase().includes(q))
     if (view === 'regulations')
@@ -73,13 +82,15 @@ export default function Feed({
   return (
     <div className="feed">
       <div className="feed-header">
-        <button className="morning-brief-btn" onClick={onMorningBrief}>
-          <div className="mbtn-left">
-            <span className="mbtn-tag">◆ AI</span>
-            <span className="mbtn-label">{deptInfo?.label} Morning Brief</span>
+        {!isExec && (
+          <div className="morning-panel-trigger" onClick={onMorningBrief}>
+            <div className="morning-panel-trigger-left">
+              <span className="morning-trigger-label">◆ Morning brief</span>
+              <span className="morning-trigger-dept">{deptInfo?.label} · {new Date().toLocaleDateString('en-GB',{day:'numeric',month:'short'})}</span>
+            </div>
+            <span className="morning-trigger-arrow">{morningBrief === 'loading' ? '…' : morningBrief ? '▼' : '→'}</span>
           </div>
-          <span className="mbtn-arrow">{morningBrief === 'loading' ? '…' : morningBrief ? '↺' : '→'}</span>
-        </button>
+        )}
         <div className="feed-toggle">
           <button className={`feed-toggle-btn ${view === 'situations' ? 'active' : ''}`} onClick={() => setView('situations')}>SITUATIONS</button>
           <button className={`feed-toggle-btn ${view === 'signals' ? 'active' : ''}`} onClick={() => setView('signals')}>SIGNALS</button>
@@ -148,7 +159,18 @@ export default function Feed({
         <RegQueryAssistant regulations={regulations} />
       )}
 
-      <div className="feed-list">
+      {view === 'map' && (
+        <div style={{ height: 'calc(100vh - 140px)' }}>
+          <AuraMap
+            situations={situations}
+            signals={signals}
+            onSelectSituation={(s) => onSelect('situation', s)}
+            onSelectSignal={(s) => onSelect('signal', s)}
+          />
+        </div>
+      )}
+
+      {view !== 'map' && <div className="feed-list">
         {dept === 'risk_compliance' && view === 'regulations' && (
           <ComplianceActionDash regulations={regulations} onSelectReg={(r) => onSelect('regulation', r)} />
         )}
@@ -168,7 +190,7 @@ export default function Feed({
             {filtered.map((r) => <RegCard key={r.id} reg={r} selected={selectedId === r.id} onClick={() => onSelect('regulation', r)} />)}
           </>
         )}
-      </div>
+      </div>}
     </div>
   )
 }

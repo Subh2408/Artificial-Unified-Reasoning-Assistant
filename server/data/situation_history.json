@@ -1,0 +1,150 @@
+{
+  "sit_gen_1": [
+    {
+      "timestamp": "2026-03-24T15:09:17.931Z",
+      "severity": "CRITICAL",
+      "confidence": 88,
+      "signalCount": 3,
+      "title": "Middle East Escalation Drives War Risk Surge"
+    },
+    {
+      "timestamp": "2026-03-24T15:59:56.483Z",
+      "severity": "CRITICAL",
+      "confidence": 92,
+      "signalCount": 5,
+      "title": "Iran-Israel War Disrupts Gulf Energy Markets"
+    },
+    {
+      "timestamp": "2026-03-24T16:05:01.731Z",
+      "severity": "CRITICAL",
+      "confidence": 92,
+      "signalCount": 4,
+      "title": "Arabian Gulf War Risk Escalation Disrupting Energy Trade"
+    },
+    {
+      "timestamp": "2026-03-24T16:08:14.281Z",
+      "severity": "CRITICAL",
+      "confidence": 91,
+      "signalCount": 5,
+      "title": "Arabian Gulf War Risk Escalation Threatening Energy Assets"
+    },
+    {
+      "timestamp": "2026-03-25T15:44:38.356Z",
+      "severity": "CRITICAL",
+      "confidence": 95,
+      "signalCount": 5,
+      "title": "Hormuz Strait War Risk Escalation Crisis"
+    }
+  ],
+  "sit_gen_2": [
+    {
+      "timestamp": "2026-03-24T15:09:17.933Z",
+      "severity": "ELEVATED",
+      "confidence": 85,
+      "signalCount": 7,
+      "title": "ILS and Reinsurance Market Profit Cycle Peaks"
+    },
+    {
+      "timestamp": "2026-03-24T15:59:56.490Z",
+      "severity": "ELEVATED",
+      "confidence": 87,
+      "signalCount": 8,
+      "title": "ILS and Reinsurance Capital Markets Surge"
+    },
+    {
+      "timestamp": "2026-03-24T16:05:01.732Z",
+      "severity": "ELEVATED",
+      "confidence": 88,
+      "signalCount": 8,
+      "title": "ILS Market Momentum and Cat Bond Capacity Expansion"
+    },
+    {
+      "timestamp": "2026-03-24T16:08:14.282Z",
+      "severity": "ELEVATED",
+      "confidence": 85,
+      "signalCount": 7,
+      "title": "Climate-Driven Protection Gap and Catastrophe Model Updates"
+    },
+    {
+      "timestamp": "2026-03-25T15:44:38.358Z",
+      "severity": "ELEVATED",
+      "confidence": 85,
+      "signalCount": 6,
+      "title": "Catastrophe Bond Market Softening and Capital Efficiency Push"
+    }
+  ],
+  "sit_gen_3": [
+    {
+      "timestamp": "2026-03-24T15:09:17.936Z",
+      "severity": "ELEVATED",
+      "confidence": 78,
+      "signalCount": 8,
+      "title": "US Regulatory and Liability Risk Landscape Shifts"
+    },
+    {
+      "timestamp": "2026-03-24T15:59:56.492Z",
+      "severity": "ELEVATED",
+      "confidence": 83,
+      "signalCount": 5,
+      "title": "Climate Risk Widens Insurance Protection Gaps"
+    },
+    {
+      "timestamp": "2026-03-24T16:05:01.733Z",
+      "severity": "ELEVATED",
+      "confidence": 82,
+      "signalCount": 4,
+      "title": "Climate Risk Pricing Gaps and Protection Gap Widening"
+    },
+    {
+      "timestamp": "2026-03-24T16:08:14.284Z",
+      "severity": "ACTIVE",
+      "confidence": 80,
+      "signalCount": 7,
+      "title": "US Regulatory and Liability Pressure Across Industrial Lines"
+    },
+    {
+      "timestamp": "2026-03-25T15:44:38.360Z",
+      "severity": "ACTIVE",
+      "confidence": 82,
+      "signalCount": 4,
+      "title": "Cyber Risk Escalation Amid Geopolitical Tensions"
+    }
+  ],
+  "sit_gen_4": [
+    {
+      "timestamp": "2026-03-24T15:09:17.938Z",
+      "severity": "ACTIVE",
+      "confidence": 80,
+      "signalCount": 8,
+      "title": "Mega-Project and Catastrophe Property Risk Concentration"
+    },
+    {
+      "timestamp": "2026-03-24T15:59:56.495Z",
+      "severity": "ACTIVE",
+      "confidence": 78,
+      "signalCount": 7,
+      "title": "US Regulatory and Liability Landscape Shifts"
+    },
+    {
+      "timestamp": "2026-03-24T16:05:01.734Z",
+      "severity": "ACTIVE",
+      "confidence": 78,
+      "signalCount": 8,
+      "title": "US Regulatory and Liability Risk Environment Tightening"
+    },
+    {
+      "timestamp": "2026-03-24T16:08:14.285Z",
+      "severity": "WATCH",
+      "confidence": 72,
+      "signalCount": 9,
+      "title": "Specialty Insurance Market Structural Realignment and Capacity Shifts"
+    },
+    {
+      "timestamp": "2026-03-25T15:44:38.361Z",
+      "severity": "ELEVATED",
+      "confidence": 78,
+      "signalCount": 5,
+      "title": "Climate and Property Insurance Protection Gap Widening"
+    }
+  ]
+}

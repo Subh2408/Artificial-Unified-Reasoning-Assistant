@@ -3,14 +3,14 @@ import { getThresholdAlerts, evaluateThresholds } from '../../api/client'
 
 const BADGE_STYLES = {
   low:     { bg: 'var(--surface-2)', color: 'var(--ink-4)', border: 'var(--border)' },
-  medium:  { bg: '#FFFBEB', color: '#92400E', border: '#FDE68A' },
-  caution: { bg: '#FFFBEB', color: '#D97706', border: '#FDE68A' },
+  medium:  { bg: 'var(--caution-bg)', color: 'var(--caution)', border: 'var(--caution-border)' },
+  caution: { bg: 'var(--caution-bg)', color: 'var(--caution)', border: 'var(--caution-border)' },
   alert:   { bg: 'var(--urgent-bg)', color: 'var(--urgent)', border: 'var(--urgent-border)' },
   breach:  { bg: 'var(--urgent)', color: '#fff', border: 'var(--urgent)' },
 }
 
 const BAR_COLORS = {
-  low: 'var(--ink-4)', medium: '#D97706', caution: '#D97706', alert: 'var(--urgent)', breach: 'var(--urgent)',
+  low: 'var(--ink-4)', medium: 'var(--caution)', caution: 'var(--caution)', alert: 'var(--urgent)', breach: 'var(--urgent)',
 }
 
 export default function ThresholdStatus({ situationId, deptKey, situation }) {

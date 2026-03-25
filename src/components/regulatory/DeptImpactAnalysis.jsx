@@ -3,10 +3,10 @@ import { lsGet, lsSet } from '../../utils/storage'
 import { callClaude } from '../../api/client'
 
 const IMPACT_DEPTS=[
-  {key:'claims',label:'Claims',dotColor:'#C8001E'},
-  {key:'underwriting',label:'Underwriting',dotColor:'#065F46'},
-  {key:'reinsurance',label:'Reinsurance',dotColor:'#92400E'},
-  {key:'investments',label:'Investments',dotColor:'#6D28D9'},
+  {key:'claims',label:'Claims',dotColor:'#B22222'},
+  {key:'underwriting',label:'Underwriting',dotColor:'#6B7280'},
+  {key:'reinsurance',label:'Reinsurance',dotColor:'#B87900'},
+  {key:'investments',label:'Investments',dotColor:'#6B7280'},
 ];
 
 function DeptImpactAnalysis({reg}){

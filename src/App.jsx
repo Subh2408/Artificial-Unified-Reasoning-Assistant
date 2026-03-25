@@ -106,6 +106,7 @@ export default function App() {
     setShowGate(false)
     setMorningBrief(null)
     setFeedView(d === 'risk_compliance' ? 'regulations' : 'situations')
+    if (d === 'executive') setAlertCount(0)
   }
 
   const switchDept = () => {

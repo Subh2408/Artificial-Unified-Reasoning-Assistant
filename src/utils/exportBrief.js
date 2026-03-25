@@ -17,10 +17,10 @@ h2{font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.1em;text-
 p{color:#374151;margin:0 0 8px;line-height:1.65}
 .headline{font-size:14px;font-weight:600;color:#111318;margin:0 0 10px}
 .action{padding:4px 0;display:flex;gap:8px;font-size:11px;color:#374151;align-items:flex-start}
-.action-urgent{color:#C8001E;font-weight:500}
+.action-urgent{color:#B22222;font-weight:500}
 .action::before{content:"→";color:#9CA3AF;flex-shrink:0}
-.action-urgent::before{color:#C8001E}
-.utag{font-family:'IBM Plex Mono',monospace;font-size:8px;background:#FEF2F2;color:#C8001E;border:1px solid #FECACA;padding:1px 4px;border-radius:2px;margin-right:4px}
+.action-urgent::before{color:#B22222}
+.utag{font-family:'IBM Plex Mono',monospace;font-size:8px;background:#FEF2F2;color:#B22222;border:1px solid #FECACA;padding:1px 4px;border-radius:2px;margin-right:4px}
 .tags{display:flex;gap:4px;flex-wrap:wrap;margin:6px 0}
 .tag{font-family:'IBM Plex Mono',monospace;font-size:9px;padding:2px 6px;background:#F3F4F6;border:1px solid #E2E4E8;border-radius:2px;color:#6B7280}
 .sev{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.06em;font-weight:500}
@@ -30,7 +30,7 @@ p{color:#374151;margin:0 0 8px;line-height:1.65}
   <div><div class="logo">AURA</div><div class="logo-sub">INSURANCE INTELLIGENCE · DOHA</div></div>
   <div class="meta"><div>${deptLabel.toUpperCase()}</div><div>10 March 2026</div><div>Ref: ${sit.id.toUpperCase()}</div></div>
 </div>
-<span class="sev" style="color:${SEV_COLORS[sit.severity]}">${sit.severity}</span>${sit.isLive?' <span style="background:#0057B7;color:#fff;font-family:IBM Plex Mono,monospace;font-size:9px;padding:2px 6px;border-radius:2px;letter-spacing:.06em">LIVE</span>':''}
+<span class="sev" style="color:${SEV_COLORS[sit.severity]}">${sit.severity}</span>${sit.isLive?' <span style="background:#1E3A5F;color:#fff;font-family:IBM Plex Mono,monospace;font-size:9px;padding:2px 6px;border-radius:2px;letter-spacing:.06em">LIVE</span>':''}
 <h1>${sit.title}</h1>
 <p style="color:#6B7280;font-size:13px;margin-bottom:8px">${sit.subtitle}</p>
 <div class="tags">${sit.category.map(c=>`<span class="tag">${c}</span>`).join('')}</div>

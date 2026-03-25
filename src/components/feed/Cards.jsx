@@ -29,14 +29,12 @@ export function SitCard({ sit, selected, dept, actionRegs, onClick, thresholdAle
 }
 
 export function SignalCard({ sig, selected, onClick }) {
-  const isLive = sig.id?.startsWith('live_')
   const desc = sig.description || ''
   return (
     <div className={`card ${selected ? 'selected' : ''}`} onClick={onClick}>
       <div className="card-sev-bar" style={{ background: SRC_DOT[sig.sourceType] || '#374151' }} />
       <div className="card-body">
         <div className="card-eyebrow">
-          {isLive && <span className="live-badge">LIVE</span>}
           <span className={`src-badge src-${sig.sourceType.toLowerCase()}`}>{sig.sourceType}</span>
           <span style={{ fontFamily: 'IBM Plex Mono', fontSize: 9, color: 'var(--ink-4)' }}>{sig.source}</span>
           <span className="ts-label">{fmtDT(sig.timestamp)}</span>

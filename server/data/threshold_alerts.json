@@ -1,139 +1,177 @@
 {
-  "sit1_underwriting": {
+  "sit_gen_2_risk_compliance": {
     "alerts": [
       {
-        "id": "uw_gulf_war_aggregate",
-        "impact_level": "breach",
-        "estimated_pct": 95,
-        "confidence": 85,
-        "reasoning": "With 150 vessels stranded and P&I clubs cancelling war risk coverage, the Gulf War Risk Aggregate is under extreme pressure — as Qatar's largest insurer with significant Gulf exposure, accumulated war risk and marine hull war endorsements across a stranded fleet of this scale will very likely exhaust and exceed the QAR 275M aggregate limit.",
-        "action": "Immediately convene a war risk committee, freeze all new and renewal Gulf war risk bindings, and conduct an emergency portfolio triage to quantify aggregated exposure across all 150+ affected vessels.",
-        "label": "Gulf War Risk Aggregate Limit"
+        "id": "rc_solvency_ratio",
+        "impact_level": "low",
+        "confidence": 55,
+        "reasoning": "Profit cycle peaks and new ILS capital inflows may compress reinsurance pricing, potentially affecting future cession economics, but near-term solvency ratios are more likely supported than stressed by current market profitability conditions.",
+        "action": "Stress-test solvency projections under a softening reinsurance pricing scenario heading into the 2026 hurricane season to ensure QCB buffers remain adequate if retrocession costs rise unexpectedly.",
+        "label": "QCB Minimum Solvency Ratio",
+        "estimated_pct": 15
       },
       {
-        "id": "uw_marine_hull_gross",
-        "impact_level": "alert",
-        "estimated_pct": 82,
-        "confidence": 75,
-        "reasoning": "150 stranded vessels represent substantial hull exposure; even assuming moderate per-vessel values and partial portfolio penetration, the gross marine hull portfolio of QAR 520M faces severe stress given the Hormuz closure's systemic nature affecting the entire Gulf fleet.",
-        "action": "Run an immediate hull exposure report segmented by vessel location and flag state to identify all policies with Arabian Gulf trading warranties, and place reinsurance partners on standby notification.",
-        "label": "Marine Hull Portfolio Gross Value"
-      },
-      {
-        "id": "uw_energy_gross",
-        "impact_level": "caution",
-        "estimated_pct": 60,
-        "confidence": 70,
-        "reasoning": "Hormuz closure directly disrupts LNG, oil, and petrochemical platforms and terminals in the Gulf, creating significant energy sector claims exposure for business interruption and physical damage, though the QAR 380M limit provides some buffer if onshore energy assets are less directly affected than offshore and marine-linked risks.",
-        "action": "Identify all energy policies with Arabian Gulf operational locations, particularly offshore platforms and LNG terminals, and assess contingent business interruption triggers across the energy book.",
-        "label": "Energy Portfolio Gross Value"
-      },
-      {
-        "id": "uw_single_risk_retention",
-        "impact_level": "alert",
-        "estimated_pct": 88,
-        "confidence": 72,
-        "reasoning": "High-value individual vessels — VLCCs, LNG carriers, and large bulk carriers transiting Hormuz — likely carry hull and war risk values well above QAR 18M net retention per risk, and with reinsurers likely invoking war escalation clauses, net retention per single vessel could approach or breach the limit.",
-        "action": "Pull all facultative and treaty reinsurance confirmations for Gulf-exposed single risks immediately to verify net retention positions, and escalate any vessel where gross insured value exceeds QAR 180M to the CUO for manual retention review.",
-        "label": "Maximum Single Risk Retention"
+        "id": "rc_concentration_single_cedant",
+        "impact_level": "medium",
+        "confidence": 65,
+        "reasoning": "Robust ILS investor appetite and excess market capacity may incentivise the portfolio to accept larger shares from single cedants seeking to place expanded cat programmes, increasing single-cedant reinsurance concentration risk.",
+        "action": "Review current reinsurance acceptances from top cedants against the concentration limit and enforce pre-approval controls before any incremental capacity is offered to existing large cedants capitalising on the soft pricing environment.",
+        "label": "Single Cedant Concentration Limit",
+        "estimated_pct": 35
       }
     ],
-    "evaluatedAt": "2026-03-23T17:39:08.757Z"
+    "evaluatedAt": "2026-03-24T15:45:17.409Z"
   },
   "sit_gen_2_underwriting": {
     "alerts": [
       {
         "id": "uw_single_risk_retention",
         "impact_level": "low",
-        "estimated_pct": 15,
-        "confidence": 45,
-        "reasoning": "The US multi-CAT scenario creates aggregated portfolio pressure rather than a single-risk retention breach; individual risk retentions are unlikely to be threatened unless a specific large property or agricultural risk in Hawaii, Nebraska, or the Southwest approaches the QAR 18M net retention limit, which is plausible but not confirmed by available information.",
-        "action": "Underwriting should immediately audit all US property, agricultural, and specialty CAT risks currently held near or above QAR 14.4M net retention to confirm reinsurance recoveries are properly structured before Q1 close.",
-        "label": "Maximum Single Risk Retention"
+        "confidence": 55,
+        "reasoning": "ILS market profit cycle peaks and increased third-party capital inflows may tempt underwriters to accept larger net retentions on individual risks as reinsurance pricing softens and cedants face pressure to grow premiums, but this is an indirect market dynamic rather than an event causing immediate retention breaches.",
+        "action": "Underwriting leadership should issue a standing instruction to hold net retention decisions to current approved limits and flag any requests for increased single-risk retention to the CUO for explicit sign-off before binding, given the softening reinsurance pricing environment.",
+        "label": "Maximum Single Risk Retention",
+        "estimated_pct": 15
       }
     ],
-    "evaluatedAt": "2026-03-23T17:41:13.748Z"
+    "evaluatedAt": "2026-03-24T15:46:51.504Z"
   },
-  "sit_gen_2_reinsurance": {
+  "sit_gen_1_underwriting": {
     "alerts": [
       {
-        "id": "rei_cat_treaty_aggregate",
+        "id": "uw_gulf_war_aggregate",
+        "impact_level": "alert",
+        "confidence": 82,
+        "reasoning": "Iran's sustained missile campaign against Israel directly activates war risk exposures across Gulf-proximate assets, and as Qatar's largest insurer with significant MENA portfolio concentration, accumulated war risk and marine hull exposures in the Gulf region are likely approaching the upper bound of aggregate tolerance under current escalation parameters.",
+        "action": "Underwriting must immediately run a full Gulf war risk accumulation report, identify all in-force policies without adequate war exclusion clauses, and freeze new war risk binding authority pending a senior committee review of aggregate headroom.",
+        "label": "Gulf War Risk Aggregate Limit",
+        "estimated_pct": 85
+      },
+      {
+        "id": "uw_single_risk_retention",
         "impact_level": "medium",
-        "estimated_pct": 30,
-        "confidence": 55,
-        "reasoning": "Three concurrent US Q1 CAT events create meaningful aggregate erosion, but as a Qatar-domiciled Gulf-focused insurer, direct US property/ag CAT exposure is likely limited to facultative and specialty lines, consuming an estimated 25-35% of the QAR 950M aggregate limit before Atlantic hurricane season begins.",
-        "action": "Reinsurance team should urgently quantify Q1 US CAT aggregate consumption against annual deductibles and model remaining capacity headroom ahead of the June-November hurricane season.",
-        "label": "Cat Treaty Aggregate Limit"
-      },
-      {
-        "id": "rei_per_occurrence_retention",
-        "impact_level": "low",
-        "estimated_pct": 15,
-        "confidence": 60,
-        "reasoning": "Each individual event (Hawaii flooding, Nebraska wildfires, Southwest heat) likely represents a separate occurrence, each generating moderate net retained losses well within the QAR 110M per-occurrence retention given limited Gulf-insurer direct US property concentration.",
-        "action": "Claims and actuarial teams should confirm occurrence definitions in treaty wordings and assign each US CAT event to distinct occurrence buckets to avoid inadvertent aggregation under a single retention.",
-        "label": "Per-Occurrence Net Retention"
-      },
-      {
-        "id": "rei_retrocession_ceiling",
-        "impact_level": "low",
-        "estimated_pct": 12,
-        "confidence": 45,
-        "reasoning": "Retrocession cover is unlikely to be materially triggered by these secondary-peril US events at current estimated loss magnitudes for a Gulf-based insurer; however, ILS market re-pricing signaled by USAA cat bond adjustments could reduce available retrocession capacity at renewal, indirectly pressuring this ceiling.",
-        "action": "Retrocession counterparty relationships should be reviewed now to lock in capacity terms before ILS re-pricing hardens mid-year retrocession renewals and reduces available cover against the peak hurricane season.",
-        "label": "Retrocession Cover Ceiling"
+        "confidence": 68,
+        "reasoning": "While individual large asset exposures — such as petrochemical facilities, LNG terminals, or marine hull on Gulf-flagged vessels — may approach single-risk retention ceilings under a conflict scenario, the distributed nature of the escalation means peak single-risk events have not yet been triggered but remain a credible near-term exposure.",
+        "action": "Risk management should audit the five largest single retained risks across all lines for war and terrorism sublimit adequacy, and confirm reinsurance treaty war exclusion carve-backs are in place and inuring correctly before any further Gulf-area binding.",
+        "label": "Maximum Single Risk Retention",
+        "estimated_pct": 35
       }
     ],
-    "evaluatedAt": "2026-03-23T17:41:41.324Z"
+    "evaluatedAt": "2026-03-24T15:46:58.666Z"
   },
-  "sit_gen_2_risk_compliance": {
+  "sit_gen_4_underwriting": {
     "alerts": [
       {
-        "id": "rc_solvency_ratio",
-        "impact_level": "low",
-        "estimated_pct": 10,
-        "confidence": 55,
-        "reasoning": "Compounding US CAT losses (Hawaii floods, Nebraska wildfires, Southwest heat) will erode underwriting profit and increase claims reserves, applying moderate downward pressure on solvency capital, but as Qatar's largest insurer with Gulf-centric balance sheet, US CAT exposure is likely a contained sub-portfolio cushioned by reinsurance recoveries.",
-        "action": "Actuarial and capital management teams should quantify gross-to-net loss estimates across US property, agricultural, and specialty CAT lines and stress-test the solvency ratio under a Q1 aggregate loss scenario before next QCB regulatory reporting cycle.",
-        "label": "QCB Minimum Solvency Ratio"
+        "id": "uw_single_risk_retention",
+        "impact_level": "caution",
+        "confidence": 62,
+        "reasoning": "Mega-project exposures like the SoftBank Ohio data center represent extreme single-risk concentrations that could strain per-risk retention limits, particularly if the portfolio carries facultative or treaty participation in US construction or industrial property without adequate co-insurance or reinsurance backstop for such outsized values.",
+        "action": "Underwriting must immediately audit all in-force US property and construction risks for per-risk TIV against current retention limits, prioritising data center, refinery, and heritage property classes where replacement values may have been underestimated relative to updated catastrophe model outputs.",
+        "label": "Maximum Single Risk Retention",
+        "estimated_pct": 65
       }
     ],
-    "evaluatedAt": "2026-03-23T17:42:27.498Z"
-  },
-  "sit_gen_3_reinsurance": {
-    "alerts": [
-      {
-        "id": "rei_cat_treaty_aggregate",
-        "label": "Cat Treaty Aggregate Limit",
-        "impact_level": "low",
-        "estimated_pct": 15,
-        "confidence": 55,
-        "reasoning": "Market consolidation does not directly trigger loss aggregation against the cat treaty aggregate, but reduced capacity from fewer reinsurers at renewal could compress available cover, leaving residual aggregate exposure if replacement capacity is not fully secured — the risk is structural and forward-looking rather than an immediate claims-driven breach.",
-        "action": "Reinsurance procurement team should audit current cat treaty placements with Starr, IQUW, and Berkshire-linked entities and quantify aggregate gap exposure if any single counterparty reduces or withdraws capacity at mid-year or year-end renewal."
-      },
-      {
-        "id": "rei_per_occurrence_retention",
-        "label": "Per-Occurrence Net Retention",
-        "impact_level": "medium",
-        "estimated_pct": 30,
-        "confidence": 60,
-        "reasoning": "Consolidation among specialty and marine reinsurers increases the probability that renewal negotiations yield higher retentions or narrower per-occurrence coverage terms, meaning the company's net retention per event could creep upward toward or beyond current threshold levels if replacement capacity is not obtained on equivalent terms.",
-        "action": "Risk and reinsurance teams should model worst-case retention scenarios under a 10–20% capacity reduction from consolidating counterparties and stress-test net retention levels against the largest Gulf single-risk and CAT scenarios anticipated for the 2026–27 treaty year."
-      },
-      {
-        "id": "rei_retrocession_ceiling",
-        "label": "Retrocession Cover Ceiling",
-        "impact_level": "medium",
-        "estimated_pct": 35,
-        "confidence": 50,
-        "reasoning": "The consolidation of major reinsurers who are also key retrocession providers — particularly Berkshire-Tokio Marine and Everest's repositioning — reduces the pool of retrocession counterparties, creating a realistic scenario where retrocession cover ceiling utilisation rises as available retro capacity tightens and pricing hardens, forcing reliance on a smaller panel for the same or greater exposure.",
-        "action": "The CRO should direct an immediate review of retrocession panel diversity, flagging any single-counterparty concentration above 20% of the retrocession ceiling, and begin exploratory dialogue with alternative ILS and parametric providers — including NormanMax-style entrants — to pre-position capacity before Q3 2026 renewal discussions."
-      }
-    ],
-    "evaluatedAt": "2026-03-23T17:44:50.098Z"
+    "evaluatedAt": "2026-03-24T15:47:38.810Z"
   },
   "sit_gen_3_underwriting": {
-    "alerts": [],
-    "evaluatedAt": "2026-03-23T17:48:40.457Z"
+    "alerts": [
+      {
+        "id": "uw_single_risk_retention",
+        "impact_level": "low",
+        "confidence": 55,
+        "reasoning": "Fragmented US regulatory shifts create diffuse liability exposure across multiple sectors rather than concentrating loss in a single retained risk, though any individual US general or product liability risk with hemp, IoT, or pipeline exposure could see adverse development that stresses single-risk retention limits.",
+        "action": "Underwriting should audit current US-exposed single-risk retentions — particularly in general liability, product liability, and any hemp or connected-device risks — to confirm pricing adequacy and consider reducing net retention on affected risks pending regulatory clarity.",
+        "label": "Maximum Single Risk Retention",
+        "estimated_pct": 15
+      },
+      {
+        "id": "uw_cyber_aggregate",
+        "impact_level": "low",
+        "confidence": 50,
+        "reasoning": "FCC wireless router import restrictions and IoT/connected device regulatory uncertainty introduce a secondary cyber and product liability nexus, but the situation is primarily a liability and regulatory compliance story rather than a direct cyber loss event driving aggregate cyber claims.",
+        "action": "Cyber underwriters should flag any US-domiciled IoT or connected-device risks within the cyber portfolio for coverage scope review, ensuring silent cyber exposure in product liability policies does not inadvertently accumulate against the cyber aggregate threshold.",
+        "label": "Cyber Portfolio Aggregate",
+        "estimated_pct": 15
+      }
+    ],
+    "evaluatedAt": "2026-03-24T15:48:00.619Z"
+  },
+  "sit_gen_1_reinsurance": {
+    "alerts": [
+      {
+        "id": "rei_cat_treaty_aggregate",
+        "impact_level": "alert",
+        "confidence": 78,
+        "reasoning": "A critical Gulf-wide war risk escalation affecting energy, marine, and business interruption lines simultaneously represents a correlated accumulation event that could rapidly consume the catastrophe treaty aggregate across multiple lines of business with limited diversification benefit.",
+        "action": "Conduct an immediate aggregate utilisation review across all exposed lines and notify lead cat treaty reinsurers of potential aggregate erosion before quarter-end reinstatement windows close.",
+        "label": "Cat Treaty Aggregate Limit",
+        "estimated_pct": 85
+      },
+      {
+        "id": "rei_per_occurrence_retention",
+        "impact_level": "caution",
+        "confidence": 72,
+        "reasoning": "Individual large energy or marine hull losses from missile strikes or Hormuz disruption could each constitute discrete occurrences that stress the net retention layer, particularly given Gulf energy assets carry high TSIs and war risk exclusion triggers may delay reinsurance recovery.",
+        "action": "Review occurrence definition clauses in current treaty wordings to ensure Hormuz-related losses are not aggregated into a single occurrence that overwhelms net retention capacity, and identify any gaps in war risk cover alignment.",
+        "label": "Per-Occurrence Net Retention",
+        "estimated_pct": 65
+      },
+      {
+        "id": "rei_retrocession_ceiling",
+        "impact_level": "breach",
+        "confidence": 80,
+        "reasoning": "As the department brief confirms, retrocessionaires will reassess Gulf war risk aggregates immediately and capacity contraction is likely before quarter-end, meaning the effective retrocession ceiling may be functionally reduced at precisely the moment maximum protection is required.",
+        "action": "Initiate urgent dialogue with retrocession markets today to lock in existing capacity and explore contingency placements before Gulf war risk appetite contracts across Lloyd's and London market retrocessionaires.",
+        "label": "Retrocession Cover Ceiling",
+        "estimated_pct": 100
+      }
+    ],
+    "evaluatedAt": "2026-03-24T16:31:31.408Z"
+  },
+  "sit_gen_3_claims": {
+    "alerts": [
+      {
+        "id": "cl_reserve_buffer",
+        "impact_level": "medium",
+        "confidence": 62,
+        "reasoning": "State-sponsored cyber activity linked to the Iran-Israel conflict risks generating multiple simultaneous claims across cyber business interruption and data breach lines, which could collectively consume a meaningful portion of the open reserve buffer through aggregation rather than any single large event.",
+        "action": "Reserving team should conduct an immediate stress-test of the open reserve buffer against a realistic cyber accumulation scenario assuming concurrent BI and data breach claims across Gulf-exposed commercial policyholders.",
+        "label": "Open Reserve Buffer",
+        "estimated_pct": 35
+      },
+      {
+        "id": "cl_single_loss_max",
+        "impact_level": "low",
+        "confidence": 55,
+        "reasoning": "While individual cyber events can be severe, collateral damage from state-sponsored operations to commercial entities typically produces mid-sized single losses rather than catastrophic single-policy claims, keeping individual reserve requirements below threshold extremes unless a critical infrastructure client is directly hit.",
+        "action": "Underwriting and claims should identify the top five highest cyber-exposed single risks in the portfolio and confirm whether individual policy limits and sub-limits are adequately reflected in current single-loss reserves.",
+        "label": "Maximum Single Loss Reserve",
+        "estimated_pct": 15
+      }
+    ],
+    "evaluatedAt": "2026-03-25T17:37:15.524Z"
+  },
+  "sit_gen_4_claims": {
+    "alerts": [
+      {
+        "id": "cl_reserve_buffer",
+        "impact_level": "medium",
+        "confidence": 62,
+        "reasoning": "JBA's revised flood model outputs may expose reserving mismatches on in-force property and reinsurance treaties where older model assumptions were used, requiring upward reserve adjustments across multiple geographies without a single triggering event.",
+        "action": "Actuarial and reserving teams should urgently reconcile in-force property and reinsurance treaty reserves against JBA's updated Global Flood Model outputs to quantify any IBNR gap before the next reserving cycle.",
+        "label": "Open Reserve Buffer",
+        "estimated_pct": 35
+      },
+      {
+        "id": "cl_single_loss_max",
+        "impact_level": "low",
+        "confidence": 55,
+        "reasoning": "The situation describes a systemic trend and model update rather than a discrete loss event, so individual large single-loss exposures are not immediately triggered, though underpriced flood-exposed properties could crystallise as outsized losses if a qualifying event occurs.",
+        "action": "Underwriting should flag any single property or treaty risk with material flood exposure in APRA-regulated or other high-revision geographies for individual stress-testing against the updated flood model before renewal or new binding.",
+        "label": "Maximum Single Loss Reserve",
+        "estimated_pct": 15
+      }
+    ],
+    "evaluatedAt": "2026-03-25T17:37:18.336Z"
   }
 }

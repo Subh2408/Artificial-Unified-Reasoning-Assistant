@@ -14,7 +14,7 @@ function UnderwritingPanel({sit}){
 
   const setApp=(v)=>{setAppetite(v);lsSet(`aura_uw_appetite_${sit.id}`,v);};
 
-  const appColors={SUSPEND:{bg:'#FEF2F2',border:'#C8001E',text:'#C8001E'},CAUTION:{bg:'#FFFBEB',border:'#D97706',text:'#D97706'},WRITE:{bg:'var(--reg-light)',border:'var(--reg)',text:'var(--reg)'}};
+  const appColors={SUSPEND:{bg:'var(--urgent-bg)',border:'var(--urgent)',text:'var(--urgent)'},CAUTION:{bg:'var(--caution-bg)',border:'var(--caution)',text:'var(--caution)'},WRITE:{bg:'var(--ai-bg)',border:'var(--ai)',text:'var(--ai)'}};
   const appLabels={SUSPEND:'SUSPEND',CAUTION:'CAUTION',WRITE:'WRITE W/ CONDITIONS'};
 
   const genRate=async()=>{

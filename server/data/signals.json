@@ -1,7 +1,456 @@
 [
   {
-    "id": "live_s191",
+    "id": "live_s221",
     "situationId": null,
+    "source": "INSURANCE JOURNAL",
+    "sourceType": "MARKET",
+    "timestamp": "2026-03-25T16:19:10.000Z",
+    "title": "Chaucer, Ceto Launch Lloyd’s Marine MGA, Underwriting With Real-Time Vessel Data",
+    "description": "Chaucer Group and Ceto AI establish Lloyd's-authorized marine MGA leveraging real-time vessel data analytics for hull underwriting. Innovation enhances risk assessment capabilities through technology-driven marine insurance placement.",
+    "tags": [
+      "MARINE",
+      "MGA",
+      "UNDERWRITING",
+      "TECHNOLOGY"
+    ],
+    "relevanceScore": 15,
+    "geography": "Global"
+  },
+  {
+    "id": "live_s222",
+    "situationId": null,
+    "source": "REINSURANCE NEWS",
+    "sourceType": "MARKET",
+    "timestamp": "2026-03-25T16:30:04.000Z",
+    "title": "Aon announces new leadership structure for US reinsurance specialty distribution segment",
+    "description": "Aon restructures US reinsurance specialty distribution leadership to oversee E&S carriers, MGAs, program carriers, and delegated authority platforms. Organizational change reflects market consolidation and operational streamlining.",
+    "tags": [
+      "REINSURANCE",
+      "ORGANIZATION",
+      "DISTRIBUTION"
+    ],
+    "relevanceScore": 6,
+    "geography": "Global"
+  },
+  {
+    "id": "live_s209",
+    "situationId": "sit_gen_3",
+    "source": "ARTEMIS",
+    "sourceType": "MARKET",
+    "timestamp": "2026-03-25T14:35:37.000Z",
+    "title": "Olympus Insurance lowers price guidance again for debut Abacab Re catastrophe bond",
+    "description": "Olympus Insurance reduces pricing guidance for Abacab Re catastrophe bond, seeking $100-150 million reinsurance limit. Reflects challenging capital markets conditions for Florida homeowners catastrophe risk.",
+    "tags": [
+      "CAT BOND",
+      "REINSURANCE",
+      "UNDERWRITING"
+    ],
+    "relevanceScore": 6,
+    "geography": "Global"
+  },
+  {
+    "id": "live_s210",
+    "situationId": "sit_gen_2",
+    "source": "ARTEMIS",
+    "sourceType": "MARKET",
+    "timestamp": "2026-03-25T08:32:31.000Z",
+    "title": "American Coastal seeks $200m Florida multi-peril cover with Armor Re II 2026-1 cat bond",
+    "description": "American Coastal Insurance accesses catastrophe bond market via Armor Re II 2026-1, seeking $200 million multi-peril reinsurance coverage. Demonstrates continued capital market reliance for Florida coastal exposure.",
+    "tags": [
+      "CAT BOND",
+      "REINSURANCE",
+      "PROPERTY"
+    ],
+    "relevanceScore": 6,
+    "geography": "Global"
+  },
+  {
+    "id": "live_s211",
+    "situationId": "sit_gen_4",
+    "source": "ARTEMIS",
+    "sourceType": "MARKET",
+    "timestamp": "2026-03-24T16:15:08.000Z",
+    "title": "Secondary reinsurance market could drive greater capital efficiency, says Howden Re",
+    "description": "Howden Re advocates secondary reinsurance market framework to enhance capital efficiency and portfolio management. Proposes alternative mechanisms for carriers to optimize risk transfer strategies.",
+    "tags": [
+      "REINSURANCE",
+      "CAPITAL MARKETS",
+      "UNDERWRITING"
+    ],
+    "relevanceScore": 6,
+    "geography": "Global"
+  },
+  {
+    "id": "live_s212",
+    "situationId": "sit_gen_1",
+    "source": "INSURANCE JOURNAL",
+    "sourceType": "NEWS",
+    "timestamp": "2026-03-25T11:50:13.000Z",
+    "title": "Iran Demands Crew, Cargo Details to Send Ships Through Hormuz",
+    "description": "Iran requires detailed crew, cargo, and voyage documentation from vessels transiting Strait of Hormuz under Iranian protection. Introduces administrative barriers affecting maritime transit efficiency and P&I exposure.",
+    "tags": [
+      "WAR RISK",
+      "P&I",
+      "SANCTIONS",
+      "MARINE"
+    ],
+    "relevanceScore": 7,
+    "geography": "Arabian Gulf"
+  },
+  {
+    "id": "live_s213",
+    "situationId": "sit_gen_1",
+    "source": "INSURANCE JOURNAL",
+    "sourceType": "NEWS",
+    "timestamp": "2026-03-25T09:30:59.000Z",
+    "title": "Iran Charges Some Ships Hormuz Transit Fees for Safe Passage",
+    "description": "Iran implements transit fees on commercial vessels in Strait of Hormuz, with charges reaching $2 million per voyage. Represents escalating control mechanism with significant cost implications for maritime commerce.",
+    "tags": [
+      "WAR RISK",
+      "MARINE",
+      "SANCTIONS",
+      "P&I"
+    ],
+    "relevanceScore": 4,
+    "geography": "Arabian Gulf"
+  },
+  {
+    "id": "live_s214",
+    "situationId": "sit_gen_1",
+    "source": "INSURANCE JOURNAL",
+    "sourceType": "NEWS",
+    "timestamp": "2026-03-25T09:11:56.000Z",
+    "title": "Israel Strikes Tehran as Iran Launches Wave of Attacks; Pakistan Conveys US Proposal",
+    "description": "Israel conducts strikes on Tehran amid Iranian counterattacks; Pakistan conveys US de-escalation proposal. Heightened geopolitical instability in Gulf region escalates war risk and marine insurance implications.",
+    "tags": [
+      "WAR RISK",
+      "SANCTIONS",
+      "GEOPOLITICAL",
+      "MARINE"
+    ],
+    "relevanceScore": 10,
+    "geography": "Arabian Gulf"
+  },
+  {
+    "id": "live_s215",
+    "situationId": "sit_gen_3",
+    "source": "REINSURANCE NEWS",
+    "sourceType": "MARKET",
+    "timestamp": "2026-03-25T15:00:09.000Z",
+    "title": "Munich Re flags intensifying cyber risk landscape amid geopolitical strains",
+    "description": "Munich Re highlights intensifying cyber risk landscape driven by geopolitical tensions and technological pressures. Emphasizes need for enhanced insurance penetration and organizational cyber resilience strategies.",
+    "tags": [
+      "CYBER RISK",
+      "UNDERWRITING",
+      "RISK MANAGEMENT"
+    ],
+    "relevanceScore": 5,
+    "geography": "Global"
+  },
+  {
+    "id": "live_s216",
+    "situationId": null,
+    "source": "REINSURANCE NEWS",
+    "sourceType": "MARKET",
+    "timestamp": "2026-03-25T14:30:41.000Z",
+    "title": "Rising Edge appoints Doug Robare as Chief Underwriting Officer",
+    "description": "Rising Edge appoints Doug Robare as Chief Underwriting Officer to develop data-led pricing models and new underwriting propositions. Reflects sector focus on analytics-driven risk assessment and competitive differentiation.",
+    "tags": [
+      "UNDERWRITING",
+      "ORGANIZATIONAL",
+      "TALENT"
+    ],
+    "relevanceScore": 6,
+    "geography": "Global"
+  },
+  {
+    "id": "live_s217",
+    "situationId": null,
+    "source": "REINSURANCE NEWS",
+    "sourceType": "MARKET",
+    "timestamp": "2026-03-25T13:30:10.000Z",
+    "title": "Michael Reynolds named AXA XL Head of Marine, UK & Lloyd’s and Global CUO for Hull",
+    "description": "AXA XL names Michael Reynolds as Head of Marine, UK & Lloyd's and Global Hull Chief Underwriting Officer, effective Q3 2026. Signals strategic leadership investment in marine hull underwriting specialty.",
+    "tags": [
+      "MARINE",
+      "HULL",
+      "UNDERWRITING",
+      "ORGANIZATIONAL"
+    ],
+    "relevanceScore": 12,
+    "geography": "Global"
+  },
+  {
+    "id": "live_s218",
+    "situationId": "sit_gen_3",
+    "source": "REINSURANCE NEWS",
+    "sourceType": "MARKET",
+    "timestamp": "2026-03-25T12:00:35.000Z",
+    "title": "Canopius appoints Bridges and Cannon to senior claims roles",
+    "description": "Canopius appoints Dan Bridges and Patrick Cannon to senior claims leadership roles in reinsurance and cyber respectively. Demonstrates organizational commitment to specialized claims capabilities and market expertise.",
+    "tags": [
+      "CLAIMS",
+      "CYBER RISK",
+      "REINSURANCE",
+      "ORGANIZATIONAL"
+    ],
+    "relevanceScore": 11,
+    "geography": "Global"
+  },
+  {
+    "id": "live_s219",
+    "situationId": "sit_gen_3",
+    "source": "REINSURANCE NEWS",
+    "sourceType": "MARKET",
+    "timestamp": "2026-03-25T11:30:37.000Z",
+    "title": "New Dawn Risk and Continent 8 partner for iGaming cybersecurity and insurance",
+    "description": "Lloyd's broker New Dawn Risk partners with Continent 8 Technologies to offer integrated cybersecurity and insurance solutions for iGaming and online sports betting operators, combining managed IT expertise with specialist underwriting capabilities.",
+    "tags": [
+      "CYBER INSURANCE",
+      "PROFESSIONAL LIABILITY",
+      "SPECIALTY LINES"
+    ],
+    "relevanceScore": 8,
+    "geography": "Global"
+  },
+  {
+    "id": "live_s220",
+    "situationId": null,
+    "source": "REINSURANCE NEWS",
+    "sourceType": "MARKET",
+    "timestamp": "2026-03-25T11:00:36.000Z",
+    "title": "HKIA reforms seen strengthening Hong Kong’s reinsurance hub status: AM Best",
+    "description": "Hong Kong Insurance Authority capital requirement reforms for natural catastrophes, man-made risks, and offshore reinsurance business positioned to strengthen Hong Kong's competitive standing as global reinsurance hub, per AM Best analysis.",
+    "tags": [
+      "CAT RISK",
+      "REINSURANCE HUB",
+      "REGULATORY"
+    ],
+    "relevanceScore": 6,
+    "geography": "Hong Kong"
+  },
+  {
+    "id": "live_s208",
+    "situationId": null,
+    "source": "INSURANCE JOURNAL",
+    "sourceType": "NEWS",
+    "timestamp": "2026-03-24T16:09:11.000Z",
+    "title": "Peak Re Names Swiss Re’s Kuk as CEO, Succeeding Co-Founder Hahn",
+    "description": "Peak Reinsurance appoints Swiss Re executive Victor Kuk as CEO from April 2026, replacing co-founder Franz-Josef Hahn. Leadership transition at emerging markets-focused Hong Kong reinsurer pending regulatory approval.",
+    "tags": [
+      "REINSURANCE",
+      "CORPORATE",
+      "EMERGING MARKETS"
+    ],
+    "relevanceScore": 6,
+    "geography": "Global"
+  },
+  {
+    "id": "live_s207",
+    "situationId": "sit_gen_4",
+    "source": "REINSURANCE NEWS",
+    "sourceType": "MARKET",
+    "timestamp": "2026-03-24T16:00:13.000Z",
+    "title": "Secondary reinsurance market key to improved capital efficiency: Howden",
+    "description": "Howden report proposes structured secondary reinsurance trading framework to enhance capital efficiency. Framework enables carriers to better allocate risk and optimize capital utilization through improved reinsurance market mechanisms.",
+    "tags": [
+      "REINSURANCE",
+      "CAPITAL MARKETS",
+      "RISK MANAGEMENT"
+    ],
+    "relevanceScore": 6,
+    "geography": "Global"
+  },
+  {
+    "id": "live_s206",
+    "situationId": "sit_gen_1",
+    "source": "INSURANCE JOURNAL",
+    "sourceType": "NEWS",
+    "timestamp": "2026-03-24T15:48:48.000Z",
+    "title": "Gulf Energy Industry Will Take Years to Recover From Iran War",
+    "description": "Iran conflict severely disrupts Gulf energy infrastructure across oil, refining and gas sectors. Recovery timeline extends years despite rapid initial damage, presenting sustained business interruption and physical damage claims exposure.",
+    "tags": [
+      "WAR RISK",
+      "ENERGY",
+      "BUSINESS INTERRUPTION",
+      "CAT EVENT"
+    ],
+    "relevanceScore": 6,
+    "geography": "Arabian Gulf"
+  },
+  {
+    "id": "live_s204",
+    "situationId": "sit_gen_4",
+    "source": "REINSURANCE NEWS",
+    "sourceType": "OFFICIAL",
+    "timestamp": "2026-03-24T15:30:04.000Z",
+    "title": "APRA warns climate pressures could widen Australia’s home insurance protection gap",
+    "description": "APRA's Insurance Climate Vulnerability Assessment stress test reveals climate-driven premium pressures could significantly expand Australia's home insurance protection gap, threatening sector resilience and affordability.",
+    "tags": [
+      "CLIMATE RISK",
+      "UNDERWRITING",
+      "AUSTRALIA"
+    ],
+    "relevanceScore": 6,
+    "geography": "Australia"
+  },
+  {
+    "id": "live_s205",
+    "situationId": "sit_gen_1",
+    "source": "NZHERALD.CO.NZ",
+    "sourceType": "NEWS",
+    "timestamp": "2026-03-23T20:00:00.000Z",
+    "title": "Explainer : The trickle of tankers and cargo ships passing through the Strait of Hormuz",
+    "description": "Analysis of tanker and cargo vessel traffic patterns through the Strait of Hormuz, critical chokepoint for global maritime trade and marine insurance underwriting exposure assessment.",
+    "tags": [
+      "MARINE",
+      "GEOPOLITICAL RISK",
+      "MARITIME TRADE"
+    ],
+    "relevanceScore": 5,
+    "geography": "Arabian Gulf"
+  },
+  {
+    "id": "live_s202",
+    "situationId": "sit_gen_4",
+    "source": "INSURANCE JOURNAL",
+    "sourceType": "MARKET",
+    "timestamp": "2026-03-24T15:01:17.000Z",
+    "title": "Vortex Weather Launches Parametric Hail Product",
+    "description": "Vortex Weather expands HailSafe parametric hail insurance distribution through direct broker channels, broadening access for weather-exposed commercial property underwriters and risk managers seeking parametric coverage alternatives.",
+    "tags": [
+      "PARAMETRIC INSURANCE",
+      "PROPERTY",
+      "WEATHER RISK"
+    ],
+    "geography": "Global"
+  },
+  {
+    "id": "live_s203",
+    "situationId": "sit_gen_4",
+    "source": "REINSURANCE NEWS",
+    "sourceType": "MARKET",
+    "timestamp": "2026-03-24T15:00:25.000Z",
+    "title": "JBA Risk Management launches updated Global Flood Model",
+    "description": "JBA Risk Management releases enhanced Global Flood Model with updated hazard mapping, extended climate scenarios, and improved processing capabilities, supporting reinsurer underwriting and exposure assessment frameworks.",
+    "tags": [
+      "FLOOD RISK",
+      "CLIMATE MODELING",
+      "REINSURANCE"
+    ],
+    "geography": "Global"
+  },
+  {
+    "id": "live_s195",
+    "situationId": "sit_gen_2",
+    "source": "ARTEMIS",
+    "sourceType": "MARKET",
+    "timestamp": "2026-03-24T14:30:25.000Z",
+    "title": "Nephila Capital’s specialty Syndicate 2358 delivers $35.6m profit in 2025 as premiums soar",
+    "description": "Nephila Capital's Lloyd's Syndicate 2358 reported $35.6m profit for 2025 underwriting year with gross premiums written surging 129%, reflecting strong specialty lines market conditions and robust underwriting performance.",
+    "tags": [
+      "UNDERWRITING",
+      "LLOYD'S",
+      "SPECIALTY LINES",
+      "PROFITABILITY"
+    ],
+    "geography": "Global"
+  },
+  {
+    "id": "live_s196",
+    "situationId": "sit_gen_3",
+    "source": "INSURANCE JOURNAL",
+    "sourceType": "OFFICIAL",
+    "timestamp": "2026-03-24T14:57:11.000Z",
+    "title": "Texas to Ban Smokeable Hemp on March 31",
+    "description": "Texas regulatory changes eliminating smokeable hemp products and increasing licensing fees effective March 31 will significantly impact hemp industry inventory and operational costs for licensed operators.",
+    "tags": [
+      "REGULATORY",
+      "PRODUCT LIABILITY",
+      "COMPLIANCE"
+    ],
+    "geography": "Texas"
+  },
+  {
+    "id": "live_s197",
+    "situationId": null,
+    "source": "INSURANCE JOURNAL",
+    "sourceType": "OFFICIAL",
+    "timestamp": "2026-03-24T14:56:14.000Z",
+    "title": "People Moves: Maryland Appoints Two Associate Insurance Commissioners",
+    "description": "Maryland Insurance Commissioner appoints two associate commissioners overseeing life and health division and operations/technology functions, strengthening regulatory capacity in rates and administrative functions.",
+    "tags": [
+      "REGULATORY",
+      "COMPLIANCE",
+      "MANAGEMENT"
+    ],
+    "geography": "Maryland"
+  },
+  {
+    "id": "live_s198",
+    "situationId": "sit_gen_4",
+    "source": "INSURANCE JOURNAL",
+    "sourceType": "NEWS",
+    "timestamp": "2026-03-24T14:54:20.000Z",
+    "title": "SoftBank’s Son Says Ohio Data Center to Be $500 Billion Project",
+    "description": "SoftBank Group planning $500 billion data center construction project in Ohio represents major property development and project risk exposure requiring comprehensive builders' risk and CAT coverage assessment.",
+    "tags": [
+      "PROPERTY",
+      "PROJECT RISK",
+      "CONSTRUCTION",
+      "CAT RISK"
+    ],
+    "geography": "Ohio"
+  },
+  {
+    "id": "live_s199",
+    "situationId": "sit_gen_3",
+    "source": "INSURANCE JOURNAL",
+    "sourceType": "NEWS",
+    "timestamp": "2026-03-24T14:49:52.000Z",
+    "title": "Valero Port Arthur Refinery Has Fire at Diesel Hydrotreater",
+    "description": "Fire at Valero Port Arthur refinery diesel hydrotreater unit amid heightened Middle East tensions creates major property damage exposure and market supply disruption affecting US fuel prices and energy insurance.",
+    "tags": [
+      "PROPERTY DAMAGE",
+      "INDUSTRIAL",
+      "WAR RISK",
+      "COMMODITY RISK"
+    ],
+    "geography": "Texas"
+  },
+  {
+    "id": "live_s200",
+    "situationId": "sit_gen_3",
+    "source": "INSURANCE JOURNAL",
+    "sourceType": "NEWS",
+    "timestamp": "2026-03-24T14:37:15.000Z",
+    "title": "California Sues Department of Energy Over Sable Oil Pipeline Restart",
+    "description": "California Attorney General sues Department of Energy challenging restart of Sable Offshore pipeline system under Cold War-era statute, creating regulatory and environmental liability exposure for energy assets.",
+    "tags": [
+      "REGULATORY",
+      "ENVIRONMENTAL LIABILITY",
+      "INFRASTRUCTURE"
+    ],
+    "geography": "California"
+  },
+  {
+    "id": "live_s201",
+    "situationId": "sit_gen_4",
+    "source": "REINSURANCE NEWS",
+    "sourceType": "MARKET",
+    "timestamp": "2026-03-24T14:30:58.000Z",
+    "title": "Westfield Specialty promotes Katie MacGregor to COO",
+    "description": "Westfield Specialty International promotes Katie MacGregor to COO with operational responsibility across UK, Middle East, and Europe markets, reflecting organizational restructuring in specialty insurance operations.",
+    "tags": [
+      "MANAGEMENT",
+      "SPECIALTY LINES",
+      "MENA"
+    ],
+    "geography": "Global"
+  },
+  {
+    "id": "live_s191",
+    "situationId": "sit_gen_1",
     "source": "INSURANCE JOURNAL",
     "sourceType": "NEWS",
     "timestamp": "2026-03-24T14:12:58.000Z",
@@ -16,7 +465,7 @@
   },
   {
     "id": "live_s192",
-    "situationId": null,
+    "situationId": "sit_gen_4",
     "source": "INSURANCE JOURNAL",
     "sourceType": "NEWS",
     "timestamp": "2026-03-24T14:10:43.000Z",
@@ -30,7 +479,7 @@
   },
   {
     "id": "live_s193",
-    "situationId": null,
+    "situationId": "sit_gen_3",
     "source": "INSURANCE JOURNAL",
     "sourceType": "OFFICIAL",
     "timestamp": "2026-03-24T14:03:07.000Z",
@@ -44,7 +493,7 @@
   },
   {
     "id": "live_s194",
-    "situationId": null,
+    "situationId": "sit_gen_4",
     "source": "REINSURANCE NEWS",
     "sourceType": "MARKET",
     "timestamp": "2026-03-24T14:00:52.000Z",
@@ -59,7 +508,7 @@
   },
   {
     "id": "live_s189",
-    "situationId": null,
+    "situationId": "sit_gen_4",
     "source": "INSURANCE JOURNAL",
     "sourceType": "NEWS",
     "timestamp": "2026-03-24T13:30:03.000Z",
@@ -74,7 +523,7 @@
   },
   {
     "id": "live_s190",
-    "situationId": null,
+    "situationId": "sit_gen_4",
     "source": "REINSURANCE NEWS",
     "sourceType": "MARKET",
     "timestamp": "2026-03-24T13:30:02.000Z",
@@ -89,7 +538,7 @@
   },
   {
     "id": "live_s164",
-    "situationId": null,
+    "situationId": "sit_gen_2",
     "source": "ARTEMIS",
     "sourceType": "MARKET",
     "timestamp": "2026-03-24T13:00:03.000Z",
@@ -104,7 +553,7 @@
   },
   {
     "id": "live_s165",
-    "situationId": null,
+    "situationId": "sit_gen_4",
     "source": "ARTEMIS",
     "sourceType": "MARKET",
     "timestamp": "2026-03-24T11:50:12.000Z",
@@ -134,7 +583,7 @@
   },
   {
     "id": "live_s167",
-    "situationId": null,
+    "situationId": "sit_gen_2",
     "source": "ARTEMIS",
     "sourceType": "MARKET",
     "timestamp": "2026-03-24T09:00:00.000Z",
@@ -149,7 +598,7 @@
   },
   {
     "id": "live_s168",
-    "situationId": null,
+    "situationId": "sit_gen_2",
     "source": "ARTEMIS",
     "sourceType": "MARKET",
     "timestamp": "2026-03-24T08:00:17.000Z",
@@ -164,7 +613,7 @@
   },
   {
     "id": "live_s169",
-    "situationId": "sit5",
+    "situationId": "sit_gen_3",
     "source": "INSURANCE JOURNAL",
     "sourceType": "NEWS",
     "timestamp": "2026-03-24T12:40:40.000Z",
@@ -179,7 +628,7 @@
   },
   {
     "id": "live_s170",
-    "situationId": null,
+    "situationId": "sit_gen_4",
     "source": "INSURANCE JOURNAL",
     "sourceType": "NEWS",
     "timestamp": "2026-03-24T11:47:04.000Z",
@@ -209,7 +658,7 @@
   },
   {
     "id": "live_s172",
-    "situationId": null,
+    "situationId": "sit_gen_4",
     "source": "INSURANCE JOURNAL",
     "sourceType": "NEWS",
     "timestamp": "2026-03-24T10:42:40.000Z",
@@ -224,7 +673,7 @@
   },
   {
     "id": "live_s173",
-    "situationId": null,
+    "situationId": "sit_gen_1",
     "source": "INSURANCE JOURNAL",
     "sourceType": "NEWS",
     "timestamp": "2026-03-24T10:16:23.000Z",
@@ -239,7 +688,7 @@
   },
   {
     "id": "live_s174",
-    "situationId": null,
+    "situationId": "sit_gen_4",
     "source": "INSURANCE JOURNAL",
     "sourceType": "NEWS",
     "timestamp": "2026-03-24T10:00:20.000Z",
@@ -254,7 +703,7 @@
   },
   {
     "id": "live_s175",
-    "situationId": null,
+    "situationId": "sit_gen_4",
     "source": "INSURANCE JOURNAL",
     "sourceType": "MARKET",
     "timestamp": "2026-03-24T05:23:48.000Z",
@@ -269,7 +718,7 @@
   },
   {
     "id": "live_s176",
-    "situationId": null,
+    "situationId": "sit_gen_3",
     "source": "INSURANCE JOURNAL",
     "sourceType": "NEWS",
     "timestamp": "2026-03-24T05:14:04.000Z",
@@ -283,7 +732,7 @@
   },
   {
     "id": "live_s177",
-    "situationId": null,
+    "situationId": "sit_gen_3",
     "source": "INSURANCE JOURNAL",
     "sourceType": "NEWS",
     "timestamp": "2026-03-24T05:00:36.000Z",
@@ -2277,7 +2726,7 @@
   },
   {
     "id": "live_s5",
-    "situationId": null,
+    "situationId": "sit_gen_4",
     "source": "ARTEMIS",
     "sourceType": "MARKET",
     "timestamp": "2026-03-16T09:00:21.000Z",
@@ -2292,7 +2741,7 @@
   },
   {
     "id": "live_s6",
-    "situationId": null,
+    "situationId": "sit_gen_3",
     "source": "ARTEMIS",
     "sourceType": "MARKET",
     "timestamp": "2026-03-16T08:30:56.000Z",
@@ -2322,7 +2771,7 @@
   },
   {
     "id": "live_s8",
-    "situationId": null,
+    "situationId": "sit_gen_3",
     "source": "ARTEMIS",
     "sourceType": "MARKET",
     "timestamp": "2026-03-16T07:30:30.000Z",
@@ -2445,7 +2894,7 @@
   },
   {
     "id": "live_s16",
-    "situationId": "sit5",
+    "situationId": "sit_gen_3",
     "source": "INSURANCE JOURNAL",
     "sourceType": "NEWS",
     "timestamp": "2026-03-16T16:04:44.000Z",
@@ -2491,7 +2940,7 @@
   },
   {
     "id": "live_s19",
-    "situationId": null,
+    "situationId": "sit_gen_2",
     "source": "INSURANCE JOURNAL",
     "sourceType": "NEWS",
     "timestamp": "2026-03-16T14:23:59.000Z",
@@ -2506,7 +2955,7 @@
   },
   {
     "id": "live_s20",
-    "situationId": null,
+    "situationId": "sit_gen_4",
     "source": "INSURANCE JOURNAL",
     "sourceType": "MARKET",
     "timestamp": "2026-03-16T14:12:44.000Z",
@@ -2566,7 +3015,7 @@
   },
   {
     "id": "live_s24",
-    "situationId": null,
+    "situationId": "sit_gen_4",
     "source": "INSURANCE JOURNAL",
     "sourceType": "MARKET",
     "timestamp": "2026-03-16T12:19:23.000Z",
@@ -2578,334 +3027,5 @@
       "RESTRUCTURING"
     ],
     "geography": "Global"
-  },
-  {
-    "id": "live_s25",
-    "situationId": null,
-    "source": "INSURANCE JOURNAL",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-16T11:11:53.000Z",
-    "title": "A Backlash Against Data Centers Is Spilling Into French Municipal Election Races",
-    "description": "French municipal opposition to data center expansion highlights environmental liability and community risk exposure. Rising societal backlash against tech infrastructure creates underwriting challenges for facility operators and insurers.",
-    "tags": [
-      "ENVIRONMENTAL RISK",
-      "OPERATIONAL RISK",
-      "LIABILITY"
-    ],
-    "geography": "France"
-  },
-  {
-    "id": "live_s26",
-    "situationId": "sit_gen_3",
-    "source": "REINSURANCE NEWS",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-16T17:00:56.000Z",
-    "title": "Howden unveils regional structure changes, creates EMEA broking unit",
-    "description": "Howden realigns International Growth Markets division by region, restructuring EMEA broking unit effective April 2026. Strategic reorganization indicates market consolidation and operational efficiency improvements across regional operations.",
-    "tags": [
-      "DISTRIBUTION",
-      "MARKET STRUCTURE",
-      "REGIONAL OPERATIONS"
-    ],
-    "geography": "EMEA"
-  },
-  {
-    "id": "live_s27",
-    "situationId": null,
-    "source": "REINSURANCE NEWS",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-16T16:00:40.000Z",
-    "title": "Markel International names Maureen Tomlinson as Head of AI and introduces AI Centre of Enablement",
-    "description": "Markel International establishes AI Centre of Enablement with dedicated leadership. Investment in artificial intelligence capabilities signals industry-wide automation trends impacting claims, underwriting, and operational risk assessment methodologies.",
-    "tags": [
-      "TECHNOLOGY",
-      "AI INNOVATION",
-      "OPERATIONAL EFFICIENCY"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s28",
-    "situationId": null,
-    "source": "REINSURANCE NEWS",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-16T15:00:46.000Z",
-    "title": "MGA market share gains accelerate to ~7% in 2025: BMO Capital Markets",
-    "description": "MGA market share accelerates to 7% in 2025 with $94 billion volume, representing 19% growth. Market concentration shift toward managing general agents indicates structural changes in P&C distribution and reinsurance placement dynamics.",
-    "tags": [
-      "MGA",
-      "MARKET STRUCTURE",
-      "P&C UNDERWRITING"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s29",
-    "situationId": null,
-    "source": "REINSURANCE NEWS",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-16T14:30:56.000Z",
-    "title": "Blenheim’s Syndicate 5886 reports strong 2025 results with £72m profit and 80.9% CoR",
-    "description": "Blenheim Syndicate 5886 reports strong 2025 underwriting with 80.9% combined ratio and £72m profit. Lloyd's specialty syndicate performance demonstrates resilient underwriting discipline and profitable risk selection in competitive market.",
-    "tags": [
-      "LLOYD'S",
-      "UNDERWRITING RESULTS",
-      "PROFITABILITY"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s30",
-    "situationId": null,
-    "source": "REINSURANCE NEWS",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-16T14:00:25.000Z",
-    "title": "UK pension schemes urged to review full range of endgame options: Aon",
-    "description": "Aon advises UK defined benefit pension schemes to evaluate comprehensive endgame strategies amid market evolution. Pension risk management and scheme wind-down complexity require enhanced actuarial and liability risk assessment for insurers.",
-    "tags": [
-      "PENSION RISK",
-      "LIABILITY",
-      "RISK MANAGEMENT"
-    ],
-    "geography": "United Kingdom"
-  },
-  {
-    "id": "live_s31",
-    "situationId": null,
-    "source": "REINSURANCE NEWS",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-16T13:30:22.000Z",
-    "title": "SiriusPoint announces new Global P&C Programs & London Market Specialty divisions",
-    "description": "SiriusPoint restructures into four divisions: Global P&C Programs, Global Reinsurance, Global Accident & Health, and London Market Specialty including Lloyd's operations. Strategic realignment targets specialty market segments.",
-    "tags": [
-      "REINSURANCE",
-      "MARKET STRUCTURE",
-      "SPECIALTY"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s32",
-    "situationId": null,
-    "source": "REINSURANCE NEWS",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-16T13:00:39.000Z",
-    "title": "CEA’s total reinsurance limit rose to $7.912bn at year-end 2025",
-    "description": "California Earthquake Authority's total risk transfer capacity increased to $7.912bn year-end 2025, combining $5.037bn traditional reinsurance with $2.875bn catastrophe bond protection. Strengthened CAT coverage.",
-    "tags": [
-      "CAT REINSURANCE",
-      "CATASTROPHE BONDS",
-      "CAT EVENT"
-    ],
-    "geography": "USA"
-  },
-  {
-    "id": "live_s33",
-    "situationId": null,
-    "source": "REINSURANCE NEWS",
-    "sourceType": "OFFICIAL",
-    "timestamp": "2026-03-16T12:30:07.000Z",
-    "title": "Fitch downgrades ARC’s ratings on sustained earnings volatility",
-    "description": "Fitch downgraded African Risk Capacity's Insurer Financial Strength Rating to BBB+ from A-, citing sustained earnings volatility and declining standalone credit quality. Credit deterioration impacts pan-African risk transfer.",
-    "tags": [
-      "REINSURANCE",
-      "RATINGS",
-      "FINANCIAL STRENGTH"
-    ],
-    "geography": "Africa"
-  },
-  {
-    "id": "live_s34",
-    "situationId": null,
-    "source": "REINSURANCE NEWS",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-16T12:00:15.000Z",
-    "title": "McGill and AIG collaborate to transform subscription market with AI-driven underwriting",
-    "description": "McGill and Partners partners with AIG for subscription market AI-driven underwriting platform. Agentic AI deployment enhances specialty underwriting capacity and client access to long-term insurance solutions.",
-    "tags": [
-      "UNDERWRITING",
-      "TECHNOLOGY",
-      "SPECIALTY"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s35",
-    "situationId": null,
-    "source": "REINSURANCE NEWS",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-16T11:30:56.000Z",
-    "title": "Atrium appoints James Lakin as Head of Outwards Reinsurance",
-    "description": "Atrium Lloyd's insurer appoints James Lakin as Head of Outwards Reinsurance. Leadership change focuses on strategic reinsurance programme design aligned with risk appetite and capital objectives.",
-    "tags": [
-      "REINSURANCE",
-      "LLOYD'S",
-      "MARKET STRUCTURE"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s36",
-    "situationId": "sit1",
-    "source": "FREEMALAYSIATODAY.COM",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-13T23:30:00.000Z",
-    "title": "Mideast war cuts Hormuz strait transit down to 77 ships",
-    "description": "Strait of Hormuz transit volumes collapsed to 77 ships amid Middle East conflict escalation. Severe maritime route congestion creates elevated P&I, energy, and war risk exposure across global shipping operations.",
-    "tags": [
-      "WAR RISK",
-      "MARINE",
-      "GEOPOLITICAL"
-    ],
-    "geography": "Arabian Gulf"
-  },
-  {
-    "id": "live_s37",
-    "situationId": "sit1",
-    "source": "DIGITALJOURNAL.COM",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-13T22:45:00.000Z",
-    "title": "Mideast war cuts Hormuz strait transit to 77 ships : maritime data firm",
-    "description": "Maritime data confirms Hormuz Strait transits reduced to 77 vessels during Middle East hostilities. Significant shipping chokepoint disruption elevates underwriting risk across energy and general cargo portfolios.",
-    "tags": [
-      "WAR RISK",
-      "MARINE",
-      "TRADE DISRUPTION"
-    ],
-    "geography": "Arabian Gulf"
-  },
-  {
-    "id": "live_s38",
-    "situationId": "sit1",
-    "source": "MONEYCONTROL.COM",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-14T02:30:00.000Z",
-    "title": "Mideast war cripples Strait of Hormuz shipping , only 77 vessels cross in March",
-    "description": "Hormuz Strait transit capacity severely constrained with only 77 ships crossing in March amid regional conflict. Critical chokepoint disruption drives elevated war risk premiums and supply chain insurance claims.",
-    "tags": [
-      "WAR RISK",
-      "MARINE",
-      "SANCTIONS"
-    ],
-    "geography": "Arabian Gulf"
-  },
-  {
-    "id": "live_s39",
-    "situationId": "sit1",
-    "source": "MARINELINK.COM",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-09T22:15:00.000Z",
-    "title": "Greek Vessel Laden With Saudi Oil Sails Through Hormuz",
-    "description": "Greek-flagged tanker carrying Saudi crude successfully transited Hormuz Strait, demonstrating continued but limited energy shipment movement. Individual vessel passage indicates selective corridor operations amid geopolitical constraints.",
-    "tags": [
-      "MARINE",
-      "ENERGY",
-      "WAR RISK"
-    ],
-    "geography": "Arabian Gulf"
-  },
-  {
-    "id": "live_s40",
-    "situationId": "sit1",
-    "source": "INDEX.HR",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-09T17:45:00.000Z",
-    "title": "Grčki tanker uspio proći Hormuškim tjesnacem",
-    "description": "Grčki tanker uspio proći Hormuškim tjesnacem. Greek oil tanker successful passage through Hormuz demonstrates restricted but operational energy transit despite regional instability and elevated marine risk environment.",
-    "tags": [
-      "MARINE",
-      "ENERGY",
-      "WAR RISK"
-    ],
-    "geography": "Arabian Gulf"
-  },
-  {
-    "id": "live_s41",
-    "situationId": "sit1",
-    "source": "INDEX.HR",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-09T18:00:00.000Z",
-    "title": "Tanker uspio proći Hormuškim tjesnacem",
-    "description": "Tanker transit operations through Strait of Hormuz facing operational challenges. Regional maritime chokepoint experiencing elevated vessel movement risks and potential passage disruptions affecting global energy logistics.",
-    "tags": [
-      "MARINE",
-      "WAR RISK",
-      "ENERGY SECURITY"
-    ],
-    "geography": "Arabian Gulf"
-  },
-  {
-    "id": "live_s42",
-    "situationId": "sit1",
-    "source": "THEHINDU.COM",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-02T14:15:00.000Z",
-    "title": "Attack on oil tanker  Skylight  highlights risks to Indian seafarers in Persian Gulf route",
-    "description": "Oil tanker Skylight attacked in Persian Gulf, endangering Indian seafarers. Incident highlights escalating maritime security threats on critical shipping routes affecting crew safety and P&I exposures.",
-    "tags": [
-      "P&I",
-      "WAR RISK",
-      "MARINE"
-    ],
-    "geography": "Arabian Gulf"
-  },
-  {
-    "id": "live_s43",
-    "situationId": "sit1",
-    "source": "YAHOO.COM",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-10T23:45:00.000Z",
-    "title": "Iran may deploy naval mines in Strait of Hormuz , US intelligence believes",
-    "description": "US intelligence reports Iran may deploy naval mines in Strait of Hormuz. Potential mine-laying operations would dramatically escalate transit risks and force rate adjustments on world's critical energy corridor.",
-    "tags": [
-      "WAR RISK",
-      "MARINE",
-      "SANCTIONS"
-    ],
-    "geography": "Arabian Gulf"
-  },
-  {
-    "id": "live_s44",
-    "situationId": "sit1",
-    "source": "JPOST.COM",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-10T22:30:00.000Z",
-    "title": "US believes Iran may deploy mines in Strait of Hormuz",
-    "description": "US intelligence assesses Iran potential naval mine deployment in Strait of Hormuz. Mine threat creates severe underwriting and claims exposure on tanker and general cargo transits through strategic waterway.",
-    "tags": [
-      "WAR RISK",
-      "MARINE"
-    ],
-    "geography": "Arabian Gulf"
-  },
-  {
-    "id": "live_s45",
-    "situationId": null,
-    "source": "YAHOO.COM",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-15T09:45:00.000Z",
-    "title": "Shadow fleets of sanctions - skirting ships facing global crackdown : analysis",
-    "description": "Sanctions evasion shadow fleet vessels face increased international enforcement actions. Unregulated tonnage circumventing compliance creates elevated claims frequency and insolvency risks across hull and liability accounts.",
-    "tags": [
-      "SANCTIONS",
-      "MARINE",
-      "COMPLIANCE"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s46",
-    "situationId": "sit1",
-    "source": "YNETNEWS.COM",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-01T19:30:00.000Z",
-    "title": "Three tankers damaged as Iran halts Hormuz traffic , Russia warns of global oil shock",
-    "description": "Three tankers damaged; Iran restricts Hormuz traffic while Russia warns of global oil price shock. Major supply disruption event triggering marine casualty claims and commodity market volatility affecting energy sector exposure.",
-    "tags": [
-      "WAR RISK",
-      "CAT EVENT",
-      "MARINE"
-    ],
-    "geography": "Arabian Gulf"
   }
 ]

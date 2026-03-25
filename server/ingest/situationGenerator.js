@@ -4,6 +4,39 @@
  */
 require('dotenv').config()
 const { readArray, writeArray, readFile, writeFile } = require('../lib/storage')
+const { appendSituationHistory } = require('./situationHistory')
+
+// Geography keyword → coordinates lookup (no API calls needed)
+const GEO_COORDS = {
+  'hormuz': { lat: 26.5, lng: 56.3 }, 'persian gulf': { lat: 26.5, lng: 52.0 },
+  'arabian gulf': { lat: 26.0, lng: 52.0 }, 'gulf': { lat: 25.3, lng: 51.5 },
+  'qatar': { lat: 25.3, lng: 51.5 }, 'doha': { lat: 25.3, lng: 51.5 },
+  'red sea': { lat: 14.0, lng: 43.0 }, 'houthi': { lat: 15.4, lng: 44.2 },
+  'aden': { lat: 12.8, lng: 45.0 }, 'bab el-mandeb': { lat: 12.6, lng: 43.3 },
+  'iran': { lat: 32.4, lng: 53.7 }, 'tehran': { lat: 35.7, lng: 51.4 },
+  'ukraine': { lat: 49.0, lng: 32.0 }, 'kyiv': { lat: 50.4, lng: 30.5 },
+  'russia': { lat: 55.8, lng: 37.6 }, 'moscow': { lat: 55.8, lng: 37.6 },
+  'uae': { lat: 24.5, lng: 54.4 }, 'dubai': { lat: 25.2, lng: 55.3 },
+  'abu dhabi': { lat: 24.5, lng: 54.4 },
+  'saudi': { lat: 24.7, lng: 46.7 }, 'riyadh': { lat: 24.7, lng: 46.7 },
+  'sudan': { lat: 19.6, lng: 37.2 }, 'port sudan': { lat: 19.6, lng: 37.2 },
+  'darfur': { lat: 13.5, lng: 25.0 },
+  'washington': { lat: 38.9, lng: -77.0 }, 'united states': { lat: 38.9, lng: -77.0 },
+  'us ': { lat: 38.9, lng: -77.0 },
+  'london': { lat: 51.5, lng: -0.1 }, 'lloyd': { lat: 51.5, lng: -0.1 },
+  'china': { lat: 39.9, lng: 116.4 }, 'beijing': { lat: 39.9, lng: 116.4 },
+  'israel': { lat: 31.8, lng: 35.2 }, 'bahrain': { lat: 26.2, lng: 50.6 },
+  'kuwait': { lat: 29.4, lng: 47.9 }, 'oman': { lat: 23.6, lng: 58.5 },
+  'global': { lat: 25.3, lng: 51.5 }, // default to Doha
+}
+
+function geocodeFromText(text) {
+  const lower = (text || '').toLowerCase()
+  for (const [keyword, coords] of Object.entries(GEO_COORDS)) {
+    if (lower.includes(keyword)) return coords
+  }
+  return { lat: 25.3, lng: 51.5 } // fallback: Doha
+}
 
 const MIN_SIGNALS = 10
 const GENERATION_COOLDOWN = 2 * 60 * 60 * 1000 // 2 hours
@@ -52,6 +85,7 @@ Return a JSON array of situation objects. Each must have ALL these fields:
   "isLive": true,
   "category": ["Affected insurance line 1", "Line 2", ...],
   "geography": "Region",
+  "coordinates": {"lat": number, "lng": number} (best representative point for the geography),
   "confidence": 50-99 (integer),
   "signalIds": ["id1", "id2", ...] (IDs of signals in this cluster),
   "sources": ["SOURCE1", "SOURCE2", ...],
@@ -80,6 +114,7 @@ Requirements:
 - Keep actions to exactly 3 per department
 - Severity: ACTIVE = requires immediate action, CRITICAL = high impact imminent, ELEVATED = significant risk, WATCH = monitor
 - Department scores reflect relevance (10 = highest priority)
+- IMPORTANT: Every situation MUST include "coordinates" with lat/lng for the primary geographic location. Use the best representative point for the geography field. Example: Strait of Hormuz = {"lat":26.5,"lng":56.3}
 - Signals that don't fit any cluster can be excluded`
 
   console.log('[situationGen] calling Claude to cluster signals into situations...')
@@ -145,6 +180,7 @@ Requirements:
     isLive: true,
     category: Array.isArray(sit.category) ? sit.category : [],
     geography: sit.geography || 'Global',
+    coordinates: sit.coordinates && typeof sit.coordinates.lat === 'number' ? sit.coordinates : null,
     confidence: typeof sit.confidence === 'number' ? sit.confidence : 75,
     signalIds: Array.isArray(sit.signalIds) ? sit.signalIds : [],
     sources: Array.isArray(sit.sources) ? sit.sources : [],
@@ -160,8 +196,20 @@ Requirements:
     interpretations: validateInterpretations(sit.interpretations),
   }))
 
+  // Geocode situations from geography text
+  for (const sit of validated) {
+    if (!sit.coordinates) {
+      sit.coordinates = geocodeFromText(sit.geography + ' ' + sit.title)
+    }
+  }
+
   // Store generated situations
   writeArray('situations_generated', validated)
+
+  // Track evolution history for each situation
+  for (const sit of validated) {
+    appendSituationHistory(sit)
+  }
 
   // Update signals with their situation assignments
   const signalMap = {}

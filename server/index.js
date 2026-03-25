@@ -17,6 +17,27 @@ if (!API_KEY) {
 app.use(cors({ origin: process.env.FRONTEND_URL || 'http://localhost:5173' }))
 app.use(express.json())
 
+// ── Basic authentication (disabled if AUTH_PASS not set) ────────────────────
+const AUTH_USER = process.env.AUTH_USER || 'aura'
+const AUTH_PASS = process.env.AUTH_PASS
+
+if (AUTH_PASS) {
+  app.use((req, res, next) => {
+    if (req.path === '/api/health') return next()
+    const auth = req.headers.authorization
+    if (!auth || !auth.startsWith('Basic ')) {
+      res.set('WWW-Authenticate', 'Basic realm="AURA"')
+      return res.status(401).send('Authentication required')
+    }
+    const [user, pass] = Buffer.from(auth.slice(6), 'base64').toString().split(':')
+    if (user !== AUTH_USER || pass !== AUTH_PASS) {
+      res.set('WWW-Authenticate', 'Basic realm="AURA"')
+      return res.status(401).send('Invalid credentials')
+    }
+    next()
+  })
+}
+
 // ── Anthropic proxy ───────────────────────────────────────────────────────────
 app.post('/api/chat', async (req, res) => {
   if (!req.body || !Array.isArray(req.body.messages)) {
@@ -151,9 +172,8 @@ Return ONLY valid JSON — an array with one object per threshold:
   {
     "id": "threshold_id",
     "impact_level": "none|low|medium|caution|alert|breach",
-    "estimated_pct": 0-100,
     "confidence": 0-100,
-    "reasoning": "One sentence. Specific to this situation.",
+    "reasoning": "One sentence. Specific to this situation. Do not mention monetary values.",
     "action": "One sentence. What the department should do now."
   }
 ]`
@@ -164,7 +184,7 @@ Summary: ${summary}
 Department brief: ${deptBrief}
 
 Evaluate these thresholds:
-${JSON.stringify(relevant.map(l => ({ id: l.id, label: l.label, lines: l.lines, value: l.value, unit: l.unit, alert_at_pct: l.alert_at_pct, breach_at_pct: l.breach_at_pct })))}`
+${JSON.stringify(relevant.map(l => ({ id: l.id, label: l.label, lines: l.lines, unit: l.unit })))}`
 
     const apiRes = await fetch('https://api.anthropic.com/v1/messages', {
       method: 'POST',
@@ -180,12 +200,25 @@ ${JSON.stringify(relevant.map(l => ({ id: l.id, label: l.label, lines: l.lines, 
     if (!jsonMatch) throw new Error('No JSON array in response')
     const evaluated = JSON.parse(jsonMatch[0])
 
-    // Filter out "none" — only return actionable alerts
-    // Also attach the label from parameters for display
+    // Map impact levels to fixed percentages (server-side, not from Claude)
+    const PCT_MAP = { low: 15, medium: 35, caution: 65, alert: 85, breach: 100 }
+    function scrubAmounts(text) {
+      return (text || '')
+        .replace(/QAR\s?[\d,\.]+\s?[BMKbmk]?/g, 'the limit')
+        .replace(/[\d,]{6,}/g, 'the limit')
+        .replace(/\d+(\.\d+)?\s?(million|billion|trillion)/gi, 'the limit')
+    }
+
     const labelMap = Object.fromEntries(relevant.map(l => [l.id, l.label]))
     const alerts = evaluated
       .filter((e) => e.impact_level && e.impact_level !== 'none')
-      .map((e) => ({ ...e, label: labelMap[e.id] || e.id }))
+      .map((e) => ({
+        ...e,
+        label: labelMap[e.id] || e.id,
+        estimated_pct: PCT_MAP[e.impact_level] || 0,
+        reasoning: scrubAmounts(e.reasoning),
+        action: scrubAmounts(e.action),
+      }))
 
     // Cache
     const store = readFile('threshold_alerts')
@@ -197,6 +230,14 @@ ${JSON.stringify(relevant.map(l => ({ id: l.id, label: l.label, lines: l.lines, 
     console.error('[thresholds] evaluation failed:', err.message)
     res.status(500).json({ error: err.message })
   }
+})
+
+// ── Situation evolution history ──────────────────────────────────────────────
+
+app.get('/api/situation-history/:sitId', (req, res) => {
+  const store = readFile('situation_history')
+  const history = store[req.params.sitId]
+  res.json(history || [])
 })
 
 // ── Regulation department implications (AI-generated, cached) ────────────────
@@ -213,16 +254,19 @@ app.post('/api/generate-reg-implications', async (req, res) => {
   if (!regId || !title) return res.status(400).json({ error: 'regId and title are required' })
 
   try {
-    const systemPrompt = `You are a senior insurance professional at a Lloyd's-regulated insurer in Qatar. Today is 10 March 2026.
+    const systemPrompt = `You are a senior insurance professional at a Lloyd's-regulated insurer in Qatar with 20 years of experience. Today: 10 March 2026.
 
-Given a regulatory update, generate implications for three departments.
+Generate implications for three departments given a regulatory update.
 
-STRICT RULES:
-- Maximum 2 sentences per department. No exceptions.
-- Each sentence must be under 20 words.
-- Be direct and specific. No preamble, no elaboration.
-- If a department is not materially affected, return exactly:
-  "No material implication for this department."
+STRICT LENGTH RULES — no exceptions:
+- Maximum 2 sentences per department
+- Each sentence under 20 words
+- Direct, specific, actionable only
+
+STRICT ACCURACY RULES:
+- Federal laws, consolidated frameworks, and solvency regulations affect ALL departments — never return "no material implication" for these
+- Only return "No material implication for this department." for regulations genuinely narrow in scope (e.g. a motor-only rule has no reinsurance implication)
+- When in doubt, provide a brief implication
 
 Return ONLY valid JSON, no markdown:
 {
