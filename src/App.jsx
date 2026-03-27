@@ -37,6 +37,7 @@ export default function App() {
   const [lastUpdated, setLastUpdated] = useState(null)
   const [refreshing,  setRefreshing]  = useState(false)
   const [alertCount, setAlertCount]   = useState(0)
+  const [sidebarCollapsed, setSidebarCollapsed] = useState(() => lsGet('aura_sidebar_collapsed', false))
 
   const dragRef   = useRef(null)
   const toastRef  = useRef(null)
@@ -167,7 +168,7 @@ export default function App() {
     try {
       const reply = await callClaude(
         persona,
-        [{ role: 'user', content: `Write a concise morning intelligence brief for ${deptInfo?.label} covering the 3 highest-priority situations as of ${new Date().toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric'})}. Use 3 short paragraphs — one per situation — in a professional editorial tone. No bullet points, no headers, no preamble. Start with the most urgent.\n\n${ctx}` }],
+        [{ role: 'user', content: `Return exactly 3-4 bullet points covering the 3 highest-priority situations for ${deptInfo?.label} as of ${new Date().toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric'})}. Each bullet is one sentence. Start each bullet with the situation name in bold. No preamble, no headers.\n\n${ctx}` }],
         600
       )
       setMorningBrief(reply)
@@ -218,7 +219,7 @@ export default function App() {
       <Ticker />
       <div className="app">
         {/* Sidebar */}
-        <div style={{ width: sbW, minWidth: 160, maxWidth: 320, flexShrink: 0, height: '100%', overflow: 'hidden' }}>
+        <div style={{ width: sidebarCollapsed ? 32 : sbW, minWidth: sidebarCollapsed ? 32 : 160, maxWidth: sidebarCollapsed ? 32 : 320, flexShrink: 0, height: '100%', overflow: 'hidden', transition: 'width .15s, min-width .15s, max-width .15s' }}>
           <Sidebar
             dept={dept}
             onSwitchDept={switchDept}
@@ -229,6 +230,9 @@ export default function App() {
             setRegJurFilter={setRegJurFilter}
             saved={saved}
             alertCount={alertCount}
+            regulations={regulations}
+            onSelectReg={(r) => handleSelect('regulation', r)}
+            onCollapsedChange={setSidebarCollapsed}
             onSavedSelect={(s) => { setSelType('snapshot'); setSelItem(s) }}
             onSavedDelete={async (id) => {
               await deleteSaved(id)

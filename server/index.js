@@ -173,7 +173,7 @@ Return ONLY valid JSON — an array with one object per threshold:
     "id": "threshold_id",
     "impact_level": "none|low|medium|caution|alert|breach",
     "confidence": 0-100,
-    "reasoning": "One sentence. Specific to this situation. Do not mention monetary values.",
+    "reasoning": "Maximum 15 words. Specific to this situation. No monetary values.",
     "action": "One sentence. What the department should do now."
   }
 ]`
@@ -427,6 +427,54 @@ app.post('/api/ingest/run', async (req, res) => {
   } catch (err) {
     res.status(500).json({ error: err.message })
   }
+})
+
+// ── Force ingest + generation (bypasses cooldown) ────────────────────────────
+app.post('/api/ingest/trigger', async (req, res) => {
+  try {
+    const { forceGenerate } = require('./ingest/scheduler')
+    forceGenerate().catch(err => console.error('[ingest] force trigger error:', err.message))
+    res.json({ ok: true, message: 'Force ingest + generation triggered (cooldown bypassed)' })
+  } catch (err) {
+    res.status(500).json({ error: err.message })
+  }
+})
+
+// ── Audit endpoints ──────────────────────────────────────────────────────────
+
+app.get('/api/audit/generation-log', (req, res) => {
+  res.json(readArray('generation_log').slice(0, 20))
+})
+
+app.get('/api/audit/generation-log/:runId', (req, res) => {
+  const log = readArray('generation_log')
+  const entry = log.find(e => e.runId === req.params.runId)
+  if (!entry) return res.status(404).json({ error: 'Run not found' })
+  res.json(entry)
+})
+
+app.get('/api/audit/signal/:signalId', (req, res) => {
+  const store = readFile('signal_disposition')
+  const entry = store[req.params.signalId]
+  if (!entry) return res.status(404).json({ error: 'Signal disposition not found' })
+  res.json(entry)
+})
+
+app.get('/api/audit/situation/:sitId/history', (req, res) => {
+  const store = readFile('situation_history')
+  const history = store[req.params.sitId]
+  if (!history) return res.status(404).json({ error: 'Situation history not found' })
+  res.json(history)
+})
+
+app.get('/api/signals/pending', (req, res) => {
+  const signals = readArray('signals')
+  res.json(signals.filter(s => s.disposition === 'pending' || !s.disposition))
+})
+
+app.get('/api/signals/flagged', (req, res) => {
+  const signals = readArray('signals')
+  res.json(signals.filter(s => s.disposition === 'flagged'))
 })
 
 // ── Health check ──────────────────────────────────────────────────────────────

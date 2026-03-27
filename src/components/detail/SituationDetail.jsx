@@ -1,6 +1,6 @@
 import { DEPTS } from '../../constants/depts'
 import CollapsibleSection from '../CollapsibleSection'
-import { SEV_COLORS, SRC_DOT } from '../../constants/colors'
+import { SRC_DOT } from '../../constants/colors'
 import { fmtDT } from '../../utils/format'
 import AiPanel from '../AiPanel'
 import Timeline from '../Timeline'
@@ -28,6 +28,9 @@ export default function SituationDetail({ sit, dept, signals, regulations, saved
   const isSaved = saved.some((s) => s.situationId === sit.id && s.deptKey === dept)
   const deptInfo = DEPTS.find((d) => d.key === dept)
 
+  const urgentActions = interp?.actions?.slice(0, 2) || []
+  const remainingActions = interp?.actions?.slice(2) || []
+
   return (
     <>
       <RegActionBanner regs={actionRegs} dept={dept} onViewReg={onViewReg} />
@@ -39,15 +42,10 @@ export default function SituationDetail({ sit, dept, signals, regulations, saved
           </button>
           <button className="detail-action-btn" onClick={() => onExport(sit, dept, interp)}>↓ Export PDF</button>
           {onSynthesize && (
-            <button className="detail-action-btn" onClick={handleSynthesize} disabled={synthesizing} title="Re-synthesize using latest live signals">
+            <button className="detail-action-btn resynth" onClick={handleSynthesize} disabled={synthesizing} title="Re-synthesize using latest live signals">
               {synthesizing ? '◆ Synthesizing…' : '↺ Re-synthesize'}
             </button>
           )}
-        </div>
-        <div className="detail-sev-row">
-          <div style={{ width: 10, height: 10, borderRadius: '50%', background: SEV_COLORS[sit.severity] }} />
-          <span className="sev-label" style={{ color: SEV_COLORS[sit.severity] }}>{sit.severity}</span>
-          {sit.isLive && <span className="live-badge">LIVE</span>}
         </div>
         <div className="detail-title">{sit.title}</div>
         <div className="detail-subtitle">{sit.subtitle}</div>
@@ -57,32 +55,19 @@ export default function SituationDetail({ sit, dept, signals, regulations, saved
         </div>
       </div>
 
+      {/* Department brief — shown immediately */}
       {interp && (
-        <CollapsibleSection label={`${deptInfo?.label || ''} Brief`} storageKey="aura_col_brief">
-          <div className="brief-section" style={{ marginBottom: 0 }}>
-            <div className="brief-headline">{interp.headline}</div>
-            <div className="brief-detail">{interp.detail}</div>
-            {interp.affectedLines && (
-              <div className="brief-lines">
-                <div className="brief-lines-label">Affected Lines</div>
-                <div className="brief-lines-tags">
-                  {interp.affectedLines.map((l) => <span key={l} className="tag">{l}</span>)}
-                </div>
-              </div>
-            )}
-            {interp.actions && (
-              <div className="brief-actions">
-                <div className="brief-actions-label">Actions</div>
-                {interp.actions.map((a, i) => (
-                  <div key={i} className={`brief-action-item ${i < 2 ? 'urgent' : ''}`}>
-                    {i < 2 && <span className="urgent-tag">URGENT</span>}
-                    {a}
-                  </div>
-                ))}
-              </div>
-            )}
-          </div>
-        </CollapsibleSection>
+        <div className="brief-section" style={{ marginBottom: 14 }}>
+          <div className="brief-headline">{interp.headline}</div>
+          <div className="brief-detail">{interp.detail}</div>
+          {urgentActions.length > 0 && (
+            <div className="inline-urgent-actions">
+              {urgentActions.map((a, i) => (
+                <div key={i} className="inline-urgent-action">{a}</div>
+              ))}
+            </div>
+          )}
+        </div>
       )}
 
       {!interp && !isExec && (
@@ -99,16 +84,45 @@ export default function SituationDetail({ sit, dept, signals, regulations, saved
         </div>
       )}
 
-      <SituationHistory situationId={sit.id} />
-
+      {/* Compact threshold — one-line, only alert/breach */}
       {!isExec && ['claims','underwriting','reinsurance','investments','risk_compliance'].includes(dept) && (
-        <ThresholdStatus situationId={sit.id} deptKey={dept} situation={sit} />
+        <ThresholdStatus situationId={sit.id} deptKey={dept} situation={sit} compact={true} />
       )}
 
+      {/* AI Panel — immediately below brief */}
       {!isExec && <AiPanel sitId={sit.id} dept={dept} situation={sit} />}
 
+      {/* Collapsed sections */}
+      {remainingActions.length > 0 && (
+        <CollapsibleSection label="All Actions" storageKey="aura_col_all_actions" defaultOpen={false}>
+          <div className="brief-actions" style={{ borderTop: 'none', paddingTop: 0, marginTop: 0 }}>
+            {interp.actions.map((a, i) => (
+              <div key={i} className={`brief-action-item ${i < 2 ? 'urgent' : ''}`}>
+                {i < 2 && <span className="urgent-tag">URGENT</span>}
+                {a}
+              </div>
+            ))}
+          </div>
+        </CollapsibleSection>
+      )}
+
+      {interp?.affectedLines && (
+        <CollapsibleSection label="Affected Lines" storageKey="aura_col_affected_lines" defaultOpen={false}>
+          <div className="brief-lines-tags">
+            {interp.affectedLines.map((l) => <span key={l} className="tag">{l}</span>)}
+          </div>
+        </CollapsibleSection>
+      )}
+
+      {/* Full threshold detail — collapsed */}
+      {!isExec && ['claims','underwriting','reinsurance','investments','risk_compliance'].includes(dept) && (
+        <CollapsibleSection label="Threshold Detail" storageKey="aura_col_threshold_full" defaultOpen={false}>
+          <ThresholdStatus situationId={sit.id} deptKey={dept} situation={sit} compact={false} />
+        </CollapsibleSection>
+      )}
+
       {['claims','underwriting','reinsurance','investments'].includes(dept) && (
-        <CollapsibleSection label="Department Tools" storageKey="aura_col_dept_tools">
+        <CollapsibleSection label="Department Tools" storageKey="aura_col_dept_tools" defaultOpen={false}>
           {dept === 'claims'       && <ClaimsPanel sit={sit} />}
           {dept === 'underwriting' && <UnderwritingPanel sit={sit} />}
           {dept === 'investments'  && <InvestmentsPanel sit={sit} />}
@@ -139,6 +153,9 @@ export default function SituationDetail({ sit, dept, signals, regulations, saved
         ))}
       </div>
       </CollapsibleSection>
+
+      {/* Evolution timeline — at the bottom */}
+      <SituationHistory situationId={sit.id} />
     </>
   )
 }

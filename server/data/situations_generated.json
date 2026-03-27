@@ -1,473 +1,634 @@
 [
   {
     "id": "sit_gen_1",
-    "title": "Hormuz Strait War Risk Escalation Crisis",
-    "subtitle": "Iran-Israel hostilities disrupt Gulf shipping lanes with direct insurance pricing and coverage implications.",
-    "summary": "Active military exchanges between Israel and Iran, combined with Iranian demands for crew and cargo details and imposition of Hormuz transit fees, represent a severe escalation of war risk in the Arabian Gulf. Gulf energy infrastructure faces years of recovery, compounding business interruption and marine exposure for Lloyd's-regulated insurers with Gulf books. Immediate reassessment of war risk premiums, SCUA cover, and energy portfolio accumulation limits is required.",
+    "title": "Arabian Gulf Extreme Weather Multi-Peril Event",
+    "subtitle": "Severe storms across Qatar, UAE, and Oman causing property damage, aviation disruption, and casualty losses.",
+    "summary": "A sustained period of extreme weather across the Arabian Gulf — including record rainfall at Ras Laffan and Al Wakrah, flooding, and storm debris fatalities in Abu Dhabi — is generating active claims exposure across property, aviation, and liability lines. Qatar Airways has amended its flight schedule and regional carriers have extended cancellations, signalling material business interruption. A Qatari military helicopter crash with fatalities adds an aviation liability dimension that may be weather-related.",
     "severity": "CRITICAL",
     "isLive": true,
+    "archived": false,
     "category": [
-      "War Risk",
+      "Property",
+      "Aviation",
+      "Liability",
       "Marine",
-      "Energy",
-      "P&I",
-      "Business Interruption"
+      "Travel"
     ],
-    "geography": "Arabian Gulf / Strait of Hormuz",
+    "geography": "Arabian Gulf",
     "coordinates": {
-      "lat": 26.5,
-      "lng": 56.3
+      "lat": 25.2,
+      "lng": 51.5
     },
-    "confidence": 95,
+    "confidence": 93,
     "signalIds": [
-      "live_s212",
-      "live_s213",
-      "live_s214",
-      "live_s206",
-      "live_s205"
+      "live_s284",
+      "live_s272",
+      "live_s256",
+      "live_s257",
+      "live_s258",
+      "live_s259",
+      "live_s260",
+      "live_s261",
+      "live_s263",
+      "live_s264",
+      "live_s265",
+      "live_s275",
+      "live_s267",
+      "live_s268",
+      "live_s269",
+      "live_s270",
+      "live_s271"
     ],
+    "signalCount": 17,
     "sources": [
-      "INSURANCE JOURNAL",
-      "NZHERALD.CO.NZ"
+      "GOOGLE NEWS QATAR WEATHER",
+      "GOOGLE NEWS QATAR EMERGENCY",
+      "PENINSULA QATAR",
+      "QNA"
     ],
-    "updated": "2026-03-25T15:42:53.213Z",
+    "updated": "2026-03-27T06:00:16.090Z",
+    "createdAt": "2026-03-27T06:01:55.092Z",
+    "lastSignalAt": "2026-03-27T06:01:55.092Z",
     "regJurisdictions": [
       "QAT",
       "UAE",
-      "KSA",
-      "IRN"
+      "OMN"
+    ],
+    "eventType": "NAT_CAT",
+    "clusterReason": "All signals describe the same multi-day extreme weather system producing property flood damage, aviation disruption, debris casualties, and a helicopter loss across Qatar, UAE, and Oman.",
+    "generationRunId": "gen_20260327060016",
+    "topSignals": [
+      {
+        "id": "live_s284",
+        "score": 10,
+        "title": "Ras Laffan records highest rainfall in Qatar on March 25 - The Peninsula Qatar",
+        "source": "GOOGLE NEWS QATAR WEATHER"
+      },
+      {
+        "id": "live_s272",
+        "score": 5,
+        "title": "Unstable weather conditions to continue this weekend in Qatar - The Peninsula Qatar",
+        "source": "GOOGLE NEWS QATAR WEATHER"
+      },
+      {
+        "id": "live_s256",
+        "score": 7,
+        "title": "Qatar's Public Works Authority monitors roads amid heavy rain - ZAWYA",
+        "source": "GOOGLE NEWS QATAR WEATHER"
+      },
+      {
+        "id": "live_s257",
+        "score": 4,
+        "title": "'Al Sarayat' disturbances are normal seasonal phenomenon, no cause for alarm: Qatar Meteorology - The Peninsula Qatar",
+        "source": "GOOGLE NEWS QATAR WEATHER"
+      },
+      {
+        "id": "live_s258",
+        "score": 4,
+        "title": "Meteorology Department warns of thundery rain, strong wind - The Peninsula Qatar",
+        "source": "GOOGLE NEWS QATAR WEATHER"
+      }
     ],
     "scores": {
-      "risk_compliance": 9,
+      "risk_compliance": 8,
       "claims": 10,
-      "underwriting": 10,
+      "underwriting": 9,
       "reinsurance": 9,
-      "investments": 8
+      "investments": 5
     },
     "interpretations": {
       "risk_compliance": {
-        "headline": "Sanctions exposure and OFAC/UN compliance triggers activated",
-        "detail": "Iranian transit fee collection and crew data demands may constitute sanctionable interactions under UK, US, and EU regimes. Immediate sanctions screening of all Gulf-exposed cedants, brokers, and counterparties is mandatory.",
+        "headline": "Catastrophe event trigger threshold likely exceeded across Gulf portfolios",
+        "detail": "Record rainfall at Ras Laffan — a critical energy infrastructure hub — and debris fatalities in Abu Dhabi suggest cat event declarations are warranted. Regulatory reporting obligations to QFMA and UAE IA must be assessed immediately.",
         "affectedLines": [
-          "War Risk",
-          "Marine",
-          "Energy",
-          "P&I"
+          "Property",
+          "Aviation",
+          "Liability"
         ],
         "actions": [
-          "Screen all active Gulf marine and energy policies for sanctioned counterparty exposure under OFAC, HMT, and EU regimes",
-          "Issue internal compliance advisory restricting new business involving Iranian flag, port, or transit fee transactions",
-          "Notify Lloyd's Underwriting Committee of accumulation exposure and potential SCUA aggregate breach"
+          "Initiate cat event protocol and notify QFMA/UAE IA of potential systemic exposure",
+          "Assess whether Ras Laffan energy asset flood damage triggers policy cat clauses",
+          "Review travel insurance policy conditions for weather-related cancellation triggers across the region"
         ]
       },
       "claims": {
-        "headline": "Imminent war risk and P&I claims expected from Hormuz disruption",
-        "detail": "Vessel detentions, cargo seizures, and potential hull damage arising from Iranian interdiction activity are likely to trigger simultaneous war risk and P&I claims. Energy sector business interruption claims from Gulf infrastructure damage may take years to resolve.",
+        "headline": "Active claims expected across property, aviation, and liability lines",
+        "detail": "Abu Dhabi debris fatalities and the Qatari helicopter crash are immediate liability and aviation claims. Flood-related property claims in Al Wakrah and road infrastructure damage will drive high-frequency attritional losses.",
         "affectedLines": [
-          "Marine Hull",
-          "War Risk",
-          "P&I",
-          "Business Interruption",
-          "Energy"
+          "Property",
+          "Aviation",
+          "Liability",
+          "Travel"
         ],
         "actions": [
-          "Activate claims triage protocol for all Gulf marine risks and flag vessels transiting Hormuz for enhanced monitoring",
-          "Engage specialist war risk and P&I loss adjusters with Gulf operational capability on standby",
-          "Review business interruption policy wordings for energy clients with Gulf upstream/downstream exposure for war exclusion applicability"
+          "Deploy loss adjusters to Al Wakrah and Doha flood zones for property triage",
+          "Open aviation claims file for Qatari helicopter crash and coordinate with QNA for official casualty data",
+          "Establish Abu Dhabi debris liability claim register and preserve third-party evidence"
         ]
       },
       "underwriting": {
-        "headline": "War risk and marine rates must be repriced immediately for Gulf exposure",
-        "detail": "Active hostilities and state-imposed transit fees constitute a material change in risk, requiring immediate re-rating of all Gulf marine, hull, and energy accounts. New and renewal business in the corridor should not be bound without updated war risk premium loading.",
+        "headline": "Gulf property and aviation risk pricing requires immediate post-event review",
+        "detail": "The frequency and severity of Gulf weather events in March 2026 challenges historical loss models used for Qatar and UAE property underwriting. Aviation scheduling disruptions may indicate systemic exposure underpricing.",
         "affectedLines": [
-          "War Risk",
-          "Marine Hull",
-          "Cargo",
-          "Energy",
-          "P&I"
+          "Property",
+          "Aviation",
+          "Marine"
         ],
         "actions": [
-          "Suspend automatic renewals for all Gulf marine and energy risks pending war risk loading review",
-          "Apply minimum 30-50% war risk additional premium for Hormuz transit endorsements pending market guidance",
-          "Impose sub-limits on new Gulf energy and marine cargo business until conflict trajectory is clarified"
+          "Place a temporary hold on new property business in flood-affected Qatar postcodes pending loss assessment",
+          "Review aviation war and weather combined perils wordings for Gulf carrier fleet policies",
+          "Request updated 5-day meteorological forecasts to assess whether PML estimates remain valid"
         ]
       },
       "reinsurance": {
-        "headline": "War risk reinsurance protections may be exhausted by Gulf accumulation",
-        "detail": "Simultaneous vessel seizures, energy asset damage, and cargo losses could rapidly erode war risk XL and aggregate reinsurance protections. Reinstatement purchasing and facultative placement for peak exposures should be accelerated.",
+        "headline": "Regional nat-cat event may breach per-occurrence reinsurance retention",
+        "detail": "Concurrent losses across Qatar, UAE, and Oman from the same storm system could aggregate into a single occurrence under treaty definitions. Reinsurers should be notified proactively.",
         "affectedLines": [
-          "War Risk",
-          "Marine",
-          "Energy"
+          "Property",
+          "Aviation",
+          "Liability"
         ],
         "actions": [
-          "Audit remaining war risk reinsurance capacity and reinstatement premiums across all Gulf-exposed treaties",
-          "Approach facultative reinsurers for additional Gulf energy cover before further market hardening",
-          "Model aggregate accumulation scenario assuming 30-day Hormuz full closure for PML reporting to Lloyd's"
+          "Calculate aggregated preliminary loss estimate across all Gulf property and aviation policies",
+          "Issue precautionary loss advice notices to lead reinsurers on cat XL treaties",
+          "Confirm occurrence aggregation clause wording with brokers for multi-country storm event"
         ]
       },
       "investments": {
-        "headline": "Gulf conflict driving oil price volatility and regional asset risk",
-        "detail": "Escalation signals are likely to sustain elevated oil prices and currency volatility in GCC markets, impacting investment portfolio valuations and liquidity. Capital markets have paused credit issuance, signalling broader risk-off sentiment.",
+        "headline": "Short-term infrastructure and utilities sector exposure in Gulf markets",
+        "detail": "Ras Laffan infrastructure disruption and road damage may affect Qatar's LNG export capacity and short-term economic output, with modest downside for Qatar sovereign bond spreads.",
         "affectedLines": [
-          "Investment Portfolio",
-          "Capital Management"
+          "Property",
+          "Energy"
         ],
         "actions": [
-          "Review duration and liquidity of Gulf sovereign and corporate bond holdings in investment portfolio",
-          "Assess FX hedging adequacy for QAR/USD and regional currency exposures given geopolitical volatility",
-          "Model solvency impact under a 20% oil price spike and simultaneous Gulf equity drawdown scenario"
+          "Monitor QatarEnergy operational updates for any LNG production impact at Ras Laffan",
+          "Review fixed-income positions in Gulf infrastructure and utilities bonds for weather-event sensitivity",
+          "Assess catastrophe bond exposure if Gulf event meets trigger parameters under any held ILS positions"
         ]
       }
     }
   },
   {
     "id": "sit_gen_2",
-    "title": "Catastrophe Bond Market Softening and Capital Efficiency Push",
-    "subtitle": "ILS market pricing compression and secondary reinsurance innovation signal a structural shift in catastrophe capital deployment.",
-    "summary": "Multiple cat bond issuances are experiencing downward price guidance revisions, while Howden Re is actively promoting secondary reinsurance market mechanisms to improve capital efficiency. This convergence of ILS softening and capital market innovation is reshaping reinsurance buying strategies for natural catastrophe perils, particularly US property risks. Insurers with cat reinsurance programs must reassess cost-of-protection strategies and counterparty concentration.",
-    "severity": "ELEVATED",
+    "title": "Iran War Geopolitical Risk Arabian Gulf",
+    "subtitle": "Ongoing Iran conflict is escalating war risk, disrupting aviation, and threatening Gulf energy infrastructure and supply chains.",
+    "summary": "The Iran war is generating a complex, multi-line insurance exposure across the Arabian Gulf, affecting marine war risk, aviation routing, energy assets, and regional travel safety. UK government warnings to tourists in Qatar, Dubai, and Egypt alongside airline loyalty program adjustments in response to flight impacts indicate that commercial and consumer insurance lines are being materially affected. The conflict's disruption to global supply chains — including humanitarian health supplies — signals broader trade credit and cargo implications.",
+    "severity": "CRITICAL",
     "isLive": true,
+    "archived": false,
     "category": [
-      "Catastrophe Reinsurance",
-      "ILS / Cat Bonds",
-      "Property",
-      "Capital Markets"
+      "Marine War Risk",
+      "Aviation",
+      "Energy",
+      "Travel",
+      "Trade Credit"
     ],
-    "geography": "Global",
+    "geography": "Arabian Gulf",
     "coordinates": {
-      "lat": 40.71,
-      "lng": -74.01
+      "lat": 26.5,
+      "lng": 54
     },
-    "confidence": 85,
+    "confidence": 91,
     "signalIds": [
-      "live_s209",
-      "live_s210",
-      "live_s211",
-      "live_s207",
-      "live_s203",
-      "live_s202"
+      "live_s276",
+      "live_s285",
+      "live_s282",
+      "live_s262",
+      "live_s266",
+      "live_s280",
+      "live_s281",
+      "live_s273"
     ],
+    "signalCount": 8,
     "sources": [
-      "ARTEMIS",
-      "REINSURANCE NEWS",
-      "INSURANCE JOURNAL"
+      "INSURANCE JOURNAL",
+      "GOOGLE NEWS QATAR EMERGENCY",
+      "RELIEFWEB",
+      "PENINSULA QATAR"
     ],
-    "updated": "2026-03-25T15:42:53.213Z",
+    "updated": "2026-03-27T06:00:16.090Z",
+    "createdAt": "2026-03-27T06:01:55.092Z",
+    "lastSignalAt": "2026-03-27T06:01:55.092Z",
     "regJurisdictions": [
-      "USA",
-      "BMU",
-      "GBR"
+      "QAT",
+      "UAE",
+      "KSA",
+      "LBN",
+      "OMN"
+    ],
+    "eventType": "MARINE_WAR_RISK",
+    "clusterReason": "These signals all describe insurance-relevant consequences of the Iran conflict — energy infrastructure risk, aviation disruption, supply chain breakdown, travel warnings, and humanitarian logistics — forming a coherent geopolitical war risk scenario.",
+    "generationRunId": "gen_20260327060016",
+    "topSignals": [
+      {
+        "id": "live_s276",
+        "score": 16,
+        "title": "Energy Fallout From Iran War Signals Global Wake-Up Call for Renewable Energy",
+        "source": "INSURANCE JOURNAL"
+      },
+      {
+        "id": "live_s285",
+        "score": 19,
+        "title": "UK tourists in Dubai, Egypt, Qatar issued 'very frightening' new warning - Birmingham Live",
+        "source": "GOOGLE NEWS QATAR EMERGENCY"
+      },
+      {
+        "id": "live_s282",
+        "score": 22,
+        "title": "War-related disruptions in the Middle East are delaying lifesaving reproductive health supplies for women and girls worldwide",
+        "source": "RELIEFWEB"
+      },
+      {
+        "id": "live_s262",
+        "score": 8,
+        "title": "Etihad, Qatar Airways enhance loyalty programmes as Iran war impacts flights - Gulf Business",
+        "source": "GOOGLE NEWS QATAR EMERGENCY"
+      },
+      {
+        "id": "live_s266",
+        "score": 4,
+        "title": "GCC Ministers of Transport and Communications discussed current situations impact on supply chains",
+        "source": "PENINSULA QATAR"
+      }
     ],
     "scores": {
-      "risk_compliance": 4,
-      "claims": 3,
-      "underwriting": 7,
-      "reinsurance": 10,
+      "risk_compliance": 9,
+      "claims": 8,
+      "underwriting": 10,
+      "reinsurance": 9,
       "investments": 8
     },
     "interpretations": {
       "risk_compliance": {
-        "headline": "ILS structure and secondary market transactions require regulatory review",
-        "detail": "Secondary reinsurance market transactions and novel parametric products may fall outside existing Lloyd's and QFC regulatory frameworks, requiring compliance pre-clearance before participation.",
+        "headline": "War risk clause reviews and sanctions screening urgently required",
+        "detail": "The active Iran conflict requires immediate review of all war exclusion clauses across marine, aviation, and energy portfolios. Lloyd's Market Association war risk guidelines and potential new OFAC/EU sanctions designations must be monitored in real time.",
         "affectedLines": [
-          "Reinsurance",
-          "ILS",
-          "Parametric Insurance"
+          "Marine War Risk",
+          "Aviation",
+          "Energy"
         ],
         "actions": [
-          "Review QFC and Lloyd's regulations governing secondary ILS market participation and confirm permissibility",
-          "Ensure parametric hail and flood model products meet Lloyd's delegated authority and basis risk disclosure standards",
-          "Flag any cat bond SPV counterparty relationships for anti-money laundering and KYC compliance review"
+          "Audit all Gulf marine and aviation policies for war exclusion clause applicability given active Iran conflict",
+          "Implement daily sanctions screening for any Iran-adjacent counterparties or vessel operators",
+          "Brief compliance team on Lloyd's LMA war risk bulletin updates and any required policy endorsements"
         ]
       },
       "claims": {
-        "headline": "Parametric and ILS trigger disputes require claims readiness",
-        "detail": "New parametric hail products and updated flood models may create basis risk disputes at claims stage, particularly where modelled loss diverges from actual insured loss.",
+        "headline": "Aviation rerouting costs and marine war risk claims pipeline building",
+        "detail": "Airline schedule changes due to Iranian airspace restrictions generate business interruption and additional cost claims. Any vessels damaged or detained in the Arabian Gulf war zone will trigger hull war and P&I claims.",
         "affectedLines": [
-          "Property",
-          "Parametric Insurance",
-          "Flood"
+          "Aviation",
+          "Marine War Risk",
+          "Travel"
         ],
         "actions": [
-          "Review claims handling protocols for parametric trigger verification across hail and flood product lines",
-          "Engage external meteorological and hydrological experts for parametric claims support capability",
-          "Update claims policy wordings to reflect JBA Global Flood Model version changes in treaty triggers"
+          "Establish a dedicated Gulf war risk claims triage desk for marine and aviation notifications",
+          "Review all open Arabian Gulf cargo and hull policies for war risk coverage gaps",
+          "Process travel insurance claims for UK and GCC tourists affected by government travel warnings"
         ]
       },
       "underwriting": {
-        "headline": "Cat bond price compression creates reinsurance buying opportunity but signals risk repricing",
-        "detail": "Softening ILS spreads improve catastrophe reinsurance purchasing economics but may also signal increased investor risk appetite ahead of an active storm season. Underwriters should reassess attachment points and aggregate accumulations.",
+        "headline": "Immediate repricing required for Gulf marine, aviation, and energy war risk",
+        "detail": "The Iran war materially alters the risk landscape for all Arabian Gulf placements. Energy assets — particularly offshore platforms and LNG facilities — face elevated PML scenarios not reflected in current premiums.",
         "affectedLines": [
-          "Property Catastrophe",
-          "Reinsurance",
-          "Flood",
-          "Hail"
+          "Marine War Risk",
+          "Energy",
+          "Aviation"
         ],
         "actions": [
-          "Review Florida multi-peril and US cat accumulation portfolios in light of improved reinsurance buying conditions",
-          "Incorporate updated JBA flood model outputs into property underwriting guidelines and PML calculations",
-          "Assess appetite for parametric hail product as a supplementary cover or reinsurance trigger mechanism"
+          "Suspend new Arabian Gulf war risk binderies pending senior underwriter sign-off on revised rates",
+          "Issue amended war risk additional premiums (WRAPs) for all active Gulf voyage policies",
+          "Reassess energy downstream and upstream PMLs for Iranian Gulf conflict scenarios"
         ]
       },
       "reinsurance": {
-        "headline": "ILS market softening and secondary markets open new cost-efficiency opportunities",
-        "detail": "Price guidance reductions on Abacab Re and Armor Re II signal investor demand exceeding supply, creating a buyer's market for reinsurance purchasers. Secondary market liquidity improvements could enable more dynamic reinsurance portfolio management.",
+        "headline": "War risk aggregate accumulation in Gulf requires immediate treaty review",
+        "detail": "Concurrent exposure across marine, aviation, and energy war risk lines in the same geography creates dangerous accumulation. Reinsurance protections may be insufficient if multiple losses occur simultaneously.",
         "affectedLines": [
-          "Property Catastrophe Reinsurance",
-          "ILS",
-          "Capital Markets"
+          "Marine War Risk",
+          "Energy",
+          "Aviation"
         ],
         "actions": [
-          "Evaluate cat bond market participation as a reinsurance purchasing channel given current spread compression",
-          "Engage Howden Re on secondary reinsurance market mechanisms for portfolio optimisation and capital release",
-          "Model optimal attachment and exhaustion points for 2026-27 catastrophe reinsurance program given current ILS pricing"
+          "Run Gulf war risk accumulation scenarios against current reinsurance treaty limits",
+          "Notify political violence reinsurers of elevated exposure concentration in Arabian Gulf",
+          "Review clash cover adequacy for simultaneous marine, aviation, and energy war losses"
         ]
       },
       "investments": {
-        "headline": "Cat bond investments offer attractive risk-adjusted returns amid ILS market softening",
-        "detail": "Despite spread compression, cat bond instruments remain competitive relative to corporate credit on a risk-adjusted basis, particularly for diversified natural catastrophe tranches.",
+        "headline": "Gulf sovereign and energy sector assets face elevated geopolitical risk premium",
+        "detail": "Iran conflict-driven oil price volatility and potential Strait of Hormuz disruption risk affect Gulf sovereign wealth fund linked assets and energy equities. Renewable energy transition signals may create medium-term investment opportunity.",
         "affectedLines": [
-          "Investment Portfolio",
-          "ILS",
-          "Capital Markets"
+          "Energy",
+          "Marine"
         ],
         "actions": [
-          "Review cat bond investment allocation within the investment portfolio for 2026 given spread dynamics",
-          "Assess correlation between cat bond holdings and underwriting cat exposure to avoid double-counting risk",
-          "Monitor ILS secondary market liquidity metrics as a leading indicator of broader reinsurance capital cycle turning"
+          "Stress-test investment portfolio against a 30-day Strait of Hormuz disruption scenario",
+          "Review exposure to Gulf energy equities and adjust position sizing for war premium volatility",
+          "Identify renewable energy infrastructure investment opportunities emerging from post-conflict transition signals"
         ]
       }
     }
   },
   {
     "id": "sit_gen_3",
-    "title": "Cyber Risk Escalation Amid Geopolitical Tensions",
-    "subtitle": "Munich Re and specialist markets signal intensifying cyber threat landscape driven by state-linked actors and expanding digital risk sectors.",
-    "summary": "Munich Re has flagged a deteriorating cyber risk environment directly linked to geopolitical strains, coinciding with new specialist cyber insurance partnerships targeting high-exposure sectors such as iGaming. Senior cyber claims capability is being built across the market, indicating anticipation of increased loss activity. Lloyd's-regulated insurers face compounding cyber accumulation risk as state-sponsored attacks escalate in parallel with the Gulf conflict.",
+    "title": "Qatar Aviation Incident Helicopter Fatalities",
+    "subtitle": "Qatari military helicopter crash with multiple fatalities creates active aviation liability and claims exposure.",
+    "summary": "Multiple QNA dispatches confirm a Qatari military helicopter crash with fatalities serious enough to prompt a state funeral prayer by HH the Amir, indicating significant loss of life. This event creates immediate aviation liability, hull war, and personal accident claims exposure. The circumstances — whether weather-related given concurrent severe storms — or mechanical/operational failure will determine coverage routing and reinsurance notification requirements.",
     "severity": "ACTIVE",
     "isLive": true,
+    "archived": false,
     "category": [
-      "Cyber Insurance",
-      "Cyber Reinsurance",
-      "Specialty Lines",
-      "Professional Liability"
+      "Aviation",
+      "Liability",
+      "Personal Accident"
     ],
-    "geography": "Global",
+    "geography": "Qatar",
     "coordinates": {
-      "lat": 51.51,
-      "lng": -0.13
+      "lat": 25.3,
+      "lng": 51.5
     },
     "confidence": 82,
     "signalIds": [
-      "live_s215",
-      "live_s218",
-      "live_s219",
-      "live_s209"
+      "live_s267",
+      "live_s268",
+      "live_s269",
+      "live_s270",
+      "live_s271",
+      "live_s265"
     ],
+    "signalCount": 6,
     "sources": [
-      "REINSURANCE NEWS",
-      "INSURANCE JOURNAL"
+      "QNA",
+      "PENINSULA QATAR"
     ],
-    "updated": "2026-03-25T15:42:53.213Z",
+    "updated": "2026-03-27T06:00:16.090Z",
+    "createdAt": "2026-03-27T06:01:55.092Z",
+    "lastSignalAt": "2026-03-27T06:01:55.092Z",
     "regJurisdictions": [
-      "GBR",
-      "USA",
-      "EU"
+      "QAT"
+    ],
+    "eventType": "AVIATION",
+    "clusterReason": "Five near-identical QNA signals confirm a single aviation mass casualty event — the Qatari helicopter crash — requiring immediate claims and liability coordination as a standalone aviation incident.",
+    "generationRunId": "gen_20260327060016",
+    "topSignals": [
+      {
+        "id": "live_s267",
+        "score": 4,
+        "title": "HH the Amir Performs Funeral Prayer for Martyrs Following Qatari Helicopter Crash",
+        "source": "QNA"
+      },
+      {
+        "id": "live_s268",
+        "score": 4,
+        "title": "HH the Amir Performs Funeral Prayer for Martyrs Following Qatari Helicopter Crash",
+        "source": "QNA"
+      },
+      {
+        "id": "live_s269",
+        "score": 4,
+        "title": "HH the Amir Performs Funeral Prayer for Martyrs Following Qatari Helicopter Crash",
+        "source": "QNA"
+      },
+      {
+        "id": "live_s270",
+        "score": 4,
+        "title": "HH the Amir Performs Funeral Prayer for Martyrs Following Qatari Helicopter Crash",
+        "source": "QNA"
+      },
+      {
+        "id": "live_s271",
+        "score": 4,
+        "title": "HH the Amir Performs Funeral Prayer for Martyrs Following Qatari Helicopter Crash",
+        "source": "QNA"
+      }
     ],
     "scores": {
-      "risk_compliance": 8,
-      "claims": 8,
-      "underwriting": 9,
+      "risk_compliance": 7,
+      "claims": 10,
+      "underwriting": 7,
       "reinsurance": 8,
-      "investments": 4
+      "investments": 2
     },
     "interpretations": {
       "risk_compliance": {
-        "headline": "War exclusion and state-sponsored cyber attack classification remains unresolved",
-        "detail": "Geopolitically-linked cyber attacks blur the line between war exclusion applicability and standard cyber cover, creating regulatory and legal uncertainty for policy wordings under Lloyd's LMA frameworks.",
+        "headline": "State aviation incident requires regulatory notification to QCAA and Lloyd's",
+        "detail": "A military helicopter crash with confirmed fatalities triggers mandatory accident reporting obligations under Qatari Civil Aviation Authority protocols and Lloyd's aviation market notification requirements.",
         "affectedLines": [
-          "Cyber Insurance",
-          "Professional Liability",
-          "War Risk"
+          "Aviation",
+          "Liability"
         ],
         "actions": [
-          "Audit all cyber policy wordings for state-sponsored attack exclusion language consistency with Lloyd's LMA 21-010 guidance",
-          "Engage Lloyd's Market Association for updated guidance on cyber war exclusion applicability given Iran-Israel conflict escalation",
-          "Review iGaming and digital sector policy wordings for regulatory exposure in jurisdictions with pending or active bans"
+          "Notify QCAA and relevant Lloyd's aviation syndicate leads of confirmed helicopter loss",
+          "Confirm whether military aviation policy falls under sovereign immunity or commercial coverage structure",
+          "Preserve all underwriting file records related to Qatari state aviation assets"
         ]
       },
       "claims": {
-        "headline": "Cyber claims frequency expected to rise with geopolitical cyber offensive activity",
-        "detail": "State-linked cyber operations associated with the Iran-Israel conflict are likely to cause collateral damage to commercial entities, triggering cyber business interruption and data breach claims.",
+        "headline": "Immediate hull and personal accident claims activation required",
+        "detail": "Multiple fatalities and total aircraft loss create concurrent hull war or all-risks, personal accident, and potentially employer's liability claims. State involvement may complicate settlement jurisdiction.",
         "affectedLines": [
-          "Cyber Insurance",
-          "Business Interruption",
-          "Professional Liability"
+          "Aviation",
+          "Personal Accident",
+          "Liability"
         ],
         "actions": [
-          "Activate enhanced cyber claims monitoring for Gulf-connected entities and critical infrastructure policyholders",
-          "Ensure Canopius-style senior cyber claims appointments are replicated internally to handle anticipated claim volumes",
-          "Establish incident response retainer relationships with specialist cyber forensics firms for rapid claims deployment"
+          "Open formal aviation claims file and appoint specialist aviation loss adjuster",
+          "Contact Qatar Armed Forces legal office to establish claims notification and documentation protocol",
+          "Determine whether concurrent storm weather constitutes a contributing cause for coverage analysis"
         ]
       },
       "underwriting": {
-        "headline": "Cyber underwriting must tighten controls on geopolitically exposed sectors",
-        "detail": "The iGaming, energy, and financial services sectors face disproportionate cyber exposure given their digital attack surfaces and geopolitical visibility. New business in these sectors requires enhanced risk selection discipline.",
+        "headline": "Review Qatari state aviation and military fleet policy terms and limits",
+        "detail": "The crash highlights potential underpricing of military aviation risks in the Gulf, particularly where weather and operational tempo are elevated simultaneously.",
         "affectedLines": [
-          "Cyber Insurance",
-          "Specialty Lines",
-          "Professional Liability",
-          "Energy"
+          "Aviation"
         ],
         "actions": [
-          "Implement enhanced cyber risk questionnaires for iGaming, energy, and financial sector renewals flagging geopolitical exposure",
-          "Apply sublimits or co-insurance requirements for state-sponsored attack scenarios on high-profile digital sector risks",
-          "Review aggregation modelling to cap silent cyber and affirmative cyber accumulation in Gulf-exposed sectors"
+          "Pull all active Qatari military and para-military aviation policy schedules for limit adequacy review",
+          "Assess whether existing hull and liability limits are sufficient given confirmed fatality count",
+          "Flag renewal of Qatari state aviation accounts for enhanced risk assessment"
         ]
       },
       "reinsurance": {
-        "headline": "Cyber reinsurance capacity may tighten as geopolitical loss scenarios crystallise",
-        "detail": "Munich Re's public flagging of intensifying cyber risk may precede reinsurance market repricing or capacity withdrawal for war-adjacent cyber scenarios, particularly for systemic or infrastructure-targeting events.",
+        "headline": "Aviation hull and liability reinsurance notification likely required",
+        "detail": "A total loss with multiple fatalities almost certainly exceeds primary retention levels, requiring prompt reinsurer notification and potential clash cover review if linked to the wider Gulf weather event.",
         "affectedLines": [
-          "Cyber Reinsurance",
-          "Specialty Lines"
+          "Aviation"
         ],
         "actions": [
-          "Confirm cyber reinsurance treaty coverage for state-sponsored and war-adjacent attack scenarios ahead of renewal",
-          "Seek facultative cyber reinsurance for iGaming and digital sector accumulations before market capacity tightens",
-          "Engage Munich Re and other capacity providers directly for updated cyber risk appetite signals and treaty terms"
+          "Issue loss advice to aviation XL reinsurers with preliminary loss quantum estimate",
+          "Assess whether this loss can aggregate with Gulf weather event losses under treaty terms",
+          "Confirm facultative reinsurance placement details for Qatari state aviation assets"
         ]
       },
       "investments": {
-        "headline": "Cyber sector equity and bond holdings face volatility from escalating threat signals",
-        "detail": "Publicised cyber risk escalation may trigger short-term volatility in cybersecurity sector equities and technology-linked bonds held in investment portfolios.",
+        "headline": "Minimal direct investment impact from isolated state aviation incident",
+        "detail": "This event has no material investment portfolio implications beyond potential minor reputational sensitivity for Qatar sovereign-linked holdings.",
         "affectedLines": [
-          "Investment Portfolio"
+          "Aviation"
         ],
         "actions": [
-          "Review investment portfolio for concentration in technology or digital infrastructure sectors exposed to cyber risk repricing",
-          "Monitor cybersecurity company valuations as a proxy indicator for insured cyber risk pricing trajectory",
-          "Assess impact of potential large-scale cyber loss events on investment-grade corporate bond spreads in tech sector"
+          "No immediate investment action required",
+          "Monitor for any Qatar sovereign credit rating impact from combined weather and aviation events",
+          "Note event for ESG incident tracking in Qatar sovereign exposure register"
         ]
       }
     }
   },
   {
     "id": "sit_gen_4",
-    "title": "Climate and Property Insurance Protection Gap Widening",
-    "subtitle": "Regulatory warnings, updated catastrophe models, and parametric innovation signal a structural widening of the natural catastrophe protection gap.",
-    "summary": "APRA's warning on Australia's home insurance protection gap, combined with JBA's updated Global Flood Model and the launch of parametric hail products, highlight accelerating divergence between insured and economic losses from climate-driven natural catastrophes. This trend is creating underwriting challenges for property lines globally while simultaneously opening product innovation opportunities. Lloyd's-regulated insurers face both portfolio re-rating needs and strategic positioning decisions around parametric and government-partnership solutions.",
+    "title": "Regional Security Threats Travel and Liability Risk",
+    "subtitle": "Heightened security incidents and community threats in global and MENA markets creating elevated liability and travel insurance exposures.",
+    "summary": "UK government travel warnings issued for Qatar, Dubai, and Egypt — combined with rising hateful incidents against Jewish communities globally — indicate a broadening security threat environment with direct insurance implications for travel, event liability, and terrorism lines. The warnings, issued amid the backdrop of the Iran war, create elevated personal accident and travel cancellation claims risk, while community security upgrades signal increased demand for specialty liability and security coverage. These signals form a secondary security risk layer distinct from the primary Iran conflict.",
     "severity": "ELEVATED",
     "isLive": true,
+    "archived": false,
     "category": [
-      "Property",
-      "Flood",
-      "Climate Risk",
-      "Parametric Insurance",
-      "Reinsurance"
+      "Travel",
+      "Liability",
+      "Terrorism",
+      "Event Cancellation"
     ],
-    "geography": "Global / Australia",
+    "geography": "MENA / Global",
     "coordinates": {
-      "lat": -25.27,
-      "lng": 133.78
+      "lat": 29,
+      "lng": 34
     },
-    "confidence": 78,
+    "confidence": 72,
     "signalIds": [
-      "live_s204",
-      "live_s203",
-      "live_s202",
-      "live_s211",
-      "live_s207"
+      "live_s285",
+      "live_s279",
+      "live_s283",
+      "live_s274",
+      "live_s277"
     ],
+    "signalCount": 5,
     "sources": [
-      "REINSURANCE NEWS",
+      "GOOGLE NEWS QATAR EMERGENCY",
       "INSURANCE JOURNAL",
-      "ARTEMIS"
+      "RELIEFWEB",
+      "PENINSULA QATAR"
     ],
-    "updated": "2026-03-25T15:42:53.213Z",
+    "updated": "2026-03-27T06:00:16.090Z",
+    "createdAt": "2026-03-27T06:01:55.092Z",
+    "lastSignalAt": "2026-03-27T06:01:55.092Z",
     "regJurisdictions": [
-      "AUS",
-      "NZL",
-      "GBR",
-      "USA"
+      "QAT",
+      "UAE",
+      "EGY"
+    ],
+    "eventType": "GEOPOLITICAL",
+    "clusterReason": "These signals cluster around a shared theme of elevated security and civil threat environments — government travel warnings, community security incidents, and conflict spillover — each generating liability, travel, and terrorism insurance exposure.",
+    "generationRunId": "gen_20260327060016",
+    "topSignals": [
+      {
+        "id": "live_s285",
+        "score": 19,
+        "title": "UK tourists in Dubai, Egypt, Qatar issued 'very frightening' new warning - Birmingham Live",
+        "source": "GOOGLE NEWS QATAR EMERGENCY"
+      },
+      {
+        "id": "live_s279",
+        "score": 6,
+        "title": "Jewish Communities Boost Security Amid Rise in Hateful Incidents",
+        "source": "INSURANCE JOURNAL"
+      },
+      {
+        "id": "live_s283",
+        "score": 12,
+        "title": "Somalia — Emergency Trend Tracking (ETT) Annual Report 2025 | Weeks 1–44",
+        "source": "RELIEFWEB"
+      },
+      {
+        "id": "live_s274",
+        "score": 5,
+        "title": "Qatar National Day",
+        "source": "PENINSULA QATAR"
+      },
+      {
+        "id": "live_s277",
+        "score": 4,
+        "title": "NCAA Asks Court to Stop DraftKings’ Use of ‘March Madness’ and Other Trademarks",
+        "source": "INSURANCE JOURNAL"
+      }
     ],
     "scores": {
       "risk_compliance": 6,
-      "claims": 6,
-      "underwriting": 9,
-      "reinsurance": 8,
-      "investments": 5
+      "claims": 7,
+      "underwriting": 8,
+      "reinsurance": 6,
+      "investments": 4
     },
     "interpretations": {
       "risk_compliance": {
-        "headline": "APRA climate risk guidance may foreshadow mandatory affordability interventions",
-        "detail": "APRA's public warnings signal potential regulatory intervention in home insurance pricing or coverage mandates in Australia, which could restrict underwriting flexibility and compel participation in shared pool mechanisms.",
+        "headline": "Travel warning issuances may trigger policy coverage obligations",
+        "detail": "UK FCO and equivalent government travel warnings for Qatar, Dubai, and Egypt can activate coverage under travel policies with government advisory triggers. Compliance teams must assess whether formal 'advise against travel' thresholds have been crossed.",
         "affectedLines": [
-          "Property",
-          "Home Insurance",
-          "Flood"
+          "Travel",
+          "Liability",
+          "Terrorism"
         ],
         "actions": [
-          "Monitor APRA and Australian Treasury consultations on protection gap interventions for property insurance pricing impact",
-          "Review Australian property portfolio for compliance with any forthcoming climate risk disclosure or stress-testing mandates",
-          "Assess exposure to potential government-imposed flood pool participation requirements in high-risk Australian postcodes"
+          "Monitor UK FCO, US State Dept, and GCC government travel advisory status daily for trigger thresholds",
+          "Review event cancellation policy wordings for Qatar National Day and other scheduled Gulf events",
+          "Assess terrorism coverage adequacy for insured community and public assembly venues"
         ]
       },
       "claims": {
-        "headline": "Updated flood models will alter claims reserving and loss estimation benchmarks",
-        "detail": "JBA's updated Global Flood Model revises loss estimates for multiple geographies, potentially creating reserving mismatches on in-force property and reinsurance treaties where older model outputs were used.",
+        "headline": "Travel cancellation and security incident claims expected to rise",
+        "detail": "Government travel warnings will prompt policyholder cancellation claims; rising community security incidents may generate liability and personal accident notifications from affected venue operators.",
         "affectedLines": [
-          "Property",
-          "Flood",
-          "Reinsurance"
+          "Travel",
+          "Liability",
+          "Personal Accident"
         ],
         "actions": [
-          "Rerun open flood claims reserves through updated JBA Global Flood Model to identify material reserving gaps",
-          "Flag treaties and policies where trigger or attachment calculations are model-dependent for renegotiation or endorsement",
-          "Brief claims teams on updated flood loss drivers in Australian, UK, and Southeast Asian geographies"
+          "Pre-position travel claims handlers to process Gulf-region cancellation and curtailment claims",
+          "Contact insured event organizers in Qatar and UAE to assess coverage activation under current warnings",
+          "Establish a security incident claims intake pathway for community and institutional policyholders"
         ]
       },
       "underwriting": {
-        "headline": "Climate-driven property affordability crisis requires urgent portfolio repricing and risk selection review",
-        "detail": "Widening protection gaps driven by climate risk inflation make certain high-hazard property portfolios uninsurable at affordable rates, requiring active risk selection, derisking, or parametric product substitution strategies.",
+        "headline": "Travel and event liability rates need security risk loading for Gulf placements",
+        "detail": "The combination of active conflict, weather disruption, and government travel warnings creates a compounded risk environment that current Gulf travel and event liability pricing does not adequately reflect.",
         "affectedLines": [
-          "Property",
-          "Home Insurance",
-          "Flood",
-          "Hail",
-          "Parametric Insurance"
+          "Travel",
+          "Event Cancellation",
+          "Liability"
         ],
         "actions": [
-          "Integrate updated JBA flood model outputs into property underwriting guidelines for all active geographies",
-          "Develop parametric product strategy for high-frequency, low-severity climate perils such as hail and flash flooding",
-          "Implement portfolio derisking triggers for Australian coastal and flood-plain property concentrations exceeding PML thresholds"
+          "Apply security threat loading to new travel policy submissions for Qatar, UAE, and Egypt",
+          "Review public event liability policies in Qatar for adequacy given National Day and elevated threat environment",
+          "Reassess terrorism sub-limits in commercial liability policies for MENA-domiciled insureds"
         ]
       },
       "reinsurance": {
-        "headline": "Climate model updates and protection gap trends will reprice cat reinsurance in affected regions",
-        "detail": "Updated catastrophe models typically lead to reinsurance repricing and potential capacity withdrawal in affected geographies, particularly Australia and Southeast Asia where flood and cyclone risk is reassessed upward.",
+        "headline": "Terrorism and political violence accumulation warrants review",
+        "detail": "Concurrent security threats across multiple MENA markets may cause problematic accumulation in terrorism and political violence reinsurance programs if multiple incidents occur simultaneously.",
         "affectedLines": [
-          "Property Catastrophe Reinsurance",
-          "Flood Reinsurance"
+          "Terrorism",
+          "Travel",
+          "Liability"
         ],
         "actions": [
-          "Renegotiate or seek confirmation of 2026-27 cat reinsurance treaty terms before updated flood model is formally adopted by reinsurers",
-          "Explore ILS and secondary market mechanisms to supplement traditional reinsurance capacity for climate-exposed property books",
-          "Engage reinsurance brokers on updated risk transfer structures for parametric flood and hail products in Australian market"
+          "Map current MENA terrorism and political violence exposure against treaty accumulation limits",
+          "Notify political violence reinsurers of heightened threat environment across Qatar and UAE",
+          "Review adequacy of MENA-region clash provisions in liability reinsurance treaties"
         ]
       },
       "investments": {
-        "headline": "Climate risk is driving long-term impairment of real estate and infrastructure asset values",
-        "detail": "Widening protection gaps and rising uninsurability in flood and climate-exposed regions represent a systemic risk to real estate and infrastructure asset valuations in investment portfolios.",
+        "headline": "Security threat environment may dampen Gulf tourism and retail sector investment returns",
+        "detail": "Sustained travel warnings and security incidents could reduce tourist volumes to Qatar and UAE, affecting hospitality and retail sector investment performance in the near term.",
         "affectedLines": [
-          "Investment Portfolio",
-          "Real Assets"
+          "Travel",
+          "Liability"
         ],
         "actions": [
-          "Screen investment portfolio real estate holdings for climate hazard exposure using updated flood and hail risk models",
-          "Reduce allocation to unhedged property assets in Australian flood plains or coastline zones with deteriorating insurability",
-          "Consider green bond or climate-resilience infrastructure allocation as a partial hedge against climate-driven portfolio impairment"
+          "Review equity and fixed-income positions in Gulf hospitality and tourism sector for downside sensitivity",
+          "Monitor foreign direct investment sentiment indicators for Qatar and UAE in context of travel warnings",
+          "Assess impact of reduced tourist arrivals on Qatar and UAE commercial property valuations in held portfolios"
         ]
       }
     }

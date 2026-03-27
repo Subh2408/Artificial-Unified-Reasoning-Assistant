@@ -15,17 +15,21 @@ const { fetchGdelt }          = require('./sources/gdelt')
 const { fetchOfac }           = require('./sources/ofac')
 const { fetchRegulatorRss }   = require('./sources/regulatoryRss')
 const { fetchFred }           = require('./sources/fred')
+const { fetchWeatherFeeds }   = require('./sources/weatherFeeds')
+const { expireStaleSignals }  = require('./signalExpiry')
+const { retireStaleSituations } = require('./situationRetirement')
 
 // ── Source runners ────────────────────────────────────────────────────────────
 
 async function runSignalSources() {
   try {
-    const [gdacs, artemis, insurance, ofac, fred] = await Promise.allSettled([
+    const [gdacs, artemis, insurance, ofac, fred, weather] = await Promise.allSettled([
       fetchGdacs(),
       fetchArtemis(),
       fetchInsuranceFeeds(),
       fetchOfac(),
       fetchFred(),
+      fetchWeatherFeeds(),
     ])
 
     const allSignals = [
@@ -34,16 +38,28 @@ async function runSignalSources() {
       ...(insurance.status === 'fulfilled' ? insurance.value : []),
       ...(ofac.status      === 'fulfilled' ? ofac.value      : []),
       ...(fred.status      === 'fulfilled' ? fred.value      : []),
+      ...(weather.status   === 'fulfilled' ? weather.value   : []),
     ]
 
     if (allSignals.length) {
-      const updatedSitIds = await ingestSignals(allSignals)
+      const { updatedSitIds, hasFlagged } = await ingestSignals(allSignals)
+
       // Auto-synthesize situations that received new matched signals
       for (const sitId of updatedSitIds) {
         try {
           await synthesizeOne(sitId)
         } catch (err) {
           console.error(`[scheduler] synthesize ${sitId} failed:`, err.message)
+        }
+      }
+
+      // If any signal scored >= 15 (flagged), trigger immediate situation generation
+      if (hasFlagged) {
+        console.log('[scheduler] flagged signals detected — triggering immediate situation generation')
+        try {
+          await generateSituations()
+        } catch (err) {
+          console.error('[scheduler] flagged generation failed:', err.message)
         }
       }
     } else {
@@ -75,7 +91,6 @@ async function bootstrapSynthesis() {
   try {
     const signals   = readArray('signals')
     const overrides = readFile('situation_overrides')
-    // Find situations that have live signals but no override yet
     const sitIds = [...new Set(signals.map((s) => s.situationId).filter(Boolean))]
     const pending = sitIds.filter((id) => !overrides[id])
     if (!pending.length) return
@@ -92,6 +107,19 @@ async function bootstrapSynthesis() {
   }
 }
 
+// ── Daily maintenance ────────────────────────────────────────────────────────
+
+async function runDailyMaintenance() {
+  console.log('[scheduler] daily maintenance started')
+  try {
+    expireStaleSignals()
+    retireStaleSituations()
+  } catch (err) {
+    console.error('[scheduler] daily maintenance error:', err.message)
+  }
+  console.log('[scheduler] daily maintenance complete')
+}
+
 // ── runAll — for manual trigger ───────────────────────────────────────────────
 
 async function runAll() {
@@ -106,21 +134,34 @@ async function runAll() {
   console.log('[scheduler] manual run complete')
 }
 
+// ── Force generate — bypasses cooldown for /api/ingest/trigger ──
+
+async function forceGenerate() {
+  console.log('[scheduler] force generate triggered (cooldown bypass)')
+  await Promise.allSettled([runSignalSources(), runRegulatorySources()])
+  try {
+    await generateSituations(true) // forceBypass = true
+  } catch (err) {
+    console.error('[scheduler] force generation failed:', err.message)
+  }
+  console.log('[scheduler] force generate complete')
+}
+
 // ── Cron registration ─────────────────────────────────────────────────────────
 
-// Every 30 minutes — signal sources (GDACS, Artemis, Insurance Journal, OFAC, FRED)
+// Every 30 minutes — signal sources (GDACS, Artemis, Insurance Journal, OFAC, FRED, Weather)
 cron.schedule('*/30 * * * *', () => {
   console.log('[scheduler] signal cron fired')
   runSignalSources().catch(err => console.error('[scheduler] signal cron error:', err.message))
 })
 
-// Every 6 hours — regulatory sources (slower cadence, regulations change infrequently)
+// Every 6 hours — regulatory sources
 cron.schedule('0 */6 * * *', () => {
   console.log('[scheduler] regulation cron fired')
   runRegulatorySources().catch(err => console.error('[scheduler] regulation cron error:', err.message))
 })
 
-// Every 6 hours — GDELT (rate-limited, avoid 429s)
+// Every 6 hours — GDELT (rate-limited)
 cron.schedule('30 */6 * * *', async () => {
   console.log('[scheduler] GDELT cron fired')
   try {
@@ -129,6 +170,12 @@ cron.schedule('30 */6 * * *', async () => {
   } catch (err) {
     console.error('[scheduler] GDELT cron error:', err.message)
   }
+})
+
+// Daily at midnight Doha time (21:00 UTC) — signal expiry + situation retirement
+cron.schedule('0 21 * * *', () => {
+  console.log('[scheduler] daily maintenance cron fired')
+  runDailyMaintenance().catch(err => console.error('[scheduler] maintenance cron error:', err.message))
 })
 
 // Run once on startup (after a short delay to let the server start)
@@ -141,6 +188,6 @@ setTimeout(async () => {
   }
 }, 5000)
 
-console.log('[scheduler] cron jobs registered (signals: */30min, regulations: */6h, GDELT: */6h)')
+console.log('[scheduler] cron jobs registered (signals: */30min, regulations: */6h, GDELT: */6h, maintenance: daily 21:00 UTC)')
 
-module.exports = { runAll }
+module.exports = { runAll, forceGenerate }

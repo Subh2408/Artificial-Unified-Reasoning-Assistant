@@ -1,13 +1,13 @@
 /**
  * Tracks situation state changes over time for evolution visualization.
- * Appends a snapshot after each situation generation/synthesis.
+ * Events: created, updated, severity_upgrade, archived, reactivated
  */
 const { readFile, writeFile } = require('../lib/storage')
 
 const MAX_PER_SITUATION = 100
 const MAX_TOTAL = 500
 
-function appendSituationHistory(situation) {
+function appendSituationHistory(situation, event, reason) {
   if (!situation || !situation.id) return
 
   const store = readFile('situation_history')
@@ -17,10 +17,12 @@ function appendSituationHistory(situation) {
 
   store[key].push({
     timestamp: new Date().toISOString(),
+    event: event || 'updated',
     severity: situation.severity,
     confidence: situation.confidence,
-    signalCount: (situation.signalIds || []).length,
+    signalCount: situation.signalCount || (situation.signalIds || []).length,
     title: situation.title,
+    reason: reason || null,
   })
 
   // Cap per situation
@@ -31,7 +33,6 @@ function appendSituationHistory(situation) {
   // Cap total entries
   const totalEntries = Object.values(store).reduce((sum, arr) => sum + arr.length, 0)
   if (totalEntries > MAX_TOTAL) {
-    // Trim oldest entries from the situation with the most history
     const largest = Object.entries(store).sort((a, b) => b[1].length - a[1].length)[0]
     if (largest) store[largest[0]] = largest[1].slice(-50)
   }

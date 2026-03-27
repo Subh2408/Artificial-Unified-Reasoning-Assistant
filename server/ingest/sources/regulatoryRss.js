@@ -14,13 +14,10 @@ const SOURCES = [
     keywords: ['sanction', 'ofac', 'sdn', 'designation', 'iran', 'insurance'] },
 
   // ── Scrape (fetch page, extract headings) ──
-  { name: 'FATF', type: 'scrape', url: 'https://www.fatf-gafi.org/en/publications.html',
-    regulator: 'FATF', regulatorFull: 'Financial Action Task Force',
-    jurisdiction: 'International', jurisdictionCode: 'INT' },
-  { name: 'IAIS', type: 'scrape', url: 'https://www.iaisweb.org/news/',
+  { name: 'IAIS', type: 'scrape', url: 'https://www.iaisweb.org/news',
     regulator: 'IAIS', regulatorFull: 'International Association of Insurance Supervisors',
     jurisdiction: 'International', jurisdictionCode: 'INT' },
-  { name: 'LMA', type: 'scrape', url: 'https://www.lmalloyds.com/LMA/News/',
+  { name: 'LMA', type: 'scrape', url: 'https://www.lmalloyds.com/news',
     regulator: 'LMA', regulatorFull: "Lloyd's Market Association",
     jurisdiction: 'International', jurisdictionCode: 'INT' },
 
@@ -31,7 +28,7 @@ const SOURCES = [
   { name: 'QFCRA', type: 'watch', url: 'https://www.qfcra.com/en-us/legislation/',
     regulator: 'QFCRA', regulatorFull: 'Qatar Financial Centre Regulatory Authority',
     jurisdiction: 'Qatar (QFC)', jurisdictionCode: 'QFC' },
-  { name: 'QFMA', type: 'watch', url: 'https://www.qfma.org.qa/English/Legislation/',
+  { name: 'QFMA', type: 'watch', url: 'https://www.qfma.org.qa/En/Pages/default.aspx',
     regulator: 'QFMA', regulatorFull: 'Qatar Financial Markets Authority',
     jurisdiction: 'Qatar', jurisdictionCode: 'QAT' },
   { name: 'CBUAE', type: 'watch', url: 'https://www.centralbank.ae/en/our-operations/insurance-and-pension/',

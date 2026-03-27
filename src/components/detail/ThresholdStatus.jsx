@@ -13,7 +13,7 @@ const BAR_COLORS = {
   low: 'var(--ink-4)', medium: 'var(--caution)', caution: 'var(--caution)', alert: 'var(--urgent)', breach: 'var(--urgent)',
 }
 
-export default function ThresholdStatus({ situationId, deptKey, situation }) {
+export default function ThresholdStatus({ situationId, deptKey, situation, compact = false }) {
   const [alerts, setAlerts] = useState(null)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState(false)
@@ -38,6 +38,34 @@ export default function ThresholdStatus({ situationId, deptKey, situation }) {
   // Don't render if no alerts and not loading
   if (!loading && !error && (!alerts || !alerts.length)) return null
 
+  // Compact mode — one-line per alert/breach item only
+  if (compact) {
+    const highAlerts = (alerts || []).filter((a) => a.impact_level === 'alert' || a.impact_level === 'breach')
+    if (!highAlerts.length) return null
+
+    return (
+      <div className="threshold-compact">
+        {highAlerts.map((a) => {
+          const badge = BADGE_STYLES[a.impact_level] || BADGE_STYLES.low
+          const barColor = BAR_COLORS[a.impact_level] || 'var(--ink-4)'
+          return (
+            <div key={a.id} className="threshold-compact-row" title={a.reasoning}>
+              <span className="threshold-compact-name">{a.label}</span>
+              <div className="threshold-compact-bar">
+                <div className="threshold-compact-bar-fill" style={{ width: `${Math.min(a.estimated_pct, 100)}%`, background: barColor }} />
+              </div>
+              <span className="threshold-compact-pct">{a.estimated_pct}%</span>
+              <span className="threshold-badge" style={{ background: badge.bg, color: badge.color, border: `1px solid ${badge.border}` }}>
+                {a.impact_level.toUpperCase()}
+              </span>
+            </div>
+          )
+        })}
+      </div>
+    )
+  }
+
+  // Full mode
   const hasBreach = alerts?.some((a) => a.impact_level === 'breach')
 
   return (
@@ -79,11 +107,7 @@ export default function ThresholdStatus({ situationId, deptKey, situation }) {
                 style={{ width: `${Math.min(a.estimated_pct, 100)}%`, background: barColor }}
               />
             </div>
-            <div className="threshold-reasoning">{a.reasoning}</div>
             <div className={`threshold-action ${isHighPriority ? 'high-priority' : ''}`}>→ {a.action}</div>
-            {a.confidence < 80 && (
-              <div className="threshold-confidence">Confidence: {a.confidence}%</div>
-            )}
           </div>
         )
       })}

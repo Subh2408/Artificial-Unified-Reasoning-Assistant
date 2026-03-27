@@ -214,5 +214,19 @@
       }
     ],
     "evaluatedAt": "2026-03-25T17:54:51.215Z"
+  },
+  "sit_gen_2_claims": {
+    "alerts": [
+      {
+        "id": "cl_reserve_buffer",
+        "impact_level": "low",
+        "confidence": 55,
+        "reasoning": "Cat bond market softening and basis risk disputes from parametric hail and flood products may generate incremental reserve adjustments where modelled losses diverge from actual insured outcomes, but these are diffuse and gradual rather than a single concentrated reserve event.",
+        "action": "Reserving actuaries should flag parametric product portfolios for enhanced monitoring and pre-emptively review basis risk clauses to quantify potential reserve volatility before claims materialize.",
+        "label": "Open Reserve Buffer",
+        "estimated_pct": 15
+      }
+    ],
+    "evaluatedAt": "2026-03-26T18:33:11.935Z"
   }
 }

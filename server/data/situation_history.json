@@ -34,6 +34,40 @@
       "confidence": 95,
       "signalCount": 5,
       "title": "Hormuz Strait War Risk Escalation Crisis"
+    },
+    {
+      "timestamp": "2026-03-26T18:34:27.470Z",
+      "severity": "CRITICAL",
+      "confidence": 94,
+      "signalCount": 5,
+      "title": "Iran-Gulf Conflict Disrupts Hormuz Maritime Trade"
+    },
+    {
+      "timestamp": "2026-03-26T19:57:23.345Z",
+      "event": "created",
+      "severity": "CRITICAL",
+      "confidence": 94,
+      "signalCount": 13,
+      "title": "Gulf-Wide Severe Weather Catastrophe Event",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-03-26T19:57:36.153Z",
+      "event": "created",
+      "severity": "CRITICAL",
+      "confidence": 92,
+      "signalCount": 14,
+      "title": "Gulf-Wide Severe Weather Catastrophe Event",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-03-27T06:01:55.102Z",
+      "event": "created",
+      "severity": "CRITICAL",
+      "confidence": 93,
+      "signalCount": 17,
+      "title": "Arabian Gulf Extreme Weather Multi-Peril Event",
+      "reason": null
     }
   ],
   "sit_gen_2": [
@@ -71,6 +105,40 @@
       "confidence": 85,
       "signalCount": 6,
       "title": "Catastrophe Bond Market Softening and Capital Efficiency Push"
+    },
+    {
+      "timestamp": "2026-03-26T18:34:27.472Z",
+      "severity": "ELEVATED",
+      "confidence": 88,
+      "signalCount": 6,
+      "title": "Cyber Risk Escalation Driven by AI and Geopolitics"
+    },
+    {
+      "timestamp": "2026-03-26T19:57:23.346Z",
+      "event": "created",
+      "severity": "ACTIVE",
+      "confidence": 88,
+      "signalCount": 5,
+      "title": "Qatari Military Helicopter Crash Claims Event",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-03-26T19:57:36.154Z",
+      "event": "created",
+      "severity": "ACTIVE",
+      "confidence": 85,
+      "signalCount": 5,
+      "title": "Qatari Military Helicopter Crash Claims",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-03-27T06:01:55.103Z",
+      "event": "created",
+      "severity": "CRITICAL",
+      "confidence": 91,
+      "signalCount": 8,
+      "title": "Iran War Geopolitical Risk Arabian Gulf",
+      "reason": null
     }
   ],
   "sit_gen_3": [
@@ -108,6 +176,40 @@
       "confidence": 82,
       "signalCount": 4,
       "title": "Cyber Risk Escalation Amid Geopolitical Tensions"
+    },
+    {
+      "timestamp": "2026-03-26T18:34:27.477Z",
+      "severity": "ACTIVE",
+      "confidence": 91,
+      "signalCount": 7,
+      "title": "Cat Bond Market Expansion and Reinsurance Capital Efficiency"
+    },
+    {
+      "timestamp": "2026-03-26T19:57:23.347Z",
+      "event": "created",
+      "severity": "CRITICAL",
+      "confidence": 85,
+      "signalCount": 5,
+      "title": "Iran Conflict Escalation — Gulf Aviation and War Risk",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-03-26T19:57:36.155Z",
+      "event": "created",
+      "severity": "CRITICAL",
+      "confidence": 88,
+      "signalCount": 4,
+      "title": "Iran War Risk: Aviation and Marine Disruption",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-03-27T06:01:55.104Z",
+      "event": "created",
+      "severity": "ACTIVE",
+      "confidence": 82,
+      "signalCount": 6,
+      "title": "Qatar Aviation Incident Helicopter Fatalities",
+      "reason": null
     }
   ],
   "sit_gen_4": [
@@ -145,6 +247,40 @@
       "confidence": 78,
       "signalCount": 5,
       "title": "Climate and Property Insurance Protection Gap Widening"
+    },
+    {
+      "timestamp": "2026-03-26T18:34:27.478Z",
+      "severity": "ELEVATED",
+      "confidence": 82,
+      "signalCount": 5,
+      "title": "Marine Insurance Market Structural Transformation"
+    },
+    {
+      "timestamp": "2026-03-26T19:57:23.348Z",
+      "event": "created",
+      "severity": "ELEVATED",
+      "confidence": 78,
+      "signalCount": 5,
+      "title": "Hail as Primary Peril — Global Underwriting Risk Shift",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-03-26T19:57:36.157Z",
+      "event": "created",
+      "severity": "ELEVATED",
+      "confidence": 80,
+      "signalCount": 6,
+      "title": "Global CAT Reinsurance Market Stress Signals",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-03-27T06:01:55.105Z",
+      "event": "created",
+      "severity": "ELEVATED",
+      "confidence": 72,
+      "signalCount": 5,
+      "title": "Regional Security Threats Travel and Liability Risk",
+      "reason": null
     }
   ]
 }

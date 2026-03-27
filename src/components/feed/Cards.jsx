@@ -1,7 +1,7 @@
 import { SEV_COLORS, SRC_DOT } from '../../constants/colors'
 import { timeAgo, fmtDate, fmtDT } from '../../utils/format'
 
-export function SitCard({ sit, selected, dept, actionRegs, onClick, thresholdAlert }) {
+export function SitCard({ sit, selected, dept, actionRegs, onClick }) {
   const interp = sit.interpretations[dept] || null
   const headline = interp?.headline || sit.subtitle
   const hasActionReg = actionRegs.length > 0
@@ -11,18 +11,22 @@ export function SitCard({ sit, selected, dept, actionRegs, onClick, thresholdAle
       <div className="card-sev-bar" style={{ background: SEV_COLORS[sit.severity] }} />
       <div className="card-body">
         <div className="card-eyebrow">
-          {sit.isLive && <span className="live-badge">LIVE</span>}
-          <span className="sev-label" style={{ color: SEV_COLORS[sit.severity] }}>{sit.severity}</span>
-          {hasActionReg && <span className="reg-badge-action">⚖ REG</span>}
-          {thresholdAlert === 'breach' && <span style={{ fontFamily: 'IBM Plex Mono', fontSize: 8, background: 'var(--urgent)', color: '#fff', padding: '1px 4px', borderRadius: 2 }}>BREACH</span>}
-          {thresholdAlert === 'alert' && <span style={{ fontFamily: 'IBM Plex Mono', fontSize: 8, background: 'var(--caution-bg)', color: 'var(--caution)', border: '1px solid var(--caution-border)', padding: '1px 4px', borderRadius: 2 }}>THRESHOLD</span>}
+          {sit.isLive && <><span className="live-dot" /><span className="live-label">LIVE</span></>}
           <span className="ts-label">{timeAgo(sit.updated)}</span>
+          <span className="card-eyebrow-right">
+            <span className="sev-label" style={{ color: SEV_COLORS[sit.severity] }}>{sit.severity}</span>
+          </span>
         </div>
         <div className="card-title">{sit.title}</div>
         <div className="card-headline">{headline}</div>
-        <div className="card-tags">
-          {sit.category.slice(0, 3).map((c) => <span key={c} className="tag">{c}</span>)}
-        </div>
+        {dept === 'underwriting' && interp?.affectedLines && (
+          <div className="card-line-tags">
+            {interp.affectedLines.slice(0, 4).map((l) => <span key={l} className="card-line-tag">{l}</span>)}
+          </div>
+        )}
+        {dept === 'risk_compliance' && hasActionReg && (
+          <div className="card-footer"><span className="card-reg-icon">⚖</span></div>
+        )}
       </div>
     </div>
   )
@@ -41,9 +45,6 @@ export function SignalCard({ sig, selected, onClick }) {
         </div>
         <div className="card-title" style={{ fontFamily: 'DM Sans' }}>{sig.title}</div>
         <div className="card-headline">{desc.length > 100 ? desc.substring(0, 100) + '…' : desc}</div>
-        <div className="card-tags">
-          {(sig.tags || []).slice(0, 3).map((t) => <span key={t} className="tag">{t}</span>)}
-        </div>
       </div>
     </div>
   )

@@ -1,7 +1,7 @@
 import { SEV_COLORS } from '../../constants/colors'
 import { timeAgo } from '../../utils/format'
 
-export default function HeroCard({ sit, selected, dept, actionRegs, onClick, thresholdAlert }) {
+export default function HeroCard({ sit, selected, dept, actionRegs, onClick }) {
   const interp = sit.interpretations[dept] || null
   const headline = interp?.headline || sit.subtitle
   const actions = interp?.actions || []
@@ -15,16 +15,11 @@ export default function HeroCard({ sit, selected, dept, actionRegs, onClick, thr
     >
       <div className="hero-card-body">
         <div className="hero-card-eyebrow">
-          {sit.isLive && <span className="live-badge">LIVE</span>}
-          <span className="sev-label" style={{ color: SEV_COLORS[sit.severity] }}>{sit.severity}</span>
-          {hasActionRegs && (
-            <span style={{ fontFamily: 'IBM Plex Mono', fontSize: 9, background: 'var(--urgent-bg)', color: 'var(--urgent)', border: '1px solid var(--urgent-border)', padding: '2px 5px', borderRadius: 2 }}>
-              ⚖ REG ACTION
-            </span>
-          )}
-          {thresholdAlert === 'breach' && <span style={{ fontFamily: 'IBM Plex Mono', fontSize: 9, background: 'var(--urgent)', color: '#fff', padding: '2px 5px', borderRadius: 2 }}>BREACH</span>}
-          {thresholdAlert === 'alert' && <span style={{ fontFamily: 'IBM Plex Mono', fontSize: 9, background: 'var(--caution-bg)', color: 'var(--caution)', border: '1px solid var(--caution-border)', padding: '2px 5px', borderRadius: 2 }}>THRESHOLD</span>}
+          {sit.isLive && <><span className="live-dot" /><span className="live-label">LIVE</span></>}
           <span className="ts-label">{timeAgo(sit.updated)}</span>
+          <span className="card-eyebrow-right">
+            <span className="sev-label" style={{ color: SEV_COLORS[sit.severity] }}>{sit.severity}</span>
+          </span>
         </div>
         <div className="hero-title">{sit.title}</div>
         <div className="hero-headline">{headline}</div>
@@ -41,6 +36,14 @@ export default function HeroCard({ sit, selected, dept, actionRegs, onClick, thr
               </div>
             ))}
           </div>
+        )}
+        {dept === 'underwriting' && interp?.affectedLines && (
+          <div className="card-line-tags" style={{ marginTop: 8 }}>
+            {interp.affectedLines.slice(0, 4).map((l) => <span key={l} className="card-line-tag">{l}</span>)}
+          </div>
+        )}
+        {dept === 'risk_compliance' && hasActionRegs && (
+          <div className="card-footer"><span className="card-reg-icon">⚖</span></div>
         )}
       </div>
     </div>

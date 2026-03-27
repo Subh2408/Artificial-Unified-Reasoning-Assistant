@@ -2,6 +2,7 @@ import { useState } from 'react'
 
 export default function RegActionBanner({ regs, dept, onViewReg }) {
   const [expanded, setExpanded] = useState(regs.length === 1)
+  if (dept !== 'risk_compliance') return null
   if (!regs.length) return null
 
   const impField = dept === 'risk_compliance' ? 'complianceImplication' : 'claimsImplication'

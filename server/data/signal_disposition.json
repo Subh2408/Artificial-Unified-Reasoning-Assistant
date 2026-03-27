@@ -1,0 +1,765 @@
+{
+  "discarded_c766a8e6752a7d4a762e2d95ae4a96c7": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.701Z",
+    "runId": null
+  },
+  "discarded_6d2fb52361c41e3286fae07d65344bd8": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.702Z",
+    "runId": null
+  },
+  "discarded_1d4dfc09d6b907bb7af53a6efabf6a2d": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.703Z",
+    "runId": null
+  },
+  "discarded_384db1bcfa76412d0b2ffa0dd70217e1": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.704Z",
+    "runId": null
+  },
+  "discarded_c38976bed71e65ffb648e21841a55020": {
+    "score": 2,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.711Z",
+    "runId": null
+  },
+  "discarded_38665f77b0911dbafabbb5f7fb476381": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.712Z",
+    "runId": null
+  },
+  "discarded_d1437c0b731bc9616a0471de04a83184": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.712Z",
+    "runId": null
+  },
+  "discarded_8b525f102dc070ce8594ab448d807ffc": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-26T20:00:06.869Z",
+    "runId": null
+  },
+  "discarded_0ed20f31ac341c9005087bc9c1cc562b": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-26T20:00:06.873Z",
+    "runId": null
+  },
+  "discarded_4c4c9d088669ab730963e58180ed4d34": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-26T20:00:06.878Z",
+    "runId": null
+  },
+  "discarded_a2ed49c099a7f02f7a508b5ddd23a073": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-26T20:00:06.882Z",
+    "runId": null
+  },
+  "discarded_6797f59bc6ac9bb1a0fd0658429292a6": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-26T20:00:06.884Z",
+    "runId": null
+  },
+  "discarded_d323634b50454dee071b6e1ccc21f409": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-26T20:00:06.902Z",
+    "runId": null
+  },
+  "discarded_d4a70be935af4771ede85c278d353ea8": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-26T20:00:06.906Z",
+    "runId": null
+  },
+  "discarded_7928c38dfccdd5d181c31a01303a60f9": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-26T20:00:06.912Z",
+    "runId": null
+  },
+  "discarded_ecf0d5d48b8cf02cb7340bbb9346a3ce": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.715Z",
+    "runId": null
+  },
+  "discarded_71340b12b432a72e25715ab481946fe7": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.715Z",
+    "runId": null
+  },
+  "discarded_68b4f11cdbd91d42e752cd6e0580e84f": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.716Z",
+    "runId": null
+  },
+  "discarded_86af9e959ff5bc389a488bd272ac31dc": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.718Z",
+    "runId": null
+  },
+  "discarded_c4635ee90fb84e110337980e6e2ca576": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.719Z",
+    "runId": null
+  },
+  "discarded_f2dd7bda85df1c9635d9d0a162ec7681": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.719Z",
+    "runId": null
+  },
+  "discarded_451f00a0215dbf096808efffeb85f703": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.720Z",
+    "runId": null
+  },
+  "discarded_afb9df375ea67268d3273b6ca2b36b3c": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.720Z",
+    "runId": null
+  },
+  "discarded_508d3817659659a7b510950f8a4d8f28": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.721Z",
+    "runId": null
+  },
+  "discarded_c255c5e20162bb97d31c5ef56c4a1eb8": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.722Z",
+    "runId": null
+  },
+  "discarded_fc374ad4f4e3d4e138b6104bf3278f1b": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-26T20:00:06.953Z",
+    "runId": null
+  },
+  "discarded_f3c0e970188ff28c51a6d87c3032cf78": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-26T20:00:06.957Z",
+    "runId": null
+  },
+  "discarded_cf715c555425cfd1ef6a29a3501239d2": {
+    "score": 2,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-26T20:00:06.959Z",
+    "runId": null
+  },
+  "discarded_551e908c2331595ed873a5f3bcbe7fe1": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-26T20:00:06.961Z",
+    "runId": null
+  },
+  "discarded_ff0f9359563135ef996197351ed89dfa": {
+    "score": 0,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-26T20:00:06.965Z",
+    "runId": null
+  },
+  "discarded_4d59673d42c1ad672c4f48b0398cfa19": {
+    "score": 0,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-26T20:00:06.966Z",
+    "runId": null
+  },
+  "discarded_1f96f5afeb712fcf196488d192a6309f": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-26T20:00:06.968Z",
+    "runId": null
+  },
+  "discarded_958a393798f6e99c36e4881c4740ca31": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-26T19:55:38.857Z",
+    "runId": null
+  },
+  "discarded_0aa0b4266f05afb7b81b1477981ad188": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-26T19:55:38.858Z",
+    "runId": null
+  },
+  "discarded_d649d2bb141e0d3641d7e3ed1f1adfc3": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-26T19:55:38.858Z",
+    "runId": null
+  },
+  "discarded_4243b9258f11060706b4c9078780368f": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-26T19:55:38.859Z",
+    "runId": null
+  },
+  "discarded_c36e0f55b9804645a75bb2194c6820f7": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-26T19:55:38.859Z",
+    "runId": null
+  },
+  "discarded_816a88d33dfdad01785f98cd71200348": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-26T19:55:38.860Z",
+    "runId": null
+  },
+  "discarded_becc50e809d6ae4945dba1dfb0e74edc": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-26T19:55:38.860Z",
+    "runId": null
+  },
+  "discarded_c5eb4632589475a34367d7deefef31b9": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-26T19:55:38.861Z",
+    "runId": null
+  },
+  "discarded_bd31931aa036fa70c197d22fb76461a4": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-26T19:55:38.861Z",
+    "runId": null
+  },
+  "discarded_e1aed3973d366bcbc6c761166298088c": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-26T19:55:38.862Z",
+    "runId": null
+  },
+  "live_s272": {
+    "score": 5,
+    "disposition": "assigned",
+    "situationId": "sit_gen_1",
+    "dispositionAt": "2026-03-27T06:01:55.115Z",
+    "runId": "gen_20260327060016"
+  },
+  "live_s273": {
+    "score": 5,
+    "disposition": "assigned",
+    "situationId": "sit_gen_2",
+    "dispositionAt": "2026-03-27T06:01:55.116Z",
+    "runId": "gen_20260327060016"
+  },
+  "live_s274": {
+    "score": 5,
+    "disposition": "assigned",
+    "situationId": "sit_gen_4",
+    "dispositionAt": "2026-03-27T06:01:55.117Z",
+    "runId": "gen_20260327060016"
+  },
+  "live_s275": {
+    "score": 5,
+    "disposition": "assigned",
+    "situationId": "sit_gen_1",
+    "dispositionAt": "2026-03-27T06:01:55.117Z",
+    "runId": "gen_20260327060016"
+  },
+  "live_s256": {
+    "score": 7,
+    "disposition": "assigned",
+    "situationId": "sit_gen_1",
+    "dispositionAt": "2026-03-27T06:01:55.119Z",
+    "runId": "gen_20260327060016"
+  },
+  "live_s257": {
+    "score": 4,
+    "disposition": "assigned",
+    "situationId": "sit_gen_1",
+    "dispositionAt": "2026-03-27T06:01:55.119Z",
+    "runId": "gen_20260327060016"
+  },
+  "live_s258": {
+    "score": 4,
+    "disposition": "assigned",
+    "situationId": "sit_gen_1",
+    "dispositionAt": "2026-03-27T06:01:55.120Z",
+    "runId": "gen_20260327060016"
+  },
+  "live_s259": {
+    "score": 7,
+    "disposition": "assigned",
+    "situationId": "sit_gen_1",
+    "dispositionAt": "2026-03-27T06:01:55.120Z",
+    "runId": "gen_20260327060016"
+  },
+  "live_s260": {
+    "score": 13,
+    "disposition": "assigned",
+    "situationId": "sit_gen_1",
+    "dispositionAt": "2026-03-27T06:01:55.120Z",
+    "runId": "gen_20260327060016"
+  },
+  "live_s261": {
+    "score": 15,
+    "disposition": "assigned",
+    "situationId": "sit_gen_1",
+    "dispositionAt": "2026-03-27T06:01:55.121Z",
+    "runId": "gen_20260327060016"
+  },
+  "live_s262": {
+    "score": 8,
+    "disposition": "assigned",
+    "situationId": "sit_gen_2",
+    "dispositionAt": "2026-03-27T06:01:55.121Z",
+    "runId": "gen_20260327060016"
+  },
+  "live_s263": {
+    "score": 13,
+    "disposition": "assigned",
+    "situationId": "sit_gen_1",
+    "dispositionAt": "2026-03-27T06:01:55.122Z",
+    "runId": "gen_20260327060016"
+  },
+  "live_s264": {
+    "score": 17,
+    "disposition": "assigned",
+    "situationId": "sit_gen_1",
+    "dispositionAt": "2026-03-27T06:01:55.122Z",
+    "runId": "gen_20260327060016"
+  },
+  "live_s265": {
+    "score": 9,
+    "disposition": "assigned",
+    "situationId": "sit_gen_3",
+    "dispositionAt": "2026-03-27T06:01:55.122Z",
+    "runId": "gen_20260327060016"
+  },
+  "live_s266": {
+    "score": 4,
+    "disposition": "assigned",
+    "situationId": "sit_gen_2",
+    "dispositionAt": "2026-03-27T06:01:55.123Z",
+    "runId": "gen_20260327060016"
+  },
+  "live_s267": {
+    "score": 4,
+    "disposition": "assigned",
+    "situationId": "sit_gen_3",
+    "dispositionAt": "2026-03-27T06:01:55.123Z",
+    "runId": "gen_20260327060016"
+  },
+  "live_s268": {
+    "score": 4,
+    "disposition": "assigned",
+    "situationId": "sit_gen_3",
+    "dispositionAt": "2026-03-27T06:01:55.123Z",
+    "runId": "gen_20260327060016"
+  },
+  "live_s269": {
+    "score": 4,
+    "disposition": "assigned",
+    "situationId": "sit_gen_3",
+    "dispositionAt": "2026-03-27T06:01:55.124Z",
+    "runId": "gen_20260327060016"
+  },
+  "live_s270": {
+    "score": 4,
+    "disposition": "assigned",
+    "situationId": "sit_gen_3",
+    "dispositionAt": "2026-03-27T06:01:55.124Z",
+    "runId": "gen_20260327060016"
+  },
+  "live_s271": {
+    "score": 4,
+    "disposition": "assigned",
+    "situationId": "sit_gen_3",
+    "dispositionAt": "2026-03-27T06:01:55.124Z",
+    "runId": "gen_20260327060016"
+  },
+  "live_s243": {
+    "score": 37,
+    "disposition": "assigned",
+    "situationId": "sit_gen_4",
+    "dispositionAt": "2026-03-26T19:57:36.173Z",
+    "runId": "gen_20260326195548"
+  },
+  "live_s244": {
+    "score": 14,
+    "disposition": "assigned",
+    "situationId": "sit_gen_4",
+    "dispositionAt": "2026-03-26T19:57:36.174Z",
+    "runId": "gen_20260326195548"
+  },
+  "live_s246": {
+    "score": 18,
+    "disposition": "assigned",
+    "situationId": "sit_gen_3",
+    "dispositionAt": "2026-03-26T19:57:36.174Z",
+    "runId": "gen_20260326195548"
+  },
+  "live_s249": {
+    "score": 8,
+    "disposition": "assigned",
+    "situationId": "sit_gen_4",
+    "dispositionAt": "2026-03-26T19:57:36.175Z",
+    "runId": "gen_20260326195548"
+  },
+  "live_s250": {
+    "score": 7,
+    "disposition": "assigned",
+    "situationId": "sit_gen_4",
+    "dispositionAt": "2026-03-26T19:57:36.176Z",
+    "runId": "gen_20260326195548"
+  },
+  "live_s251": {
+    "score": 25,
+    "disposition": "assigned",
+    "situationId": "sit_gen_4",
+    "dispositionAt": "2026-03-26T19:57:36.176Z",
+    "runId": "gen_20260326195548"
+  },
+  "live_s252": {
+    "score": 10,
+    "disposition": "assigned",
+    "situationId": "sit_gen_3",
+    "dispositionAt": "2026-03-26T19:57:23.368Z",
+    "runId": "gen_20260326195543"
+  },
+  "live_s248": {
+    "score": 20,
+    "disposition": "assigned",
+    "situationId": "sit_gen_4",
+    "dispositionAt": "2026-03-26T19:57:36.174Z",
+    "runId": "gen_20260326195548"
+  },
+  "discarded_88d8e5366f3fc78eb3cc993bc17eb5c0": {
+    "score": 2,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.705Z",
+    "runId": null
+  },
+  "discarded_e61948a578094bec7c574f39811fb429": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.706Z",
+    "runId": null
+  },
+  "discarded_45644b76bb06de389d95b2cd44cecd1c": {
+    "score": 0,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.707Z",
+    "runId": null
+  },
+  "discarded_b7b11d2d9008a2a79687fceebcbdca83": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.708Z",
+    "runId": null
+  },
+  "discarded_224460ec2aa022f62a03ccc23f2543ad": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.709Z",
+    "runId": null
+  },
+  "discarded_846b0878e5d01262fcef5838fbc9e5d9": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.709Z",
+    "runId": null
+  },
+  "discarded_da15b48a574274db662cc124e7ed3a74": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.710Z",
+    "runId": null
+  },
+  "discarded_8e5f3b66957ef1ede451533a94a63d43": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.717Z",
+    "runId": null
+  },
+  "discarded_e6682d1dde38cebe662099902e36c584": {
+    "score": 0,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:00:05.947Z",
+    "runId": null
+  },
+  "discarded_6b2c7fda96b36fb48b17c99bf635a04e": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:00:05.949Z",
+    "runId": null
+  },
+  "discarded_a9452710f598151ddfc165865813fec7": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T06:30:07.060Z",
+    "runId": null
+  },
+  "discarded_672986b01b59d197cab6dc458f0ed446": {
+    "score": 2,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T06:30:07.060Z",
+    "runId": null
+  },
+  "discarded_58506cdd0144d217d3de554a07510b83": {
+    "score": 0,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T06:00:07.570Z",
+    "runId": null
+  },
+  "discarded_a7ea2c55ddf35488740a5e8d64475c6e": {
+    "score": 0,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T06:00:07.571Z",
+    "runId": null
+  },
+  "live_s276": {
+    "score": 16,
+    "disposition": "assigned",
+    "situationId": "sit_gen_2",
+    "dispositionAt": "2026-03-27T06:01:55.108Z",
+    "runId": "gen_20260327060016"
+  },
+  "live_s277": {
+    "score": 4,
+    "disposition": "assigned",
+    "situationId": "sit_gen_4",
+    "dispositionAt": "2026-03-27T06:01:55.109Z",
+    "runId": "gen_20260327060016"
+  },
+  "live_s278": {
+    "score": 5,
+    "disposition": "pending",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T06:00:16.076Z",
+    "runId": null
+  },
+  "live_s279": {
+    "score": 6,
+    "disposition": "assigned",
+    "situationId": "sit_gen_4",
+    "dispositionAt": "2026-03-27T06:01:55.110Z",
+    "runId": "gen_20260327060016"
+  },
+  "live_s280": {
+    "score": 6,
+    "disposition": "assigned",
+    "situationId": "sit_gen_2",
+    "dispositionAt": "2026-03-27T06:01:55.111Z",
+    "runId": "gen_20260327060016"
+  },
+  "live_s281": {
+    "score": 10,
+    "disposition": "assigned",
+    "situationId": "sit_gen_2",
+    "dispositionAt": "2026-03-27T06:01:55.112Z",
+    "runId": "gen_20260327060016"
+  },
+  "live_s282": {
+    "score": 22,
+    "disposition": "assigned",
+    "situationId": "sit_gen_2",
+    "dispositionAt": "2026-03-27T06:01:55.113Z",
+    "runId": "gen_20260327060016"
+  },
+  "live_s283": {
+    "score": 12,
+    "disposition": "assigned",
+    "situationId": "sit_gen_4",
+    "dispositionAt": "2026-03-27T06:01:55.113Z",
+    "runId": "gen_20260327060016"
+  },
+  "live_s284": {
+    "score": 10,
+    "disposition": "assigned",
+    "situationId": "sit_gen_1",
+    "dispositionAt": "2026-03-27T06:01:55.114Z",
+    "runId": "gen_20260327060016"
+  },
+  "live_s285": {
+    "score": 19,
+    "disposition": "assigned",
+    "situationId": "sit_gen_4",
+    "dispositionAt": "2026-03-27T06:01:55.115Z",
+    "runId": "gen_20260327060016"
+  },
+  "discarded_5212344523eac58bce1d116b65afd372": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.714Z",
+    "runId": null
+  },
+  "discarded_aa68de1dc077e66aabdf57c7c334f19b": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.713Z",
+    "runId": null
+  },
+  "discarded_9972abedbd7532e97d9f25d07252a389": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.728Z",
+    "runId": null
+  },
+  "discarded_f3061299dcaeb68443199c0a64296069": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.728Z",
+    "runId": null
+  },
+  "discarded_050537e70de8d7b3ea3e14bc5ae3eaca": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:00:05.945Z",
+    "runId": null
+  },
+  "discarded_799f5d274d0eddc578aa7526b7285774": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.713Z",
+    "runId": null
+  },
+  "discarded_ce95386d555f8172d693fbd106e483a2": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.722Z",
+    "runId": null
+  },
+  "discarded_dde42ca125fb54be92f8d86c23c5b103": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.723Z",
+    "runId": null
+  },
+  "discarded_43d19a6017cddaa6e5d1f36b9c747dd0": {
+    "score": 2,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.724Z",
+    "runId": null
+  },
+  "discarded_819ea2aa01a0ff87ebe3f745c14ef5d8": {
+    "score": 2,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.724Z",
+    "runId": null
+  },
+  "discarded_82c4f9dc84c63679803597ac32c0b7a6": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.725Z",
+    "runId": null
+  },
+  "discarded_e77dc63c5d6163ecbddfe4a284a0f565": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.726Z",
+    "runId": null
+  },
+  "discarded_bef45a88456689941e43d69a4029734a": {
+    "score": 3,
+    "disposition": "discarded",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:17.727Z",
+    "runId": null
+  },
+  "live_s289": {
+    "score": 4,
+    "disposition": "assigned",
+    "situationId": "sit6",
+    "dispositionAt": "2026-03-27T07:57:20.126Z",
+    "runId": null
+  },
+  "live_s290": {
+    "score": 10,
+    "disposition": "pending",
+    "situationId": null,
+    "dispositionAt": "2026-03-27T07:57:20.127Z",
+    "runId": null
+  }
+}

@@ -1,5 +1,43 @@
 [
   {
+    "id": "live_reg8",
+    "jurisdiction": "Saudi Arabia",
+    "jurisdictionCode": "KSA",
+    "regulator": "SAMA",
+    "regulatorFull": "Saudi Central Bank",
+    "publishedDate": "2026-03-26",
+    "effectiveDate": "2026-03-26",
+    "changeType": "GUIDANCE",
+    "linesAffected": [
+      "All Lines"
+    ],
+    "urgency": "MONITOR",
+    "title": "Saudi Central Bank — page updated, review for new circulars or notices",
+    "summary": "SAMA has updated its publications page. Compliance officers must review the Laws section for new circulars, notices, or regulatory guidance that may affect Lloyd's-regulated insurance operations in Saudi Arabia. Regular monitoring of this portal is essential.",
+    "claimsImplication": "Potential changes in claims handling procedures, settlement timelines, or policyholder notification requirements may be published; review new content for claims operations impact.",
+    "complianceImplication": "Establish a routine review schedule of SAMA's Laws page to identify new regulatory requirements and assess applicability to your Lloyd's underwriting and claims operations in the KSA market.",
+    "sourceRef": "https://www.sama.gov.sa/en-US/Laws/"
+  },
+  {
+    "id": "live_reg7",
+    "jurisdiction": "Qatar",
+    "jurisdictionCode": "QAT",
+    "regulator": "QCB",
+    "regulatorFull": "Qatar Central Bank",
+    "publishedDate": "2026-03-26",
+    "effectiveDate": "2026-03-26",
+    "changeType": "GUIDANCE",
+    "linesAffected": [
+      "All Lines"
+    ],
+    "urgency": "MONITOR",
+    "title": "Qatar Central Bank — page updated, review for new circulars or notices",
+    "summary": "Qatar Central Bank has updated its publications page. Compliance teams must review the Supervision & Regulation section for new circulars, notices, or regulatory guidance that may affect insurance operations, underwriting, claims, or capital requirements in Qatar.",
+    "claimsImplication": "New claims handling requirements or reporting obligations may be published; review updates to ensure claims processes remain compliant with QCB expectations.",
+    "complianceImplication": "Conduct immediate review of QCB publications page to identify any new directives requiring implementation and update compliance calendar accordingly.",
+    "sourceRef": "https://www.qcb.gov.qa/en/SupervisionRegulation"
+  },
+  {
     "id": "live_reg4",
     "jurisdiction": "International",
     "jurisdictionCode": "INT",

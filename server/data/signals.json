@@ -1,7 +1,1281 @@
 [
   {
-    "id": "live_s221",
+    "id": "live_s289",
+    "situationId": "sit6",
+    "source": "RELIEFWEB",
+    "sourceType": "OFFICIAL",
+    "sourceTier": 3,
+    "url": "https://reliefweb.int/report/south-sudan/south-sudan-conflict-jonglei-state-flash-update-no14-26-march-2026",
+    "timestamp": "2026-03-27T06:59:41.000Z",
+    "ingestedAt": "2026-03-27T07:57:20.125Z",
+    "title": "South Sudan: Conflict in Jonglei State - Flash Update No.14, as of 26 March 2026",
+    "description": "Ongoing conflict in South Sudan's Jonglei State creates significant humanitarian crisis and operational disruptions. UN coordination visit assesses security impacts affecting regional logistics, supply chains, and marine transit risk exposure in East Africa.",
+    "tags": [
+      "WAR RISK",
+      "REGIONAL INSTABILITY",
+      "SUPPLY CHAIN DISRUPTION"
+    ],
+    "score": 4,
+    "relevanceScore": 4,
+    "eventType": null,
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-27T07:57:20.125Z",
+    "generationRunId": null,
+    "geography": "South Sudan"
+  },
+  {
+    "id": "live_s290",
     "situationId": null,
+    "source": "GOOGLE NEWS QATAR WEATHER",
+    "sourceType": "NEWS",
+    "sourceTier": 1,
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeFlqR0JQVlFyWVJWb0lyMDFkZUljOWJkOXhjZXhNY1dsM2U4X0NqeEdzZ3ZsNHpJOXJaSTJoTkdYVGt1WUM3MVcxWlBXN3NEMzJsbGtOZnJ0QllBYllKc2xPdjd3Q3dxd3N6Z2x0cFRyWVpFQVlTZ21oVUp4T0JTZ1FmZEt6SFNwSmlucTlZWW5oTExaUUFwRDNlWFlIUWM?oc=5",
+    "timestamp": "2026-03-27T07:40:35.000Z",
+    "ingestedAt": "2026-03-27T07:57:20.125Z",
+    "title": "Watch: Heavy rain, lightning and strong winds sweep across Doha - Gulf News",
+    "description": "Severe weather event impacts Doha with heavy rain, lightning, and strong winds. Weather-related losses affecting port operations, vessel movements, and property assets across Qatar maritime infrastructure and coastal exposures.",
+    "tags": [
+      "CAT EVENT",
+      "WEATHER",
+      "MARINE"
+    ],
+    "score": 10,
+    "relevanceScore": 10,
+    "eventType": null,
+    "disposition": "pending",
+    "dispositionAt": "2026-03-27T07:57:20.125Z",
+    "generationRunId": null,
+    "geography": "Qatar"
+  },
+  {
+    "id": "live_s288",
+    "situationId": null,
+    "source": "RELIEFWEB",
+    "sourceType": "OFFICIAL",
+    "timestamp": "2026-03-27T06:41:09.000Z",
+    "title": "Situation Report - Sri Lanka 27th March 2026 at 1000hrs - (Additional details included) – Ditwah",
+    "description": "Sri Lanka disaster management authority situation report dated 27 March 2026. Official government briefing on evolving disaster conditions affecting regional maritime and commercial operations in Indian Ocean waters.",
+    "tags": [
+      "CAT EVENT",
+      "MARINE",
+      "PROPERTY"
+    ],
+    "relevanceScore": 5,
+    "geography": "Sri Lanka"
+  },
+  {
+    "id": "live_s286",
+    "situationId": null,
+    "source": "RELIEFWEB",
+    "sourceType": "OFFICIAL",
+    "timestamp": "2026-03-27T06:17:03.000Z",
+    "title": "WHO Lebanon Health Emergency Situation update #13 (24 March 2026)",
+    "description": "WHO Lebanon health emergency update documents ongoing humanitarian crisis affecting vulnerable populations. Relevant for assessing marine and logistics insurance exposures in Lebanon amid persistent health system strain and operational disruptions.",
+    "tags": [
+      "HUMANITARIAN CRISIS",
+      "OPERATIONAL RISK"
+    ],
+    "relevanceScore": 6,
+    "geography": "Lebanon"
+  },
+  {
+    "id": "live_s287",
+    "situationId": null,
+    "source": "RELIEFWEB",
+    "sourceType": "OFFICIAL",
+    "timestamp": "2026-03-27T06:15:55.000Z",
+    "title": "WFP Namibia Country Brief March 2026",
+    "description": "WFP Namibia brief highlights persistent food security challenges and multi-shock economic strain on vulnerable households. Relevant for underwriting regional trade finance and cargo insurance in Southern Africa amid sustained economic stress.",
+    "tags": [
+      "HUMANITARIAN CRISIS",
+      "REGIONAL RISK"
+    ],
+    "relevanceScore": 7,
+    "geography": "Namibia"
+  },
+  {
+    "id": "live_s276",
+    "situationId": "sit_gen_2",
+    "source": "INSURANCE JOURNAL",
+    "sourceType": "NEWS",
+    "sourceTier": 4,
+    "url": "https://www.insurancejournal.com/news/international/2026/03/27/863556.htm",
+    "timestamp": "2026-03-27T05:15:57.000Z",
+    "ingestedAt": "2026-03-27T06:00:16.071Z",
+    "title": "Energy Fallout From Iran War Signals Global Wake-Up Call for Renewable Energy",
+    "description": "Iran conflict disrupts Strait of Hormuz oil exports, exposing global energy supply chain fragility. Underwriters face elevated war risk on energy infrastructure and marine transit through critical chokepoint amid transition pressure toward renewables.",
+    "tags": [
+      "WAR RISK",
+      "MARINE",
+      "ENERGY",
+      "SANCTIONS"
+    ],
+    "score": 16,
+    "relevanceScore": 16,
+    "eventType": null,
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-27T06:01:55.092Z",
+    "generationRunId": "gen_20260327060016",
+    "geography": "Arabian Gulf"
+  },
+  {
+    "id": "live_s277",
+    "situationId": "sit_gen_4",
+    "source": "INSURANCE JOURNAL",
+    "sourceType": "NEWS",
+    "sourceTier": 4,
+    "url": "https://www.insurancejournal.com/news/national/2026/03/27/863668.htm",
+    "timestamp": "2026-03-27T05:00:43.000Z",
+    "ingestedAt": "2026-03-27T06:00:16.071Z",
+    "title": "NCAA Asks Court to Stop DraftKings’ Use of ‘March Madness’ and Other Trademarks",
+    "description": "NCAA pursues federal trademark infringement action against DraftKings over March Madness branding. Relevant for entertainment liability, intellectual property claims, and regulatory compliance exposure in sports betting sector.",
+    "tags": [
+      "LIABILITY",
+      "LEGAL"
+    ],
+    "score": 4,
+    "relevanceScore": 4,
+    "eventType": null,
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-27T06:01:55.092Z",
+    "generationRunId": "gen_20260327060016",
+    "geography": "Global"
+  },
+  {
+    "id": "live_s278",
+    "situationId": null,
+    "source": "INSURANCE JOURNAL",
+    "sourceType": "MARKET",
+    "sourceTier": 4,
+    "url": "https://www.insurancejournal.com/news/west/2026/03/27/862402.htm",
+    "timestamp": "2026-03-27T05:00:29.000Z",
+    "ingestedAt": "2026-03-27T06:00:16.071Z",
+    "title": "People Moves: Gray Joins Alliant’s Northwest Employee Benefits Team",
+    "description": "Senior personnel movement: Alliant Insurance Services appoints vice president to employee benefits division in Pacific Northwest. Market intelligence indicator of domestic talent acquisition and regional expansion strategy.",
+    "tags": [
+      "MARKET"
+    ],
+    "score": 5,
+    "relevanceScore": 5,
+    "eventType": null,
+    "disposition": "pending",
+    "dispositionAt": "2026-03-27T06:00:16.071Z",
+    "generationRunId": null,
+    "geography": "Global"
+  },
+  {
+    "id": "live_s279",
+    "situationId": "sit_gen_4",
+    "source": "INSURANCE JOURNAL",
+    "sourceType": "NEWS",
+    "sourceTier": 4,
+    "url": "https://www.insurancejournal.com/news/national/2026/03/27/863658.htm",
+    "timestamp": "2026-03-27T05:00:01.000Z",
+    "ingestedAt": "2026-03-27T06:00:16.071Z",
+    "title": "Jewish Communities Boost Security Amid Rise in Hateful Incidents",
+    "description": "Law enforcement escalates monitoring of hate crimes and terror threats against Jewish and Muslim communities nationwide following Middle East conflict onset. Elevated premises liability and crime coverage claims risk for religious institutions.",
+    "tags": [
+      "WAR RISK",
+      "LIABILITY",
+      "CRIME"
+    ],
+    "score": 6,
+    "relevanceScore": 6,
+    "eventType": null,
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-27T06:01:55.092Z",
+    "generationRunId": "gen_20260327060016",
+    "geography": "Global"
+  },
+  {
+    "id": "live_s280",
+    "situationId": "sit_gen_2",
+    "source": "RELIEFWEB",
+    "sourceType": "OFFICIAL",
+    "sourceTier": 3,
+    "url": "https://reliefweb.int/report/afghanistan/unicef-afghanistan-humanitarian-flash-update-no-2-cross-border-tension-and-conflict-26-march-2026",
+    "timestamp": "2026-03-27T04:03:05.000Z",
+    "ingestedAt": "2026-03-27T06:00:16.071Z",
+    "title": "UNICEF Afghanistan Humanitarian Flash Update No. 2 (Cross Border Tension and Conflict), 26 March 2026",
+    "description": "UNICEF reports Torkham Pakistan-Afghanistan border crossing reopened for repatriation amid cross-border tensions. Humanitarian corridors stressed; displacement and transit insurance claims exposure in region heightened.",
+    "tags": [
+      "HUMANITARIAN",
+      "CONFLICT"
+    ],
+    "score": 6,
+    "relevanceScore": 6,
+    "eventType": null,
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-27T06:01:55.092Z",
+    "generationRunId": "gen_20260327060016",
+    "geography": "Afghanistan"
+  },
+  {
+    "id": "live_s281",
+    "situationId": "sit_gen_2",
+    "source": "RELIEFWEB",
+    "sourceType": "OFFICIAL",
+    "sourceTier": 3,
+    "url": "https://reliefweb.int/report/lebanon/lebanon-middle-east-escalation-global-ltc-teleconference-telecoms-area-02-date-19-march-2026-time-0900-utc",
+    "timestamp": "2026-03-27T02:33:03.000Z",
+    "ingestedAt": "2026-03-27T06:00:16.071Z",
+    "title": "Lebanon: Middle East Escalation - Global LTC Teleconference (Telecoms Area) #02 (Date: 19 March 2026, Time: 09:00 UTC)",
+    "description": "Emergency telecommunications cluster convenes on Middle East escalation impacts for Lebanon. Critical infrastructure and communications risk elevated; business interruption and contingency coverage demands increase across region.",
+    "tags": [
+      "WAR RISK",
+      "INFRASTRUCTURE"
+    ],
+    "score": 10,
+    "relevanceScore": 10,
+    "eventType": null,
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-27T06:01:55.092Z",
+    "generationRunId": "gen_20260327060016",
+    "geography": "Lebanon"
+  },
+  {
+    "id": "live_s282",
+    "situationId": "sit_gen_2",
+    "source": "RELIEFWEB",
+    "sourceType": "OFFICIAL",
+    "sourceTier": 3,
+    "url": "https://reliefweb.int/report/world/war-related-disruptions-middle-east-are-delaying-lifesaving-reproductive-health-supplies-women-and-girls-worldwide",
+    "timestamp": "2026-03-27T02:12:54.000Z",
+    "ingestedAt": "2026-03-27T06:00:16.071Z",
+    "title": "War-related disruptions in the Middle East are delaying lifesaving reproductive health supplies for women and girls worldwide",
+    "description": "Middle East conflict disrupts global supply chains for reproductive health commodities across 17 countries. Widespread humanitarian supply chain disruption; cargo, contingency, and specialized medical logistics coverage at elevated claims risk.",
+    "tags": [
+      "WAR RISK",
+      "SUPPLY CHAIN",
+      "HUMANITARIAN"
+    ],
+    "score": 22,
+    "relevanceScore": 22,
+    "eventType": null,
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-27T06:01:55.092Z",
+    "generationRunId": "gen_20260327060016",
+    "geography": "Global"
+  },
+  {
+    "id": "live_s283",
+    "situationId": "sit_gen_4",
+    "source": "RELIEFWEB",
+    "sourceType": "OFFICIAL",
+    "sourceTier": 3,
+    "url": "https://reliefweb.int/report/somalia/somalia-emergency-trend-tracking-ett-annual-report-2025-weeks-1-44",
+    "timestamp": "2026-03-27T01:33:26.000Z",
+    "ingestedAt": "2026-03-27T06:00:16.071Z",
+    "title": "Somalia — Emergency Trend Tracking (ETT) Annual Report 2025 | Weeks 1–44",
+    "description": "Somalia emergency trend tracking annual report 2025 monitors displacement during dry season. Ongoing humanitarian crisis; displacement insurance claims, aid organization liability, and regional instability coverage remain acute.",
+    "tags": [
+      "HUMANITARIAN",
+      "CONFLICT"
+    ],
+    "score": 12,
+    "relevanceScore": 12,
+    "eventType": null,
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-27T06:01:55.092Z",
+    "generationRunId": "gen_20260327060016",
+    "geography": "Somalia"
+  },
+  {
+    "id": "live_s284",
+    "situationId": "sit_gen_1",
+    "source": "GOOGLE NEWS QATAR WEATHER",
+    "sourceType": "NEWS",
+    "sourceTier": 1,
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONVRVM1l2RDQ2MGltUWhhVkZKaVZGeFFMd1R3S056d2R4Z1RZLU1FUkdjUW4xblFuR0hiR1NGMk9FVTZsSDlMOTVRY2VHNGY1UXJMSU9jOUVlM0NzYWpPdnp6NFNHYU5KRDVsWDRLdU42bldJSGt1Tk4wdlZFbGxramxtQV9QWlZ0eTVYZTlMQXBqQ3dYUENzdVJ3T0twYkM2SXZ1SVpoMy0?oc=5",
+    "timestamp": "2026-03-26T12:31:00.000Z",
+    "ingestedAt": "2026-03-27T06:00:16.071Z",
+    "title": "Ras Laffan records highest rainfall in Qatar on March 25 - The Peninsula Qatar",
+    "description": "Ras Laffan, Qatar records highest rainfall on March 25. Extreme weather event impacts LNG infrastructure and operations; property damage, business interruption, and marine terminal coverage claims potential in critical energy hub.",
+    "tags": [
+      "CAT EVENT",
+      "ENERGY",
+      "WEATHER"
+    ],
+    "score": 10,
+    "relevanceScore": 10,
+    "eventType": null,
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-27T06:01:55.092Z",
+    "generationRunId": "gen_20260327060016",
+    "geography": "Qatar"
+  },
+  {
+    "id": "live_s285",
+    "situationId": "sit_gen_4",
+    "source": "GOOGLE NEWS QATAR EMERGENCY",
+    "sourceType": "NEWS",
+    "sourceTier": 1,
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTU5RLTVaR3NfU1Zkc2M0Q211SmNwY2Q2NlFycWJxY2FwRU9fTVhHRmpGeHdJb3h4ejRxYmMtQ0M3UWo4WFpoUDI2dDRlWlFQUXdISXdvemFSYjhJMFhybXNHdFc3X0F1QkNsSEdUWkdNRmQtQURDdEpsUGV5cDdyVUozOTjSAYoBQVVfeXFMT3N4RVZhRVQ3VHZoTzFDQnFJOTBxZ3IwaU02dlozcUNxWkxkaWNLMzVXNEVlU0tlS1V3bXBRYWpta2ktY1k5NmZwV3VzLVJKdnd3UXgzLV8teEo1TWJlMjR0V0lsR2wwb2ZfUTRsVlBDQndNR2Foa3llQVp5VkZ5RUNxbTRxaEs1SXpR?oc=5",
+    "timestamp": "2026-03-25T11:06:34.000Z",
+    "ingestedAt": "2026-03-27T06:00:16.071Z",
+    "title": "UK tourists in Dubai, Egypt, Qatar issued 'very frightening' new warning - Birmingham Live",
+    "description": "UK tourists issued security warnings for Dubai, Egypt, Qatar destinations. Travel advisory escalation signals heightened geopolitical risk perception; travel insurance, evacuation coverage, and tourism-related business interruption exposure elevated.",
+    "tags": [
+      "WAR RISK",
+      "TRAVEL"
+    ],
+    "score": 19,
+    "relevanceScore": 19,
+    "eventType": null,
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-27T06:01:55.092Z",
+    "generationRunId": "gen_20260327060016",
+    "geography": "Arabian Gulf"
+  },
+  {
+    "id": "live_s272",
+    "situationId": "sit_gen_1",
+    "source": "GOOGLE NEWS QATAR WEATHER",
+    "sourceType": "NEWS",
+    "sourceTier": 1,
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQ2IxV09aY19seFR5X0xYZnRaYWlLVlA3b0gxX1FKWnJlOVBGdW1SbW5jYlpJOWRNeGw2M2VqT0FPQXFnWk5TeGRWenBvQkNDWG5fWlFNVElFMVF4S3IwRGhGd0NUdXZOdks2Y3BpczJEU2wza2g5OWEzV2xKc0FIeV9WbzZLbXBTR3hEOHAzNlhNS3dXUGxWdXluWXZWdGNwNUxqWWc2RkdkemRySHBF?oc=5",
+    "timestamp": "2026-03-26T15:26:20.000Z",
+    "ingestedAt": "2026-03-26T19:55:42.609Z",
+    "title": "Unstable weather conditions to continue this weekend in Qatar - The Peninsula Qatar",
+    "description": "Unstable weather conditions forecast to persist through weekend in Qatar. Marine and aviation underwriters should monitor for potential weather-related claims, operational disruptions, and cargo damage across Arabian Gulf operations.",
+    "tags": [
+      "WEATHER",
+      "MARINE",
+      "AVIATION"
+    ],
+    "score": 5,
+    "relevanceScore": 5,
+    "eventType": null,
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-27T06:01:55.092Z",
+    "generationRunId": "gen_20260327060016",
+    "geography": "Qatar"
+  },
+  {
+    "id": "live_s273",
+    "situationId": "sit_gen_2",
+    "source": "PENINSULA QATAR",
+    "sourceType": "MARKET",
+    "sourceTier": 1,
+    "url": "https://thepeninsulaqatar.com",
+    "timestamp": "2026-03-26T19:55:33.473Z",
+    "ingestedAt": "2026-03-26T19:55:42.609Z",
+    "title": "Middle East Business",
+    "description": "General Middle East business coverage from Peninsula Qatar publication. Limited detail available. Underwriters monitoring regional market conditions and commercial developments should review full article for relevant risk exposures.",
+    "tags": [
+      "REGIONAL MARKET"
+    ],
+    "score": 5,
+    "relevanceScore": 5,
+    "eventType": null,
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-27T06:01:55.092Z",
+    "generationRunId": "gen_20260327060016",
+    "geography": "Arabian Gulf"
+  },
+  {
+    "id": "live_s274",
+    "situationId": "sit_gen_4",
+    "source": "PENINSULA QATAR",
+    "sourceType": "NEWS",
+    "sourceTier": 1,
+    "url": "https://thepeninsulaqatar.com",
+    "timestamp": "2026-03-26T19:55:33.473Z",
+    "ingestedAt": "2026-03-26T19:55:42.609Z",
+    "title": "Qatar National Day",
+    "description": "Qatar National Day observance reporting. Relevant for operational planning and event-related risk assessment. Insurers should note potential service interruptions, increased travel demand, and crowd-related liability exposures during celebrations.",
+    "tags": [
+      "EVENT RISK",
+      "LIABILITY"
+    ],
+    "score": 5,
+    "relevanceScore": 5,
+    "eventType": null,
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-27T06:01:55.092Z",
+    "generationRunId": "gen_20260327060016",
+    "geography": "Qatar"
+  },
+  {
+    "id": "live_s275",
+    "situationId": "sit_gen_1",
+    "source": "PENINSULA QATAR",
+    "sourceType": "MARKET",
+    "sourceTier": 1,
+    "url": "https://thepeninsulaqatar.com",
+    "timestamp": "2026-03-26T19:55:33.473Z",
+    "ingestedAt": "2026-03-26T19:55:42.609Z",
+    "title": "Qatar Airways updates flight schedule, allows complimentary date changes until October 31",
+    "description": "Qatar Airways announces flexible flight schedule with complimentary date changes through October 31. Underwriters should note enhanced customer accommodation policies, potential revenue impact, and implications for aviation liability and D&O coverage.",
+    "tags": [
+      "AVIATION",
+      "COMMERCIAL"
+    ],
+    "score": 5,
+    "relevanceScore": 5,
+    "eventType": null,
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-27T06:01:55.092Z",
+    "generationRunId": "gen_20260327060016",
+    "geography": "Qatar"
+  },
+  {
+    "id": "live_s256",
+    "situationId": "sit_gen_1",
+    "source": "GOOGLE NEWS QATAR WEATHER",
+    "sourceType": "OFFICIAL",
+    "timestamp": "2026-03-24T05:02:42.000Z",
+    "title": "Qatar's Public Works Authority monitors roads amid heavy rain - ZAWYA",
+    "description": "Qatar Public Works Authority actively monitoring road infrastructure during heavy rainfall event. Operational disruptions to transportation networks may impact logistics, cargo handling, and supply chain continuity across the region.",
+    "tags": [
+      "CAT EVENT",
+      "PROPERTY",
+      "LOGISTICS"
+    ],
+    "relevanceScore": 7,
+    "geography": "Qatar",
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-27T06:01:55.092Z",
+    "generationRunId": "gen_20260327060016"
+  },
+  {
+    "id": "live_s257",
+    "situationId": "sit_gen_1",
+    "source": "GOOGLE NEWS QATAR WEATHER",
+    "sourceType": "OFFICIAL",
+    "timestamp": "2026-03-26T09:10:52.000Z",
+    "title": "'Al Sarayat' disturbances are normal seasonal phenomenon, no cause for alarm: Qatar Meteorology - The Peninsula Qatar",
+    "description": "Qatar Meteorology Department characterizes Al Sarayat wind disturbances as normal seasonal phenomenon. Assessment indicates contained meteorological risk without elevated alert status for insurance portfolio exposure.",
+    "tags": [
+      "CAT EVENT",
+      "WEATHER"
+    ],
+    "relevanceScore": 4,
+    "geography": "Qatar",
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-27T06:01:55.092Z",
+    "generationRunId": "gen_20260327060016"
+  },
+  {
+    "id": "live_s258",
+    "situationId": "sit_gen_1",
+    "source": "GOOGLE NEWS QATAR WEATHER",
+    "sourceType": "OFFICIAL",
+    "timestamp": "2026-03-25T05:33:56.000Z",
+    "title": "Meteorology Department warns of thundery rain, strong wind - The Peninsula Qatar",
+    "description": "Qatar Meteorology Department issues weather warning for thunderstorms and strong winds. Elevated risk of weather-related claims including property damage, business interruption, and marine incidents across exposed portfolios.",
+    "tags": [
+      "CAT EVENT",
+      "WEATHER",
+      "PROPERTY"
+    ],
+    "relevanceScore": 4,
+    "geography": "Qatar",
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-27T06:01:55.092Z",
+    "generationRunId": "gen_20260327060016"
+  },
+  {
+    "id": "live_s259",
+    "situationId": "sit_gen_1",
+    "source": "GOOGLE NEWS QATAR WEATHER",
+    "sourceType": "NEWS",
+    "timestamp": "2026-03-24T06:19:09.000Z",
+    "title": "Al Wakrah recorded highest rainfall on March 23 - The Peninsula Qatar",
+    "description": "Al Wakrah recorded significant rainfall event on March 23, indicating localized precipitation concentration. Data point supports assessment of regional weather volatility and flood risk exposure in southern Qatar.",
+    "tags": [
+      "CAT EVENT",
+      "PROPERTY",
+      "FLOOD"
+    ],
+    "relevanceScore": 7,
+    "geography": "Qatar",
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-27T06:01:55.092Z",
+    "generationRunId": "gen_20260327060016"
+  },
+  {
+    "id": "live_s260",
+    "situationId": "sit_gen_1",
+    "source": "GOOGLE NEWS QATAR EMERGENCY",
+    "sourceType": "NEWS",
+    "timestamp": "2026-03-24T23:40:50.000Z",
+    "title": "Travel Latest Middle East: Severe Weather Disrupts Qatar, Oman, UAE, Saudi Arabia - Nomad Lawyer",
+    "description": "Severe weather disruption reported across multiple MENA jurisdictions including Qatar, Oman, UAE, and Saudi Arabia. Widespread regional impact suggests elevated claim frequency potential across aviation, marine, and property accounts.",
+    "tags": [
+      "CAT EVENT",
+      "TRAVEL",
+      "MULTI-REGIONAL"
+    ],
+    "relevanceScore": 13,
+    "geography": "Arabian Gulf",
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-27T06:01:55.092Z",
+    "generationRunId": "gen_20260327060016"
+  },
+  {
+    "id": "live_s261",
+    "situationId": "sit_gen_1",
+    "source": "GOOGLE NEWS QATAR EMERGENCY",
+    "sourceType": "OFFICIAL",
+    "timestamp": "2026-03-21T08:51:20.000Z",
+    "title": "UAE issues advisory as Oman braces for heavy rain and thunderstorms - Gulf News",
+    "description": "UAE and Oman issue severe weather advisories amid heavy rain and thunderstorm forecasts. Regional meteorological coordination indicates systemic weather risk affecting transportation, infrastructure, and commercial operations.",
+    "tags": [
+      "CAT EVENT",
+      "WEATHER",
+      "AVIATION"
+    ],
+    "relevanceScore": 15,
+    "geography": "Arabian Gulf",
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-27T06:01:55.092Z",
+    "generationRunId": "gen_20260327060016"
+  },
+  {
+    "id": "live_s262",
+    "situationId": "sit_gen_2",
+    "source": "GOOGLE NEWS QATAR EMERGENCY",
+    "sourceType": "MARKET",
+    "timestamp": "2026-03-22T05:09:12.000Z",
+    "title": "Etihad, Qatar Airways enhance loyalty programmes as Iran war impacts flights - Gulf Business",
+    "description": "Etihad and Qatar Airways enhance loyalty programs in response to Iran conflict impacts on flight operations. Geopolitical tensions and conflict-related aviation disruptions creating demand-side insurance implications and operational exposure.",
+    "tags": [
+      "WAR RISK",
+      "AVIATION",
+      "GEOPOLITICAL"
+    ],
+    "relevanceScore": 8,
+    "geography": "Arabian Gulf",
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-27T06:01:55.092Z",
+    "generationRunId": "gen_20260327060016"
+  },
+  {
+    "id": "live_s263",
+    "situationId": "sit_gen_1",
+    "source": "GOOGLE NEWS QATAR EMERGENCY",
+    "sourceType": "NEWS",
+    "timestamp": "2026-03-25T14:33:56.000Z",
+    "title": "Brits in Dubai, Egypt and Qatar issued warning as extreme weather hits - Yorkshire Live",
+    "description": "UK Foreign Office issues travel warning for British nationals in Dubai, Egypt, and Qatar citing extreme weather conditions. Government-level advisories amplify reputational risk and claims exposure for travel and evacuation insurance products.",
+    "tags": [
+      "CAT EVENT",
+      "TRAVEL",
+      "MULTI-REGIONAL"
+    ],
+    "relevanceScore": 13,
+    "geography": "MENA",
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-27T06:01:55.092Z",
+    "generationRunId": "gen_20260327060016"
+  },
+  {
+    "id": "live_s264",
+    "situationId": "sit_gen_1",
+    "source": "GOOGLE NEWS QATAR EMERGENCY",
+    "sourceType": "NEWS",
+    "timestamp": "2026-03-24T06:56:07.000Z",
+    "title": "Doha Weather Alert: Heavy Rain Hits Qatar, Residents Face Wet Roads as Forecast Warns of Ongoing Unstable Conditions | Check 5-Day Rainfall Outlook and Temperature Changes - newsx.com",
+    "description": "Doha weather alert issued for heavy rainfall with forecast of continuing unstable meteorological conditions. Extended outlook suggests sustained claim triggers across property, motor, and liability portfolios with multiple day exposure window.",
+    "tags": [
+      "CAT EVENT",
+      "WEATHER",
+      "PROPERTY"
+    ],
+    "relevanceScore": 17,
+    "geography": "Qatar",
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-27T06:01:55.092Z",
+    "generationRunId": "gen_20260327060016"
+  },
+  {
+    "id": "live_s265",
+    "situationId": "sit_gen_3",
+    "source": "PENINSULA QATAR",
+    "sourceType": "NEWS",
+    "timestamp": "2026-03-26T19:09:33.081Z",
+    "title": "LIVE UPDATES: Two killed in Abu Dhabi from falling debris; Oman Air extends flight cancellations",
+    "description": "Fatal casualties reported in Abu Dhabi from falling debris during severe weather; Oman Air extends flight cancellations. Multiple fatalities confirm extreme weather severity with significant liability exposure and aviation sector disruption.",
+    "tags": [
+      "CAT EVENT",
+      "LIABILITY",
+      "AVIATION"
+    ],
+    "relevanceScore": 9,
+    "geography": "Arabian Gulf",
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-27T06:01:55.092Z",
+    "generationRunId": "gen_20260327060016"
+  },
+  {
+    "id": "live_s266",
+    "situationId": "sit_gen_2",
+    "source": "PENINSULA QATAR",
+    "sourceType": "OFFICIAL",
+    "timestamp": "2026-03-26T19:09:33.081Z",
+    "title": "GCC Ministers of Transport and Communications discussed current situations impact on supply chains",
+    "description": "GCC transport ministers convened to assess geopolitical and operational impacts on regional supply chain resilience, logistics networks, and maritime trade corridors across member states.",
+    "tags": [
+      "SUPPLY CHAIN",
+      "REGIONAL RISK",
+      "TRADE"
+    ],
+    "relevanceScore": 4,
+    "geography": "Arabian Gulf",
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-27T06:01:55.092Z",
+    "generationRunId": "gen_20260327060016"
+  },
+  {
+    "id": "live_s267",
+    "situationId": "sit_gen_3",
+    "source": "QNA",
+    "sourceType": "OFFICIAL",
+    "timestamp": "2026-03-26T19:09:33.186Z",
+    "title": "HH the Amir Performs Funeral Prayer for Martyrs Following Qatari Helicopter Crash",
+    "description": "Qatari state funeral held following helicopter crash with fatalities. Incident triggers aviation insurance claims assessment, potential hull loss, liability exposure, and regulatory investigation protocols.",
+    "tags": [
+      "AVIATION",
+      "CAT EVENT",
+      "CLAIMS"
+    ],
+    "relevanceScore": 4,
+    "geography": "Qatar",
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-27T06:01:55.092Z",
+    "generationRunId": "gen_20260327060016"
+  },
+  {
+    "id": "live_s268",
+    "situationId": "sit_gen_3",
+    "source": "QNA",
+    "sourceType": "OFFICIAL",
+    "timestamp": "2026-03-26T19:09:33.186Z",
+    "title": "HH the Amir Performs Funeral Prayer for Martyrs Following Qatari Helicopter Crash",
+    "description": "Qatari state funeral held following helicopter crash with fatalities. Incident triggers aviation insurance claims assessment, potential hull loss, liability exposure, and regulatory investigation protocols.",
+    "tags": [
+      "AVIATION",
+      "CAT EVENT",
+      "CLAIMS"
+    ],
+    "relevanceScore": 4,
+    "geography": "Qatar",
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-27T06:01:55.092Z",
+    "generationRunId": "gen_20260327060016"
+  },
+  {
+    "id": "live_s269",
+    "situationId": "sit_gen_3",
+    "source": "QNA",
+    "sourceType": "OFFICIAL",
+    "timestamp": "2026-03-26T19:09:33.186Z",
+    "title": "HH the Amir Performs Funeral Prayer for Martyrs Following Qatari Helicopter Crash",
+    "description": "Qatari state funeral held following helicopter crash with fatalities. Incident triggers aviation insurance claims assessment, potential hull loss, liability exposure, and regulatory investigation protocols.",
+    "tags": [
+      "AVIATION",
+      "CAT EVENT",
+      "CLAIMS"
+    ],
+    "relevanceScore": 4,
+    "geography": "Qatar",
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-27T06:01:55.092Z",
+    "generationRunId": "gen_20260327060016"
+  },
+  {
+    "id": "live_s270",
+    "situationId": "sit_gen_3",
+    "source": "QNA",
+    "sourceType": "OFFICIAL",
+    "timestamp": "2026-03-26T19:09:33.186Z",
+    "title": "HH the Amir Performs Funeral Prayer for Martyrs Following Qatari Helicopter Crash",
+    "description": "Qatari state funeral held following helicopter crash with fatalities. Incident triggers aviation insurance claims assessment, potential hull loss, liability exposure, and regulatory investigation protocols.",
+    "tags": [
+      "AVIATION",
+      "CAT EVENT",
+      "CLAIMS"
+    ],
+    "relevanceScore": 4,
+    "geography": "Qatar",
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-27T06:01:55.092Z",
+    "generationRunId": "gen_20260327060016"
+  },
+  {
+    "id": "live_s271",
+    "situationId": "sit_gen_3",
+    "source": "QNA",
+    "sourceType": "OFFICIAL",
+    "timestamp": "2026-03-26T19:09:33.186Z",
+    "title": "HH the Amir Performs Funeral Prayer for Martyrs Following Qatari Helicopter Crash",
+    "description": "Qatari state funeral held following helicopter crash with fatalities. Incident triggers aviation insurance claims assessment, potential hull loss, liability exposure, and regulatory investigation protocols.",
+    "tags": [
+      "AVIATION",
+      "CAT EVENT",
+      "CLAIMS"
+    ],
+    "relevanceScore": 4,
+    "geography": "Qatar",
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-27T06:01:55.092Z",
+    "generationRunId": "gen_20260327060016"
+  },
+  {
+    "id": "live_s243",
+    "situationId": "sit_gen_4",
+    "source": "ARTEMIS",
+    "sourceType": "MARKET",
+    "timestamp": "2026-03-26T14:30:35.000Z",
+    "title": "Hail shifts from secondary peril to major catastrophe loss driver: Cotality",
+    "description": "Cotality report identifies hailstorms as emerging major catastrophe peril, with insured loss potential matching Category 4 hurricanes. Shift from secondary to primary peril warrants underwriting and pricing reassessment across regions.",
+    "tags": [
+      "CAT EVENT",
+      "UNDERWRITING",
+      "RISK ASSESSMENT"
+    ],
+    "relevanceScore": 37,
+    "geography": "Global",
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-26T19:57:36.152Z",
+    "generationRunId": "gen_20260326195548"
+  },
+  {
+    "id": "live_s244",
+    "situationId": "sit_gen_4",
+    "source": "ARTEMIS",
+    "sourceType": "MARKET",
+    "timestamp": "2026-03-26T09:00:00.000Z",
+    "title": "ILS manager execution quality increasingly important in a normalising market: Twelve Securis",
+    "description": "Twelve Securis analysis highlights execution quality differentiation for ILS managers as market normalizes and spreads compress. Investment environment evolution requires enhanced operational excellence and fund performance optimization.",
+    "tags": [
+      "ILS",
+      "REINSURANCE",
+      "MARKET CONDITIONS"
+    ],
+    "relevanceScore": 14,
+    "geography": "Global",
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-26T19:57:36.152Z",
+    "generationRunId": "gen_20260326195548"
+  },
+  {
+    "id": "live_s245",
+    "situationId": null,
+    "source": "INSURANCE JOURNAL",
+    "sourceType": "NEWS",
+    "timestamp": "2026-03-26T13:23:22.000Z",
+    "title": "Report Shows How Guns Move From Southern Stores to Northern Crime Scenes",
+    "description": "Report documents firearms trafficking from southern U.S. states to northern cities, documenting supply chain for criminal gun use. Liability and crime coverage implications for retailers and insurers operating across regional boundaries.",
+    "tags": [
+      "CASUALTY",
+      "CRIME RISK",
+      "LIABILITY"
+    ],
+    "relevanceScore": 11,
+    "geography": "USA"
+  },
+  {
+    "id": "live_s246",
+    "situationId": "sit_gen_3",
+    "source": "INSURANCE JOURNAL",
+    "sourceType": "OFFICIAL",
+    "timestamp": "2026-03-26T10:49:22.000Z",
+    "title": "Britain to Intercept Russian ‘Shadow Fleet’ Ships in UK Waters",
+    "description": "UK government authorized interception of Russian shadow fleet tankers in territorial waters, escalating sanctions enforcement against crude oil exporters. Significant marine liability and war risk implications for P&I and energy sector underwriting.",
+    "tags": [
+      "WAR RISK",
+      "SANCTIONS",
+      "MARINE",
+      "P&I"
+    ],
+    "relevanceScore": 18,
+    "geography": "United Kingdom",
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-26T19:57:36.152Z",
+    "generationRunId": "gen_20260326195548"
+  },
+  {
+    "id": "live_s247",
+    "situationId": null,
+    "source": "REINSURANCE NEWS",
+    "sourceType": "MARKET",
+    "timestamp": "2026-03-26T13:30:09.000Z",
+    "title": "DUAL promotes Scott Sayce to Group Chief Commercial Officer",
+    "description": "DUAL Group announces Scott Sayce promotion to Group Chief Commercial Officer effective April 2026. Senior underwriting agency leadership transition with strategic implications for commercial underwriting operations.",
+    "tags": [
+      "INDUSTRY",
+      "MANAGEMENT"
+    ],
+    "relevanceScore": 8,
+    "geography": "Global"
+  },
+  {
+    "id": "live_s248",
+    "situationId": "sit_gen_4",
+    "source": "REINSURANCE NEWS",
+    "sourceType": "MARKET",
+    "timestamp": "2026-03-26T12:30:04.000Z",
+    "title": "Farmers Insurance appoints John Pham as Chief Strategy & Risk Officer",
+    "description": "Farmers Insurance appoints John Pham as Chief Strategy & Risk Officer to drive enterprise strategy execution. Senior risk management appointment signals focus on integrated business strategy across largest U.S. P&C insurer.",
+    "tags": [
+      "INDUSTRY",
+      "RISK MANAGEMENT"
+    ],
+    "relevanceScore": 20,
+    "geography": "USA",
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-26T19:57:36.152Z",
+    "generationRunId": "gen_20260326195548"
+  },
+  {
+    "id": "live_s249",
+    "situationId": "sit_gen_4",
+    "source": "THE WATCHERS",
+    "sourceType": "NEWS",
+    "timestamp": "2026-03-26T18:00:00.000Z",
+    "title": "Record March heat accelerates peak of wildflower bloom in Death Valley National Park",
+    "description": "Record March heat accelerates wildflower bloom cycle in Death Valley, creating earlier peak conditions. Climate pattern shifts and phenological changes require property and business interruption coverage reassessment for affected regions.",
+    "tags": [
+      "CAT EVENT",
+      "CLIMATE RISK",
+      "PROPERTY"
+    ],
+    "relevanceScore": 8,
+    "geography": "USA",
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-26T19:57:36.152Z",
+    "generationRunId": "gen_20260326195548"
+  },
+  {
+    "id": "live_s250",
+    "situationId": "sit_gen_4",
+    "source": "THE WATCHERS",
+    "sourceType": "NEWS",
+    "timestamp": "2026-03-26T15:14:54.000Z",
+    "title": "Strong and shallow M6.5 earthquake hits off the east coast of Honshu, Japan",
+    "description": "Magnitude 6.5 earthquake strikes off Honshu, Japan east coast at shallow 9.5 km depth. Significant seismic activity in major industrial region warrants property damage and business interruption claims monitoring.",
+    "tags": [
+      "CAT EVENT",
+      "EARTHQUAKE",
+      "PROPERTY"
+    ],
+    "relevanceScore": 7,
+    "geography": "Japan",
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-26T19:57:36.152Z",
+    "generationRunId": "gen_20260326195548"
+  },
+  {
+    "id": "live_s251",
+    "situationId": "sit_gen_4",
+    "source": "THE WATCHERS",
+    "sourceType": "NEWS",
+    "timestamp": "2026-03-25T10:40:00.000Z",
+    "title": "Rare severe weather outbreak brings tornado risk to Gulf states",
+    "description": "Rare severe convective weather outbreak forecast for Gulf region including UAE, Qatar, and eastern Saudi Arabia March 26-27. Potential tornado activity in normally stable region creates acute property and liability exposure for Arabian Gulf operations.",
+    "tags": [
+      "CAT EVENT",
+      "SEVERE WEATHER",
+      "PROPERTY"
+    ],
+    "relevanceScore": 25,
+    "geography": "Arabian Gulf",
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-26T19:57:36.152Z",
+    "generationRunId": "gen_20260326195548"
+  },
+  {
+    "id": "live_s252",
+    "situationId": "sit_gen_3",
+    "source": "RELIEFWEB",
+    "sourceType": "OFFICIAL",
+    "timestamp": "2026-03-26T16:11:41.000Z",
+    "title": "Iran: WFP MIDDLE EAST REGIONAL ESCALATION EMERGENCY RESPONSE Situation Report #4 , 26 March 2026",
+    "description": "WFP emergency response report confirms escalating hostilities across Iran with expanding displacement and livelihood disruption. Humanitarian crisis intensification with geopolitical implications for regional political risk and coverage exposure.",
+    "tags": [
+      "WAR RISK",
+      "POLITICAL RISK",
+      "HUMANITARIAN"
+    ],
+    "relevanceScore": 10,
+    "geography": "Iran",
+    "disposition": "assigned",
+    "dispositionAt": "2026-03-26T19:57:23.343Z",
+    "generationRunId": "gen_20260326195543"
+  },
+  {
+    "id": "live_s253",
+    "situationId": null,
+    "source": "RELIEFWEB",
+    "sourceType": "OFFICIAL",
+    "timestamp": "2026-03-26T15:47:44.000Z",
+    "title": "Lebanon: Conflict Intensity, 2 March - 25 March 2026",
+    "description": "UN humanitarian assessment of Lebanon conflict intensity escalation March 2026. Critical for war risk underwriting, marine casualty exposure, and regional supply chain disruption analysis affecting Mediterranean and Levantine maritime corridors.",
+    "tags": [
+      "WAR RISK",
+      "HUMANITARIAN CRISIS",
+      "REGIONAL INSTABILITY"
+    ],
+    "relevanceScore": 6,
+    "geography": "Lebanon"
+  },
+  {
+    "id": "live_s254",
+    "situationId": null,
+    "source": "RELIEFWEB",
+    "sourceType": "OFFICIAL",
+    "timestamp": "2026-03-26T14:39:45.000Z",
+    "title": "WFP Syria Country Brief, March 2026",
+    "description": "WFP Syria country brief highlights regional tensions, refugee flows, and economic deterioration. Impacts underwriting risk in Syria, cross-border logistics, commodity pricing volatility, and regional geopolitical stability affecting Eastern Mediterranean trade.",
+    "tags": [
+      "HUMANITARIAN CRISIS",
+      "REGIONAL INSTABILITY",
+      "SUPPLY CHAIN RISK"
+    ],
+    "relevanceScore": 8,
+    "geography": "Syria"
+  },
+  {
+    "id": "live_s255",
+    "situationId": null,
+    "source": "RELIEFWEB",
+    "sourceType": "OFFICIAL",
+    "timestamp": "2026-03-26T14:03:08.000Z",
+    "title": "Greece Sea arrivals Dashboard - February 2026",
+    "description": "UN UNHCR sea arrivals data tracking refugee flows via Greece from MENA and East Africa. Indicates regional displacement pressure, maritime migration routes, coastal security concerns, and humanitarian liability exposure in Eastern Mediterranean waters.",
+    "tags": [
+      "MARITIME MIGRATION",
+      "HUMANITARIAN CRISIS",
+      "REGIONAL INSTABILITY"
+    ],
+    "relevanceScore": 8,
+    "geography": "Eastern Mediterranean"
+  },
+  {
+    "id": "live_s233",
+    "situationId": null,
+    "source": "ARTEMIS",
+    "sourceType": "MARKET",
+    "timestamp": "2026-03-26T13:00:30.000Z",
+    "title": "PartnerRe cedes less risk to Lorenz Re cells, third-party reinsurance capital strategy adjusts",
+    "description": "PartnerRe significantly reduced risk cessions to Lorenz Re captive cells in 2025, signalling strategic shift in third-party reinsurance capital deployment and capital management priorities.",
+    "tags": [
+      "REINSURANCE",
+      "CAPITAL MANAGEMENT",
+      "ALTERNATIVE CAPITAL"
+    ],
+    "relevanceScore": 6,
+    "geography": "Global"
+  },
+  {
+    "id": "live_s234",
+    "situationId": "sit5",
+    "source": "ARTEMIS",
+    "sourceType": "MARKET",
+    "timestamp": "2026-03-26T11:00:04.000Z",
+    "title": "LIRG backs DLT Alert with $15m quota-share for parametric cyber warranties",
+    "description": "LIRG secures $15 million quota-share reinsurance backing for DLT Alert's parametric cyber warranties, expanding algorithmic insurance solutions and cyber risk transfer capacity.",
+    "tags": [
+      "CYBER INSURANCE",
+      "REINSURANCE",
+      "ALTERNATIVE RISK TRANSFER"
+    ],
+    "relevanceScore": 10,
+    "geography": "Global"
+  },
+  {
+    "id": "live_s235",
+    "situationId": null,
+    "source": "ARTEMIS",
+    "sourceType": "MARKET",
+    "timestamp": "2026-03-26T10:10:29.000Z",
+    "title": "Allied Trust secures $100m named storm reinsurance from second Sabine Re cat bond",
+    "description": "Allied Trust Insurance obtains $100 million fully-collateralized named storm catastrophe reinsurance via second Sabine Re cat bond, securing capital markets protection for windstorm exposures.",
+    "tags": [
+      "CAT BOND",
+      "CATASTROPHE RISK",
+      "ALTERNATIVE CAPITAL"
+    ],
+    "relevanceScore": 6,
+    "geography": "Global"
+  },
+  {
+    "id": "live_s236",
+    "situationId": null,
+    "source": "INSURANCE JOURNAL",
+    "sourceType": "NEWS",
+    "timestamp": "2026-03-26T15:56:30.000Z",
+    "title": "People Moves: Everest Appoints Busti From AXIS as Head of North America Treaty Re; AXA XL Taps Lockton’s Reynolds as Head of Marine, UK & Lloyd’s, Global CUO for Hull",
+    "description": "Everest appoints AXIS executive Busti as Head of North America Treaty Reinsurance; AXA XL appoints Lockton's Reynolds as Head of Marine and Global Chief Underwriting Officer.",
+    "tags": [
+      "PERSONNEL",
+      "TREATY REINSURANCE",
+      "MARINE"
+    ],
+    "relevanceScore": 18,
+    "geography": "North America"
+  },
+  {
+    "id": "live_s237",
+    "situationId": null,
+    "source": "INSURANCE JOURNAL",
+    "sourceType": "OFFICIAL",
+    "timestamp": "2026-03-26T12:42:38.000Z",
+    "title": "FEMA to Offer $1 Billion for Disaster Resilience After Lawsuit",
+    "description": "FEMA announces $1 billion grant programme for disaster-resilient infrastructure following litigation, supporting risk mitigation investments and reducing catastrophe exposure in US markets.",
+    "tags": [
+      "CATASTROPHE RISK",
+      "GOVERNMENT POLICY",
+      "RISK MITIGATION"
+    ],
+    "relevanceScore": 4,
+    "geography": "USA"
+  },
+  {
+    "id": "live_s238",
+    "situationId": null,
+    "source": "REINSURANCE NEWS",
+    "sourceType": "MARKET",
+    "timestamp": "2026-03-26T16:00:17.000Z",
+    "title": "Totalis Program Underwriters acquires specialist provider ShoreOne",
+    "description": "Totalis Program Underwriters acquires ShoreOne Insurance Managers, specialist homeowners solutions provider, consolidating programme business capabilities and distribution reach.",
+    "tags": [
+      "PROGRAMME BUSINESS",
+      "CONSOLIDATION",
+      "SPECIALTY LINES"
+    ],
+    "relevanceScore": 6,
+    "geography": "USA"
+  },
+  {
+    "id": "live_s239",
+    "situationId": null,
+    "source": "REINSURANCE NEWS",
+    "sourceType": "MARKET",
+    "timestamp": "2026-03-26T15:30:35.000Z",
+    "title": "Markel International appoints Camilla Roughan to Senior Underwriter – Energy",
+    "description": "Markel International appoints Camilla Roughan as Senior Underwriter Energy, strengthening upstream and midstream energy portfolio underwriting and portfolio development.",
+    "tags": [
+      "PERSONNEL",
+      "ENERGY INSURANCE",
+      "UNDERWRITING"
+    ],
+    "relevanceScore": 6,
+    "geography": "Global"
+  },
+  {
+    "id": "live_s240",
+    "situationId": null,
+    "source": "REINSURANCE NEWS",
+    "sourceType": "MARKET",
+    "timestamp": "2026-03-26T15:00:36.000Z",
+    "title": "Ping An P&C insurance revenue rises 3.3% in 2025",
+    "description": "Ping An P&C insurance achieves 3.3% revenue growth in 2025 to RMB 338.9 billion with 6.6% premium income increase, demonstrating strong Asia-Pacific market performance.",
+    "tags": [
+      "FINANCIAL RESULTS",
+      "ASIA-PACIFIC",
+      "P&C INSURANCE"
+    ],
+    "relevanceScore": 6,
+    "geography": "China"
+  },
+  {
+    "id": "live_s241",
+    "situationId": null,
+    "source": "REINSURANCE NEWS",
+    "sourceType": "MARKET",
+    "timestamp": "2026-03-26T14:00:16.000Z",
+    "title": "MGA Banyan Risk deploys hx’s full agentic underwriting suite",
+    "description": "Banyan Risk MGA deploys hyperexponential's full agentic underwriting suite across US, UK, Canada and Bermuda, first comprehensive deployment of autonomous underwriting technology by MGA.",
+    "tags": [
+      "ARTIFICIAL INTELLIGENCE",
+      "UNDERWRITING TECHNOLOGY",
+      "DIGITAL TRANSFORMATION"
+    ],
+    "relevanceScore": 6,
+    "geography": "Global"
+  },
+  {
+    "id": "live_s242",
+    "situationId": "sit5",
+    "source": "REINSURANCE NEWS",
+    "sourceType": "MARKET",
+    "timestamp": "2026-03-26T13:00:57.000Z",
+    "title": "Agentic AI poised to shape both offensive and defensive cyber measures: Munich Re",
+    "description": "Munich Re reports agentic AI poised to transform offensive and defensive cyber measures, shaping scope, speed and precision of cyber risk management and insurance responses.",
+    "tags": [
+      "CYBER INSURANCE",
+      "ARTIFICIAL INTELLIGENCE",
+      "EMERGING RISK"
+    ],
+    "relevanceScore": 5,
+    "geography": "Global"
+  },
+  {
+    "id": "live_s223",
+    "situationId": "sit_gen_3",
+    "source": "ARTEMIS",
+    "sourceType": "MARKET",
+    "timestamp": "2026-03-26T13:00:30.000Z",
+    "title": "PartnerRe cedes less risk to Lorenz Re cells, third-party reinsurance capital strategy adjusts",
+    "description": "PartnerRe materially reduced risk cessions to Lorenz Re captive cells in 2025, reflecting strategic shift in third-party reinsurance capital deployment and alternative risk transfer preferences.",
+    "tags": [
+      "REINSURANCE",
+      "CAPITAL MANAGEMENT",
+      "ALTERNATIVE RISK TRANSFER"
+    ],
+    "relevanceScore": 6,
+    "geography": "Global"
+  },
+  {
+    "id": "live_s224",
+    "situationId": "sit_gen_2",
+    "source": "ARTEMIS",
+    "sourceType": "MARKET",
+    "timestamp": "2026-03-26T11:00:04.000Z",
+    "title": "LIRG backs DLT Alert with $15m quota-share for parametric cyber warranties",
+    "description": "LIRG secured $15 million quota-share reinsurance for parametric cyber warranties through DLT Alert, expanding algorithmic insurance solutions and parametric coverage capacity in cyber segment.",
+    "tags": [
+      "CYBER RISK",
+      "REINSURANCE",
+      "PARAMETRIC"
+    ],
+    "relevanceScore": 10,
+    "geography": "Global"
+  },
+  {
+    "id": "live_s225",
+    "situationId": "sit_gen_3",
+    "source": "ARTEMIS",
+    "sourceType": "MARKET",
+    "timestamp": "2026-03-26T10:10:29.000Z",
+    "title": "Allied Trust secures $100m named storm reinsurance from second Sabine Re cat bond",
+    "description": "Allied Trust obtained $100 million fully-collateralized named storm reinsurance via second Sabine Re catastrophe bond, demonstrating sustained capital markets appetite for US wind exposure.",
+    "tags": [
+      "CATASTROPHE RISK",
+      "CAT BONDS",
+      "NAMED PERIL"
+    ],
+    "relevanceScore": 6,
+    "geography": "USA"
+  },
+  {
+    "id": "live_s226",
+    "situationId": "sit_gen_4",
+    "source": "INSURANCE JOURNAL",
+    "sourceType": "NEWS",
+    "timestamp": "2026-03-26T15:56:30.000Z",
+    "title": "People Moves: Everest Appoints Busti From AXIS as Head of North America Treaty Re; AXA XL Taps Lockton’s Reynolds as Head of Marine, UK & Lloyd’s, Global CUO for Hull",
+    "description": "Senior leadership appointments: Everest Group hires AXIS executive as North America Treaty Reinsurance head; AXA XL appoints Lockton's Reynolds as Global Marine/Hull Chief Underwriting Officer.",
+    "tags": [
+      "MARINE",
+      "REINSURANCE",
+      "UNDERWRITING"
+    ],
+    "relevanceScore": 18,
+    "geography": "Global"
+  },
+  {
+    "id": "live_s227",
+    "situationId": null,
+    "source": "INSURANCE JOURNAL",
+    "sourceType": "OFFICIAL",
+    "timestamp": "2026-03-26T12:42:38.000Z",
+    "title": "FEMA to Offer $1 Billion for Disaster Resilience After Lawsuit",
+    "description": "FEMA announced $1 billion disaster resilience grant program following legal challenge, signalling increased federal investment in catastrophe mitigation infrastructure and loss prevention.",
+    "tags": [
+      "CAT RISK",
+      "CLAIMS",
+      "REGULATORY"
+    ],
+    "relevanceScore": 4,
+    "geography": "USA"
+  },
+  {
+    "id": "live_s228",
+    "situationId": "sit_gen_4",
+    "source": "REINSURANCE NEWS",
+    "sourceType": "MARKET",
+    "timestamp": "2026-03-26T16:00:17.000Z",
+    "title": "Totalis Program Underwriters acquires specialist provider ShoreOne",
+    "description": "Totalis Program Underwriters acquired ShoreOne Insurance Managers, consolidating specialist homeowners and agency-focused insurance solutions within program business platform.",
+    "tags": [
+      "PROGRAM BUSINESS",
+      "UNDERWRITING",
+      "M&A"
+    ],
+    "relevanceScore": 6,
+    "geography": "Global"
+  },
+  {
+    "id": "live_s229",
+    "situationId": "sit_gen_3",
+    "source": "REINSURANCE NEWS",
+    "sourceType": "NEWS",
+    "timestamp": "2026-03-26T15:30:35.000Z",
+    "title": "Markel International appoints Camilla Roughan to Senior Underwriter – Energy",
+    "description": "Markel International appointed senior underwriter for Energy segment overseeing upstream and midstream portfolio, reinforcing specialist energy placement capabilities and underwriting infrastructure.",
+    "tags": [
+      "ENERGY",
+      "UNDERWRITING",
+      "SPECIALTY"
+    ],
+    "relevanceScore": 6,
+    "geography": "Global"
+  },
+  {
+    "id": "live_s230",
+    "situationId": null,
+    "source": "REINSURANCE NEWS",
+    "sourceType": "MARKET",
+    "timestamp": "2026-03-26T15:00:36.000Z",
+    "title": "Ping An P&C insurance revenue rises 3.3% in 2025",
+    "description": "Ping An P&C insurance revenue grew 3.3% year-over-year to RMB338.9 billion in 2025, with premium income rising 6.6%, demonstrating solid performance in China's property-casualty market.",
+    "tags": [
+      "P&C INSURANCE",
+      "MARKET PERFORMANCE",
+      "ASIA"
+    ],
+    "relevanceScore": 6,
+    "geography": "China"
+  },
+  {
+    "id": "live_s231",
+    "situationId": "sit_gen_2",
+    "source": "REINSURANCE NEWS",
+    "sourceType": "MARKET",
+    "timestamp": "2026-03-26T14:00:16.000Z",
+    "title": "MGA Banyan Risk deploys hx’s full agentic underwriting suite",
+    "description": "Banyan Risk deployed hyperexponential's full agentic underwriting suite across US, UK, Canada and Bermuda, marking first MGA adoption of AI-driven automated underwriting decision platform.",
+    "tags": [
+      "ARTIFICIAL INTELLIGENCE",
+      "UNDERWRITING",
+      "TECHNOLOGY"
+    ],
+    "relevanceScore": 6,
+    "geography": "Global"
+  },
+  {
+    "id": "live_s232",
+    "situationId": "sit_gen_2",
+    "source": "REINSURANCE NEWS",
+    "sourceType": "MARKET",
+    "timestamp": "2026-03-26T13:00:57.000Z",
+    "title": "Agentic AI poised to shape both offensive and defensive cyber measures: Munich Re",
+    "description": "Munich Re report highlights agentic AI's transformative impact on offensive and defensive cyber measures, with technology reshaping scope, speed and precision of cyber risk management.",
+    "tags": [
+      "CYBER RISK",
+      "ARTIFICIAL INTELLIGENCE",
+      "TRENDS"
+    ],
+    "relevanceScore": 5,
+    "geography": "Global"
+  },
+  {
+    "id": "live_s221",
+    "situationId": "sit_gen_2",
     "source": "INSURANCE JOURNAL",
     "sourceType": "MARKET",
     "timestamp": "2026-03-25T16:19:10.000Z",
@@ -50,7 +1324,7 @@
   },
   {
     "id": "live_s210",
-    "situationId": "sit_gen_2",
+    "situationId": "sit_gen_4",
     "source": "ARTEMIS",
     "sourceType": "MARKET",
     "timestamp": "2026-03-25T08:32:31.000Z",
@@ -66,7 +1340,7 @@
   },
   {
     "id": "live_s211",
-    "situationId": "sit_gen_4",
+    "situationId": "sit_gen_3",
     "source": "ARTEMIS",
     "sourceType": "MARKET",
     "timestamp": "2026-03-24T16:15:08.000Z",
@@ -82,7 +1356,7 @@
   },
   {
     "id": "live_s212",
-    "situationId": "sit_gen_1",
+    "situationId": "sit_gen_3",
     "source": "INSURANCE JOURNAL",
     "sourceType": "NEWS",
     "timestamp": "2026-03-25T11:50:13.000Z",
@@ -99,7 +1373,7 @@
   },
   {
     "id": "live_s213",
-    "situationId": "sit_gen_1",
+    "situationId": "sit_gen_3",
     "source": "INSURANCE JOURNAL",
     "sourceType": "NEWS",
     "timestamp": "2026-03-25T09:30:59.000Z",
@@ -133,7 +1407,7 @@
   },
   {
     "id": "live_s215",
-    "situationId": "sit_gen_3",
+    "situationId": "sit_gen_2",
     "source": "REINSURANCE NEWS",
     "sourceType": "MARKET",
     "timestamp": "2026-03-25T15:00:09.000Z",
@@ -199,7 +1473,7 @@
   },
   {
     "id": "live_s219",
-    "situationId": "sit_gen_3",
+    "situationId": "sit_gen_2",
     "source": "REINSURANCE NEWS",
     "sourceType": "MARKET",
     "timestamp": "2026-03-25T11:30:37.000Z",
@@ -215,7 +1489,7 @@
   },
   {
     "id": "live_s220",
-    "situationId": null,
+    "situationId": "sit_gen_4",
     "source": "REINSURANCE NEWS",
     "sourceType": "MARKET",
     "timestamp": "2026-03-25T11:00:36.000Z",
@@ -247,7 +1521,7 @@
   },
   {
     "id": "live_s207",
-    "situationId": "sit_gen_4",
+    "situationId": "sit_gen_3",
     "source": "REINSURANCE NEWS",
     "sourceType": "MARKET",
     "timestamp": "2026-03-24T16:00:13.000Z",
@@ -2029,1003 +3303,5 @@
       "REGULATORY"
     ],
     "geography": "Ohio"
-  },
-  {
-    "id": "live_s96",
-    "situationId": null,
-    "source": "INSURANCE JOURNAL",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-23T00:00:00.000Z",
-    "title": "Nebraska AG Sues Roblox Over Alleged Child Safety Failures",
-    "description": "Nebraska AG pursues consumer protection lawsuit against Roblox alleging inadequate child safety controls exposing minors to predatory conduct. Case raises product liability and duty-of-care underwriting considerations for digital platform operators.",
-    "tags": [
-      "LIABILITY",
-      "PRODUCT DEFECT",
-      "LITIGATION"
-    ],
-    "geography": "Nebraska"
-  },
-  {
-    "id": "live_s97",
-    "situationId": null,
-    "source": "INSURANCE JOURNAL",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-23T00:00:00.000Z",
-    "title": "Meta Loses Insurance for Defense in Major Social Media Addiction Litigation",
-    "description": "Delaware court rules insurers have no duty to defend Meta in thousands of child addiction lawsuits, eliminating coverage for social media harm claims. Decision impacts cyber/tech liability underwriting and D&O policy scope across digital platforms.",
-    "tags": [
-      "LIABILITY",
-      "COVERAGE DISPUTE",
-      "LEGAL"
-    ],
-    "geography": "Delaware"
-  },
-  {
-    "id": "live_s98",
-    "situationId": null,
-    "source": "INSURANCE JOURNAL",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-23T00:00:00.000Z",
-    "title": "Rise of the Analytical Agent: Building Stronger Insurance Agencies with Business Intelligence",
-    "description": "Insurance agencies adopt business intelligence and data analytics tools to manage operational complexity and market uncertainty. Technology adoption critical for agency competitiveness in underwriting, claims, and customer retention strategies.",
-    "tags": [
-      "TECHNOLOGY",
-      "OPERATIONAL RISK",
-      "MARKET"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s99",
-    "situationId": null,
-    "source": "INSURANCE JOURNAL",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-23T00:00:00.000Z",
-    "title": "Carriers Using AI for Claims but Adoption Is Fragmented, Report Shows",
-    "description": "Insurance carriers show uneven AI adoption in claims operations with limited scale deployment. Fragmented technology implementation creates operational risk and competitive pressure across underwriting and claims processing workflows.",
-    "tags": [
-      "TECHNOLOGY",
-      "CLAIMS",
-      "OPERATIONAL"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s100",
-    "situationId": null,
-    "source": "REINSURANCE NEWS",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-23T09:00:25.000Z",
-    "title": "PartnerRe posts rise in net income to $2.1bn for FY’25",
-    "description": "PartnerRe reports FY2025 net income of $2.1bn, up 46% from prior year, with non-life underwriting profit of $364mn. Strong reinsurance market performance reflects improved premium adequacy and favorable claims experience in non-life segment.",
-    "tags": [
-      "REINSURANCE",
-      "UNDERWRITING",
-      "FINANCIAL"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s101",
-    "situationId": null,
-    "source": "REINSURANCE NEWS",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-23T08:00:15.000Z",
-    "title": "US life insurance premiums hit record $17.5bn in 2025: LIMRA",
-    "description": "US individual life insurance premium sales reach record $17.5bn in 2025, establishing new industry benchmark. Growth signals strong market conditions and improved underwriting demand in life segment with favorable mortality assumptions.",
-    "tags": [
-      "LIFE INSURANCE",
-      "UNDERWRITING",
-      "MARKET"
-    ],
-    "geography": "United States"
-  },
-  {
-    "id": "live_s102",
-    "situationId": null,
-    "source": "REINSURANCE NEWS",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-23T07:00:03.000Z",
-    "title": "QBE expands transactional liability in Asia with Reuben Lee appointment",
-    "description": "QBE appoints dedicated Transactional Liability Lead for Asia to drive M&A underwriting growth and market expansion. Organizational restructuring signals strategic focus on merger/acquisition risk underwriting and portfolio diversification in high-growth region.",
-    "tags": [
-      "LIABILITY",
-      "MARKET EXPANSION",
-      "UNDERWRITING"
-    ],
-    "geography": "Asia"
-  },
-  {
-    "id": "live_s103",
-    "situationId": null,
-    "source": "REINSURANCE NEWS",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-23T06:00:42.000Z",
-    "title": "IGI adds former Guy Carpenter MD Thomas A. Collett to its Board",
-    "description": "IGI appoints former Guy Carpenter managing director Thomas Collett to Board, strengthening reinsurance and risk management governance. Leadership addition reflects strategic repositioning for specialist commercial and reinsurance portfolio development.",
-    "tags": [
-      "REINSURANCE",
-      "GOVERNANCE",
-      "MARKET"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s104",
-    "situationId": null,
-    "source": "REINSURANCE NEWS",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-20T17:00:48.000Z",
-    "title": "Intelligent AI partners with Guidewire to integrate high-resolution property risk and rebuilt data",
-    "description": "Intelligent AI integrates high-resolution property risk and rebuild cost data with Guidewire platform for enhanced underwriting decisioning. Technology partnership improves claims estimation accuracy and property risk assessment across InsuranceSuite workflows.",
-    "tags": [
-      "TECHNOLOGY",
-      "PROPERTY",
-      "UNDERWRITING"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s105",
-    "situationId": null,
-    "source": "REINSURANCE NEWS",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-20T16:30:35.000Z",
-    "title": "Chubb reveals structure of DFC’s $20bn Gulf Maritime Insurance Facility",
-    "description": "Chubb named lead underwriter for DFC's $20bn Gulf maritime reinsurance facility. Structure details outlined for this major US-backed capacity initiative supporting regional maritime risk underwriting and claims management.",
-    "tags": [
-      "MARINE",
-      "REINSURANCE",
-      "GULF MARITIME",
-      "CAPACITY"
-    ],
-    "geography": "Arabian Gulf"
-  },
-  {
-    "id": "live_s106",
-    "situationId": null,
-    "source": "REINSURANCE NEWS",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-20T16:00:49.000Z",
-    "title": "Balavant launches Hudson backed Sentric Specialty",
-    "description": "Balavant Insurance launches Sentric Specialty program manager delivering specialty solutions across manufacturing, crisis management, and professional liability risks via Hudson-backed platform.",
-    "tags": [
-      "SPECIALTY",
-      "UNDERWRITING",
-      "PROGRAM MANAGEMENT"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s107",
-    "situationId": null,
-    "source": "REINSURANCE NEWS",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-20T15:30:03.000Z",
-    "title": "Cameron Glover joins Tokio Marine Kiln Aviation team",
-    "description": "Tokio Marine Kiln expands Aerospace division hiring Cameron Glover as Aviation Underwriter focusing on Airport and Product liability risks, strengthening aviation specialty underwriting capacity.",
-    "tags": [
-      "AVIATION",
-      "LIABILITY",
-      "UNDERWRITING"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s108",
-    "situationId": null,
-    "source": "REINSURANCE NEWS",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-20T15:00:13.000Z",
-    "title": "Reinsurance pools, retro underpin terrorism risk resilience in a complex threat landscape: Guy Carpenter’s Gallagher",
-    "description": "Guy Carpenter's Asia Pacific CEO outlines terrorism risk resilience through reinsurance pools and retrocession mechanisms addressing complex evolving threat landscape and market capacity constraints.",
-    "tags": [
-      "TERRORISM RISK",
-      "REINSURANCE",
-      "RETROCESSION",
-      "CAPACITY"
-    ],
-    "geography": "Asia Pacific"
-  },
-  {
-    "id": "live_s109",
-    "situationId": null,
-    "source": "REINSURANCE NEWS",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-20T14:00:52.000Z",
-    "title": "CRC Group expands Insurisk platform to support growing data centre insurance demands",
-    "description": "CRC Group enhances Insurisk platform underwriting capabilities to address growing global data centre industry insurance demands, strengthening specialty coverage for emerging infrastructure risks.",
-    "tags": [
-      "SPECIALTY",
-      "DATA CENTRE",
-      "UNDERWRITING PLATFORMS"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s70",
-    "situationId": "sit1",
-    "source": "INSURANCE JOURNAL",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-17T07:48:46.000Z",
-    "title": "Shipping Insurance Costs to Cross Hormuz Soar After Vessel Attacks",
-    "description": "Strait of Hormuz vessel insurance premiums escalate to approximately 5% of ship value following maritime attacks. Coverage remains available but at significantly elevated war risk rates, reflecting heightened geopolitical tension and underwriter exposure reassessment.",
-    "tags": [
-      "WAR RISK",
-      "MARINE",
-      "P&I",
-      "MIDDLE EAST"
-    ],
-    "geography": "Arabian Gulf"
-  },
-  {
-    "id": "live_s71",
-    "situationId": null,
-    "source": "REINSURANCE NEWS",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-17T07:30:28.000Z",
-    "title": "Amiga Specialty launches in Hong Kong",
-    "description": "Amiga Specialty MGA obtains Hong Kong insurance license and establishes Asia-Pacific hub under new financial lines leadership. Expansion demonstrates MGAs' strategic deployment into key Asian markets for specialty underwriting distribution.",
-    "tags": [
-      "MARKET",
-      "DISTRIBUTION",
-      "APAC"
-    ],
-    "geography": "Hong Kong"
-  },
-  {
-    "id": "live_s72",
-    "situationId": null,
-    "source": "REINSURANCE NEWS",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-17T07:00:34.000Z",
-    "title": "Nexus appoints Walid Youssef as Head of UK Financial Institutions",
-    "description": "Nexus Underwriting appoints senior financial institutions head for UK portfolio management. Senior hire signals capacity expansion and strategic focus on financial lines underwriting and portfolio growth in UK market.",
-    "tags": [
-      "FINANCIAL LINES",
-      "UNDERWRITING",
-      "UK"
-    ],
-    "geography": "United Kingdom"
-  },
-  {
-    "id": "live_s73",
-    "situationId": null,
-    "source": "REINSURANCE NEWS",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-17T06:30:45.000Z",
-    "title": "Willis partners with Qover to expand GB affinity technology ecosystem",
-    "description": "Willis partners with Qover on embedded insurance technology platform expansion across GB affinity ecosystem. Strategic alliance integrates digital orchestration capabilities to enhance product distribution and customer access.",
-    "tags": [
-      "DISTRIBUTION",
-      "TECHNOLOGY",
-      "AFFINITY"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s74",
-    "situationId": null,
-    "source": "REINSURANCE NEWS",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-17T06:00:28.000Z",
-    "title": "Pacific Life Re appoints Dion Russell as Managing VP, Business Services, Protection",
-    "description": "Pacific Life Re appoints experienced protection reinsurance executive as Managing VP for business services. Senior hire brings 25+ years Asia-Pacific life insurance expertise to enhance life reinsurance underwriting and strategy.",
-    "tags": [
-      "LIFE REINSURANCE",
-      "APAC",
-      "PROTECTION"
-    ],
-    "geography": "Asia-Pacific"
-  },
-  {
-    "id": "live_s69",
-    "situationId": null,
-    "source": "SCMP.COM",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-16T22:30:00.000Z",
-    "title": "Opinion | Iran war shows urgency of Hong Kong green shipping transition",
-    "description": "Opinion piece discussing Iran conflict implications for Hong Kong's green shipping transition. Addresses geopolitical risk impacts on maritime sustainability initiatives and potential operational disruptions in regional shipping corridors.",
-    "tags": [
-      "WAR RISK",
-      "MARINE",
-      "GREEN SHIPPING",
-      "GEOPOLITICAL RISK"
-    ],
-    "geography": "Arabian Gulf"
-  },
-  {
-    "id": "live_s59",
-    "situationId": null,
-    "source": "INSURANCE JOURNAL",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-17T05:15:11.000Z",
-    "title": "Amazon Unit Withdraws From Drone Trade Group, Raises Safety Concerns",
-    "description": "Amazon Prime Air exits Commercial Drone Alliance over regulatory disagreement on detect-and-avoid collision systems. Safety standards divergence signals emerging underwriting challenges for unmanned aircraft liability and product liability exposures.",
-    "tags": [
-      "AVIATION",
-      "PRODUCT LIABILITY",
-      "REGULATORY RISK"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s60",
-    "situationId": "sit5",
-    "source": "INSURANCE JOURNAL",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-17T05:14:59.000Z",
-    "title": "Iran-Linked Hackers Take Aim at US, Other Targets, Raising Risk of Cyberattacks",
-    "description": "Iranian-linked hackers escalating cyberattacks targeting US defense contractors, power infrastructure and water utilities. Elevated cyber risk exposure for critical infrastructure insureds and network security coverage demand in MENA and North America regions.",
-    "tags": [
-      "CYBER RISK",
-      "CRITICAL INFRASTRUCTURE",
-      "GEOPOLITICAL"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s61",
-    "situationId": null,
-    "source": "INSURANCE JOURNAL",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-17T05:13:58.000Z",
-    "title": "People Moves: HW Kaufman Group Names Hattaway President of RB Jones; Rokstone Hires QBE North America Casualty Leader Lill",
-    "description": "HW Kaufman Group appoints new president at RB Jones specialty MGU. Routine personnel transition at specialty underwriting platform serving brokers and wholesalers across casualty and risk coverage segments.",
-    "tags": [
-      "MARKET NEWS",
-      "UNDERWRITING"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s62",
-    "situationId": null,
-    "source": "INSURANCE JOURNAL",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-17T05:10:30.000Z",
-    "title": "AI Hyperscalers’ Shadow Borrowing Bolsters Private Credit Risks",
-    "description": "AI hyperscalers utilizing off-balance-sheet debt arrangements increasing insurer and private credit fund exposure. BIS flags shadow financing risks for underwriters with technology infrastructure and portfolio concentration exposures.",
-    "tags": [
-      "CREDIT RISK",
-      "FINANCIAL LINES",
-      "SYSTEMIC RISK"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s63",
-    "situationId": null,
-    "source": "INSURANCE JOURNAL",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-17T05:01:43.000Z",
-    "title": "Florida Brownfield Development Bill Raising Concerns About Coverage, Litigation",
-    "description": "Florida brownfield redevelopment legislation expanding contaminated land development creates environmental liability gaps. Insurers face coverage disputes and increased litigation exposure for pollution and remediation claims on South Florida projects.",
-    "tags": [
-      "ENVIRONMENTAL",
-      "REGULATORY RISK",
-      "COVERAGE DISPUTE"
-    ],
-    "geography": "Florida"
-  },
-  {
-    "id": "live_s64",
-    "situationId": null,
-    "source": "INSURANCE JOURNAL",
-    "sourceType": "OFFICIAL",
-    "timestamp": "2026-03-17T05:00:41.000Z",
-    "title": "AM Best Revises Outlooks to Stable for Amica Group",
-    "description": "AM Best upgrades Amica Mutual outlook to stable, affirming A+ Financial Strength Rating and aa- Issuer Credit Rating. Rating action reflects improved mutual insurer fundamentals and reduced negative outlook trajectory.",
-    "tags": [
-      "RATINGS",
-      "FINANCIAL STRENGTH"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s65",
-    "situationId": null,
-    "source": "INSURANCE JOURNAL",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-17T05:00:29.000Z",
-    "title": "Insurer Wants Its $3.5M Back Because City Delayed Reporting Claims for 5 Years",
-    "description": "Pennsylvania Manufacturers Association Insurance seeks $3.55M recovery from New Haven over delayed claim reporting on 2019 rooming house fire. Contractual dispute highlights municipal insured accountability and claims management liability exposure.",
-    "tags": [
-      "CLAIMS",
-      "SUBROGATION",
-      "LIABILITY"
-    ],
-    "geography": "Connecticut"
-  },
-  {
-    "id": "live_s66",
-    "situationId": null,
-    "source": "INSURANCE JOURNAL",
-    "sourceType": "OFFICIAL",
-    "timestamp": "2026-03-17T05:00:07.000Z",
-    "title": "New Jersey Secures Win in Long-Running Case Over PDX’s Worker Misclassification",
-    "description": "New Jersey enforces $7M settlement against PDX North for worker misclassification and delivery driver wage violations. Regulatory enforcement action underscores evolving compliance risks in gig economy logistics and workers' compensation coverage.",
-    "tags": [
-      "WORKERS COMPENSATION",
-      "REGULATORY ENFORCEMENT"
-    ],
-    "geography": "New Jersey"
-  },
-  {
-    "id": "live_s67",
-    "situationId": null,
-    "source": "INSURANCE JOURNAL",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-17T05:00:07.000Z",
-    "title": "Owners of Large California Tow Operation Charged in $6M Workers’ Comp Fraud Scheme",
-    "description": "Southern California towing company owners arrested for $6M workers' compensation fraud via payroll underreporting and cash wage schemes. Criminal prosecution highlights claims fraud exposure and underwriting control gaps in regional transportation sectors.",
-    "tags": [
-      "FRAUD",
-      "WORKERS COMPENSATION",
-      "CRIMINAL LIABILITY"
-    ],
-    "geography": "California"
-  },
-  {
-    "id": "live_s68",
-    "situationId": null,
-    "source": "INSURANCE JOURNAL",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-16T22:07:05.000Z",
-    "title": "Bank of America Agrees to Settle Claims It Aided Epstein",
-    "description": "Bank of America settles proposed class action on Epstein sex-trafficking liability claims. Settlement agreement reflects institutional liability exposure and reputational risk management in financial services sector third-party facilitation claims.",
-    "tags": [
-      "FINANCIAL LINES",
-      "SETTLEMENT",
-      "INSTITUTIONAL LIABILITY"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s47",
-    "situationId": null,
-    "source": "DECCANCHRONICLE.COM",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-02T18:15:00.000Z",
-    "title": "GIC Re Withdraws Marine Hull War Cover",
-    "description": "GIC Re, India's reinsurer, withdraws marine hull war coverage amid escalating Gulf tensions. Significant market signal indicating insurers reassessing war risk exposure in conflict-affected shipping corridors.",
-    "tags": [
-      "WAR RISK",
-      "MARINE HULL",
-      "REINSURANCE",
-      "UNDERWRITING"
-    ],
-    "geography": "Arabian Gulf"
-  },
-  {
-    "id": "live_s48",
-    "situationId": null,
-    "source": "BD-PRATIDIN.COM",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-12T20:15:00.000Z",
-    "title": "হরমুজ প্রণালীতে হামলা এড়াতে যে নতুন কৌশল জাহাজগুলোর |",
-    "description": "Ships deploying new evasion strategies to avoid attacks in Strait of Hormuz. Operational changes reflect growing maritime security threats impacting vessel routing and insurance underwriting considerations.",
-    "tags": [
-      "WAR RISK",
-      "MARINE",
-      "PIRACY"
-    ],
-    "geography": "Strait of Hormuz"
-  },
-  {
-    "id": "live_s49",
-    "situationId": null,
-    "source": "THEGUARDIAN.COM",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-02T18:15:00.000Z",
-    "title": "Maritime insurers cancel war risk cover in Gulf as Iran conflict disrupts shipping",
-    "description": "Maritime insurers canceling war risk cover across Gulf region as Iran conflict intensifies. Critical market development signaling insurers withdrawing capacity and raising premium risk for cargo and hull policies.",
-    "tags": [
-      "WAR RISK",
-      "MARINE INSURANCE",
-      "CAPACITY WITHDRAWAL"
-    ],
-    "geography": "Arabian Gulf"
-  },
-  {
-    "id": "live_s50",
-    "situationId": "sit1",
-    "source": "BUSINESSTODAY.IN",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-07T03:30:00.000Z",
-    "title": "West Asia tensions : About marine insurance , the piece of paper that protects oil shipments via Strait of Hormuz",
-    "description": "Analysis of marine insurance role protecting oil shipments through Strait of Hormuz amid West Asia tensions. Examines coverage mechanisms critical to tanker operations and trade finance in escalating conflict environment.",
-    "tags": [
-      "WAR RISK",
-      "ENERGY SHIPPING",
-      "MARINE INSURANCE"
-    ],
-    "geography": "Strait of Hormuz"
-  },
-  {
-    "id": "live_s51",
-    "situationId": null,
-    "source": "NEWS.DE",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-16T18:30:00.000Z",
-    "title": "Iran - Krieg :  Nicht unser Krieg : EU schließt Einsatz vor Irans Küste aus",
-    "description": "EU excludes military deployment near Iranian coast from conflict response. Policy decision affecting maritime risk assessment and insurance implications for European-flagged vessels and regional trade operations.",
-    "tags": [
-      "GEOPOLITICAL RISK",
-      "MARINE",
-      "SANCTIONS"
-    ],
-    "geography": "Arabian Gulf"
-  },
-  {
-    "id": "live_s52",
-    "situationId": "sit1",
-    "source": "DAWN.COM",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-04T05:15:00.000Z",
-    "title": "Iran conflict disrupts global shipping as tankers are stranded - Newspaper",
-    "description": "Iran conflict causes global shipping disruption with tankers stranded amid transit restrictions. Supply chain and operational exposure creating significant claims and coverage challenges for marine and cargo insurers worldwide.",
-    "tags": [
-      "WAR RISK",
-      "CARGO INSURANCE",
-      "BUSINESS INTERRUPTION"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s53",
-    "situationId": null,
-    "source": "ALWASAT.LY",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-03T15:30:00.000Z",
-    "title": "إغلاق مضيق هرمز : كيف تهدد الحرب الأمريكية الإسرائيلية مع إيران حركة التجارة في العالم ؟ ",
-    "description": "Analysis of potential Strait of Hormuz closure threat from US-Israel-Iran conflict impacting global trade flows. Examines catastrophic scenarios for shipping insurance and energy supply chain risk management across markets.",
-    "tags": [
-      "WAR RISK",
-      "CAT EVENT",
-      "ENERGY SHIPPING"
-    ],
-    "geography": "Strait of Hormuz"
-  },
-  {
-    "id": "live_s54",
-    "situationId": null,
-    "source": "ALHURRA.COM",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-13T20:00:00.000Z",
-    "title": "هل يغلق الحوثيون منافذ الخليج ؟ ",
-    "description": "Examines Houthi threat to Gulf maritime access and potential blockade scenarios. Assesses shipping corridor closure risk and implications for marine insurance capacity, war risk covers, and regional trade routes.",
-    "tags": [
-      "WAR RISK",
-      "PIRACY",
-      "MARITIME SECURITY"
-    ],
-    "geography": "Arabian Gulf"
-  },
-  {
-    "id": "live_s55",
-    "situationId": null,
-    "source": "AAWSAT.COM",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-16T00:45:00.000Z",
-    "title": "حساسية هرمز",
-    "description": "Hormuz Strait sensitivity analysis amid regional tensions. Focused assessment of critical chokepoint vulnerability and downstream insurance market impacts on coverage availability and pricing for transit risk.",
-    "tags": [
-      "WAR RISK",
-      "MARINE",
-      "GEOPOLITICAL RISK"
-    ],
-    "geography": "Strait of Hormuz"
-  },
-  {
-    "id": "live_s56",
-    "situationId": "sit1",
-    "source": "BALTIMORESUN.COM",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-11T15:45:00.000Z",
-    "title": "Iran war has blocked the Strait of Hormuz . Reopening it is challenge",
-    "description": "Iran war scenario analysis examining Strait of Hormuz closure consequences and reopening challenges. Strategic assessment of catastrophic trade disruption implications for marine insurance claims and underwriting exposure.",
-    "tags": [
-      "WAR RISK",
-      "CAT EVENT",
-      "MARITIME SECURITY"
-    ],
-    "geography": "Strait of Hormuz"
-  },
-  {
-    "id": "live_s57",
-    "situationId": null,
-    "source": "TIMESOFINDIA.INDIATIMES.COM",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-03T21:00:00.000Z",
-    "title": "Iran Conflict : Middle East tensions : Global insurers exit Iranian waters as conflict deepens",
-    "description": "Global insurers withdrawing from Iranian waters amid escalating regional conflict. Significant capacity reduction in high-risk MENA maritime operations threatens underwriting availability and premium adequacy for affected trades.",
-    "tags": [
-      "WAR RISK",
-      "MARINE",
-      "SANCTIONS",
-      "CAPACITY"
-    ],
-    "geography": "Arabian Gulf"
-  },
-  {
-    "id": "live_s58",
-    "situationId": "sit1",
-    "source": "YAHOO.COM",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-12T15:00:00.000Z",
-    "title": "Iran war has blocked the Strait of Hormuz , a vital oil choke point . Reopening it is a big challenge",
-    "description": "Strait of Hormuz blockade by Iran conflict creates critical oil transit disruption affecting 20% global supply flows. Insurance implications include war risk exposure, cargo delays, and potential energy market volatility impacting P&I and cargo portfolios.",
-    "tags": [
-      "WAR RISK",
-      "MARINE",
-      "ENERGY",
-      "SUPPLY CHAIN"
-    ],
-    "geography": "Arabian Gulf"
-  },
-  {
-    "id": "live_s1",
-    "situationId": null,
-    "source": "ARTEMIS",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-16T16:00:44.000Z",
-    "title": "Basis risk a manageable, programmable feature of parametric triggers: Research",
-    "description": "Research demonstrates basis risk in parametric insurance triggers is a manageable and structural feature, enabling better risk quantification for underwriters and reinsurers deploying parametric solutions.",
-    "tags": [
-      "PARAMETRIC INSURANCE",
-      "UNDERWRITING",
-      "RISK TRANSFER"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s2",
-    "situationId": null,
-    "source": "ARTEMIS",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-16T14:30:52.000Z",
-    "title": "One of BAM’s Fidus Re financial guarantee ILS gets ratings revised to Positive by KBRA",
-    "description": "Fidus Re insurance-linked security sponsored by Build America Mutual receives ratings upgrade to Positive from KBRA, signalling improved credit quality and potential yield compression for similar ILS instruments.",
-    "tags": [
-      "ILS",
-      "RATINGS",
-      "CAPITAL MARKETS"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s3",
-    "situationId": "sit_gen_4",
-    "source": "ARTEMIS",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-16T13:00:35.000Z",
-    "title": "State Farm sets up another Merna Re structure in Bermuda, likely for future cat bonds",
-    "description": "State Farm establishes new Merna Re Bermuda structure, consistent with prior catastrophe bond issuance strategy, indicating continued capital market access for US primary insurers managing tail risk.",
-    "tags": [
-      "CAT BONDS",
-      "REINSURANCE",
-      "BERMUDA"
-    ],
-    "geography": "Bermuda"
-  },
-  {
-    "id": "live_s4",
-    "situationId": null,
-    "source": "ARTEMIS",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-16T11:00:10.000Z",
-    "title": "Industry index cat bonds outperformed market post-hurricanes Ian and Irma: Neuberger Berman",
-    "description": "Industry index catastrophe bonds outperformed broader cat bond market post-hurricanes Ian and Irma, demonstrating superior loss performance for parametric-indexed structures versus traditional cat bond vehicles.",
-    "tags": [
-      "CAT BONDS",
-      "PARAMETRIC INSURANCE",
-      "PERFORMANCE"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s5",
-    "situationId": "sit_gen_4",
-    "source": "ARTEMIS",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-16T09:00:21.000Z",
-    "title": "Hannover Re’s securitised reinsurance and ILS collateral volumes grew in 2025",
-    "description": "Hannover Re expands securitised reinsurance and ILS collateral volumes in 2025, reinforcing its role as major ILS market facilitator and demonstrating strong institutional appetite for alternative risk transfer.",
-    "tags": [
-      "ILS",
-      "REINSURANCE",
-      "CAPITAL MARKETS"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s6",
-    "situationId": "sit_gen_3",
-    "source": "ARTEMIS",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-16T08:30:56.000Z",
-    "title": "SI Re hires Schulz as ILS Analyst. CUO Salzmann now departed",
-    "description": "Signal Iduna Reinsurance strengthens ILS team with new analyst hire, reflecting continued strategic focus on insurance-linked securities for portfolio diversification and enhanced return generation.",
-    "tags": [
-      "ILS",
-      "REINSURANCE",
-      "CAPITAL MARKETS"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s7",
-    "situationId": null,
-    "source": "ARTEMIS",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-16T08:00:18.000Z",
-    "title": "Heritage secures $250m Citrus Re 2026-1 named storm cat bond at reduced pricing",
-    "description": "Heritage Insurance secures $250m Citrus Re 2026-1 named storm catastrophe bond at improved pricing, reflecting favourable cat bond market conditions and reduced risk premium for US property insurers.",
-    "tags": [
-      "CAT BONDS",
-      "PROPERTY INSURANCE",
-      "PRICING"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s8",
-    "situationId": "sit_gen_3",
-    "source": "ARTEMIS",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-16T07:30:30.000Z",
-    "title": "Best of Artemis, week ending March 15th 2026",
-    "description": "Market digest covering top ten articles on catastrophe bonds, ILS, reinsurance capital and alternative risk transfer mechanisms, providing comprehensive intelligence on insurance-linked securities market trends.",
-    "tags": [
-      "ILS",
-      "CAT BONDS",
-      "MARKET INTELLIGENCE"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s9",
-    "situationId": "sit_gen_3",
-    "source": "ARTEMIS",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-13T17:00:28.000Z",
-    "title": "FloodSmart Re cat bonds extended further, as NFIP’s Helene loss remains above attachments",
-    "description": "FloodSmart Re cat bonds extended as NFIP's Hurricane Helene losses exceed attachment levels, highlighting basis risk and potential refinancing pressures for parametric flood insurance structures.",
-    "tags": [
-      "CAT BONDS",
-      "FLOOD INSURANCE",
-      "CLAIMS"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s10",
-    "situationId": null,
-    "source": "ARTEMIS",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-13T16:05:45.000Z",
-    "title": "Price Forbes Re hires Artex’s Mike Ward as VP Capital Markets",
-    "description": "Price Forbes Capital Markets hires experienced capital markets specialist from Artex Risk Solutions, reflecting competitive talent dynamics in ILS advisory and reinsurance capital raising sectors.",
-    "tags": [
-      "ILS",
-      "CAPITAL MARKETS",
-      "REINSURANCE"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s11",
-    "situationId": null,
-    "source": "INSURANCE JOURNAL",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-16T17:30:54.000Z",
-    "title": "Even Low-Risk Homes Are Caught Up in California’s Climate Insurance Crisis",
-    "description": "California insurers continue market exit amid wildfire risk, forcing homeowners toward state insurer of last resort. Climate-driven underwriting contraction creates coverage gaps and affordability pressures in lower-risk segments.",
-    "tags": [
-      "CAT EVENT",
-      "PROPERTY",
-      "MARKET WITHDRAWAL",
-      "CLIMATE RISK"
-    ],
-    "geography": "California"
-  },
-  {
-    "id": "live_s12",
-    "situationId": null,
-    "source": "INSURANCE JOURNAL",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-16T16:49:41.000Z",
-    "title": "Former Oklahoma Farmers Agent Accused of Sharing Confidential Data in Lawsuit",
-    "description": "Former Farmers Insurance agent sued for alleged breach of appointment agreement and confidentiality, conspiring to move insureds to competitor agency. Addresses agent misconduct and client retention litigation risk.",
-    "tags": [
-      "PROFESSIONAL LIABILITY",
-      "COMPLIANCE",
-      "LITIGATION"
-    ],
-    "geography": "Oklahoma"
-  },
-  {
-    "id": "live_s13",
-    "situationId": null,
-    "source": "INSURANCE JOURNAL",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-16T16:47:54.000Z",
-    "title": "After Milton’s Damage to Stadium, St. Pete Votes to Raise Coverage to $50M",
-    "description": "St. Petersburg increases stadium insurance coverage to $50M post-Hurricane Milton damage, reversing prior cost-saving reduction. Reflects CAT event impact on municipal risk transfer decisions and adequacy challenges.",
-    "tags": [
-      "CAT EVENT",
-      "PROPERTY",
-      "MARINE VENUE"
-    ],
-    "geography": "Florida"
-  },
-  {
-    "id": "live_s14",
-    "situationId": null,
-    "source": "INSURANCE JOURNAL",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-16T16:41:28.000Z",
-    "title": "People Moves: TMK Appoints Glover From AIG as Aviation Underwriter",
-    "description": "Tokio Marine Kiln appoints senior AIG aviation underwriter to expand aerospace division capacity. Reflects specialty underwriting talent mobility and market expansion in aviation risk.",
-    "tags": [
-      "AVIATION",
-      "UNDERWRITING",
-      "PERSONNEL"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s15",
-    "situationId": null,
-    "source": "INSURANCE JOURNAL",
-    "sourceType": "OFFICIAL",
-    "timestamp": "2026-03-16T16:08:55.000Z",
-    "title": "US $20B Reinsurance Plan Unlikely to Restart Gulf Shipping Without Liability Cover",
-    "description": "Trump administration's $20B maritime reinsurance facility for Strait of Hormuz shipping lacks liability cover, limiting effectiveness. Critical gap in P&I protection constrains war risk mitigation for Gulf shipping routes.",
-    "tags": [
-      "MARINE",
-      "REINSURANCE",
-      "P&I",
-      "WAR RISK",
-      "ARABIAN GULF"
-    ],
-    "geography": "Arabian Gulf"
-  },
-  {
-    "id": "live_s16",
-    "situationId": "sit_gen_3",
-    "source": "INSURANCE JOURNAL",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-16T16:04:44.000Z",
-    "title": "Encyclopedia Britannica Sues OpenAI Over AI Training",
-    "description": "Encyclopedia Britannica sues OpenAI for alleged unauthorized use of reference materials in AI model training. Emerging technology IP infringement and cyber liability exposure for software platforms.",
-    "tags": [
-      "CYBER LIABILITY",
-      "PROFESSIONAL INDEMNITY",
-      "IP RISK"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s17",
-    "situationId": null,
-    "source": "INSURANCE JOURNAL",
-    "sourceType": "OFFICIAL",
-    "timestamp": "2026-03-16T15:37:29.000Z",
-    "title": "Judge Sides With Florida Citizens in Another Win for DOAH Arbitration Plan",
-    "description": "Florida judge upholds Citizens Property Insurance arbitration endorsement constitutionality, supporting state insurer's dispute resolution framework. Strengthens Citizens' claims management and litigation avoidance strategy.",
-    "tags": [
-      "PROPERTY",
-      "REGULATORY",
-      "LITIGATION",
-      "DISPUTE RESOLUTION"
-    ],
-    "geography": "Florida"
-  },
-  {
-    "id": "live_s18",
-    "situationId": null,
-    "source": "INSURANCE JOURNAL",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-16T14:28:07.000Z",
-    "title": "US Data Center Boom Slows Due to Power Grid Limits, Consultancy Says",
-    "description": "US data center expansion slows due to power grid capacity constraints limiting facility development. Infrastructure underinsurance and business interruption risk emerging as grid constraints tighten.",
-    "tags": [
-      "BUSINESS INTERRUPTION",
-      "INFRASTRUCTURE RISK",
-      "PROPERTY"
-    ],
-    "geography": "USA"
-  },
-  {
-    "id": "live_s19",
-    "situationId": "sit_gen_2",
-    "source": "INSURANCE JOURNAL",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-16T14:23:59.000Z",
-    "title": "US Charges Man Accused of Selling Gun to Old Dominion University Shooter",
-    "description": "Federal charges filed against individual who sold stolen firearm used in Old Dominion University shooting. Highlights gun liability exposure and criminal negligence in weapons distribution networks.",
-    "tags": [
-      "LIABILITY",
-      "WEAPONS TRAFFICKING",
-      "CRIME"
-    ],
-    "geography": "Virginia"
-  },
-  {
-    "id": "live_s20",
-    "situationId": "sit_gen_4",
-    "source": "INSURANCE JOURNAL",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-16T14:12:44.000Z",
-    "title": "TPG Launches Third Wave Brokerage, Which Acquires Palmer & Cay in Atlanta",
-    "description": "TPG launches Third Wave Insurance brokerage and acquires Palmer & Cay in Atlanta through three-way deal. Reflects private equity consolidation in insurance brokerage sector and M&A activity.",
-    "tags": [
-      "BROKERAGE",
-      "M&A",
-      "CONSOLIDATION"
-    ],
-    "geography": "Georgia"
-  },
-  {
-    "id": "live_s21",
-    "situationId": null,
-    "source": "INSURANCE JOURNAL",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-16T13:49:30.000Z",
-    "title": "Starbucks May Be Neglecting Labor Dispute Risks, Shareholder Proxy Firms Warn",
-    "description": "Proxy advisory firms warn Starbucks underestimates financial and reputational risks from labor disputes. Corporate governance concerns highlight need for enhanced operational risk assessment and contingency planning amid ongoing union negotiations.",
-    "tags": [
-      "OPERATIONAL RISK",
-      "CORPORATE GOVERNANCE",
-      "REPUTATIONAL RISK"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s22",
-    "situationId": null,
-    "source": "INSURANCE JOURNAL",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-16T12:53:26.000Z",
-    "title": "AIG, McGill Announce Collaboration to Potentially Transform Subscription Market",
-    "description": "AIG partners with McGill to develop AI-driven subscription insurance platform for capital deployment. Initiative demonstrates digital transformation in underwriting distribution and potential disruption to traditional broker-insurer relationships.",
-    "tags": [
-      "TECHNOLOGY",
-      "DISTRIBUTION",
-      "AI INNOVATION"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s23",
-    "situationId": null,
-    "source": "INSURANCE JOURNAL",
-    "sourceType": "NEWS",
-    "timestamp": "2026-03-16T12:47:09.000Z",
-    "title": "Iran War Should Trigger Faster Exit From Fossil Fuel Dependence: UN Climate Chief",
-    "description": "UN climate chief links Iran conflict to energy market disruption, advocating accelerated fossil fuel transition. Geopolitical volatility and energy market instability underscore climate-related insurance risks and energy sector exposure.",
-    "tags": [
-      "GEOPOLITICAL RISK",
-      "ENERGY RISK",
-      "CLIMATE RISK"
-    ],
-    "geography": "Global"
-  },
-  {
-    "id": "live_s24",
-    "situationId": "sit_gen_4",
-    "source": "INSURANCE JOURNAL",
-    "sourceType": "MARKET",
-    "timestamp": "2026-03-16T12:19:23.000Z",
-    "title": "SiriusPoint Restructures Business, Now Operating Through Four Business Areas",
-    "description": "SiriusPoint restructures operations into four business areas including Global P&C and Global Reinsurance. Organizational realignment suggests portfolio repositioning and strategic focus on specialty underwriting segments.",
-    "tags": [
-      "REINSURANCE",
-      "UNDERWRITING",
-      "RESTRUCTURING"
-    ],
-    "geography": "Global"
   }
 ]

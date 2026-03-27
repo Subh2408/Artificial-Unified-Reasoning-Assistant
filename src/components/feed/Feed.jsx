@@ -2,7 +2,6 @@ import { useState, useMemo, useEffect } from 'react'
 import { DEPTS } from '../../constants/depts'
 import HeroCard from './HeroCard'
 import { SitCard, SignalCard, RegCard } from './Cards'
-import ComplianceActionDash from '../regulatory/ComplianceActionDash'
 import RegQueryAssistant from '../regulatory/RegQueryAssistant'
 import Markdown from '../Markdown'
 import { getThresholdAlerts } from '../../api/client'
@@ -15,7 +14,6 @@ export default function Feed({
 }) {
   const liveSignalCount = signals.filter((s) => s.id?.startsWith('live_')).length
   const liveRegCount    = regulations.filter((r) => r.id?.startsWith('live_')).length
-  const [search, setSearch] = useState('')
   const [regUrgFilter, setRegUrgFilter] = useState('ALL')
   const [briefExpanded, setBriefExpanded] = useState(false)
   const [thresholdMap, setThresholdMap] = useState({})
@@ -55,39 +53,47 @@ export default function Feed({
     regulations.filter((r) => r.urgency === 'ACTION' && sit.regJurisdictions?.includes(r.jurisdictionCode))
 
   const filtered = useMemo(() => {
-    const q = search.toLowerCase()
-    if (view === 'situations')
-      return ranked.filter((s) => !q || s.title.toLowerCase().includes(q) || (s.subtitle || '').toLowerCase().includes(q))
+    if (view === 'situations') return ranked
     if (view === 'signals')
-      return signals.filter((s) => !q || s.title.toLowerCase().includes(q) || s.source.toLowerCase().includes(q))
+      return [...signals].sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp))
     if (view === 'regulations')
       return regulations.filter((r) => {
-        if (q && !r.title.toLowerCase().includes(q) && !r.jurisdiction.toLowerCase().includes(q)) return false
         if (regJurFilter !== 'ALL' && r.jurisdictionCode !== regJurFilter) return false
         if (regUrgFilter !== 'ALL' && r.urgency !== regUrgFilter) return false
         return true
       })
     return []
-  }, [view, search, ranked, signals, regulations, regJurFilter, regUrgFilter])
+  }, [view, ranked, signals, regulations, regJurFilter, regUrgFilter])
 
   useEffect(() => { if (morningBrief) setBriefExpanded(true) }, [morningBrief])
   useEffect(() => { if (view !== 'regulations') setRegUrgFilter('ALL') }, [view])
 
   const deptInfo = DEPTS.find((d) => d.key === dept)
-  const briefSnippet = morningBrief && morningBrief !== 'loading' ? (morningBrief.includes('.') ? morningBrief.split('.')[0] + '.' : morningBrief.substring(0, 120) + '…') : null
   const JUR_FILTERS = [{ k: 'ALL', l: 'All' }, { k: 'QAT', l: 'Qatar' }, { k: 'QFC', l: 'QFC' }, { k: 'UAE', l: 'UAE' }, { k: 'KSA', l: 'KSA' }]
   const URG_FILTERS = [{ k: 'ALL', l: 'All' }, { k: 'ACTION', l: 'Action' }, { k: 'MONITOR', l: 'Monitor' }]
+
+  const handleBriefClick = () => {
+    if (morningBrief && morningBrief !== 'loading') {
+      setBriefExpanded(!briefExpanded)
+    } else {
+      onMorningBrief()
+    }
+  }
 
   return (
     <div className="feed">
       <div className="feed-header">
         {!isExec && (
-          <div className="morning-panel-trigger" onClick={onMorningBrief}>
-            <div className="morning-panel-trigger-left">
-              <span className="morning-trigger-label">◆ Morning brief</span>
-              <span className="morning-trigger-dept">{deptInfo?.label} · {new Date().toLocaleDateString('en-GB',{day:'numeric',month:'short'})}</span>
-            </div>
-            <span className="morning-trigger-arrow">{morningBrief === 'loading' ? '…' : morningBrief ? '▼' : '→'}</span>
+          <div className="morning-brief-card" onClick={handleBriefClick}>
+            <span>◆ Morning Brief — {deptInfo?.label} · {new Date().toLocaleDateString('en-GB',{day:'numeric',month:'short'})}</span>
+            <span>{morningBrief === 'loading' ? '…' : morningBrief ? (briefExpanded ? '▲' : '▼') : '→'}</span>
+          </div>
+        )}
+        {morningBrief && briefExpanded && (
+          <div className="morning-brief-bullets">
+            {morningBrief === 'loading'
+              ? <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}><div className="ai-loading"><span /><span /><span /></div><span style={{ fontFamily: 'IBM Plex Mono', fontSize: 10, color: 'var(--ai)' }}>Generating…</span></div>
+              : <Markdown>{morningBrief}</Markdown>}
           </div>
         )}
         <div className="feed-toggle">
@@ -95,16 +101,13 @@ export default function Feed({
           <button className={`feed-toggle-btn ${view === 'signals' ? 'active' : ''}`} onClick={() => setView('signals')}>SIGNALS</button>
           <button className={`feed-toggle-btn ${view === 'regulations' ? 'active' : ''}`} onClick={() => setView('regulations')}>REGS</button>
         </div>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-          <input className="feed-search" placeholder={`Search ${view}…`} value={search} onChange={(e) => setSearch(e.target.value)} style={{ flex: 1 }} />
+        <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginTop: 3 }}>
           <button
             onClick={onRefresh}
             disabled={refreshing}
             title={refreshing ? 'Fetching live data…' : 'Refresh live feed'}
             style={{ fontFamily: 'IBM Plex Mono', fontSize: 10, background: 'none', border: '1px solid var(--border)', borderRadius: 3, padding: '4px 7px', cursor: refreshing ? 'default' : 'pointer', color: refreshing ? 'var(--ai)' : 'var(--ink-4)', flexShrink: 0, opacity: refreshing ? 1 : 0.7 }}
           >{refreshing ? '…' : '↺'}</button>
-        </div>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginTop: 3 }}>
           {(liveSignalCount > 0 || liveRegCount > 0) && (
             <span style={{ fontFamily: 'IBM Plex Mono', fontSize: 8, color: 'var(--ai)', letterSpacing: '.06em' }}>
               ◆ {liveSignalCount} LIVE SIGNALS · {liveRegCount} LIVE REGS
@@ -132,36 +135,11 @@ export default function Feed({
         )}
       </div>
 
-      {morningBrief && (
-        <div className="morning-panel">
-          <div className="morning-panel-header" style={{ cursor: 'pointer' }} onClick={() => setBriefExpanded(!briefExpanded)}>
-            <span className="morning-panel-title">◆ {deptInfo?.label?.toUpperCase()} · {new Date().toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'}).toUpperCase()}</span>
-            <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
-              {!briefExpanded && briefSnippet && (
-                <span style={{ fontFamily: 'IBM Plex Mono', fontSize: 9, color: 'var(--ai)', opacity: .7, maxWidth: 180, overflow: 'hidden', whiteSpace: 'nowrap', textOverflow: 'ellipsis' }}>{briefSnippet}</span>
-              )}
-              <span style={{ fontFamily: 'IBM Plex Mono', fontSize: 9, color: 'var(--ai)', opacity: .7 }}>{briefExpanded ? '▲ collapse' : '▼ read'}</span>
-              <button className="morning-panel-close" onClick={(e) => { e.stopPropagation(); onMorningBrief() }}>✕</button>
-            </div>
-          </div>
-          {briefExpanded && (
-            <div className="morning-panel-body">
-              {morningBrief === 'loading'
-                ? <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}><div className="ai-loading"><span /><span /><span /></div><span style={{ fontFamily: 'IBM Plex Mono', fontSize: 10, color: 'var(--ai)' }}>Generating…</span></div>
-                : <Markdown>{morningBrief}</Markdown>}
-            </div>
-          )}
-        </div>
-      )}
-
       {dept === 'risk_compliance' && view === 'regulations' && (
         <RegQueryAssistant regulations={regulations} />
       )}
 
       <div className="feed-list">
-        {dept === 'risk_compliance' && view === 'regulations' && (
-          <ComplianceActionDash regulations={regulations} onSelectReg={(r) => onSelect('regulation', r)} />
-        )}
         {view === 'situations' && filtered.map((s, i) => {
           const ar = actionRegsFor(s)
           const ta = thresholdMap[s.id] || null

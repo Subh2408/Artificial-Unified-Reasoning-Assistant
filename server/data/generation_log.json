@@ -1,0 +1,53 @@
+[
+  {
+    "runId": "gen_20260327060016",
+    "timestamp": "2026-03-27T06:01:55.092Z",
+    "trigger": "flagged",
+    "triggerDetail": "3 flagged signal(s) (score ≥ 15)",
+    "signalsConsidered": 30,
+    "signalsPending": 184,
+    "signalsFlagged": 3,
+    "situationsCreated": 4,
+    "situationsUpdated": 0,
+    "situationsUnchanged": 0,
+    "signalsAssigned": 29,
+    "signalsStillPending": 155,
+    "tokensUsed": 5164,
+    "durationMs": 99036,
+    "error": null
+  },
+  {
+    "runId": "gen_20260326195548",
+    "timestamp": "2026-03-26T19:57:36.152Z",
+    "trigger": "manual",
+    "triggerDetail": "manual API trigger with cooldown bypass",
+    "signalsConsidered": 30,
+    "signalsPending": 203,
+    "signalsFlagged": 0,
+    "situationsCreated": 4,
+    "situationsUpdated": 0,
+    "situationsUnchanged": 0,
+    "signalsAssigned": 26,
+    "signalsStillPending": 177,
+    "tokensUsed": 5389,
+    "durationMs": 107503,
+    "error": null
+  },
+  {
+    "runId": "gen_20260326195543",
+    "timestamp": "2026-03-26T19:57:23.343Z",
+    "trigger": "threshold",
+    "triggerDetail": "203 pending signals ≥ 10",
+    "signalsConsidered": 30,
+    "signalsPending": 203,
+    "signalsFlagged": 0,
+    "situationsCreated": 4,
+    "situationsUpdated": 0,
+    "situationsUnchanged": 0,
+    "signalsAssigned": 25,
+    "signalsStillPending": 178,
+    "tokensUsed": 5345,
+    "durationMs": 100119,
+    "error": null
+  }
+]

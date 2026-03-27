@@ -78,5 +78,13 @@
     "reinsuranceImplication": "Reinsurance contracts held must be measured separately under IFRS 17, potentially altering net liability presentation. Confirm reinsurance treaty data feeds actuarial models correctly for 2024 reporting.",
     "investmentsImplication": "Investment income disclosure requirements tighten under IFRS 17 due to the disaggregation of insurance and finance results. Ensure investment return data is structured to support the Insurance Finance Income or Expense split.",
     "generatedAt": "2026-03-24T15:44:17.189Z"
+  },
+  "live_reg7": {
+    "claimsImplication": "New claims handling requirements or reporting obligations may be published; review updates to ensure claims processes remain compliant with QCB expectations.",
+    "complianceImplication": "Conduct immediate review of QCB publications page to identify any new directives requiring implementation and update compliance calendar accordingly.",
+    "underwritingImplication": "Review QCB publications immediately for new underwriting or product guidelines effective 26 March 2026. Adjust policy wordings or risk acceptance criteria if new circulars mandate changes.",
+    "reinsuranceImplication": "Check QCB notices for updated reinsurance placement or retention requirements affecting treaty structures. Notify reinsurance partners promptly if new obligations alter cession terms.",
+    "investmentsImplication": "Scan QCB guidance for revised capital or asset allocation requirements impacting the investment portfolio. Realign investment strategy before the 26 March effective date if new limits are published.",
+    "generatedAt": "2026-03-26T18:35:13.206Z"
   }
 }

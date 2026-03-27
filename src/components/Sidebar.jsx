@@ -1,14 +1,50 @@
+import { useState } from 'react'
 import { DEPTS } from '../constants/depts'
 import { fmtDate } from '../utils/format'
+import { lsGet, lsSet } from '../utils/storage'
+import ComplianceActionDash from './regulatory/ComplianceActionDash'
 
 export default function Sidebar({
   dept, onSwitchDept, situations, selectedId,
   onSelect, setFeedView, setRegJurFilter,
   saved, onSavedSelect, onSavedDelete,
-  alertCount,
+  alertCount, regulations, onSelectReg, onCollapsedChange,
 }) {
   const deptInfo = DEPTS.find((d) => d.key === dept)
   const ranked = [...situations].sort((a, b) => b.scores[dept] - a.scores[dept])
+
+  const [collapsed, setCollapsed] = useState(() => lsGet('aura_sidebar_collapsed', false))
+  const [regWatchOpen, setRegWatchOpen] = useState(() => lsGet('aura_regwatch_open', false))
+  const [compTrackerOpen, setCompTrackerOpen] = useState(() => lsGet('aura_comptracker_open', false))
+
+  const toggleCollapse = () => {
+    const next = !collapsed
+    setCollapsed(next)
+    lsSet('aura_sidebar_collapsed', next)
+    if (onCollapsedChange) onCollapsedChange(next)
+  }
+
+  const toggleRegWatch = () => {
+    const next = !regWatchOpen
+    setRegWatchOpen(next)
+    lsSet('aura_regwatch_open', next)
+  }
+
+  const toggleCompTracker = () => {
+    const next = !compTrackerOpen
+    setCompTrackerOpen(next)
+    lsSet('aura_comptracker_open', next)
+  }
+
+  // Collapsed rail view
+  if (collapsed) {
+    return (
+      <div className="sidebar-rail">
+        <button className="sidebar-expand-btn" onClick={toggleCollapse}>›</button>
+        {deptInfo && <div className="sidebar-rail-dot" style={{ background: deptInfo.dotColor }} />}
+      </div>
+    )
+  }
 
   return (
     <div className="sidebar">
@@ -20,25 +56,23 @@ export default function Sidebar({
             <div className="logo-sub">INSURANCE INTELLIGENCE</div>
           </div>
         </div>
-        <button className="switch-dept-btn" onClick={onSwitchDept}>Switch ↗</button>
+        <div style={{ display: 'flex', gap: 4, alignItems: 'center' }}>
+          <button className="switch-dept-btn" onClick={onSwitchDept}>Switch ↗</button>
+          <button className="sidebar-collapse-btn" onClick={toggleCollapse}>‹</button>
+        </div>
       </div>
 
       {dept === 'executive' ? (
         <div className="active-dept-badge">
           <div>
             <div className="adb-label">EXECUTIVE OVERVIEW</div>
-            <div className="adb-desc">Company-wide · Read only</div>
           </div>
         </div>
       ) : deptInfo && (
         <div className="active-dept-badge">
           <div className="adb-dot" style={{ background: deptInfo.dotColor }} />
           <div>
-            <div className="adb-label" style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-              {deptInfo.label}
-              {alertCount > 0 && <span style={{ fontFamily: 'IBM Plex Mono', fontSize: 9, background: 'var(--caution-bg)', color: 'var(--caution)', border: '1px solid var(--caution-border)', padding: '1px 6px', borderRadius: 10 }}>{alertCount}</span>}
-            </div>
-            <div className="adb-desc">{deptInfo.desc}</div>
+            <div className="adb-label">{deptInfo.label}</div>
           </div>
         </div>
       )}
@@ -61,8 +95,11 @@ export default function Sidebar({
       </div>
 
       <div className="sidebar-section">
-        <div className="sidebar-section-header">Regulatory Watch</div>
-        {[
+        <div className="sidebar-dropdown-header" onClick={toggleRegWatch}>
+          <span>Regulatory Watch</span>
+          <span className="sidebar-dropdown-chevron">{regWatchOpen ? '▲' : '▼'}</span>
+        </div>
+        {regWatchOpen && [
           { code: 'QAT', label: 'Qatar',        count: 3 },
           { code: 'QFC', label: 'Qatar (QFC)',   count: 3 },
           { code: 'UAE', label: 'UAE',           count: 3 },
@@ -81,6 +118,18 @@ export default function Sidebar({
           </div>
         ))}
       </div>
+
+      {dept === 'risk_compliance' && (
+        <div className="sidebar-section">
+          <div className="sidebar-dropdown-header" onClick={toggleCompTracker}>
+            <span>Compliance Tracker</span>
+            <span className="sidebar-dropdown-chevron">{compTrackerOpen ? '▲' : '▼'}</span>
+          </div>
+          {compTrackerOpen && (
+            <ComplianceActionDash regulations={regulations || []} onSelectReg={onSelectReg} />
+          )}
+        </div>
+      )}
 
       {saved.length > 0 && (
         <div className="sidebar-section">
